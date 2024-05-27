@@ -1,0 +1,306 @@
+{
+  "word": "овсяница",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "крупа",
+    "рис",
+    "гречиха"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'овсяница'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'овсяница'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'овсяница', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Зерно, кашица, крупа, рис, гречиха, пшеница, просо, перловка, ячмень, корица, кукуруза, киноа, манка, геркулес, бульгур, пшено.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfTnkpw3JkgOoytPp3I0B5PefPm2', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Зерно, кашица, крупа, рис, гречиха, пшеница, просо, перловка, ячмень, корица, кукуруза, киноа, манка, геркулес, бульгур, пшено.', role='assistant', function_call=None, tool_calls=None))], created=1716143003, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=77, prompt_tokens=202, total_tokens=279))",
+    "distractor_analysis": [
+      {
+        "distractor": "Зерно",
+        "lemma": "зерно",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (427)"
+      },
+      {
+        "distractor": "кашица",
+        "lemma": "кашица",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "крупа",
+        "lemma": "крупа",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (92)"
+      },
+      {
+        "distractor": "рис",
+        "lemma": "рис",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (114)"
+      },
+      {
+        "distractor": "гречиха",
+        "lemma": "гречиха",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (21)"
+      },
+      {
+        "distractor": "пшеница",
+        "lemma": "пшеница",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (243)"
+      },
+      {
+        "distractor": "просо",
+        "lemma": "просо",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.45)"
+      },
+      {
+        "distractor": "перловка",
+        "lemma": "перловка",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.3)"
+      },
+      {
+        "distractor": "ячмень",
+        "lemma": "ячмень",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.34)"
+      },
+      {
+        "distractor": "корица",
+        "lemma": "корица",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "кукуруза",
+        "lemma": "кукуруза",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (39)"
+      },
+      {
+        "distractor": "киноа",
+        "lemma": "киноа",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "манка",
+        "lemma": "манка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "геркулес",
+        "lemma": "геркулес",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.8)"
+      },
+      {
+        "distractor": "бульгур",
+        "lemma": "бульгур",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "пшено",
+        "lemma": "пшено",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.99)"
+      }
+    ],
+    "valid_distractors": [
+      "крупа",
+      "рис",
+      "гречиха",
+      "кукуруза"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'овсяница' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'овсяница', 'крупа', 'рис', 'гречиха' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Заварное блюдо из круп.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfTocBL3K3Rm15EDe5uOaPvZIM4s', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Заварное блюдо из круп.', role='assistant', function_call=None, tool_calls=None))], created=1716143004, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=13, prompt_tokens=200, total_tokens=213))",
+  "initial_definition": "Заварное блюдо из круп",
+  "final_definition": "Пища для еды, приготовленная из размолотых зёрен.",
+  "formatted_definition": "Пища для еды, приготовленная из размолотых зёрен",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Заварное блюдо из молотых зерен.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Заварное",
+            "блюдо",
+            "из",
+            "круп"
+          ],
+          "removed_tokens": [
+            "из"
+          ],
+          "final_tokens": [
+            "Заварное",
+            "блюдо",
+            "круп"
+          ],
+          "lemmas": [
+            "заварной",
+            "блюдо",
+            "крупа"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "заварной",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "блюдо",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "крупа",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [
+          "крупа"
+        ],
+        "words_to_fix": [
+          "крупа"
+        ],
+        "correction_prompt": "Исправь толкование 'Заварное блюдо из круп' для слова 'овсяница' так, чтобы в нем не использовались слова 'овсяница', 'рис', 'гречиха', 'крупа' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Заварное блюдо из молотых зерен.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfTpTYUq2ztOqmEfUnNJOCL0ljd2', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Заварное блюдо из молотых зерен.', role='assistant', function_call=None, tool_calls=None))], created=1716143005, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=17, prompt_tokens=223, total_tokens=240))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Пища для еды, приготовленная из размолотых зёрен.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Заварное",
+            "блюдо",
+            "из",
+            "молотых",
+            "зерен"
+          ],
+          "removed_tokens": [
+            "из"
+          ],
+          "final_tokens": [
+            "Заварное",
+            "блюдо",
+            "молотых",
+            "зерен"
+          ],
+          "lemmas": [
+            "заварной",
+            "блюдо",
+            "молотый",
+            "зерно"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "заварной",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "блюдо",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "молотый",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (2.87)"
+          },
+          {
+            "lemma": "зерно",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "молотый"
+        ],
+        "correction_prompt": "Исправь толкование 'Заварное блюдо из молотых зерен.' для слова 'овсяница' так, чтобы в нем не использовались слова 'овсяница', 'рис', 'крупа', 'гречиха', 'молотый' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Пища для еды, приготовленная из размолотых зёрен.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfTqd0yoxRR4bn9TzJ7bRX73Eosb', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Пища для еды, приготовленная из размолотых зёрен.', role='assistant', function_call=None, tool_calls=None))], created=1716143006, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=26, prompt_tokens=233, total_tokens=259))"
+      }
+    },
+    "3": {
+      "corrected_definition": "Пища для еды, приготовленная из размолотых зёрен.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Пища",
+            "для",
+            "еды",
+            ",",
+            "приготовленная",
+            "из",
+            "размолотых",
+            "зёрен"
+          ],
+          "removed_tokens": [
+            "из",
+            ",",
+            "для"
+          ],
+          "final_tokens": [
+            "Пища",
+            "еды",
+            "приготовленная",
+            "размолотых",
+            "зёрен"
+          ],
+          "lemmas": [
+            "пища",
+            "еда",
+            "приготовить",
+            "размолоть",
+            "зерно"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "пища",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "еда",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "приготовить",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "размолоть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "зерно",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-23-22",
+  "end_time": "2024.05.19 18-23-27"
+}

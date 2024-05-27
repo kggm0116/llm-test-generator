@@ -1,0 +1,489 @@
+{
+  "word": "аканье",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "фонетика"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'аканье'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'аканье'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'аканье', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "речица, дислексия, звукоподражание, дифтонг, педиатр, логопедия, чтение, фонетика, артикуляция, детство, язык, согласные, звуки, артикуляционные, дыхание, старательность",
+    "response_details": "ChatCompletion(id='chatcmpl-9Qfc0aSc1e7wmAieeMG6ZzvW9iC97', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='речица, дислексия, звукоподражание, дифтонг, педиатр, логопедия, чтение, фонетика, артикуляция, детство, язык, согласные, звуки, артикуляционные, дыхание, старательность', role='assistant', function_call=None, tool_calls=None))], created=1716143512, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=91, prompt_tokens=202, total_tokens=293))",
+    "distractor_analysis": [
+      {
+        "distractor": "речица",
+        "lemma": "речица",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "дислексия",
+        "lemma": "дислексия",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "звукоподражание",
+        "lemma": "звукоподражание",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "дифтонг",
+        "lemma": "дифтонг",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "педиатр",
+        "lemma": "педиатр",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.26)"
+      },
+      {
+        "distractor": "логопедия",
+        "lemma": "логопедия",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "чтение",
+        "lemma": "чтение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (306)"
+      },
+      {
+        "distractor": "фонетика",
+        "lemma": "фонетика",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (50)"
+      },
+      {
+        "distractor": "артикуляция",
+        "lemma": "артикуляция",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "детство",
+        "lemma": "детство",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (203)"
+      },
+      {
+        "distractor": "язык",
+        "lemma": "язык",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2852)"
+      },
+      {
+        "distractor": "согласные",
+        "lemma": "согласный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "звуки",
+        "lemma": "звук",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2261)"
+      },
+      {
+        "distractor": "артикуляционные",
+        "lemma": "артикуляционный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "дыхание",
+        "lemma": "дыхание",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (80.81)"
+      },
+      {
+        "distractor": "старательность",
+        "lemma": "старательность",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.19)"
+      }
+    ],
+    "valid_distractors": [
+      "фонетика"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'аканье' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'аканье', 'фонетика' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "артикуляционный дефект, заключающийся в неправильном произношении звука \"и\" в форме \"е\".",
+  "response_details": "ChatCompletion(id='chatcmpl-9Qfc22rn3rRtlKnCQCznsvbzwbP7x', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='артикуляционный дефект, заключающийся в неправильном произношении звука \"и\" в форме \"е\".', role='assistant', function_call=None, tool_calls=None))], created=1716143514, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=42, prompt_tokens=189, total_tokens=231))",
+  "initial_definition": "артикуляционный дефект, заключающийся в неправильном произношении звука \"и\" в форме \"е\"",
+  "final_definition": "Изменение произношения звука \"и\" на звук \"е\" в слове.",
+  "formatted_definition": "Изменение произношения звука \"и\" на звук \"е\" в слове",
+  "success": false,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Неверное произнесение звука \"и\" как \"е\".",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "артикуляционный",
+            "дефект",
+            ",",
+            "заключающийся",
+            "в",
+            "неправильном",
+            "произношении",
+            "звука",
+            "``",
+            "и",
+            "''",
+            "в",
+            "форме",
+            "``",
+            "е",
+            "''"
+          ],
+          "removed_tokens": [
+            "и",
+            "в",
+            ","
+          ],
+          "final_tokens": [
+            "артикуляционный",
+            "дефект",
+            "заключающийся",
+            "неправильном",
+            "произношении",
+            "звука",
+            "``",
+            "''",
+            "форме",
+            "``",
+            "е",
+            "''"
+          ],
+          "lemmas": [
+            "артикуляционный",
+            "дефект",
+            "заключаться",
+            "неправильный",
+            "произношение",
+            "звук",
+            "``",
+            "''",
+            "форма",
+            "``",
+            "быть",
+            "''"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "артикуляционный",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          },
+          {
+            "lemma": "дефект",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          },
+          {
+            "lemma": "заключаться",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "неправильный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "произношение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "звук",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "``",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          },
+          {
+            "lemma": "''",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          },
+          {
+            "lemma": "форма",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "быть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "''",
+          "артикуляционный",
+          "``"
+        ],
+        "correction_prompt": "Исправь толкование 'артикуляционный дефект, заключающийся в неправильном произношении звука \"и\" в форме \"е\"' для слова 'аканье' так, чтобы в нем не использовались слова 'аканье', '''', 'артикуляционный', '``', 'фонетика' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Неверное произнесение звука \"и\" как \"е\".",
+        "response_details": "ChatCompletion(id='chatcmpl-9Qfc3KBVSLkucCfy811iMahfKdFlC', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Неверное произнесение звука \"и\" как \"е\".', role='assistant', function_call=None, tool_calls=None))], created=1716143515, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=20, prompt_tokens=255, total_tokens=275))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Произнесение звука \"и\" как \"е\".",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Неверное",
+            "произнесение",
+            "звука",
+            "``",
+            "и",
+            "''",
+            "как",
+            "``",
+            "е",
+            "''"
+          ],
+          "removed_tokens": [
+            "и",
+            "как"
+          ],
+          "final_tokens": [
+            "Неверное",
+            "произнесение",
+            "звука",
+            "``",
+            "''",
+            "``",
+            "е",
+            "''"
+          ],
+          "lemmas": [
+            "неверный",
+            "произнесение",
+            "звук",
+            "``",
+            "''",
+            "``",
+            "быть",
+            "''"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "неверный",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (1.38)"
+          },
+          {
+            "lemma": "произнесение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "звук",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "``",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          },
+          {
+            "lemma": "''",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          },
+          {
+            "lemma": "быть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "''",
+          "неверный",
+          "``"
+        ],
+        "correction_prompt": "Исправь толкование 'Неверное произнесение звука \"и\" как \"е\".' для слова 'аканье' так, чтобы в нем не использовались слова 'аканье', 'неверный', '``', 'фонетика', '''', 'артикуляционный' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Произнесение звука \"и\" как \"е\".",
+        "response_details": "ChatCompletion(id='chatcmpl-9Qfc47AS8kWU5g6S81bax20h5cvyH', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Произнесение звука \"и\" как \"е\".', role='assistant', function_call=None, tool_calls=None))], created=1716143516, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=17, prompt_tokens=240, total_tokens=257))"
+      }
+    },
+    "3": {
+      "corrected_definition": "Изменение произношения звука \"и\" на звук \"е\".",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Произнесение",
+            "звука",
+            "``",
+            "и",
+            "''",
+            "как",
+            "``",
+            "е",
+            "''"
+          ],
+          "removed_tokens": [
+            "и",
+            "как"
+          ],
+          "final_tokens": [
+            "Произнесение",
+            "звука",
+            "``",
+            "''",
+            "``",
+            "е",
+            "''"
+          ],
+          "lemmas": [
+            "произнесение",
+            "звук",
+            "``",
+            "''",
+            "``",
+            "быть",
+            "''"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "произнесение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "звук",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "``",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          },
+          {
+            "lemma": "''",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          },
+          {
+            "lemma": "быть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "''",
+          "``"
+        ],
+        "correction_prompt": "Исправь толкование 'Произнесение звука \"и\" как \"е\".' для слова 'аканье' так, чтобы в нем не использовались слова 'аканье', 'неверный', '``', 'фонетика', '''', 'артикуляционный' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Изменение произношения звука \"и\" на звук \"е\".",
+        "response_details": "ChatCompletion(id='chatcmpl-9Qfc5nVSevNbfvZiJTZ9aujiFC7gA', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Изменение произношения звука \"и\" на звук \"е\".', role='assistant', function_call=None, tool_calls=None))], created=1716143517, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=23, prompt_tokens=237, total_tokens=260))"
+      }
+    },
+    "4": {
+      "corrected_definition": "Изменение произношения звука \"и\" на звук \"е\" в слове.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Изменение",
+            "произношения",
+            "звука",
+            "``",
+            "и",
+            "''",
+            "на",
+            "звук",
+            "``",
+            "е",
+            "''"
+          ],
+          "removed_tokens": [
+            "и",
+            "на"
+          ],
+          "final_tokens": [
+            "Изменение",
+            "произношения",
+            "звука",
+            "``",
+            "''",
+            "звук",
+            "``",
+            "е",
+            "''"
+          ],
+          "lemmas": [
+            "изменение",
+            "произношение",
+            "звук",
+            "``",
+            "''",
+            "звук",
+            "``",
+            "быть",
+            "''"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "изменение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "произношение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "звук",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "``",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          },
+          {
+            "lemma": "''",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          },
+          {
+            "lemma": "быть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "''",
+          "``"
+        ],
+        "correction_prompt": "Исправь толкование 'Изменение произношения звука \"и\" на звук \"е\".' для слова 'аканье' так, чтобы в нем не использовались слова 'аканье', 'неверный', '``', 'фонетика', '''', 'артикуляционный' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Изменение произношения звука \"и\" на звук \"е\" в слове.",
+        "response_details": "ChatCompletion(id='chatcmpl-9Qfc6oDyQ5z0hIVLeyR9J17cvvLni', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Изменение произношения звука \"и\" на звук \"е\" в слове.', role='assistant', function_call=None, tool_calls=None))], created=1716143518, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=27, prompt_tokens=243, total_tokens=270))"
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-31-51",
+  "end_time": "2024.05.19 18-31-58"
+}

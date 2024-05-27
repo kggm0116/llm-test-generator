@@ -1,0 +1,177 @@
+{
+  "word": "братчина",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "культ",
+    "товарищество",
+    "коллектив"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'братчина'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'братчина'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'братчина', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "братия, община, сообщество, клан, семья, культ, братство, традиция, род, ассоциация, общественность, товарищество, коллектив, общество, общественность, группа",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfNjsyO8THOT0kS0WeVj1iAP4XNO', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='братия, община, сообщество, клан, семья, культ, братство, традиция, род, ассоциация, общественность, товарищество, коллектив, общество, общественность, группа', role='assistant', function_call=None, tool_calls=None))], created=1716142627, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=72, prompt_tokens=202, total_tokens=274))",
+    "distractor_analysis": [
+      {
+        "distractor": "братия",
+        "lemma": "братия",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "община",
+        "lemma": "община",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (236)"
+      },
+      {
+        "distractor": "сообщество",
+        "lemma": "сообщество",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (253)"
+      },
+      {
+        "distractor": "клан",
+        "lemma": "клан",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "семья",
+        "lemma": "семья",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (861)"
+      },
+      {
+        "distractor": "культ",
+        "lemma": "культ",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (17)"
+      },
+      {
+        "distractor": "братство",
+        "lemma": "братство",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "традиция",
+        "lemma": "традиция",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (242)"
+      },
+      {
+        "distractor": "род",
+        "lemma": "родиться",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1059)"
+      },
+      {
+        "distractor": "ассоциация",
+        "lemma": "ассоциация",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "общественность",
+        "lemma": "общественность",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "товарищество",
+        "lemma": "товарищество",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (6)"
+      },
+      {
+        "distractor": "коллектив",
+        "lemma": "коллектив",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (49)"
+      },
+      {
+        "distractor": "общество",
+        "lemma": "общество",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (342)"
+      },
+      {
+        "distractor": "группа",
+        "lemma": "группа",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2095)"
+      }
+    ],
+    "valid_distractors": [
+      "культ",
+      "товарищество",
+      "коллектив"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'братчина' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'братчина', 'культ', 'товарищество', 'коллектив' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Объединение людей по общим интересам.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfNkoOVRWMa7VbQvxBFI8Nub0p6V', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Объединение людей по общим интересам.', role='assistant', function_call=None, tool_calls=None))], created=1716142628, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=16, prompt_tokens=201, total_tokens=217))",
+  "initial_definition": "Объединение людей по общим интересам",
+  "final_definition": "Объединение людей по общим интересам",
+  "formatted_definition": "Объединение людей по общим интересам",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Объединение людей по общим интересам",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Объединение",
+            "людей",
+            "по",
+            "общим",
+            "интересам"
+          ],
+          "removed_tokens": [
+            "по"
+          ],
+          "final_tokens": [
+            "Объединение",
+            "людей",
+            "общим",
+            "интересам"
+          ],
+          "lemmas": [
+            "объединение",
+            "человек",
+            "общий",
+            "интерес"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "объединение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "общий",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "интерес",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-17-06",
+  "end_time": "2024.05.19 18-17-09"
+}

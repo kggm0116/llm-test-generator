@@ -1,0 +1,404 @@
+{
+  "word": "летописание",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "хроника",
+    "архив",
+    "отчёт"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'летописание'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'летописание'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'летописание', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "хроника, запись, документ, регистр, журнал, архив, отчёт, памятник, мемуар, аннал, газета, протокол, книга, справочник, сборник, рукопись",
+    "response_details": "ChatCompletion(id='chatcmpl-9QezWPLhAkNubV6nI0Pd250fITKp0', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='хроника, запись, документ, регистр, журнал, архив, отчёт, памятник, мемуар, аннал, газета, протокол, книга, справочник, сборник, рукопись', role='assistant', function_call=None, tool_calls=None))], created=1716141126, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=75, prompt_tokens=205, total_tokens=280))",
+    "distractor_analysis": [
+      {
+        "distractor": "хроника",
+        "lemma": "хроника",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "запись",
+        "lemma": "запись",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1762)"
+      },
+      {
+        "distractor": "документ",
+        "lemma": "документ",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (408)"
+      },
+      {
+        "distractor": "регистр",
+        "lemma": "регистр",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.79)"
+      },
+      {
+        "distractor": "журнал",
+        "lemma": "журнал",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (96.32)"
+      },
+      {
+        "distractor": "архив",
+        "lemma": "архив",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (41)"
+      },
+      {
+        "distractor": "отчёт",
+        "lemma": "отчёт",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (19)"
+      },
+      {
+        "distractor": "памятник",
+        "lemma": "памятник",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (389)"
+      },
+      {
+        "distractor": "мемуар",
+        "lemma": "мемуары",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "аннал",
+        "lemma": "аннал",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "газета",
+        "lemma": "газета",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (228)"
+      },
+      {
+        "distractor": "протокол",
+        "lemma": "протокол",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "книга",
+        "lemma": "книга",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2652)"
+      },
+      {
+        "distractor": "справочник",
+        "lemma": "справочник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (118)"
+      },
+      {
+        "distractor": "сборник",
+        "lemma": "сборник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (73)"
+      },
+      {
+        "distractor": "рукопись",
+        "lemma": "рукопись",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (74)"
+      }
+    ],
+    "valid_distractors": [
+      "хроника",
+      "архив",
+      "отчёт",
+      "справочник",
+      "сборник",
+      "рукопись"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'летописание' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'летописание', 'хроника', 'архив', 'отчёт' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Запись исторических событий в хронологическом порядке.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QezYzEAxAPa7sqomKgclzpc0ZJ7S', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Запись исторических событий в хронологическом порядке.', role='assistant', function_call=None, tool_calls=None))], created=1716141128, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=26, prompt_tokens=202, total_tokens=228))",
+  "initial_definition": "Запись исторических событий в хронологическом порядке",
+  "final_definition": "Описание прошлых событий в порядке их происшествия.",
+  "formatted_definition": "Описание прошлых событий в порядке их происшествия",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Упорядоченное описание прошлых событий.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Запись",
+            "исторических",
+            "событий",
+            "в",
+            "хронологическом",
+            "порядке"
+          ],
+          "removed_tokens": [
+            "в"
+          ],
+          "final_tokens": [
+            "Запись",
+            "исторических",
+            "событий",
+            "хронологическом",
+            "порядке"
+          ],
+          "lemmas": [
+            "запись",
+            "исторический",
+            "событие",
+            "хронологический",
+            "порядок"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "запись",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "исторический",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "событие",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "хронологический",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (1.03)"
+          },
+          {
+            "lemma": "порядок",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "хронологический"
+        ],
+        "correction_prompt": "Исправь толкование 'Запись исторических событий в хронологическом порядке' для слова 'летописание' так, чтобы в нем не использовались слова 'летописание', 'хронологический', 'отчёт', 'хроника', 'архив' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Упорядоченное описание прошлых событий.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QezZGIpBMpfDpfEWgS26egO5zcDP', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Упорядоченное описание прошлых событий.', role='assistant', function_call=None, tool_calls=None))], created=1716141129, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=17, prompt_tokens=248, total_tokens=265))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Описание событий, которые произошли в прошлом, упорядоченное по времени.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Упорядоченное",
+            "описание",
+            "прошлых",
+            "событий"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Упорядоченное",
+            "описание",
+            "прошлых",
+            "событий"
+          ],
+          "lemmas": [
+            "упорядочить",
+            "описание",
+            "прошлый",
+            "событие"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "упорядочить",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (2.72)"
+          },
+          {
+            "lemma": "описание",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "прошлый",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "событие",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "упорядочить"
+        ],
+        "correction_prompt": "Исправь толкование 'Упорядоченное описание прошлых событий.' для слова 'летописание' так, чтобы в нем не использовались слова 'летописание', 'хронологический', 'хроника', 'упорядочить', 'отчёт', 'архив' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Описание событий, которые произошли в прошлом, упорядоченное по времени.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QezZ7LdGsWaQJol00Ey9WvTVJ5BP', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Описание событий, которые произошли в прошлом, упорядоченное по времени.', role='assistant', function_call=None, tool_calls=None))], created=1716141129, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=30, prompt_tokens=246, total_tokens=276))"
+      }
+    },
+    "3": {
+      "corrected_definition": "Описание прошлых событий в порядке их происшествия.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Описание",
+            "событий",
+            ",",
+            "которые",
+            "произошли",
+            "в",
+            "прошлом",
+            ",",
+            "упорядоченное",
+            "по",
+            "времени"
+          ],
+          "removed_tokens": [
+            "по",
+            "в",
+            ","
+          ],
+          "final_tokens": [
+            "Описание",
+            "событий",
+            "которые",
+            "произошли",
+            "прошлом",
+            "упорядоченное",
+            "времени"
+          ],
+          "lemmas": [
+            "описание",
+            "событие",
+            "который",
+            "произойти",
+            "прошлый",
+            "упорядочить",
+            "время"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "описание",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "событие",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "который",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (3361.51)"
+          },
+          {
+            "lemma": "произойти",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "прошлый",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "упорядочить",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (2.72)"
+          },
+          {
+            "lemma": "время",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "упорядочить"
+        ],
+        "correction_prompt": "Исправь толкование 'Описание событий, которые произошли в прошлом, упорядоченное по времени.' для слова 'летописание' так, чтобы в нем не использовались слова 'летописание', 'хронологический', 'хроника', 'упорядочить', 'отчёт', 'архив' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Описание прошлых событий в порядке их происшествия.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QezaAdJ1gfqUGcl070yjmfEOdA8F', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Описание прошлых событий в порядке их происшествия.', role='assistant', function_call=None, tool_calls=None))], created=1716141130, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=21, prompt_tokens=259, total_tokens=280))"
+      }
+    },
+    "4": {
+      "corrected_definition": "Описание прошлых событий в порядке их происшествия.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Описание",
+            "прошлых",
+            "событий",
+            "в",
+            "порядке",
+            "их",
+            "происшествия"
+          ],
+          "removed_tokens": [
+            "в",
+            "их"
+          ],
+          "final_tokens": [
+            "Описание",
+            "прошлых",
+            "событий",
+            "порядке",
+            "происшествия"
+          ],
+          "lemmas": [
+            "описание",
+            "прошлый",
+            "событие",
+            "порядок",
+            "происшествие"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "описание",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "прошлый",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "событие",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "порядок",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "происшествие",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 17-52-06",
+  "end_time": "2024.05.19 17-52-11"
+}

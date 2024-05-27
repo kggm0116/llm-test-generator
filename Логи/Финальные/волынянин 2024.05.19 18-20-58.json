@@ -1,0 +1,314 @@
+{
+  "word": "волынянин",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "пенсионер",
+    "пациент"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'волынянин'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'волынянин'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'волынянин', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "житель, сосед, ребенок, пенсионер, студент, турист, работник, мужчина, водитель, учитель, крестьянин, мастер, гражданин, директор, пациент, специалист",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfRS7PU6bXdcb506OFA5V9Jz7H8p', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='житель, сосед, ребенок, пенсионер, студент, турист, работник, мужчина, водитель, учитель, крестьянин, мастер, гражданин, директор, пациент, специалист', role='assistant', function_call=None, tool_calls=None))], created=1716142858, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=77, prompt_tokens=208, total_tokens=285))",
+    "distractor_analysis": [
+      {
+        "distractor": "житель",
+        "lemma": "житель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (747)"
+      },
+      {
+        "distractor": "сосед",
+        "lemma": "сосед",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (273)"
+      },
+      {
+        "distractor": "ребенок",
+        "lemma": "ребёнок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1485)"
+      },
+      {
+        "distractor": "пенсионер",
+        "lemma": "пенсионер",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (8)"
+      },
+      {
+        "distractor": "студент",
+        "lemma": "студент",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (99.61)"
+      },
+      {
+        "distractor": "турист",
+        "lemma": "турист",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (287)"
+      },
+      {
+        "distractor": "работник",
+        "lemma": "работник",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (81.92)"
+      },
+      {
+        "distractor": "мужчина",
+        "lemma": "мужчина",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (208)"
+      },
+      {
+        "distractor": "водитель",
+        "lemma": "водитель",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (75.0)"
+      },
+      {
+        "distractor": "учитель",
+        "lemma": "учитель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (536)"
+      },
+      {
+        "distractor": "крестьянин",
+        "lemma": "крестьянин",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (347)"
+      },
+      {
+        "distractor": "мастер",
+        "lemma": "мастер",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (551)"
+      },
+      {
+        "distractor": "гражданин",
+        "lemma": "гражданин",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (610)"
+      },
+      {
+        "distractor": "директор",
+        "lemma": "директор",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (173.23)"
+      },
+      {
+        "distractor": "пациент",
+        "lemma": "пациент",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (11)"
+      },
+      {
+        "distractor": "специалист",
+        "lemma": "специалист",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (87.71)"
+      }
+    ],
+    "valid_distractors": [
+      "пенсионер",
+      "пациент"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'волынянин' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'волынянин', 'пенсионер', 'пациент' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Человек, проживающий в Волынской области Украины.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfRUekmU4yAZtTEGSkBoRvLHDDQJ', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Человек, проживающий в Волынской области Украины.', role='assistant', function_call=None, tool_calls=None))], created=1716142860, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=27, prompt_tokens=200, total_tokens=227))",
+  "initial_definition": "Человек, проживающий в Волынской области Украины",
+  "final_definition": "Человек, проживающий в определенном регионе Украины.",
+  "formatted_definition": "Человек, проживающий в определенном регионе Украины",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Житель Волынской области Украины.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек",
+            ",",
+            "проживающий",
+            "в",
+            "Волынской",
+            "области",
+            "Украины"
+          ],
+          "removed_tokens": [
+            "в",
+            ","
+          ],
+          "final_tokens": [
+            "Человек",
+            "проживающий",
+            "Волынской",
+            "области",
+            "Украины"
+          ],
+          "lemmas": [
+            "человек",
+            "проживать",
+            "волынский",
+            "область",
+            "украина"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "проживать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "волынский",
+            "is_valid": false,
+            "reason": "Высокого класса (6)"
+          },
+          {
+            "lemma": "область",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "украина",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "волынский"
+        ],
+        "correction_prompt": "Исправь толкование 'Человек, проживающий в Волынской области Украины' для слова 'волынянин' так, чтобы в нем не использовались слова 'волынянин', 'пенсионер', 'волынский', 'пациент' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Житель Волынской области Украины.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfRV2WaZRTeVGZA7Hk9hbxWVBMu1', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Житель Волынской области Украины.', role='assistant', function_call=None, tool_calls=None))], created=1716142861, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=18, prompt_tokens=245, total_tokens=263))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Человек, проживающий в определенном регионе Украины.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Житель",
+            "Волынской",
+            "области",
+            "Украины"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Житель",
+            "Волынской",
+            "области",
+            "Украины"
+          ],
+          "lemmas": [
+            "житель",
+            "волынский",
+            "область",
+            "украина"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "житель",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "волынский",
+            "is_valid": false,
+            "reason": "Высокого класса (6)"
+          },
+          {
+            "lemma": "область",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "украина",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "волынский"
+        ],
+        "correction_prompt": "Исправь толкование 'Житель Волынской области Украины.' для слова 'волынянин' так, чтобы в нем не использовались слова 'волынянин', 'пенсионер', 'волынский', 'пациент' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Человек, проживающий в определенном регионе Украины.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfRWTZBWvyeyYpfgcQOrFZcEkeud', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Человек, проживающий в определенном регионе Украины.', role='assistant', function_call=None, tool_calls=None))], created=1716142862, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=27, prompt_tokens=236, total_tokens=263))"
+      }
+    },
+    "3": {
+      "corrected_definition": "Человек, проживающий в определенном регионе Украины.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек",
+            ",",
+            "проживающий",
+            "в",
+            "определенном",
+            "регионе",
+            "Украины"
+          ],
+          "removed_tokens": [
+            "в",
+            ","
+          ],
+          "final_tokens": [
+            "Человек",
+            "проживающий",
+            "определенном",
+            "регионе",
+            "Украины"
+          ],
+          "lemmas": [
+            "человек",
+            "проживать",
+            "определённый",
+            "регион",
+            "украина"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "проживать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "определённый",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "регион",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "украина",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-20-58",
+  "end_time": "2024.05.19 18-21-02"
+}

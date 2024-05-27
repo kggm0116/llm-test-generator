@@ -1,0 +1,191 @@
+{
+  "word": "нектарий",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "пыльца",
+    "тычинка",
+    "боб"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'нектарий'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'нектарий'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'нектарий', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "цветок, стебель, лист, корень, бутон, пыльца, пестик, тычинка, стебельчатка, семя, боб, нектар, плод, чашелистик, околоцветник, клубень.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfLrDv25F0pCYyX3GAJECVd7GBvQ', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='цветок, стебель, лист, корень, бутон, пыльца, пестик, тычинка, стебельчатка, семя, боб, нектар, плод, чашелистик, околоцветник, клубень.', role='assistant', function_call=None, tool_calls=None))], created=1716142511, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=72, prompt_tokens=202, total_tokens=274))",
+    "distractor_analysis": [
+      {
+        "distractor": "цветок",
+        "lemma": "цветок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (911)"
+      },
+      {
+        "distractor": "стебель",
+        "lemma": "стебель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (324)"
+      },
+      {
+        "distractor": "лист",
+        "lemma": "лист",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1995)"
+      },
+      {
+        "distractor": "корень",
+        "lemma": "корень",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2047)"
+      },
+      {
+        "distractor": "бутон",
+        "lemma": "бутон",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.83)"
+      },
+      {
+        "distractor": "пыльца",
+        "lemma": "пыльца",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (44)"
+      },
+      {
+        "distractor": "пестик",
+        "lemma": "пестик",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "тычинка",
+        "lemma": "тычинка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "стебельчатка",
+        "lemma": "стебельчатка",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "семя",
+        "lemma": "семя",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (655)"
+      },
+      {
+        "distractor": "боб",
+        "lemma": "боб",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (15.62)"
+      },
+      {
+        "distractor": "нектар",
+        "lemma": "нектар",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.95)"
+      },
+      {
+        "distractor": "плод",
+        "lemma": "плод",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (443)"
+      },
+      {
+        "distractor": "чашелистик",
+        "lemma": "чашелистик",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "околоцветник",
+        "lemma": "околоцветник",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "клубень",
+        "lemma": "клубень",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.84)"
+      }
+    ],
+    "valid_distractors": [
+      "пыльца",
+      "тычинка",
+      "боб"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'нектарий' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'нектарий', 'пыльца', 'тычинка', 'боб' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Орган цветка, содержащий медовую жидкость.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfLtYmCZCJWm3n4ZVyx1q8qF1QBA', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Орган цветка, содержащий медовую жидкость.', role='assistant', function_call=None, tool_calls=None))], created=1716142513, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=20, prompt_tokens=199, total_tokens=219))",
+  "initial_definition": "Орган цветка, содержащий медовую жидкость",
+  "final_definition": "Орган цветка, содержащий медовую жидкость",
+  "formatted_definition": "Орган цветка, содержащий медовую жидкость",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Орган цветка, содержащий медовую жидкость",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Орган",
+            "цветка",
+            ",",
+            "содержащий",
+            "медовую",
+            "жидкость"
+          ],
+          "removed_tokens": [
+            ","
+          ],
+          "final_tokens": [
+            "Орган",
+            "цветка",
+            "содержащий",
+            "медовую",
+            "жидкость"
+          ],
+          "lemmas": [
+            "орган",
+            "цветок",
+            "содержать",
+            "медовый",
+            "жидкость"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "орган",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "цветок",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "содержать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "медовый",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "жидкость",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-15-11",
+  "end_time": "2024.05.19 18-15-14"
+}

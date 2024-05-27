@@ -1,0 +1,231 @@
+{
+  "word": "галицкий",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "герцог",
+    "боярин",
+    "купец"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'галицкий'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'галицкий'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'галицкий', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "герцог, князь, король, шляхтич, боярин, вельможа, купец, плебей, ремесленник, слуга, торговец, ратник, пан, ростовщик, паж, дьяк.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfR6rG7z5s7cXMQNHbPj2J3jvhZm', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='герцог, князь, король, шляхтич, боярин, вельможа, купец, плебей, ремесленник, слуга, торговец, ратник, пан, ростовщик, паж, дьяк.', role='assistant', function_call=None, tool_calls=None))], created=1716142836, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=77, prompt_tokens=205, total_tokens=282))",
+    "distractor_analysis": [
+      {
+        "distractor": "герцог",
+        "lemma": "герцог",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "князь",
+        "lemma": "князь",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (450)"
+      },
+      {
+        "distractor": "король",
+        "lemma": "король",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (147.27)"
+      },
+      {
+        "distractor": "шляхтич",
+        "lemma": "шляхтич",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "боярин",
+        "lemma": "боярин",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (58)"
+      },
+      {
+        "distractor": "вельможа",
+        "lemma": "вельможа",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.83)"
+      },
+      {
+        "distractor": "купец",
+        "lemma": "купец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (147)"
+      },
+      {
+        "distractor": "плебей",
+        "lemma": "плебей",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.49)"
+      },
+      {
+        "distractor": "ремесленник",
+        "lemma": "ремесленник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (175)"
+      },
+      {
+        "distractor": "слуга",
+        "lemma": "слуга",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (99)"
+      },
+      {
+        "distractor": "торговец",
+        "lemma": "торговец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (75)"
+      },
+      {
+        "distractor": "ратник",
+        "lemma": "ратник",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.03)"
+      },
+      {
+        "distractor": "пан",
+        "lemma": "пан",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (10)"
+      },
+      {
+        "distractor": "ростовщик",
+        "lemma": "ростовщик",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.95)"
+      },
+      {
+        "distractor": "паж",
+        "lemma": "паж",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "дьяк",
+        "lemma": "дьяк",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      }
+    ],
+    "valid_distractors": [
+      "герцог",
+      "боярин",
+      "купец",
+      "ремесленник",
+      "слуга",
+      "торговец",
+      "пан"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'галицкий' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'галицкий', 'герцог', 'боярин', 'купец' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Принадлежащий к Галичу.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfR8xHitPq8ZuFf6qBvstQ1dC1PC', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Принадлежащий к Галичу.', role='assistant', function_call=None, tool_calls=None))], created=1716142838, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=14, prompt_tokens=203, total_tokens=217))",
+  "initial_definition": "Принадлежащий к Галичу",
+  "final_definition": "Относящийся к древнему городу на Руси.",
+  "formatted_definition": "Относящийся к древнему городу на Руси",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Относящийся к древнему городу на Руси.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Принадлежащий",
+            "к",
+            "Галичу"
+          ],
+          "removed_tokens": [
+            "к"
+          ],
+          "final_tokens": [
+            "Принадлежащий",
+            "Галичу"
+          ],
+          "lemmas": [
+            "принадлежащий",
+            "галич"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "принадлежащий",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "галич",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "галич"
+        ],
+        "correction_prompt": "Исправь толкование 'Принадлежащий к Галичу' для слова 'галицкий' так, чтобы в нем не использовались слова 'галицкий', 'боярин', 'купец', 'галич', 'герцог' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Относящийся к древнему городу на Руси.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfR997Qg09aJZDNzXCbzFUxIAs2k', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Относящийся к древнему городу на Руси.', role='assistant', function_call=None, tool_calls=None))], created=1716142839, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=22, prompt_tokens=232, total_tokens=254))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Относящийся к древнему городу на Руси.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Относящийся",
+            "к",
+            "древнему",
+            "городу",
+            "на",
+            "Руси"
+          ],
+          "removed_tokens": [
+            "на",
+            "к"
+          ],
+          "final_tokens": [
+            "Относящийся",
+            "древнему",
+            "городу",
+            "Руси"
+          ],
+          "lemmas": [
+            "относиться",
+            "древний",
+            "город",
+            "русь"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "относиться",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "древний",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "город",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "русь",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-20-36",
+  "end_time": "2024.05.19 18-20-39"
+}

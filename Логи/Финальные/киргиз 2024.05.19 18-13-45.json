@@ -1,0 +1,273 @@
+{
+  "word": "киргиз",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "монгол",
+    "татарин",
+    "башкир"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'киргиз'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'киргиз'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'киргиз', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "казах, казахстанец, узбек, таджик, туркмен, киргизстанец, монгол, татарин, башкир, уйгур, кашгарец, сибиряк, камчадал, крымчак, алтай, енисейский.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfKTOJfq7oajkJVJaZ0ADHfRqIRr', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='казах, казахстанец, узбек, таджик, туркмен, киргизстанец, монгол, татарин, башкир, уйгур, кашгарец, сибиряк, камчадал, крымчак, алтай, енисейский.', role='assistant', function_call=None, tool_calls=None))], created=1716142425, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=93, prompt_tokens=199, total_tokens=292))",
+    "distractor_analysis": [
+      {
+        "distractor": "казах",
+        "lemma": "казах",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "казахстанец",
+        "lemma": "казахстанец",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.95)"
+      },
+      {
+        "distractor": "узбек",
+        "lemma": "узбек",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "таджик",
+        "lemma": "таджик",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "туркмен",
+        "lemma": "туркмен",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.95)"
+      },
+      {
+        "distractor": "киргизстанец",
+        "lemma": "киргизстанец",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "монгол",
+        "lemma": "монгол",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (22)"
+      },
+      {
+        "distractor": "татарин",
+        "lemma": "татарин",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (33)"
+      },
+      {
+        "distractor": "башкир",
+        "lemma": "башкир",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (9)"
+      },
+      {
+        "distractor": "уйгур",
+        "lemma": "уйгур",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "кашгарец",
+        "lemma": "кашгарец",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "сибиряк",
+        "lemma": "сибиряк",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (13)"
+      },
+      {
+        "distractor": "камчадал",
+        "lemma": "камчадал",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "крымчак",
+        "lemma": "крымчак",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "алтай",
+        "lemma": "алтай",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.53)"
+      },
+      {
+        "distractor": "енисейский",
+        "lemma": "енисейский",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      }
+    ],
+    "valid_distractors": [
+      "монгол",
+      "татарин",
+      "башкир",
+      "сибиряк"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'киргиз' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'киргиз', 'монгол', 'татарин', 'башкир' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "представитель киргизской этносы, национальность.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfKYgZ5kQCiThUm9dTUVPhZpuKKg', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='представитель киргизской этносы, национальность.', role='assistant', function_call=None, tool_calls=None))], created=1716142430, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=20, prompt_tokens=199, total_tokens=219))",
+  "initial_definition": "представитель киргизской этносы, национальность",
+  "final_definition": "Человек, принадлежащий к народу с особыми культурными и историческими чертами.",
+  "formatted_definition": "Человек, принадлежащий к народу с особыми культурными и историческими чертами",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Человек, принадлежащий к народу с особыми культурными и историческими чертами.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "представитель",
+            "киргизской",
+            "этносы",
+            ",",
+            "национальность"
+          ],
+          "removed_tokens": [
+            ","
+          ],
+          "final_tokens": [
+            "представитель",
+            "киргизской",
+            "этносы",
+            "национальность"
+          ],
+          "lemmas": [
+            "представитель",
+            "киргизский",
+            "этнос",
+            "национальность"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "представитель",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "киргизский",
+            "is_valid": false,
+            "reason": "Высокого класса (6)"
+          },
+          {
+            "lemma": "этнос",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (1.07)"
+          },
+          {
+            "lemma": "национальность",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "этнос",
+          "киргизский"
+        ],
+        "correction_prompt": "Исправь толкование 'представитель киргизской этносы, национальность' для слова 'киргиз' так, чтобы в нем не использовались слова 'киргиз', 'башкир', 'татарин', 'этнос', 'монгол', 'киргизский' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Человек, принадлежащий к народу с особыми культурными и историческими чертами.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfKZbdApUu3zWYLuP6pamedAx5xt', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Человек, принадлежащий к народу с особыми культурными и историческими чертами.', role='assistant', function_call=None, tool_calls=None))], created=1716142431, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=39, prompt_tokens=242, total_tokens=281))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Человек, принадлежащий к народу с особыми культурными и историческими чертами.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек",
+            ",",
+            "принадлежащий",
+            "к",
+            "народу",
+            "с",
+            "особыми",
+            "культурными",
+            "и",
+            "историческими",
+            "чертами"
+          ],
+          "removed_tokens": [
+            "и",
+            ",",
+            "с",
+            "к"
+          ],
+          "final_tokens": [
+            "Человек",
+            "принадлежащий",
+            "народу",
+            "особыми",
+            "культурными",
+            "историческими",
+            "чертами"
+          ],
+          "lemmas": [
+            "человек",
+            "принадлежащий",
+            "народ",
+            "особый",
+            "культурный",
+            "исторический",
+            "черта"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "принадлежащий",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "народ",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "особый",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "культурный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "исторический",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "черта",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-13-45",
+  "end_time": "2024.05.19 18-13-52"
+}

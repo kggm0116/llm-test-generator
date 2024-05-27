@@ -1,0 +1,181 @@
+{
+  "word": "княжич",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "племянник",
+    "наследник",
+    "отпрыск"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'княжич'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'княжич'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'княжич', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "племянник, наследник, отпрыск, младший, мальчик, наследственник, детина, молодчик, наследник, возможный, предшественник, дочь, мальчишка, подросток, деток, ребятишки.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfRCXW2AeOefIf0gXCUA7t6TobSV', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='племянник, наследник, отпрыск, младший, мальчик, наследственник, детина, молодчик, наследник, возможный, предшественник, дочь, мальчишка, подросток, деток, ребятишки.', role='assistant', function_call=None, tool_calls=None))], created=1716142842, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=85, prompt_tokens=202, total_tokens=287))",
+    "distractor_analysis": [
+      {
+        "distractor": "племянник",
+        "lemma": "племянник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (13)"
+      },
+      {
+        "distractor": "наследник",
+        "lemma": "наследник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (42)"
+      },
+      {
+        "distractor": "отпрыск",
+        "lemma": "отпрыск",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "младший",
+        "lemma": "младший",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "мальчик",
+        "lemma": "мальчик",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1054)"
+      },
+      {
+        "distractor": "наследственник",
+        "lemma": "наследственник",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "детина",
+        "lemma": "детина",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "молодчик",
+        "lemma": "молодчик",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.83)"
+      },
+      {
+        "distractor": "возможный",
+        "lemma": "возможный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "предшественник",
+        "lemma": "предшественник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (26)"
+      },
+      {
+        "distractor": "дочь",
+        "lemma": "дочь",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (250)"
+      },
+      {
+        "distractor": "мальчишка",
+        "lemma": "мальчишка",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (87.13)"
+      },
+      {
+        "distractor": "подросток",
+        "lemma": "подросток",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (40)"
+      },
+      {
+        "distractor": "деток",
+        "lemma": "ребёночек",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (8)"
+      },
+      {
+        "distractor": "ребятишки",
+        "lemma": "ребятишки",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (12)"
+      }
+    ],
+    "valid_distractors": [
+      "племянник",
+      "наследник",
+      "отпрыск",
+      "предшественник",
+      "подросток",
+      "деток",
+      "ребятишки"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'княжич' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'княжич', 'племянник', 'наследник', 'отпрыск' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Молодой сын князя или княгини.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfRFv8ceI8TCOpXEJ7oSlMWQkyf6', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Молодой сын князя или княгини.', role='assistant', function_call=None, tool_calls=None))], created=1716142845, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=18, prompt_tokens=202, total_tokens=220))",
+  "initial_definition": "Молодой сын князя или княгини",
+  "final_definition": "Молодой сын князя или княгини",
+  "formatted_definition": "Молодой сын князя или княгини",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Молодой сын князя или княгини",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Молодой",
+            "сын",
+            "князя",
+            "или",
+            "княгини"
+          ],
+          "removed_tokens": [
+            "или"
+          ],
+          "final_tokens": [
+            "Молодой",
+            "сын",
+            "князя",
+            "княгини"
+          ],
+          "lemmas": [
+            "молодой",
+            "сын",
+            "князь",
+            "княгиня"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "молодой",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "сын",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "князь",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "княгиня",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-20-42",
+  "end_time": "2024.05.19 18-20-45"
+}

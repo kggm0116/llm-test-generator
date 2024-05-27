@@ -1,0 +1,235 @@
+{
+  "word": "иерархия",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "авторитет",
+    "ранг",
+    "ступень"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'иерархия'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'иерархия'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'иерархия', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "авторитет, ранг, порядок, ступень, царь, глава, капитан, начальник, лидер, правитель, господин, князь, президент, командир, начальство, управление",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfJsLhRkvMEbr2UisD6ACJMW06HQ', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='авторитет, ранг, порядок, ступень, царь, глава, капитан, начальник, лидер, правитель, господин, князь, президент, командир, начальство, управление', role='assistant', function_call=None, tool_calls=None))], created=1716142388, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=69, prompt_tokens=205, total_tokens=274))",
+    "distractor_analysis": [
+      {
+        "distractor": "авторитет",
+        "lemma": "авторитет",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (19)"
+      },
+      {
+        "distractor": "ранг",
+        "lemma": "ранг",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (9)"
+      },
+      {
+        "distractor": "порядок",
+        "lemma": "порядок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1468)"
+      },
+      {
+        "distractor": "ступень",
+        "lemma": "ступень",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (118)"
+      },
+      {
+        "distractor": "царь",
+        "lemma": "царь",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1338)"
+      },
+      {
+        "distractor": "глава",
+        "lemma": "глава",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (486)"
+      },
+      {
+        "distractor": "капитан",
+        "lemma": "капитан",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (248.34)"
+      },
+      {
+        "distractor": "начальник",
+        "lemma": "начальник",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (279.39)"
+      },
+      {
+        "distractor": "лидер",
+        "lemma": "лидер",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (51.57)"
+      },
+      {
+        "distractor": "правитель",
+        "lemma": "правитель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (267)"
+      },
+      {
+        "distractor": "господин",
+        "lemma": "господин",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (187.32)"
+      },
+      {
+        "distractor": "князь",
+        "lemma": "князь",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (450)"
+      },
+      {
+        "distractor": "президент",
+        "lemma": "президент",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (171.58)"
+      },
+      {
+        "distractor": "командир",
+        "lemma": "командир",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (189.23)"
+      },
+      {
+        "distractor": "начальство",
+        "lemma": "начальство",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "управление",
+        "lemma": "управление",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (401)"
+      }
+    ],
+    "valid_distractors": [
+      "авторитет",
+      "ранг",
+      "ступень"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'иерархия' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'иерархия', 'авторитет', 'ранг', 'ступень' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Система упорядоченного подчинения.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfJu6nUpyTV8NYUe5a9Yk05dU9ax', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Система упорядоченного подчинения.', role='assistant', function_call=None, tool_calls=None))], created=1716142390, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=15, prompt_tokens=200, total_tokens=215))",
+  "initial_definition": "Система упорядоченного подчинения",
+  "final_definition": "Система организации взаимосвязей в группе или организации.",
+  "formatted_definition": "Система организации взаимосвязей в группе или организации",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Система организации взаимосвязей в группе или организации.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Система",
+            "упорядоченного",
+            "подчинения"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Система",
+            "упорядоченного",
+            "подчинения"
+          ],
+          "lemmas": [
+            "система",
+            "упорядочить",
+            "подчинение"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "система",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "упорядочить",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (2.72)"
+          },
+          {
+            "lemma": "подчинение",
+            "is_valid": true,
+            "reason": "Низкого класса (4)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "упорядочить"
+        ],
+        "correction_prompt": "Исправь толкование 'Система упорядоченного подчинения' для слова 'иерархия' так, чтобы в нем не использовались слова 'иерархия', 'упорядочить', 'ранг', 'ступень', 'авторитет' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Система организации взаимосвязей в группе или организации.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfJvYaL1CWtWUxdSSEX9uRpU1sau', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Система организации взаимосвязей в группе или организации.', role='assistant', function_call=None, tool_calls=None))], created=1716142391, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=27, prompt_tokens=232, total_tokens=259))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Система организации взаимосвязей в группе или организации.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Система",
+            "организации",
+            "взаимосвязей",
+            "в",
+            "группе",
+            "или",
+            "организации"
+          ],
+          "removed_tokens": [
+            "или",
+            "в"
+          ],
+          "final_tokens": [
+            "Система",
+            "организации",
+            "взаимосвязей",
+            "группе",
+            "организации"
+          ],
+          "lemmas": [
+            "система",
+            "организация",
+            "взаимосвязь",
+            "группа",
+            "организация"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "система",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "организация",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "взаимосвязь",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "группа",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-13-08",
+  "end_time": "2024.05.19 18-13-11"
+}

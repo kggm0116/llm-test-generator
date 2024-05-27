@@ -1,0 +1,273 @@
+{
+  "word": "пасечник",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "пчеловод",
+    "воск",
+    "пчёлка"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'пасечник'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'пасечник'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'пасечник', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "пчеловод, улей, мед, пчела, воск, медосбор, пчёлка, пчелиное, медонос, пчеловодство, медосборщик, пасека, пчелиный, медоносная, воскосбор, пчелосбор.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfMbTriBG5jzx1Tw8eqPERVwRumz', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='пчеловод, улей, мед, пчела, воск, медосбор, пчёлка, пчелиное, медонос, пчеловодство, медосборщик, пасека, пчелиный, медоносная, воскосбор, пчелосбор.', role='assistant', function_call=None, tool_calls=None))], created=1716142557, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=92, prompt_tokens=202, total_tokens=294))",
+    "distractor_analysis": [
+      {
+        "distractor": "пчеловод",
+        "lemma": "пчеловод",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (13)"
+      },
+      {
+        "distractor": "улей",
+        "lemma": "уля",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "мед",
+        "lemma": "мёд",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (294)"
+      },
+      {
+        "distractor": "пчела",
+        "lemma": "пчела",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (237)"
+      },
+      {
+        "distractor": "воск",
+        "lemma": "воск",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (31)"
+      },
+      {
+        "distractor": "медосбор",
+        "lemma": "медосбор",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "пчёлка",
+        "lemma": "пчёлка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (14)"
+      },
+      {
+        "distractor": "пчелиный",
+        "lemma": "пчелиный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "медонос",
+        "lemma": "медонос",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "пчеловодство",
+        "lemma": "пчеловодство",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (10)"
+      },
+      {
+        "distractor": "медосборщик",
+        "lemma": "медосборщик",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "пасека",
+        "lemma": "пасека",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.6)"
+      },
+      {
+        "distractor": "медоносная",
+        "lemma": "медоносный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "воскосбор",
+        "lemma": "воскосбор",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "пчелосбор",
+        "lemma": "пчелосбор",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      }
+    ],
+    "valid_distractors": [
+      "пчеловод",
+      "воск",
+      "пчёлка",
+      "пчеловодство"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'пасечник' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'пасечник', 'пчеловод', 'воск', 'пчёлка' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Человек, занимающийся содержанием пчёл в улье.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfMc32iPMiunkBlS0yVgQhLVCeWD', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Человек, занимающийся содержанием пчёл в улье.', role='assistant', function_call=None, tool_calls=None))], created=1716142558, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=23, prompt_tokens=202, total_tokens=225))",
+  "initial_definition": "Человек, занимающийся содержанием пчёл в улье",
+  "final_definition": "Человек, занимающийся уходом за насекомыми, которые производят мёд.",
+  "formatted_definition": "Человек, занимающийся уходом за насекомыми, которые производят мёд",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Человек, занимающийся уходом за насекомыми, которые производят мёд.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек",
+            ",",
+            "занимающийся",
+            "содержанием",
+            "пчёл",
+            "в",
+            "улье"
+          ],
+          "removed_tokens": [
+            "в",
+            ","
+          ],
+          "final_tokens": [
+            "Человек",
+            "занимающийся",
+            "содержанием",
+            "пчёл",
+            "улье"
+          ],
+          "lemmas": [
+            "человек",
+            "заниматься",
+            "содержание",
+            "пчела",
+            "улья"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "заниматься",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "содержание",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "пчела",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "улья",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "улья"
+        ],
+        "correction_prompt": "Исправь толкование 'Человек, занимающийся содержанием пчёл в улье' для слова 'пасечник' так, чтобы в нем не использовались слова 'пасечник', 'пчеловод', 'воск', 'улья', 'пчёлка' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Человек, занимающийся уходом за насекомыми, которые производят мёд.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfMeVyLxW2gvGchcKXp8hrJDSAnj', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Человек, занимающийся уходом за насекомыми, которые производят мёд.', role='assistant', function_call=None, tool_calls=None))], created=1716142560, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=32, prompt_tokens=240, total_tokens=272))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Человек, занимающийся уходом за насекомыми, которые производят мёд.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек",
+            ",",
+            "занимающийся",
+            "уходом",
+            "за",
+            "насекомыми",
+            ",",
+            "которые",
+            "производят",
+            "мёд"
+          ],
+          "removed_tokens": [
+            ",",
+            "за"
+          ],
+          "final_tokens": [
+            "Человек",
+            "занимающийся",
+            "уходом",
+            "насекомыми",
+            "которые",
+            "производят",
+            "мёд"
+          ],
+          "lemmas": [
+            "человек",
+            "заниматься",
+            "уход",
+            "насекомое",
+            "который",
+            "производить",
+            "мёд"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "заниматься",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "уход",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "насекомое",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "который",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (3361.51)"
+          },
+          {
+            "lemma": "производить",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "мёд",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-15-56",
+  "end_time": "2024.05.19 18-16-00"
+}

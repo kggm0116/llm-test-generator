@@ -1,0 +1,183 @@
+{
+  "word": "страноведение",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "география",
+    "нация"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'страноведение'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'страноведение'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'страноведение', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "культура, география, история, политика, традиции, государство, обычаи, нация, университет, экономика, гражданин, диалект, литература, дипломатия, религия, геополитика",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfXlmTTYOVB2iCgLf2GVbyqLeqht', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='культура, география, история, политика, традиции, государство, обычаи, нация, университет, экономика, гражданин, диалект, литература, дипломатия, религия, геополитика', role='assistant', function_call=None, tool_calls=None))], created=1716143249, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=92, prompt_tokens=205, total_tokens=297))",
+    "distractor_analysis": [
+      {
+        "distractor": "культура",
+        "lemma": "культура",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (729)"
+      },
+      {
+        "distractor": "география",
+        "lemma": "география",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (189)"
+      },
+      {
+        "distractor": "история",
+        "lemma": "история",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1412)"
+      },
+      {
+        "distractor": "политика",
+        "lemma": "политика",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (66.23)"
+      },
+      {
+        "distractor": "традиции",
+        "lemma": "традиция",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (242)"
+      },
+      {
+        "distractor": "государство",
+        "lemma": "государство",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1307)"
+      },
+      {
+        "distractor": "обычаи",
+        "lemma": "обычай",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (217)"
+      },
+      {
+        "distractor": "нация",
+        "lemma": "нация",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (21)"
+      },
+      {
+        "distractor": "университет",
+        "lemma": "университет",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (67.72)"
+      },
+      {
+        "distractor": "экономика",
+        "lemma": "экономика",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (62.63)"
+      },
+      {
+        "distractor": "гражданин",
+        "lemma": "гражданин",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (610)"
+      },
+      {
+        "distractor": "диалект",
+        "lemma": "диалект",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.3)"
+      },
+      {
+        "distractor": "литература",
+        "lemma": "литература",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (406)"
+      },
+      {
+        "distractor": "дипломатия",
+        "lemma": "дипломатия",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "религия",
+        "lemma": "религия",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (225)"
+      },
+      {
+        "distractor": "геополитика",
+        "lemma": "геополитика",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      }
+    ],
+    "valid_distractors": [
+      "география",
+      "нация"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'страноведение' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'страноведение', 'география', 'нация' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Изучение различных стран и их культур.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfXn2rhDJexYyaMxdujI51LXYQ6z', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Изучение различных стран и их культур.', role='assistant', function_call=None, tool_calls=None))], created=1716143251, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=16, prompt_tokens=197, total_tokens=213))",
+  "initial_definition": "Изучение различных стран и их культур",
+  "final_definition": "Изучение различных стран и их культур",
+  "formatted_definition": "Изучение различных стран и их культур",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Изучение различных стран и их культур",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Изучение",
+            "различных",
+            "стран",
+            "и",
+            "их",
+            "культур"
+          ],
+          "removed_tokens": [
+            "и",
+            "их"
+          ],
+          "final_tokens": [
+            "Изучение",
+            "различных",
+            "стран",
+            "культур"
+          ],
+          "lemmas": [
+            "изучение",
+            "различный",
+            "страна",
+            "культура"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "изучение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "различный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "страна",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "культура",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-27-28",
+  "end_time": "2024.05.19 18-27-31"
+}

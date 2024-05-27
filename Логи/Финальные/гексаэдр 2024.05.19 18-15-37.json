@@ -1,0 +1,190 @@
+{
+  "word": "гексаэдр",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "куб",
+    "додекаэдр",
+    "октаэдр"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'гексаэдр'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'гексаэдр'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'гексаэдр', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "куб, икосаэдр, додекаэдр, октаэдр, тетраэдр, конус, цилиндр, пирамида, призма, сфера, тор, тетраедрон, параллелепипед, тетрагон, тетраграмм, додекаэдрон",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfMIubvzJ7mY9cT2oAIMFGsuvlsc', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='куб, икосаэдр, додекаэдр, октаэдр, тетраэдр, конус, цилиндр, пирамида, призма, сфера, тор, тетраедрон, параллелепипед, тетрагон, тетраграмм, додекаэдрон', role='assistant', function_call=None, tool_calls=None))], created=1716142538, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=89, prompt_tokens=205, total_tokens=294))",
+    "distractor_analysis": [
+      {
+        "distractor": "куб",
+        "lemma": "куб",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (200)"
+      },
+      {
+        "distractor": "икосаэдр",
+        "lemma": "икосаэдр",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "додекаэдр",
+        "lemma": "додекаэдр",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (6)"
+      },
+      {
+        "distractor": "октаэдр",
+        "lemma": "октаэдр",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "тетраэдр",
+        "lemma": "тетраэдр",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (18)"
+      },
+      {
+        "distractor": "конус",
+        "lemma": "конус",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (52)"
+      },
+      {
+        "distractor": "цилиндр",
+        "lemma": "цилиндр",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (86)"
+      },
+      {
+        "distractor": "пирамида",
+        "lemma": "пирамида",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (354)"
+      },
+      {
+        "distractor": "призма",
+        "lemma": "призма",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.95)"
+      },
+      {
+        "distractor": "сфера",
+        "lemma": "сфера",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (52.64)"
+      },
+      {
+        "distractor": "тор",
+        "lemma": "тор",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.18)"
+      },
+      {
+        "distractor": "тетраедрон",
+        "lemma": "тетраедрон",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "параллелепипед",
+        "lemma": "параллелепипед",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (490)"
+      },
+      {
+        "distractor": "тетрагон",
+        "lemma": "тетрагон",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "тетраграмм",
+        "lemma": "тетраграмм",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "додекаэдрон",
+        "lemma": "додекаэдрон",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      }
+    ],
+    "valid_distractors": [
+      "куб",
+      "додекаэдр",
+      "октаэдр",
+      "тетраэдр",
+      "конус",
+      "цилиндр"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'гексаэдр' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'гексаэдр', 'куб', 'додекаэдр', 'октаэдр' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "геометрическое тело, у которого шесть граней.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfMK9XMW0fGWfcj09wT5Bw7yTDLo', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='геометрическое тело, у которого шесть граней.', role='assistant', function_call=None, tool_calls=None))], created=1716142540, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=23, prompt_tokens=203, total_tokens=226))",
+  "initial_definition": "геометрическое тело, у которого шесть граней",
+  "final_definition": "геометрическое тело, у которого шесть граней",
+  "formatted_definition": "геометрическое тело, у которого шесть граней",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "геометрическое тело, у которого шесть граней",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "геометрическое",
+            "тело",
+            ",",
+            "у",
+            "которого",
+            "шесть",
+            "граней"
+          ],
+          "removed_tokens": [
+            "у",
+            ",",
+            "шесть"
+          ],
+          "final_tokens": [
+            "геометрическое",
+            "тело",
+            "которого",
+            "граней"
+          ],
+          "lemmas": [
+            "геометрический",
+            "тело",
+            "который",
+            "грань"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "геометрический",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "тело",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "который",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (3361.51)"
+          },
+          {
+            "lemma": "грань",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-15-37",
+  "end_time": "2024.05.19 18-15-41"
+}

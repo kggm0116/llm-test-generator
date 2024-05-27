@@ -1,0 +1,178 @@
+{
+  "word": "ветеринар",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "зоопарк",
+    "прививка",
+    "кормление"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'ветеринар'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'ветеринар'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'ветеринар', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "зоопарк, ухаживание, лечение, амбулатория, диагностика, операция, прививка, кормление, стерилизация, карантин, обработка, катетер, пациент, домашний, профилактика, реабилитация",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfNPF8PGmtrel25FwbueStWZkmZK', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='зоопарк, ухаживание, лечение, амбулатория, диагностика, операция, прививка, кормление, стерилизация, карантин, обработка, катетер, пациент, домашний, профилактика, реабилитация', role='assistant', function_call=None, tool_calls=None))], created=1716142607, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=87, prompt_tokens=202, total_tokens=289))",
+    "distractor_analysis": [
+      {
+        "distractor": "зоопарк",
+        "lemma": "зоопарк",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (117)"
+      },
+      {
+        "distractor": "ухаживание",
+        "lemma": "ухаживание",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.91)"
+      },
+      {
+        "distractor": "лечение",
+        "lemma": "лечение",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (94.37)"
+      },
+      {
+        "distractor": "амбулатория",
+        "lemma": "амбулатория",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.8)"
+      },
+      {
+        "distractor": "диагностика",
+        "lemma": "диагностика",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "операция",
+        "lemma": "операция",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (214)"
+      },
+      {
+        "distractor": "прививка",
+        "lemma": "прививка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (9)"
+      },
+      {
+        "distractor": "кормление",
+        "lemma": "кормление",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (6)"
+      },
+      {
+        "distractor": "стерилизация",
+        "lemma": "стерилизация",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "карантин",
+        "lemma": "карантин",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "обработка",
+        "lemma": "обработка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (310)"
+      },
+      {
+        "distractor": "катетер",
+        "lemma": "катетер",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.26)"
+      },
+      {
+        "distractor": "пациент",
+        "lemma": "пациент",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (11)"
+      },
+      {
+        "distractor": "домашний",
+        "lemma": "домашний",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "профилактика",
+        "lemma": "профилактика",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "реабилитация",
+        "lemma": "реабилитация",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (6.43)"
+      }
+    ],
+    "valid_distractors": [
+      "зоопарк",
+      "прививка",
+      "кормление",
+      "стерилизация",
+      "пациент",
+      "реабилитация"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'ветеринар' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'ветеринар', 'зоопарк', 'прививка', 'кормление' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Специалист по лечению животных.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfNRXenS35v2ULU98nNhj29UjKKG', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Специалист по лечению животных.', role='assistant', function_call=None, tool_calls=None))], created=1716142609, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=16, prompt_tokens=202, total_tokens=218))",
+  "initial_definition": "Специалист по лечению животных",
+  "final_definition": "Специалист по лечению животных",
+  "formatted_definition": "Специалист по лечению животных",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Специалист по лечению животных",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Специалист",
+            "по",
+            "лечению",
+            "животных"
+          ],
+          "removed_tokens": [
+            "по"
+          ],
+          "final_tokens": [
+            "Специалист",
+            "лечению",
+            "животных"
+          ],
+          "lemmas": [
+            "специалист",
+            "лечение",
+            "животное"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "специалист",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "лечение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "животное",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-16-47",
+  "end_time": "2024.05.19 18-16-50"
+}

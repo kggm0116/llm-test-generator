@@ -1,0 +1,161 @@
+{
+  "word": "подручник",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "справочник",
+    "атлас",
+    "задачник"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'подручник'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'подручник'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'подручник', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "учебник, справочник, атлас, глоссарий, задачник, решебник, словарь, энциклопедия, брошюра, журнал, учебное пособие, альманах, сборник, практикум, довідник, каталог.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfQOFOy1bddatvXmbFI2ULBrSlcY', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='учебник, справочник, атлас, глоссарий, задачник, решебник, словарь, энциклопедия, брошюра, журнал, учебное пособие, альманах, сборник, практикум, довідник, каталог.', role='assistant', function_call=None, tool_calls=None))], created=1716142792, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=94, prompt_tokens=205, total_tokens=299))",
+    "distractor_analysis": [
+      {
+        "distractor": "учебник",
+        "lemma": "учебник",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (978)"
+      },
+      {
+        "distractor": "справочник",
+        "lemma": "справочник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (118)"
+      },
+      {
+        "distractor": "атлас",
+        "lemma": "атлас",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (92)"
+      },
+      {
+        "distractor": "глоссарий",
+        "lemma": "глоссарий",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "задачник",
+        "lemma": "задачник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (7)"
+      },
+      {
+        "distractor": "решебник",
+        "lemma": "решебникнуть",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "словарь",
+        "lemma": "словарь",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1107)"
+      },
+      {
+        "distractor": "энциклопедия",
+        "lemma": "энциклопедия",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (149)"
+      },
+      {
+        "distractor": "брошюра",
+        "lemma": "брошюра",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (22)"
+      },
+      {
+        "distractor": "журнал",
+        "lemma": "журнал",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (96.32)"
+      },
+      {
+        "distractor": "учебное пособие",
+        "lemma": "учебное пособие",
+        "is_valid": false,
+        "reason": "Содержит пробел"
+      },
+      {
+        "distractor": "альманах",
+        "lemma": "альманах",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.72)"
+      },
+      {
+        "distractor": "сборник",
+        "lemma": "сборник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (73)"
+      },
+      {
+        "distractor": "практикум",
+        "lemma": "практикум",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (17)"
+      },
+      {
+        "distractor": "довідник",
+        "lemma": "довідникнуть",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "каталог",
+        "lemma": "каталог",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (48)"
+      }
+    ],
+    "valid_distractors": [
+      "справочник",
+      "атлас",
+      "задачник",
+      "энциклопедия",
+      "брошюра",
+      "сборник",
+      "практикум",
+      "каталог"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'подручник' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'подручник', 'справочник', 'атлас', 'задачник' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "учебник",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfQQDMPMlklkuH7WmWtvdJh9Hvgo', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='учебник', role='assistant', function_call=None, tool_calls=None))], created=1716142794, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=3, prompt_tokens=202, total_tokens=205))",
+  "initial_definition": "учебник",
+  "final_definition": "учебник",
+  "formatted_definition": "учебник",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "учебник",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "учебник"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "учебник"
+          ],
+          "lemmas": [
+            "учебник"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "учебник",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-19-52",
+  "end_time": "2024.05.19 18-19-55"
+}

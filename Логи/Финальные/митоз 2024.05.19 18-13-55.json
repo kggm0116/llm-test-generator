@@ -1,0 +1,187 @@
+{
+  "word": "митоз",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "цитоплазма",
+    "митохондрия",
+    "хлоропласт"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'митоз'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'митоз'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'митоз', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "деление, кариотип, цитокинез, ядерная, цитоплазма, хромосома, клетка, метафаза, мейоз, ядерный, митохондрия, биология, геном, ДНК, ядро, хлоропласт",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfKdyLPc3vJiyt9UfIqQJBvGlBR7', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='деление, кариотип, цитокинез, ядерная, цитоплазма, хромосома, клетка, метафаза, мейоз, ядерный, митохондрия, биология, геном, ДНК, ядро, хлоропласт', role='assistant', function_call=None, tool_calls=None))], created=1716142435, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=87, prompt_tokens=199, total_tokens=286))",
+    "distractor_analysis": [
+      {
+        "distractor": "деление",
+        "lemma": "деление",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1853)"
+      },
+      {
+        "distractor": "кариотип",
+        "lemma": "кариотип",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "цитокинез",
+        "lemma": "цитокинез",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "ядерный",
+        "lemma": "ядерный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "цитоплазма",
+        "lemma": "цитоплазма",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (136)"
+      },
+      {
+        "distractor": "хромосома",
+        "lemma": "хромосома",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.07)"
+      },
+      {
+        "distractor": "клетка",
+        "lemma": "клетка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2037)"
+      },
+      {
+        "distractor": "метафаза",
+        "lemma": "метафаза",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "мейоз",
+        "lemma": "мейоз",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "митохондрия",
+        "lemma": "митохондрия",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (11)"
+      },
+      {
+        "distractor": "биология",
+        "lemma": "биология",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (254)"
+      },
+      {
+        "distractor": "геном",
+        "lemma": "геном",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "ДНК",
+        "lemma": "днк",
+        "is_valid": false,
+        "reason": "Содержит нежелательные NLTK-теги (Abbr)"
+      },
+      {
+        "distractor": "ядро",
+        "lemma": "ядро",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (261)"
+      },
+      {
+        "distractor": "хлоропласт",
+        "lemma": "хлоропласт",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (31)"
+      }
+    ],
+    "valid_distractors": [
+      "цитоплазма",
+      "митохондрия",
+      "хлоропласт"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'митоз' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'митоз', 'цитоплазма', 'митохондрия', 'хлоропласт' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Процесс деления клетки на две одинаковые части.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfKfhQy4C8JddAApaNGqQCQAXiDo', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Процесс деления клетки на две одинаковые части.', role='assistant', function_call=None, tool_calls=None))], created=1716142437, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=21, prompt_tokens=207, total_tokens=228))",
+  "initial_definition": "Процесс деления клетки на две одинаковые части",
+  "final_definition": "Процесс деления клетки на две одинаковые части",
+  "formatted_definition": "Процесс деления клетки на две одинаковые части",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Процесс деления клетки на две одинаковые части",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Процесс",
+            "деления",
+            "клетки",
+            "на",
+            "две",
+            "одинаковые",
+            "части"
+          ],
+          "removed_tokens": [
+            "две",
+            "на"
+          ],
+          "final_tokens": [
+            "Процесс",
+            "деления",
+            "клетки",
+            "одинаковые",
+            "части"
+          ],
+          "lemmas": [
+            "процесс",
+            "деление",
+            "клетка",
+            "одинаковый",
+            "часть"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "процесс",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "деление",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "клетка",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "одинаковый",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "часть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-13-55",
+  "end_time": "2024.05.19 18-13-58"
+}

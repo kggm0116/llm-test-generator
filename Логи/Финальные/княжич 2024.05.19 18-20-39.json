@@ -1,0 +1,171 @@
+{
+  "word": "княжич",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "королевич",
+    "барин",
+    "дружинник"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'княжич'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'княжич'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'княжич', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "королевич, барин, дружинник, боярин, монах, торговец, воин, пастушонок, холоп, купец, кмет, слуга, братец, бойцун, трубадур, герцог",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfRAUqTXdM8xxO9Cy1uYO7fkCSwW', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='королевич, барин, дружинник, боярин, монах, торговец, воин, пастушонок, холоп, купец, кмет, слуга, братец, бойцун, трубадур, герцог', role='assistant', function_call=None, tool_calls=None))], created=1716142840, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=80, prompt_tokens=202, total_tokens=282))",
+    "distractor_analysis": [
+      {
+        "distractor": "королевич",
+        "lemma": "королевич",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (6)"
+      },
+      {
+        "distractor": "барин",
+        "lemma": "барин",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (14)"
+      },
+      {
+        "distractor": "дружинник",
+        "lemma": "дружинник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (11)"
+      },
+      {
+        "distractor": "боярин",
+        "lemma": "боярин",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (58)"
+      },
+      {
+        "distractor": "монах",
+        "lemma": "монах",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (95)"
+      },
+      {
+        "distractor": "торговец",
+        "lemma": "торговец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (75)"
+      },
+      {
+        "distractor": "воин",
+        "lemma": "воин",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (509)"
+      },
+      {
+        "distractor": "пастушонок",
+        "lemma": "пастушонок",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "холоп",
+        "lemma": "холоп",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "купец",
+        "lemma": "купец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (147)"
+      },
+      {
+        "distractor": "кмет",
+        "lemma": "кмета",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "слуга",
+        "lemma": "слуга",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (99)"
+      },
+      {
+        "distractor": "братец",
+        "lemma": "братец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (36)"
+      },
+      {
+        "distractor": "бойцун",
+        "lemma": "бойцун",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "трубадур",
+        "lemma": "трубадур",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "герцог",
+        "lemma": "герцог",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      }
+    ],
+    "valid_distractors": [
+      "королевич",
+      "барин",
+      "дружинник",
+      "боярин",
+      "монах",
+      "торговец",
+      "купец",
+      "слуга",
+      "братец",
+      "герцог"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'княжич' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'княжич', 'королевич', 'барин', 'дружинник' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "сын князя.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfRB3S6yamCmk6oW81szoRDbabQI', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='сын князя.', role='assistant', function_call=None, tool_calls=None))], created=1716142841, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=7, prompt_tokens=202, total_tokens=209))",
+  "initial_definition": "сын князя",
+  "final_definition": "сын князя",
+  "formatted_definition": "сын князя",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "сын князя",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "сын",
+            "князя"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "сын",
+            "князя"
+          ],
+          "lemmas": [
+            "сын",
+            "князь"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "сын",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "князь",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-20-39",
+  "end_time": "2024.05.19 18-20-42"
+}

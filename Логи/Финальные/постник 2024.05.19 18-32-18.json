@@ -1,0 +1,171 @@
+{
+  "word": "постник",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "светильник"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'постник'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'постник'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'постник', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "иконар, светильник, церковник, дьячок, ризница, часовенщик, вертоградарь, лампадочник, прочтенец, кандалец, лампадник, алтарник, троестолец, меченосец, факир, канделябрист.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfcQwaZFDZsFuPvcwrNP9hR8gh4E', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='иконар, светильник, церковник, дьячок, ризница, часовенщик, вертоградарь, лампадочник, прочтенец, кандалец, лампадник, алтарник, троестолец, меченосец, факир, канделябрист.', role='assistant', function_call=None, tool_calls=None))], created=1716143538, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=97, prompt_tokens=199, total_tokens=296))",
+    "distractor_analysis": [
+      {
+        "distractor": "иконар",
+        "lemma": "иконары",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "светильник",
+        "lemma": "светильник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (60)"
+      },
+      {
+        "distractor": "церковник",
+        "lemma": "церковник",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.34)"
+      },
+      {
+        "distractor": "дьячок",
+        "lemma": "дьячок",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "ризница",
+        "lemma": "ризница",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "часовенщик",
+        "lemma": "часовенщик",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "вертоградарь",
+        "lemma": "вертоградарить",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "лампадочник",
+        "lemma": "лампадочник",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "прочтенец",
+        "lemma": "прочтенец",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "кандалец",
+        "lemma": "кандалец",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "лампадник",
+        "lemma": "лампадник",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "алтарник",
+        "lemma": "алтарник",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "троестолец",
+        "lemma": "троестолец",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "меченосец",
+        "lemma": "меченосец",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "факир",
+        "lemma": "факир",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "канделябрист",
+        "lemma": "канделябрист",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      }
+    ],
+    "valid_distractors": [
+      "светильник"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'постник' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'постник', 'светильник' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Человек, выполняющий освящение.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfcSk0T96DmtgOzjwPyXBgFgopla', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='\\nЧеловек, выполняющий освящение.', role='assistant', function_call=None, tool_calls=None))], created=1716143540, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=17, prompt_tokens=187, total_tokens=204))",
+  "initial_definition": "Человек, выполняющий освящение",
+  "final_definition": "Человек, выполняющий освящение",
+  "formatted_definition": "Человек, выполняющий освящение",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Человек, выполняющий освящение",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек",
+            ",",
+            "выполняющий",
+            "освящение"
+          ],
+          "removed_tokens": [
+            ","
+          ],
+          "final_tokens": [
+            "Человек",
+            "выполняющий",
+            "освящение"
+          ],
+          "lemmas": [
+            "человек",
+            "выполнять",
+            "освящение"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "выполнять",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "освящение",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-32-18",
+  "end_time": "2024.05.19 18-32-21"
+}

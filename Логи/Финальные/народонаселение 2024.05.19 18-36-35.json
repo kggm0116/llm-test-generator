@@ -1,0 +1,197 @@
+{
+  "word": "народонаселение",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "регион",
+    "мегаполис",
+    "провинция"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'народонаселение'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'народонаселение'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'народонаселение', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "город, село, столица, деревня, крупный, малонаселенный, регион, мегаполис, поселок, муниципалитет, мегаполис, провинция, квартал, дача, округ, община",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfgZHnjFeqPHf96mBLvPE0yKepOr', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='город, село, столица, деревня, крупный, малонаселенный, регион, мегаполис, поселок, муниципалитет, мегаполис, провинция, квартал, дача, округ, община', role='assistant', function_call=None, tool_calls=None))], created=1716143795, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=81, prompt_tokens=211, total_tokens=292))",
+    "distractor_analysis": [
+      {
+        "distractor": "город",
+        "lemma": "город",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3819)"
+      },
+      {
+        "distractor": "село",
+        "lemma": "село",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (457)"
+      },
+      {
+        "distractor": "столица",
+        "lemma": "столица",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (421)"
+      },
+      {
+        "distractor": "деревня",
+        "lemma": "деревня",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (580)"
+      },
+      {
+        "distractor": "крупный",
+        "lemma": "крупный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "малонаселенный",
+        "lemma": "малонаселённый",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "регион",
+        "lemma": "регион",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (53)"
+      },
+      {
+        "distractor": "мегаполис",
+        "lemma": "мегаполис",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (4.33)"
+      },
+      {
+        "distractor": "поселок",
+        "lemma": "посёлок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (251)"
+      },
+      {
+        "distractor": "муниципалитет",
+        "lemma": "муниципалитет",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.49)"
+      },
+      {
+        "distractor": "провинция",
+        "lemma": "провинция",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (179)"
+      },
+      {
+        "distractor": "квартал",
+        "lemma": "квартал",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (63)"
+      },
+      {
+        "distractor": "дача",
+        "lemma": "дача",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (74.0)"
+      },
+      {
+        "distractor": "округ",
+        "lemma": "округ",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (39)"
+      },
+      {
+        "distractor": "община",
+        "lemma": "община",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (236)"
+      }
+    ],
+    "valid_distractors": [
+      "регион",
+      "мегаполис",
+      "провинция",
+      "квартал",
+      "округ"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'народонаселение' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'народонаселение', 'регион', 'мегаполис', 'провинция' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Общее количество людей, проживающих в конкретной местности.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfgbYacL0a9PI0DdZ16HGOkmb8ji', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Общее количество людей, проживающих в конкретной местности.', role='assistant', function_call=None, tool_calls=None))], created=1716143797, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=24, prompt_tokens=208, total_tokens=232))",
+  "initial_definition": "Общее количество людей, проживающих в конкретной местности",
+  "final_definition": "Общее количество людей, проживающих в конкретной местности",
+  "formatted_definition": "Общее количество людей, проживающих в конкретной местности",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Общее количество людей, проживающих в конкретной местности",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Общее",
+            "количество",
+            "людей",
+            ",",
+            "проживающих",
+            "в",
+            "конкретной",
+            "местности"
+          ],
+          "removed_tokens": [
+            "в",
+            ","
+          ],
+          "final_tokens": [
+            "Общее",
+            "количество",
+            "людей",
+            "проживающих",
+            "конкретной",
+            "местности"
+          ],
+          "lemmas": [
+            "общий",
+            "количество",
+            "человек",
+            "проживать",
+            "конкретный",
+            "местность"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "общий",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "количество",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "проживать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "конкретный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "местность",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-36-35",
+  "end_time": "2024.05.19 18-36-38"
+}

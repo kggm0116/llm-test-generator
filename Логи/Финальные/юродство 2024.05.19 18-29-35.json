@@ -1,0 +1,201 @@
+{
+  "word": "юродство",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "комедия",
+    "драма",
+    "сатира"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'юродство'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'юродство'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'юродство', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "фарс, абсурд, анекдот, парадокс, эксцентрик, комедия, баффонада, интрига, скетч, аллегория, фарфель, интермедия, карикатура, гротеск, драма, сатира",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfZon6iKXwGIXJ0BcmOfrW0EsYR6', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='фарс, абсурд, анекдот, парадокс, эксцентрик, комедия, баффонада, интрига, скетч, аллегория, фарфель, интермедия, карикатура, гротеск, драма, сатира', role='assistant', function_call=None, tool_calls=None))], created=1716143376, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=90, prompt_tokens=205, total_tokens=295))",
+    "distractor_analysis": [
+      {
+        "distractor": "фарс",
+        "lemma": "фарс",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "абсурд",
+        "lemma": "абсурд",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "анекдот",
+        "lemma": "анекдот",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "парадокс",
+        "lemma": "парадокс",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "эксцентрик",
+        "lemma": "эксцентрик",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "комедия",
+        "lemma": "комедия",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (52)"
+      },
+      {
+        "distractor": "баффонада",
+        "lemma": "баффонада",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "интрига",
+        "lemma": "интрига",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "скетч",
+        "lemma": "скетч",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "аллегория",
+        "lemma": "аллегория",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.76)"
+      },
+      {
+        "distractor": "фарфель",
+        "lemma": "фарфель",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "интермедия",
+        "lemma": "интермедия",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "карикатура",
+        "lemma": "карикатура",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "гротеск",
+        "lemma": "гротеск",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "драма",
+        "lemma": "драма",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (7)"
+      },
+      {
+        "distractor": "сатира",
+        "lemma": "сатира",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (17)"
+      }
+    ],
+    "valid_distractors": [
+      "комедия",
+      "драма",
+      "сатира"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'юродство' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'юродство', 'комедия', 'драма', 'сатира' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Глупое, смешное поведение, действие, вызывающее насмешки.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfZpeg7RbtqnRCre8MzFjyMRik0X', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Глупое, смешное поведение, действие, вызывающее насмешки.', role='assistant', function_call=None, tool_calls=None))], created=1716143377, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=28, prompt_tokens=202, total_tokens=230))",
+  "initial_definition": "Глупое, смешное поведение, действие, вызывающее насмешки",
+  "final_definition": "Глупое, смешное поведение, действие, вызывающее насмешки",
+  "formatted_definition": "Глупое, смешное поведение, действие, вызывающее насмешки",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Глупое, смешное поведение, действие, вызывающее насмешки",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Глупое",
+            ",",
+            "смешное",
+            "поведение",
+            ",",
+            "действие",
+            ",",
+            "вызывающее",
+            "насмешки"
+          ],
+          "removed_tokens": [
+            ","
+          ],
+          "final_tokens": [
+            "Глупое",
+            "смешное",
+            "поведение",
+            "действие",
+            "вызывающее",
+            "насмешки"
+          ],
+          "lemmas": [
+            "глупый",
+            "смешной",
+            "поведение",
+            "действие",
+            "вызывающий",
+            "насмешка"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "глупый",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "смешной",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "поведение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "действие",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "вызывающий",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "насмешка",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-29-35",
+  "end_time": "2024.05.19 18-29-38"
+}

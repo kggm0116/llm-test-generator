@@ -1,0 +1,193 @@
+{
+  "word": "опока",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "сук",
+    "лужайка"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'опока'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'опока'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'опока', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Подснежник, скала, куст, земля, сук, дорога, конец, берег, песок, лужайка, растение, камень, свет, трава, кустарник, доска",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfTheSv7QHTPeb5SNqnA81WoZosF', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Подснежник, скала, куст, земля, сук, дорога, конец, берег, песок, лужайка, растение, камень, свет, трава, кустарник, доска', role='assistant', function_call=None, tool_calls=None))], created=1716142997, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=66, prompt_tokens=196, total_tokens=262))",
+    "distractor_analysis": [
+      {
+        "distractor": "Подснежник",
+        "lemma": "подснежник",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.49)"
+      },
+      {
+        "distractor": "скала",
+        "lemma": "скала",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (62.74)"
+      },
+      {
+        "distractor": "куст",
+        "lemma": "куст",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (296)"
+      },
+      {
+        "distractor": "земля",
+        "lemma": "земля",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (5025)"
+      },
+      {
+        "distractor": "сук",
+        "lemma": "сука",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (14)"
+      },
+      {
+        "distractor": "дорога",
+        "lemma": "дорога",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1204)"
+      },
+      {
+        "distractor": "конец",
+        "lemma": "конец",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1943)"
+      },
+      {
+        "distractor": "берег",
+        "lemma": "берег",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1026)"
+      },
+      {
+        "distractor": "песок",
+        "lemma": "песок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (355)"
+      },
+      {
+        "distractor": "лужайка",
+        "lemma": "лужайка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (28)"
+      },
+      {
+        "distractor": "растение",
+        "lemma": "растение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4254)"
+      },
+      {
+        "distractor": "камень",
+        "lemma": "камень",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (760)"
+      },
+      {
+        "distractor": "свет",
+        "lemma": "свет",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1243)"
+      },
+      {
+        "distractor": "трава",
+        "lemma": "трава",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (831)"
+      },
+      {
+        "distractor": "кустарник",
+        "lemma": "кустарник",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (226)"
+      },
+      {
+        "distractor": "доска",
+        "lemma": "доска",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (396)"
+      }
+    ],
+    "valid_distractors": [
+      "сук",
+      "лужайка"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'опока' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'опока', 'сук', 'лужайка' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Место, часть земли на пригорке или холме.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfTj7R6ZZtAef1Sm0C15leGdJbHh', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Место, часть земли на пригорке или холме.', role='assistant', function_call=None, tool_calls=None))], created=1716142999, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=21, prompt_tokens=189, total_tokens=210))",
+  "initial_definition": "Место, часть земли на пригорке или холме",
+  "final_definition": "Место, часть земли на пригорке или холме",
+  "formatted_definition": "Место, часть земли на пригорке или холме",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Место, часть земли на пригорке или холме",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Место",
+            ",",
+            "часть",
+            "земли",
+            "на",
+            "пригорке",
+            "или",
+            "холме"
+          ],
+          "removed_tokens": [
+            "или",
+            "на",
+            ","
+          ],
+          "final_tokens": [
+            "Место",
+            "часть",
+            "земли",
+            "пригорке",
+            "холме"
+          ],
+          "lemmas": [
+            "место",
+            "часть",
+            "земля",
+            "пригорок",
+            "холм"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "место",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "часть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "земля",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "пригорок",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "холм",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-23-17",
+  "end_time": "2024.05.19 18-23-20"
+}

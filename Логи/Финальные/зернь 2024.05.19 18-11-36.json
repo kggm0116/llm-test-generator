@@ -1,0 +1,270 @@
+{
+  "word": "зернь",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "Зерновка",
+    "зернышко",
+    "семечко"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'зернь'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'зернь'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'зернь', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Зерновка, зернышко, крупинка, кочан, семечко, зернопродукт, зерно, крупа, боб, зернинка, зерносемя, зерновой, зернотрость, зернопашня, зернотерка, крупица.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfIP6SkgWHQjyxDYmvJ2JAs8zviG', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Зерновка, зернышко, крупинка, кочан, семечко, зернопродукт, зерно, крупа, боб, зернинка, зерносемя, зерновой, зернотрость, зернопашня, зернотерка, крупица.', role='assistant', function_call=None, tool_calls=None))], created=1716142297, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=90, prompt_tokens=202, total_tokens=292))",
+    "distractor_analysis": [
+      {
+        "distractor": "Зерновка",
+        "lemma": "зерновка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (13)"
+      },
+      {
+        "distractor": "зернышко",
+        "lemma": "зёрнышко",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (30)"
+      },
+      {
+        "distractor": "крупинка",
+        "lemma": "крупинка",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.99)"
+      },
+      {
+        "distractor": "кочан",
+        "lemma": "кочан",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.83)"
+      },
+      {
+        "distractor": "семечко",
+        "lemma": "семечко",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (28)"
+      },
+      {
+        "distractor": "зернопродукт",
+        "lemma": "зернопродукт",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "зерно",
+        "lemma": "зерно",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (427)"
+      },
+      {
+        "distractor": "крупа",
+        "lemma": "крупа",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (92)"
+      },
+      {
+        "distractor": "боб",
+        "lemma": "боб",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (15.62)"
+      },
+      {
+        "distractor": "зернинка",
+        "lemma": "зернинка",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "зерносемя",
+        "lemma": "зерносемя",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "зерновой",
+        "lemma": "зерновой",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "зернотрость",
+        "lemma": "зернотрость",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "зернопашня",
+        "lemma": "зернопашень",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "зернотерка",
+        "lemma": "зернотёрка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (35)"
+      },
+      {
+        "distractor": "крупица",
+        "lemma": "крупица",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      }
+    ],
+    "valid_distractors": [
+      "Зерновка",
+      "зернышко",
+      "семечко",
+      "крупа",
+      "боб",
+      "зернотерка"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'зернь' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'зернь', 'Зерновка', 'зернышко', 'семечко' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "единичное плодовое зерно растений, содержащее семена.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfIRLFjCxIuW7pnHFqo6QJuFxmMi', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='единичное плодовое зерно растений, содержащее семена.', role='assistant', function_call=None, tool_calls=None))], created=1716142299, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=24, prompt_tokens=202, total_tokens=226))",
+  "initial_definition": "единичное плодовое зерно растений, содержащее семена",
+  "final_definition": "Одно из плодов растений, содержащее семена.",
+  "formatted_definition": "Одно из плодов растений, содержащее семена",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Одно из плодов растений, содержащее семена.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "единичное",
+            "плодовое",
+            "зерно",
+            "растений",
+            ",",
+            "содержащее",
+            "семена"
+          ],
+          "removed_tokens": [
+            ","
+          ],
+          "final_tokens": [
+            "единичное",
+            "плодовое",
+            "зерно",
+            "растений",
+            "содержащее",
+            "семена"
+          ],
+          "lemmas": [
+            "единичный",
+            "плодовый",
+            "зерно",
+            "растение",
+            "содержать",
+            "семя"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "единичный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "плодовый",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (1.57)"
+          },
+          {
+            "lemma": "зерно",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "растение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "содержать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "семя",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "плодовый"
+        ],
+        "correction_prompt": "Исправь толкование 'единичное плодовое зерно растений, содержащее семена' для слова 'зернь' так, чтобы в нем не использовались слова 'зернь', 'семечко', 'зернышко', 'плодовый', 'Зерновка' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Одно из плодов растений, содержащее семена.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfIRzKpra1cHzEZT4rLhmL3kclch', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Одно из плодов растений, содержащее семена.', role='assistant', function_call=None, tool_calls=None))], created=1716142299, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=20, prompt_tokens=243, total_tokens=263))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Одно из плодов растений, содержащее семена.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Одно",
+            "из",
+            "плодов",
+            "растений",
+            ",",
+            "содержащее",
+            "семена"
+          ],
+          "removed_tokens": [
+            "из",
+            ","
+          ],
+          "final_tokens": [
+            "Одно",
+            "плодов",
+            "растений",
+            "содержащее",
+            "семена"
+          ],
+          "lemmas": [
+            "один",
+            "плод",
+            "растение",
+            "содержать",
+            "семя"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "один",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (33.34)"
+          },
+          {
+            "lemma": "плод",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "растение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "содержать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "семя",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-11-36",
+  "end_time": "2024.05.19 18-11-40"
+}

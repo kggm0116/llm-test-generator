@@ -1,0 +1,181 @@
+{
+  "word": "объездчик",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "тренер",
+    "грива",
+    "седло"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'объездчик'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'объездчик'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'объездчик', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "жокей, тренер, конюх, степь, стремянка, грива, манеж, седло, летописец, профан, выездка, ферма, препона, галоп, рысь, ипподром",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfdYHRxFr2budaOirHLcPrQmaRhk', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='жокей, тренер, конюх, степь, стремянка, грива, манеж, седло, летописец, профан, выездка, ферма, препона, галоп, рысь, ипподром', role='assistant', function_call=None, tool_calls=None))], created=1716143608, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=73, prompt_tokens=208, total_tokens=281))",
+    "distractor_analysis": [
+      {
+        "distractor": "жокей",
+        "lemma": "жокей",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "тренер",
+        "lemma": "тренер",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (12)"
+      },
+      {
+        "distractor": "конюх",
+        "lemma": "конюх",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "степь",
+        "lemma": "степь",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (408)"
+      },
+      {
+        "distractor": "стремянка",
+        "lemma": "стремянка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "грива",
+        "lemma": "грива",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (94)"
+      },
+      {
+        "distractor": "манеж",
+        "lemma": "манеж",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "седло",
+        "lemma": "седло",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (13)"
+      },
+      {
+        "distractor": "летописец",
+        "lemma": "летописец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (22)"
+      },
+      {
+        "distractor": "профан",
+        "lemma": "профан",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.49)"
+      },
+      {
+        "distractor": "выездка",
+        "lemma": "выездка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (6)"
+      },
+      {
+        "distractor": "ферма",
+        "lemma": "ферма",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (48)"
+      },
+      {
+        "distractor": "препона",
+        "lemma": "препона",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.07)"
+      },
+      {
+        "distractor": "галоп",
+        "lemma": "галоп",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "рысь",
+        "lemma": "рысь",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (39)"
+      },
+      {
+        "distractor": "ипподром",
+        "lemma": "ипподром",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.76)"
+      }
+    ],
+    "valid_distractors": [
+      "тренер",
+      "грива",
+      "седло",
+      "летописец",
+      "выездка",
+      "ферма",
+      "рысь"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'объездчик' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'объездчик', 'тренер', 'грива', 'седло' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Человек, работающий с лошадьми.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfdaOKxUd0RqOMdT9kACXTziNy6P', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Человек, работающий с лошадьми.', role='assistant', function_call=None, tool_calls=None))], created=1716143610, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=17, prompt_tokens=204, total_tokens=221))",
+  "initial_definition": "Человек, работающий с лошадьми",
+  "final_definition": "Человек, работающий с лошадьми",
+  "formatted_definition": "Человек, работающий с лошадьми",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Человек, работающий с лошадьми",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек",
+            ",",
+            "работающий",
+            "с",
+            "лошадьми"
+          ],
+          "removed_tokens": [
+            ",",
+            "с"
+          ],
+          "final_tokens": [
+            "Человек",
+            "работающий",
+            "лошадьми"
+          ],
+          "lemmas": [
+            "человек",
+            "работать",
+            "лошадь"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "работать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "лошадь",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-33-28",
+  "end_time": "2024.05.19 18-33-31"
+}

@@ -1,0 +1,248 @@
+{
+  "word": "галицкий",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "мотылек",
+    "верблюд",
+    "ястреб"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'галицкий'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'галицкий'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'галицкий', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "гербель, мотылек, кулик, медведь, верблюд, ястреб, журавль, ежик, козел, козлёнок, медвежонок, лисёнок, гнездо, ботинок, механизм, орудие",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfR35B4KXUI6AG9FlxVQd3bqBMKR', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='гербель, мотылек, кулик, медведь, верблюд, ястреб, журавль, ежик, козел, козлёнок, медвежонок, лисёнок, гнездо, ботинок, механизм, орудие', role='assistant', function_call=None, tool_calls=None))], created=1716142833, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=84, prompt_tokens=205, total_tokens=289))",
+    "distractor_analysis": [
+      {
+        "distractor": "гербель",
+        "lemma": "гербель",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "мотылек",
+        "lemma": "мотылёк",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (24)"
+      },
+      {
+        "distractor": "кулик",
+        "lemma": "кулик",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "медведь",
+        "lemma": "медведь",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (418)"
+      },
+      {
+        "distractor": "верблюд",
+        "lemma": "верблюд",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (103)"
+      },
+      {
+        "distractor": "ястреб",
+        "lemma": "ястреб",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (34)"
+      },
+      {
+        "distractor": "журавль",
+        "lemma": "журавль",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (129)"
+      },
+      {
+        "distractor": "ежик",
+        "lemma": "ёжик",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (54)"
+      },
+      {
+        "distractor": "козел",
+        "lemma": "козёл",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (26)"
+      },
+      {
+        "distractor": "козлёнок",
+        "lemma": "козлёнок",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (28)"
+      },
+      {
+        "distractor": "медвежонок",
+        "lemma": "медвежонок",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (103)"
+      },
+      {
+        "distractor": "лисёнок",
+        "lemma": "лисёнок",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (36)"
+      },
+      {
+        "distractor": "гнездо",
+        "lemma": "гнездо",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (311)"
+      },
+      {
+        "distractor": "ботинок",
+        "lemma": "ботинок",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (51.95)"
+      },
+      {
+        "distractor": "механизм",
+        "lemma": "механизм",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (52.87)"
+      },
+      {
+        "distractor": "орудие",
+        "lemma": "орудие",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (227)"
+      }
+    ],
+    "valid_distractors": [
+      "мотылек",
+      "верблюд",
+      "ястреб",
+      "журавль",
+      "ежик",
+      "козел",
+      "козлёнок",
+      "медвежонок",
+      "лисёнок"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'галицкий' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'галицкий', 'мотылек', 'верблюд', 'ястреб' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "жителем Галиции",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfR4ozmLC5NrLe4aJ2d7CipQMR8I', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='жителем Галиции', role='assistant', function_call=None, tool_calls=None))], created=1716142834, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=7, prompt_tokens=202, total_tokens=209))",
+  "initial_definition": "жителем Галиции",
+  "final_definition": "Человек, живущий в историческом регионе на западе Украины.",
+  "formatted_definition": "Человек, живущий в историческом регионе на западе Украины",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Человек, живущий в историческом регионе на западе Украины.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "жителем",
+            "Галиции"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "жителем",
+            "Галиции"
+          ],
+          "lemmas": [
+            "житель",
+            "галиция"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "житель",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "галиция",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "галиция"
+        ],
+        "correction_prompt": "Исправь толкование 'жителем Галиции' для слова 'галицкий' так, чтобы в нем не использовались слова 'галицкий', 'верблюд', 'ястреб', 'мотылек', 'галиция' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Человек, живущий в историческом регионе на западе Украины.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfR5Ej0f3yMlHc9eA7md9jl8zItb', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Человек, живущий в историческом регионе на западе Украины.', role='assistant', function_call=None, tool_calls=None))], created=1716142835, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=31, prompt_tokens=225, total_tokens=256))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Человек, живущий в историческом регионе на западе Украины.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек",
+            ",",
+            "живущий",
+            "в",
+            "историческом",
+            "регионе",
+            "на",
+            "западе",
+            "Украины"
+          ],
+          "removed_tokens": [
+            "в",
+            ",",
+            "на"
+          ],
+          "final_tokens": [
+            "Человек",
+            "живущий",
+            "историческом",
+            "регионе",
+            "западе",
+            "Украины"
+          ],
+          "lemmas": [
+            "человек",
+            "жить",
+            "исторический",
+            "регион",
+            "запад",
+            "украина"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "жить",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "исторический",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "регион",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "запад",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "украина",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-20-32",
+  "end_time": "2024.05.19 18-20-36"
+}

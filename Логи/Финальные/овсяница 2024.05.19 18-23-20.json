@@ -1,0 +1,187 @@
+{
+  "word": "овсяница",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "Каша",
+    "крупа",
+    "зерновка"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'овсяница'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'овсяница'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'овсяница', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Каша, крупа, зерновка, овес, суп, завтрак, здоровье, растение, урожай, поляна, поле, продукт, еда, пища, культура, фарш.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfTkG9ApN6VzIILm73KK2GPTLY0W', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Каша, крупа, зерновка, овес, суп, завтрак, здоровье, растение, урожай, поляна, поле, продукт, еда, пища, культура, фарш.', role='assistant', function_call=None, tool_calls=None))], created=1716143000, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=69, prompt_tokens=202, total_tokens=271))",
+    "distractor_analysis": [
+      {
+        "distractor": "Каша",
+        "lemma": "каша",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (126)"
+      },
+      {
+        "distractor": "крупа",
+        "lemma": "крупа",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (92)"
+      },
+      {
+        "distractor": "зерновка",
+        "lemma": "зерновка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (13)"
+      },
+      {
+        "distractor": "овес",
+        "lemma": "овёс",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (76)"
+      },
+      {
+        "distractor": "суп",
+        "lemma": "суп",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (69)"
+      },
+      {
+        "distractor": "завтрак",
+        "lemma": "завтрак",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (91)"
+      },
+      {
+        "distractor": "здоровье",
+        "lemma": "здоровье",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (238)"
+      },
+      {
+        "distractor": "растение",
+        "lemma": "растение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4254)"
+      },
+      {
+        "distractor": "урожай",
+        "lemma": "урожай",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (337)"
+      },
+      {
+        "distractor": "поляна",
+        "lemma": "поляна",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (171)"
+      },
+      {
+        "distractor": "поле",
+        "lemma": "поле",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1462)"
+      },
+      {
+        "distractor": "продукт",
+        "lemma": "продукт",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (349)"
+      },
+      {
+        "distractor": "еда",
+        "lemma": "еда",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (217)"
+      },
+      {
+        "distractor": "пища",
+        "lemma": "пища",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (669)"
+      },
+      {
+        "distractor": "культура",
+        "lemma": "культура",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (729)"
+      },
+      {
+        "distractor": "фарш",
+        "lemma": "фарш",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      }
+    ],
+    "valid_distractors": [
+      "Каша",
+      "крупа",
+      "зерновка",
+      "овес",
+      "суп",
+      "завтрак",
+      "поляна"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'овсяница' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'овсяница', 'Каша', 'крупа', 'зерновка' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Пища из растения семейства Паслёновых.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfTlrkRTvEPvRJr1UPTZc2ySvtOS', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Пища из растения семейства Паслёновых.', role='assistant', function_call=None, tool_calls=None))], created=1716143001, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=19, prompt_tokens=200, total_tokens=219))",
+  "initial_definition": "Пища из растения семейства Паслёновых",
+  "final_definition": "Пища из растения семейства Паслёновых",
+  "formatted_definition": "Пища из растения семейства Паслёновых",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Пища из растения семейства Паслёновых",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Пища",
+            "из",
+            "растения",
+            "семейства",
+            "Паслёновых"
+          ],
+          "removed_tokens": [
+            "из"
+          ],
+          "final_tokens": [
+            "Пища",
+            "растения",
+            "семейства",
+            "Паслёновых"
+          ],
+          "lemmas": [
+            "пища",
+            "растение",
+            "семейство",
+            "паслёновый"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "пища",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "растение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "семейство",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "паслёновый",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-23-20",
+  "end_time": "2024.05.19 18-23-22"
+}

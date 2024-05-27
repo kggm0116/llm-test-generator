@@ -1,0 +1,241 @@
+{
+  "word": "авар",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "пожарище",
+    "пламя",
+    "пожарник"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'авар'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'авар'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'авар', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Пожар, пожарище, огонь, горение, пламя, дым, угар, пожарник, пожарная, пожароопасность, эвакуация, служба, тушение, пожаротушение, безопасность, аварийная.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfJ0zclwzaml7cNOibr28bYfApop', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Пожар, пожарище, огонь, горение, пламя, дым, угар, пожарник, пожарная, пожароопасность, эвакуация, служба, тушение, пожаротушение, безопасность, аварийная.', role='assistant', function_call=None, tool_calls=None))], created=1716142334, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=85, prompt_tokens=196, total_tokens=281))",
+    "distractor_analysis": [
+      {
+        "distractor": "Пожар",
+        "lemma": "пожар",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (55.74)"
+      },
+      {
+        "distractor": "пожарище",
+        "lemma": "пожарище",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (6)"
+      },
+      {
+        "distractor": "огонь",
+        "lemma": "огонь",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (413)"
+      },
+      {
+        "distractor": "горение",
+        "lemma": "горение",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.45)"
+      },
+      {
+        "distractor": "пламя",
+        "lemma": "пламя",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (54)"
+      },
+      {
+        "distractor": "дым",
+        "lemma": "дым",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (116.88)"
+      },
+      {
+        "distractor": "угар",
+        "lemma": "угар",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.68)"
+      },
+      {
+        "distractor": "пожарник",
+        "lemma": "пожарник",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (5.02)"
+      },
+      {
+        "distractor": "пожарная",
+        "lemma": "пожарный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "пожароопасность",
+        "lemma": "пожароопасность",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "эвакуация",
+        "lemma": "эвакуация",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "служба",
+        "lemma": "служба",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (172.16)"
+      },
+      {
+        "distractor": "тушение",
+        "lemma": "тушение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "пожаротушение",
+        "lemma": "пожаротушение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "безопасность",
+        "lemma": "безопасность",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (69.06)"
+      },
+      {
+        "distractor": "аварийная",
+        "lemma": "аварийный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      }
+    ],
+    "valid_distractors": [
+      "пожарище",
+      "пламя",
+      "пожарник"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'авар' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'авар', 'пожарище', 'пламя', 'пожарник' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Сильное горение с разрушением.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfJ21C9FEJgh6bUqo3KtZF3JqDaZ', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Сильное горение с разрушением.', role='assistant', function_call=None, tool_calls=None))], created=1716142336, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=13, prompt_tokens=199, total_tokens=212))",
+  "initial_definition": "Сильное горение с разрушением",
+  "final_definition": "Сильное разрушение объекта из-за воздействия огня.",
+  "formatted_definition": "Сильное разрушение объекта из-за воздействия огня",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Сильное разрушение объекта из-за воздействия огня.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Сильное",
+            "горение",
+            "с",
+            "разрушением"
+          ],
+          "removed_tokens": [
+            "с"
+          ],
+          "final_tokens": [
+            "Сильное",
+            "горение",
+            "разрушением"
+          ],
+          "lemmas": [
+            "сильный",
+            "горение",
+            "разрушение"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "сильный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "горение",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (2.45)"
+          },
+          {
+            "lemma": "разрушение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "горение"
+        ],
+        "correction_prompt": "Исправь толкование 'Сильное горение с разрушением' для слова 'авар' так, чтобы в нем не использовались слова 'авар', 'горение', 'пламя', 'пожарник', 'пожарище' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Сильное разрушение объекта из-за воздействия огня.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfJ3kr9kdpMKR7U9IBofDWY65iOp', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Сильное разрушение объекта из-за воздействия огня.', role='assistant', function_call=None, tool_calls=None))], created=1716142337, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=21, prompt_tokens=227, total_tokens=248))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Сильное разрушение объекта из-за воздействия огня.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Сильное",
+            "разрушение",
+            "объекта",
+            "из-за",
+            "воздействия",
+            "огня"
+          ],
+          "removed_tokens": [
+            "из-за"
+          ],
+          "final_tokens": [
+            "Сильное",
+            "разрушение",
+            "объекта",
+            "воздействия",
+            "огня"
+          ],
+          "lemmas": [
+            "сильный",
+            "разрушение",
+            "объект",
+            "воздействие",
+            "огонь"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "сильный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "разрушение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "объект",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "воздействие",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "огонь",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-12-14",
+  "end_time": "2024.05.19 18-12-18"
+}

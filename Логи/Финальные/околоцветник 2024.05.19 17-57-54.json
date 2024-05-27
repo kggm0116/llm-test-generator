@@ -1,0 +1,180 @@
+{
+  "word": "околоцветник",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "метелка",
+    "зелень",
+    "сирень"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'околоцветник'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'околоцветник'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'околоцветник', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Расплод, цветущее, гипсофила, зевок, метелка, розовկ, красноцвет, белозуб, скрасок, заснеженность, бежинец, неболевка, ковшечка, зелень, сирень, лишайник.",
+    "response_details": "ChatCompletion(id='chatcmpl-9Qf59KgqFfrqqLgIRp5rflj2GJHM3', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Расплод, цветущее, гипсофила, зевок, метелка, розовկ, красноцвет, белозуб, скрасок, заснеженность, бежинец, неболевка, ковшечка, зелень, сирень, лишайник.', role='assistant', function_call=None, tool_calls=None))], created=1716141475, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=89, prompt_tokens=208, total_tokens=297))",
+    "distractor_analysis": [
+      {
+        "distractor": "Расплод",
+        "lemma": "расплод",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "цветущее",
+        "lemma": "цветущий",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "гипсофила",
+        "lemma": "гипсофил",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "зевок",
+        "lemma": "зевок",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.19)"
+      },
+      {
+        "distractor": "метелка",
+        "lemma": "метёлка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (8)"
+      },
+      {
+        "distractor": "розовկ",
+        "lemma": "розовկ",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "красноцвет",
+        "lemma": "красноцвет",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "белозуб",
+        "lemma": "белозубый",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "скрасок",
+        "lemma": "скраска",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "заснеженность",
+        "lemma": "заснеженность",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "бежинец",
+        "lemma": "бежинец",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "неболевка",
+        "lemma": "неболёвка",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "ковшечка",
+        "lemma": "ковшечка",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "зелень",
+        "lemma": "зелень",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (94)"
+      },
+      {
+        "distractor": "сирень",
+        "lemma": "сирень",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (90)"
+      },
+      {
+        "distractor": "лишайник",
+        "lemma": "лишайник",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (253)"
+      }
+    ],
+    "valid_distractors": [
+      "метелка",
+      "зелень",
+      "сирень"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'околоцветник' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'околоцветник', 'метелка', 'зелень', 'сирень' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "растение, цветущее вблизи других растений",
+  "response_details": "ChatCompletion(id='chatcmpl-9Qf5BMoWw8wqzDcQimBcRZuZWuDdl', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='растение, цветущее вблизи других растений', role='assistant', function_call=None, tool_calls=None))], created=1716141477, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=18, prompt_tokens=203, total_tokens=221))",
+  "initial_definition": "растение, цветущее вблизи других растений",
+  "final_definition": "растение, цветущее вблизи других растений",
+  "formatted_definition": "растение, цветущее вблизи других растений",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "растение, цветущее вблизи других растений",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "растение",
+            ",",
+            "цветущее",
+            "вблизи",
+            "других",
+            "растений"
+          ],
+          "removed_tokens": [
+            ",",
+            "вблизи"
+          ],
+          "final_tokens": [
+            "растение",
+            "цветущее",
+            "других",
+            "растений"
+          ],
+          "lemmas": [
+            "растение",
+            "цветущий",
+            "другой",
+            "растение"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "растение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "цветущий",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "другой",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (1577.31)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 17-57-54",
+  "end_time": "2024.05.19 17-57-57"
+}

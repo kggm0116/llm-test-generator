@@ -1,0 +1,176 @@
+{
+  "word": "уценить",
+  "class": 6,
+  "pos": "INFN",
+  "distractors": [
+    "рассчитать",
+    "исправить",
+    "оценить"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'уценить'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'уценить'. Слова должны быть части речи INFN. Желательно, чтобы слова соответствовали предметной области слова 'уценить', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "ошибить, рассчитать, исправить, обсчитать, просчитать, возомнить, оценить, запутать, разгадать, изменить, предсказать, заметать, отсчитать, радовать, оценить, благодарить",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfWJ8HEobmjQ9NY4wmprYCwseMXJ', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='ошибить, рассчитать, исправить, обсчитать, просчитать, возомнить, оценить, запутать, разгадать, изменить, предсказать, заметать, отсчитать, радовать, оценить, благодарить', role='assistant', function_call=None, tool_calls=None))], created=1716143159, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=75, prompt_tokens=202, total_tokens=277))",
+    "distractor_analysis": [
+      {
+        "distractor": "ошибить",
+        "lemma": "ошибить",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "рассчитать",
+        "lemma": "рассчитать",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (58)"
+      },
+      {
+        "distractor": "исправить",
+        "lemma": "исправить",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (190)"
+      },
+      {
+        "distractor": "обсчитать",
+        "lemma": "обсчитать",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "просчитать",
+        "lemma": "просчитать",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "возомнить",
+        "lemma": "возомнить",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.76)"
+      },
+      {
+        "distractor": "оценить",
+        "lemma": "оценить",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (131)"
+      },
+      {
+        "distractor": "запутать",
+        "lemma": "запутать",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (10)"
+      },
+      {
+        "distractor": "разгадать",
+        "lemma": "разгадать",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (59)"
+      },
+      {
+        "distractor": "изменить",
+        "lemma": "изменить",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (553)"
+      },
+      {
+        "distractor": "предсказать",
+        "lemma": "предсказать",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (18)"
+      },
+      {
+        "distractor": "заметать",
+        "lemma": "заметать",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (7)"
+      },
+      {
+        "distractor": "отсчитать",
+        "lemma": "отсчитать",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (18)"
+      },
+      {
+        "distractor": "радовать",
+        "lemma": "радовать",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (67)"
+      },
+      {
+        "distractor": "благодарить",
+        "lemma": "благодарить",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (77)"
+      }
+    ],
+    "valid_distractors": [
+      "рассчитать",
+      "исправить",
+      "оценить",
+      "запутать",
+      "разгадать",
+      "предсказать",
+      "заметать",
+      "отсчитать",
+      "радовать",
+      "благодарить"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'уценить' части речи INFN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'уценить', 'рассчитать', 'исправить', 'оценить' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "сделать цену ниже начальной.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfWKhDafU1QA3ykX5ygr6iUsaQFI', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='сделать цену ниже начальной.', role='assistant', function_call=None, tool_calls=None))], created=1716143160, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=13, prompt_tokens=200, total_tokens=213))",
+  "initial_definition": "сделать цену ниже начальной",
+  "final_definition": "сделать цену ниже начальной",
+  "formatted_definition": "сделать цену ниже начальной",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "сделать цену ниже начальной",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "сделать",
+            "цену",
+            "ниже",
+            "начальной"
+          ],
+          "removed_tokens": [
+            "ниже"
+          ],
+          "final_tokens": [
+            "сделать",
+            "цену",
+            "начальной"
+          ],
+          "lemmas": [
+            "сделать",
+            "цена",
+            "начальный"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "сделать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "цена",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "начальный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-25-58",
+  "end_time": "2024.05.19 18-26-01"
+}

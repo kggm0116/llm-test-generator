@@ -1,0 +1,176 @@
+{
+  "word": "квартирант",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "владелец",
+    "постояльцы",
+    "проживающий"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'квартирант'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'квартирант'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'квартирант', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "сосед, арендатор, владелец, постоялец, проживающий, наниматель, постельщик, гость, постоялье, жильцов, постояльцы, въезжающий, нанимаемый, посторонний, контрагент, наниматель.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfdBeE0o0g7YUEIvDWaPRLN81P9U', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='сосед, арендатор, владелец, постоялец, проживающий, наниматель, постельщик, гость, постоялье, жильцов, постояльцы, въезжающий, нанимаемый, посторонний, контрагент, наниматель.', role='assistant', function_call=None, tool_calls=None))], created=1716143585, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=92, prompt_tokens=208, total_tokens=300))",
+    "distractor_analysis": [
+      {
+        "distractor": "сосед",
+        "lemma": "сосед",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (273)"
+      },
+      {
+        "distractor": "арендатор",
+        "lemma": "арендатор",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "владелец",
+        "lemma": "владелец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (58)"
+      },
+      {
+        "distractor": "постояльцы",
+        "lemma": "постоялец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "проживающий",
+        "lemma": "проживать",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (79)"
+      },
+      {
+        "distractor": "наниматель",
+        "lemma": "наниматель",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "постельщик",
+        "lemma": "постельщик",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "гость",
+        "lemma": "гость",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (337)"
+      },
+      {
+        "distractor": "постоялье",
+        "lemma": "постоялье",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "жильцов",
+        "lemma": "жилец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (28)"
+      },
+      {
+        "distractor": "въезжающий",
+        "lemma": "въезжать",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (8)"
+      },
+      {
+        "distractor": "нанимаемый",
+        "lemma": "нанимать",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (9)"
+      },
+      {
+        "distractor": "посторонний",
+        "lemma": "посторонний",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "контрагент",
+        "lemma": "контрагент",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      }
+    ],
+    "valid_distractors": [
+      "владелец",
+      "постояльцы",
+      "проживающий",
+      "жильцов",
+      "въезжающий",
+      "нанимаемый"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'квартирант' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'квартирант', 'владелец', 'постояльцы', 'проживающий' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Человек, находящийся в арендованной квартире.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfdDlZsuKEBDDeRiKjahdY4TWpdY', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Человек, находящийся в арендованной квартире.', role='assistant', function_call=None, tool_calls=None))], created=1716143587, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=26, prompt_tokens=210, total_tokens=236))",
+  "initial_definition": "Человек, находящийся в арендованной квартире",
+  "final_definition": "Человек, находящийся в арендованной квартире",
+  "formatted_definition": "Человек, находящийся в арендованной квартире",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Человек, находящийся в арендованной квартире",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек",
+            ",",
+            "находящийся",
+            "в",
+            "арендованной",
+            "квартире"
+          ],
+          "removed_tokens": [
+            "в",
+            ","
+          ],
+          "final_tokens": [
+            "Человек",
+            "находящийся",
+            "арендованной",
+            "квартире"
+          ],
+          "lemmas": [
+            "человек",
+            "находиться",
+            "арендовать",
+            "квартира"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "находиться",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "арендовать",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          },
+          {
+            "lemma": "квартира",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-33-04",
+  "end_time": "2024.05.19 18-33-07"
+}

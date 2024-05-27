@@ -1,0 +1,360 @@
+{
+  "word": "ушкуйник",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "сокол",
+    "крот",
+    "скворец"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'ушкуйник'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'ушкуйник'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'ушкуйник', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "сокол, крот, лосось, косуля, белка, кулик, скворец, кукушка, чайка, улитка, медведь, кузнечик, воробей, ястреб, лебедь, олень",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfVXrHL7b5j9WguOLBYP8VxzNx5h', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='сокол, крот, лосось, косуля, белка, кулик, скворец, кукушка, чайка, улитка, медведь, кузнечик, воробей, ястреб, лебедь, олень', role='assistant', function_call=None, tool_calls=None))], created=1716143111, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=76, prompt_tokens=205, total_tokens=281))",
+    "distractor_analysis": [
+      {
+        "distractor": "сокол",
+        "lemma": "сокол",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (45)"
+      },
+      {
+        "distractor": "крот",
+        "lemma": "крот",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (54)"
+      },
+      {
+        "distractor": "лосось",
+        "lemma": "лосось",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "косуля",
+        "lemma": "косуля",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.18)"
+      },
+      {
+        "distractor": "белка",
+        "lemma": "белок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (264)"
+      },
+      {
+        "distractor": "кулик",
+        "lemma": "кулик",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "скворец",
+        "lemma": "скворец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (108)"
+      },
+      {
+        "distractor": "кукушка",
+        "lemma": "кукушка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (55)"
+      },
+      {
+        "distractor": "чайка",
+        "lemma": "чайка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (38)"
+      },
+      {
+        "distractor": "улитка",
+        "lemma": "улитка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (71)"
+      },
+      {
+        "distractor": "медведь",
+        "lemma": "медведь",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (418)"
+      },
+      {
+        "distractor": "кузнечик",
+        "lemma": "кузнечик",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (121)"
+      },
+      {
+        "distractor": "воробей",
+        "lemma": "воробей",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (246)"
+      },
+      {
+        "distractor": "ястреб",
+        "lemma": "ястреб",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (34)"
+      },
+      {
+        "distractor": "лебедь",
+        "lemma": "лебедь",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (161)"
+      },
+      {
+        "distractor": "олень",
+        "lemma": "олень",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (208)"
+      }
+    ],
+    "valid_distractors": [
+      "сокол",
+      "крот",
+      "скворец",
+      "кукушка",
+      "чайка",
+      "улитка",
+      "кузнечик",
+      "ястреб",
+      "лебедь"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'ушкуйник' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'ушкуйник', 'сокол', 'крот', 'скворец' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Хищная птица, охотящаяся на мелких грызунов.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfVZgMW6fQGPuibY4kmDNc2my0A2', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Хищная птица, охотящаяся на мелких грызунов.', role='assistant', function_call=None, tool_calls=None))], created=1716143113, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=27, prompt_tokens=202, total_tokens=229))",
+  "initial_definition": "Хищная птица, охотящаяся на мелких грызунов",
+  "final_definition": "Хищное животное, охотящееся на других животных, обитающих под землей.",
+  "formatted_definition": "Хищное животное, охотящееся на других животных, обитающих под землей",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Хищное пернатое, охотящееся на животных, укрывающихся в земле.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Хищная",
+            "птица",
+            ",",
+            "охотящаяся",
+            "на",
+            "мелких",
+            "грызунов"
+          ],
+          "removed_tokens": [
+            "на",
+            ","
+          ],
+          "final_tokens": [
+            "Хищная",
+            "птица",
+            "охотящаяся",
+            "мелких",
+            "грызунов"
+          ],
+          "lemmas": [
+            "хищный",
+            "птица",
+            "охотиться",
+            "мелкий",
+            "грызун"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "хищный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "птица",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "охотиться",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "мелкий",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "грызун",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (2.26)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "грызун"
+        ],
+        "correction_prompt": "Исправь толкование 'Хищная птица, охотящаяся на мелких грызунов' для слова 'ушкуйник' так, чтобы в нем не использовались слова 'ушкуйник', 'сокол', 'скворец', 'крот', 'грызун' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Хищное пернатое, охотящееся на животных, укрывающихся в земле.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfVaCZDeVttjEu6lDesGVa9Ro7mZ', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Хищное пернатое, охотящееся на животных, укрывающихся в земле.', role='assistant', function_call=None, tool_calls=None))], created=1716143114, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=37, prompt_tokens=245, total_tokens=282))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Хищное животное, охотящееся на других животных, обитающих под землей.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Хищное",
+            "пернатое",
+            ",",
+            "охотящееся",
+            "на",
+            "животных",
+            ",",
+            "укрывающихся",
+            "в",
+            "земле"
+          ],
+          "removed_tokens": [
+            "на",
+            ",",
+            "в"
+          ],
+          "final_tokens": [
+            "Хищное",
+            "пернатое",
+            "охотящееся",
+            "животных",
+            "укрывающихся",
+            "земле"
+          ],
+          "lemmas": [
+            "хищный",
+            "пернатый",
+            "охотиться",
+            "животное",
+            "укрываться",
+            "земля"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "хищный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "пернатый",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (2.3)"
+          },
+          {
+            "lemma": "охотиться",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "животное",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "укрываться",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "земля",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "пернатый"
+        ],
+        "correction_prompt": "Исправь толкование 'Хищное пернатое, охотящееся на животных, укрывающихся в земле.' для слова 'ушкуйник' так, чтобы в нем не использовались слова 'ушкуйник', 'пернатый', 'скворец', 'крот', 'грызун', 'сокол' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Хищное животное, охотящееся на других животных, обитающих под землей.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfVbHuALwbPKJIwzk0OLWxS9woPX', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Хищное животное, охотящееся на других животных, обитающих под землей.', role='assistant', function_call=None, tool_calls=None))], created=1716143115, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=36, prompt_tokens=262, total_tokens=298))"
+      }
+    },
+    "3": {
+      "corrected_definition": "Хищное животное, охотящееся на других животных, обитающих под землей.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Хищное",
+            "животное",
+            ",",
+            "охотящееся",
+            "на",
+            "других",
+            "животных",
+            ",",
+            "обитающих",
+            "под",
+            "землей"
+          ],
+          "removed_tokens": [
+            "под",
+            "на",
+            ","
+          ],
+          "final_tokens": [
+            "Хищное",
+            "животное",
+            "охотящееся",
+            "других",
+            "животных",
+            "обитающих",
+            "землей"
+          ],
+          "lemmas": [
+            "хищный",
+            "животное",
+            "охотиться",
+            "другой",
+            "животное",
+            "обитать",
+            "земля"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "хищный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "животное",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "охотиться",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "другой",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (1577.31)"
+          },
+          {
+            "lemma": "обитать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "земля",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-25-10",
+  "end_time": "2024.05.19 18-25-16"
+}

@@ -1,0 +1,177 @@
+{
+  "word": "казачество",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "дружина",
+    "дисциплина",
+    "подвиг"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'казачество'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'казачество'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'казачество', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Силачество, братство, отличие, военачальство, славолюбие, дружина, отряд, победа, дисциплина, слава, подвиг, войско, верность, боеводство, защита, мужество.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfWooaW4EWBoacOKstoseSwBo0b9', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Силачество, братство, отличие, военачальство, славолюбие, дружина, отряд, победа, дисциплина, слава, подвиг, войско, верность, боеводство, защита, мужество.', role='assistant', function_call=None, tool_calls=None))], created=1716143190, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=83, prompt_tokens=199, total_tokens=282))",
+    "distractor_analysis": [
+      {
+        "distractor": "Силачество",
+        "lemma": "силачество",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "братство",
+        "lemma": "братство",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "отличие",
+        "lemma": "отличие",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (290)"
+      },
+      {
+        "distractor": "военачальство",
+        "lemma": "военачальство",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "славолюбие",
+        "lemma": "славолюбие",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "дружина",
+        "lemma": "дружина",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (48)"
+      },
+      {
+        "distractor": "отряд",
+        "lemma": "отряд",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (212)"
+      },
+      {
+        "distractor": "победа",
+        "lemma": "победа",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (491)"
+      },
+      {
+        "distractor": "дисциплина",
+        "lemma": "дисциплина",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (43)"
+      },
+      {
+        "distractor": "слава",
+        "lemma": "слава",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (126.33)"
+      },
+      {
+        "distractor": "подвиг",
+        "lemma": "подвиг",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (136)"
+      },
+      {
+        "distractor": "войско",
+        "lemma": "войско",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (587)"
+      },
+      {
+        "distractor": "верность",
+        "lemma": "верность",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (61)"
+      },
+      {
+        "distractor": "боеводство",
+        "lemma": "боеводство",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "защита",
+        "lemma": "защита",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (264)"
+      },
+      {
+        "distractor": "мужество",
+        "lemma": "мужество",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (92)"
+      }
+    ],
+    "valid_distractors": [
+      "дружина",
+      "дисциплина",
+      "подвиг",
+      "верность",
+      "мужество"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'казачество' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'казачество', 'дружина', 'дисциплина', 'подвиг' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Организованное воинство в России.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfWq4WfYGcCAeY4v0I4IdwSQ31Cj', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='\\nОрганизованное воинство в России.', role='assistant', function_call=None, tool_calls=None))], created=1716143192, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=19, prompt_tokens=201, total_tokens=220))",
+  "initial_definition": "Организованное воинство в России",
+  "final_definition": "Организованное воинство в России",
+  "formatted_definition": "Организованное воинство в России",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Организованное воинство в России",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Организованное",
+            "воинство",
+            "в",
+            "России"
+          ],
+          "removed_tokens": [
+            "в"
+          ],
+          "final_tokens": [
+            "Организованное",
+            "воинство",
+            "России"
+          ],
+          "lemmas": [
+            "организовать",
+            "воинство",
+            "россия"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "организовать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "воинство",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          },
+          {
+            "lemma": "россия",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-26-30",
+  "end_time": "2024.05.19 18-26-32"
+}

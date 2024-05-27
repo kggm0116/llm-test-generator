@@ -1,0 +1,196 @@
+{
+  "word": "латыш",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "эстонец",
+    "славянин",
+    "европеец"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'латыш'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'латыш'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'латыш', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "балт, эстонец, скандинав, славянин, финн, европеец, балтиец, литовец, тартарин, подонок, воин, иностранец, португалец, германец, азиат, человек",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfMwUlp7ROHiqbYIoORizwNwd3dm', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='балт, эстонец, скандинав, славянин, финн, европеец, балтиец, литовец, тартарин, подонок, воин, иностранец, португалец, германец, азиат, человек', role='assistant', function_call=None, tool_calls=None))], created=1716142578, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=87, prompt_tokens=199, total_tokens=286))",
+    "distractor_analysis": [
+      {
+        "distractor": "балт",
+        "lemma": "балта",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "эстонец",
+        "lemma": "эстонец",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (5.13)"
+      },
+      {
+        "distractor": "скандинав",
+        "lemma": "скандинав",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "славянин",
+        "lemma": "славянин",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (145)"
+      },
+      {
+        "distractor": "финн",
+        "lemma": "финн",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.83)"
+      },
+      {
+        "distractor": "европеец",
+        "lemma": "европеец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (42)"
+      },
+      {
+        "distractor": "балтиец",
+        "lemma": "балтиец",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "литовец",
+        "lemma": "литовец",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.79)"
+      },
+      {
+        "distractor": "тартарин",
+        "lemma": "тартарина",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "подонок",
+        "lemma": "подонок",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (12.75)"
+      },
+      {
+        "distractor": "воин",
+        "lemma": "воин",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (509)"
+      },
+      {
+        "distractor": "иностранец",
+        "lemma": "иностранец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (24)"
+      },
+      {
+        "distractor": "португалец",
+        "lemma": "португалец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (20)"
+      },
+      {
+        "distractor": "германец",
+        "lemma": "германец",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.6)"
+      },
+      {
+        "distractor": "азиат",
+        "lemma": "азиат",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "человек",
+        "lemma": "человек",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (10201)"
+      }
+    ],
+    "valid_distractors": [
+      "эстонец",
+      "славянин",
+      "европеец",
+      "подонок",
+      "иностранец",
+      "португалец"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'латыш' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'латыш', 'эстонец', 'славянин', 'европеец' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Человек из страны на берегу Балтийского моря.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfMxuiwhJcWwjIbmZKnQCQieOJKE', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Человек из страны на берегу Балтийского моря.', role='assistant', function_call=None, tool_calls=None))], created=1716142579, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=23, prompt_tokens=202, total_tokens=225))",
+  "initial_definition": "Человек из страны на берегу Балтийского моря",
+  "final_definition": "Человек из страны на берегу Балтийского моря",
+  "formatted_definition": "Человек из страны на берегу Балтийского моря",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Человек из страны на берегу Балтийского моря",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек",
+            "из",
+            "страны",
+            "на",
+            "берегу",
+            "Балтийского",
+            "моря"
+          ],
+          "removed_tokens": [
+            "из",
+            "на"
+          ],
+          "final_tokens": [
+            "Человек",
+            "страны",
+            "берегу",
+            "Балтийского",
+            "моря"
+          ],
+          "lemmas": [
+            "человек",
+            "страна",
+            "берег",
+            "балтийский",
+            "море"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "страна",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "берег",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "балтийский",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "море",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-16-17",
+  "end_time": "2024.05.19 18-16-20"
+}

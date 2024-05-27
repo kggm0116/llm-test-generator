@@ -1,0 +1,167 @@
+{
+  "word": "квартирант",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "проживающий",
+    "постоялец",
+    "пользователь"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'квартирант'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'квартирант'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'квартирант', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "арендатор, заселяемый, проживающий, сосед, гость, наниматель, постоялец, обитатель, арендатор, снимающий, постоялец, проживающий, поселенец, пансионер, пользователь, постельщик",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfdExzvT1G5ME6qRNoehLCxMoeLx', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='арендатор, заселяемый, проживающий, сосед, гость, наниматель, постоялец, обитатель, арендатор, снимающий, постоялец, проживающий, поселенец, пансионер, пользователь, постельщик', role='assistant', function_call=None, tool_calls=None))], created=1716143588, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=90, prompt_tokens=208, total_tokens=298))",
+    "distractor_analysis": [
+      {
+        "distractor": "арендатор",
+        "lemma": "арендатор",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "заселяемый",
+        "lemma": "заселять",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.45)"
+      },
+      {
+        "distractor": "проживающий",
+        "lemma": "проживать",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (79)"
+      },
+      {
+        "distractor": "сосед",
+        "lemma": "сосед",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (273)"
+      },
+      {
+        "distractor": "гость",
+        "lemma": "гость",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (337)"
+      },
+      {
+        "distractor": "наниматель",
+        "lemma": "наниматель",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "постоялец",
+        "lemma": "постоялец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "обитатель",
+        "lemma": "обитатель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (311)"
+      },
+      {
+        "distractor": "снимающий",
+        "lemma": "снимать",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (98.85)"
+      },
+      {
+        "distractor": "поселенец",
+        "lemma": "поселенец",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.45)"
+      },
+      {
+        "distractor": "пансионер",
+        "lemma": "пансионер",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "пользователь",
+        "lemma": "пользователь",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (70)"
+      },
+      {
+        "distractor": "постельщик",
+        "lemma": "постельщик",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      }
+    ],
+    "valid_distractors": [
+      "проживающий",
+      "постоялец",
+      "пользователь"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'квартирант' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'квартирант', 'проживающий', 'постоялец', 'пользователь' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Человек, живущий в арендованной комнате.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfdGxEVRF5ypDo2IiUZvik2pWSWZ', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Человек, живущий в арендованной комнате.', role='assistant', function_call=None, tool_calls=None))], created=1716143590, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=22, prompt_tokens=209, total_tokens=231))",
+  "initial_definition": "Человек, живущий в арендованной комнате",
+  "final_definition": "Человек, живущий в арендованной комнате",
+  "formatted_definition": "Человек, живущий в арендованной комнате",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Человек, живущий в арендованной комнате",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек",
+            ",",
+            "живущий",
+            "в",
+            "арендованной",
+            "комнате"
+          ],
+          "removed_tokens": [
+            "в",
+            ","
+          ],
+          "final_tokens": [
+            "Человек",
+            "живущий",
+            "арендованной",
+            "комнате"
+          ],
+          "lemmas": [
+            "человек",
+            "жить",
+            "арендовать",
+            "комната"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "жить",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "арендовать",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          },
+          {
+            "lemma": "комната",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-33-07",
+  "end_time": "2024.05.19 18-33-10"
+}

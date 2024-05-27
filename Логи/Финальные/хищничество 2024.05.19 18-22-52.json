@@ -1,0 +1,187 @@
+{
+  "word": "хищничество",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "преследование",
+    "атака",
+    "кормление"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'хищничество'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'хищничество'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'хищничество', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "добыча, охота, преследование, поедание, атака, жертва, питание, кормление, поиск, нападение, убийство, схватка, порция, проглот, похищение, поглощение",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfTKmgEP6uAce1jUY80KCPLoa7zx', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='добыча, охота, преследование, поедание, атака, жертва, питание, кормление, поиск, нападение, убийство, схватка, порция, проглот, похищение, поглощение', role='assistant', function_call=None, tool_calls=None))], created=1716142974, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=77, prompt_tokens=208, total_tokens=285))",
+    "distractor_analysis": [
+      {
+        "distractor": "добыча",
+        "lemma": "добыча",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (236)"
+      },
+      {
+        "distractor": "охота",
+        "lemma": "охота",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (293)"
+      },
+      {
+        "distractor": "преследование",
+        "lemma": "преследование",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (10)"
+      },
+      {
+        "distractor": "поедание",
+        "lemma": "поедание",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "атака",
+        "lemma": "атака",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (40)"
+      },
+      {
+        "distractor": "жертва",
+        "lemma": "жертва",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (80.13)"
+      },
+      {
+        "distractor": "питание",
+        "lemma": "питание",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (359)"
+      },
+      {
+        "distractor": "кормление",
+        "lemma": "кормление",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (6)"
+      },
+      {
+        "distractor": "поиск",
+        "lemma": "поиск",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (241)"
+      },
+      {
+        "distractor": "нападение",
+        "lemma": "нападение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (35)"
+      },
+      {
+        "distractor": "убийство",
+        "lemma": "убийство",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (83.15)"
+      },
+      {
+        "distractor": "схватка",
+        "lemma": "схватка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (32)"
+      },
+      {
+        "distractor": "порция",
+        "lemma": "порция",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (51)"
+      },
+      {
+        "distractor": "проглот",
+        "lemma": "проглот",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "похищение",
+        "lemma": "похищение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (9)"
+      },
+      {
+        "distractor": "поглощение",
+        "lemma": "поглощение",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.14)"
+      }
+    ],
+    "valid_distractors": [
+      "преследование",
+      "атака",
+      "кормление",
+      "нападение",
+      "схватка",
+      "порция",
+      "похищение"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'хищничество' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'хищничество', 'преследование', 'атака', 'кормление' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Подобная деятельность в животном мире.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfTLtLwscuwI1OgnbYwynIeE0HdG', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Подобная деятельность в животном мире.', role='assistant', function_call=None, tool_calls=None))], created=1716142975, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=18, prompt_tokens=206, total_tokens=224))",
+  "initial_definition": "Подобная деятельность в животном мире",
+  "final_definition": "Подобная деятельность в животном мире",
+  "formatted_definition": "Подобная деятельность в животном мире",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Подобная деятельность в животном мире",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Подобная",
+            "деятельность",
+            "в",
+            "животном",
+            "мире"
+          ],
+          "removed_tokens": [
+            "в"
+          ],
+          "final_tokens": [
+            "Подобная",
+            "деятельность",
+            "животном",
+            "мире"
+          ],
+          "lemmas": [
+            "подобный",
+            "деятельность",
+            "животный",
+            "мир"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "подобный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "деятельность",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "животный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "мир",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-22-52",
+  "end_time": "2024.05.19 18-22-56"
+}

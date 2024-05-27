@@ -1,0 +1,178 @@
+{
+  "word": "постриг",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "монастырь",
+    "обители",
+    "монах"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'постриг'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'постриг'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'постриг', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "монастырь, обители, монах, аббатство, келия, паломничество, священник, аскетизм, литургия, обряд, икона, крест, ряса, пост, молитва, пустыня.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfOSy5U7U2RtuzM6cTP7xasltoFO', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='монастырь, обители, монах, аббатство, келия, паломничество, священник, аскетизм, литургия, обряд, икона, крест, ряса, пост, молитва, пустыня.', role='assistant', function_call=None, tool_calls=None))], created=1716142672, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=81, prompt_tokens=202, total_tokens=283))",
+    "distractor_analysis": [
+      {
+        "distractor": "монастырь",
+        "lemma": "монастырь",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (182)"
+      },
+      {
+        "distractor": "обители",
+        "lemma": "обитель",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (12)"
+      },
+      {
+        "distractor": "монах",
+        "lemma": "монах",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (95)"
+      },
+      {
+        "distractor": "аббатство",
+        "lemma": "аббатство",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "келия",
+        "lemma": "келия",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "паломничество",
+        "lemma": "паломничество",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "священник",
+        "lemma": "священник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (69)"
+      },
+      {
+        "distractor": "аскетизм",
+        "lemma": "аскетизм",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.07)"
+      },
+      {
+        "distractor": "литургия",
+        "lemma": "литургия",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (8)"
+      },
+      {
+        "distractor": "обряд",
+        "lemma": "обряд",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (105)"
+      },
+      {
+        "distractor": "икона",
+        "lemma": "икона",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (330)"
+      },
+      {
+        "distractor": "крест",
+        "lemma": "крест",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (57.73)"
+      },
+      {
+        "distractor": "ряса",
+        "lemma": "ряса",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (6.2)"
+      },
+      {
+        "distractor": "пост",
+        "lemma": "пост",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (74.61)"
+      },
+      {
+        "distractor": "молитва",
+        "lemma": "молитва",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (166)"
+      },
+      {
+        "distractor": "пустыня",
+        "lemma": "пустыня",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (186)"
+      }
+    ],
+    "valid_distractors": [
+      "монастырь",
+      "обители",
+      "монах",
+      "священник",
+      "литургия",
+      "обряд",
+      "ряса",
+      "молитва",
+      "пустыня"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'постриг' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'постриг', 'монастырь', 'обители', 'монах' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Отрывание пряди волос.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfOTyeGv98c7GN7UBz75QcRgNeNM', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Отрывание пряди волос.', role='assistant', function_call=None, tool_calls=None))], created=1716142673, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=11, prompt_tokens=201, total_tokens=212))",
+  "initial_definition": "Отрывание пряди волос",
+  "final_definition": "Отрывание пряди волос",
+  "formatted_definition": "Отрывание пряди волос",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Отрывание пряди волос",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Отрывание",
+            "пряди",
+            "волос"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Отрывание",
+            "пряди",
+            "волос"
+          ],
+          "lemmas": [
+            "отрывание",
+            "прядь",
+            "волос"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "отрывание",
+            "is_valid": true,
+            "reason": "Низкого класса (4)"
+          },
+          {
+            "lemma": "прядь",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "волос",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-17-51",
+  "end_time": "2024.05.19 18-17-54"
+}

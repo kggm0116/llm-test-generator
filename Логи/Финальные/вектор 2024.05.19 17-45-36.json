@@ -1,0 +1,174 @@
+{
+  "word": "вектор",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "отражение",
+    "равновесие",
+    "трение"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'вектор'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'вектор'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'вектор', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "линейка, стрелка, луч, радиус, отрезок, отражение, направление, равновесие, трение, градиент, скорость, ускорение, искажение, представление, наполнение, сопротивление",
+    "response_details": "ChatCompletion(id='chatcmpl-9QetEbL0eTQDeMj5PI928nKluZHJE', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='линейка, стрелка, луч, радиус, отрезок, отражение, направление, равновесие, трение, градиент, скорость, ускорение, искажение, представление, наполнение, сопротивление', role='assistant', function_call=None, tool_calls=None))], created=1716140736, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=74, prompt_tokens=199, total_tokens=273))",
+    "distractor_analysis": [
+      {
+        "distractor": "линейка",
+        "lemma": "линейка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (419)"
+      },
+      {
+        "distractor": "стрелка",
+        "lemma": "стрелка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (438)"
+      },
+      {
+        "distractor": "луч",
+        "lemma": "луч",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1513)"
+      },
+      {
+        "distractor": "радиус",
+        "lemma": "радиус",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (318)"
+      },
+      {
+        "distractor": "отрезок",
+        "lemma": "отрезок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2054)"
+      },
+      {
+        "distractor": "отражение",
+        "lemma": "отражение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (48)"
+      },
+      {
+        "distractor": "направление",
+        "lemma": "направление",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (729)"
+      },
+      {
+        "distractor": "равновесие",
+        "lemma": "равновесие",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (74)"
+      },
+      {
+        "distractor": "трение",
+        "lemma": "трение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (25)"
+      },
+      {
+        "distractor": "градиент",
+        "lemma": "градиент",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "скорость",
+        "lemma": "скорость",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3141)"
+      },
+      {
+        "distractor": "ускорение",
+        "lemma": "ускорение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "искажение",
+        "lemma": "искажение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (21)"
+      },
+      {
+        "distractor": "представление",
+        "lemma": "представление",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (484)"
+      },
+      {
+        "distractor": "наполнение",
+        "lemma": "наполнение",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.11)"
+      },
+      {
+        "distractor": "сопротивление",
+        "lemma": "сопротивление",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (38)"
+      }
+    ],
+    "valid_distractors": [
+      "отражение",
+      "равновесие",
+      "трение",
+      "искажение",
+      "сопротивление"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'вектор' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'вектор', 'отражение', 'равновесие', 'трение' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "направленная физическая величина",
+  "response_details": "ChatCompletion(id='chatcmpl-9QetGWCll2ObPTH7bKsN1mlNB97U6', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='направленная физическая величина', role='assistant', function_call=None, tool_calls=None))], created=1716140738, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=14, prompt_tokens=198, total_tokens=212))",
+  "initial_definition": "направленная физическая величина",
+  "final_definition": "направленная физическая величина",
+  "formatted_definition": "направленная физическая величина",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "направленная физическая величина",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "направленная",
+            "физическая",
+            "величина"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "направленная",
+            "физическая",
+            "величина"
+          ],
+          "lemmas": [
+            "направить",
+            "физический",
+            "величина"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "направить",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "физический",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "величина",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 17-45-36",
+  "end_time": "2024.05.19 17-45-38"
+}

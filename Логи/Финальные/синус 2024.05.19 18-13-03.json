@@ -1,0 +1,179 @@
+{
+  "word": "синус",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "пазуха",
+    "впадина",
+    "углубление"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'синус'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'синус'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'синус', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "пазуха, впадина, углубление, полость, бугор, воронка, выемка, лунк, ячейка, яма, поле, углуб, впадина, воронко, впадь, ложбина",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfJnyIDFvETrXW4mofkEfR7PVoyK', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='пазуха, впадина, углубление, полость, бугор, воронка, выемка, лунк, ячейка, яма, поле, углуб, впадина, воронко, впадь, ложбина', role='assistant', function_call=None, tool_calls=None))], created=1716142383, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=71, prompt_tokens=199, total_tokens=270))",
+    "distractor_analysis": [
+      {
+        "distractor": "пазуха",
+        "lemma": "пазуха",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (6)"
+      },
+      {
+        "distractor": "впадина",
+        "lemma": "впадина",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (29)"
+      },
+      {
+        "distractor": "углубление",
+        "lemma": "углубление",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (62)"
+      },
+      {
+        "distractor": "полость",
+        "lemma": "полость",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (20)"
+      },
+      {
+        "distractor": "бугор",
+        "lemma": "бугор",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (14)"
+      },
+      {
+        "distractor": "воронка",
+        "lemma": "воронка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (29)"
+      },
+      {
+        "distractor": "выемка",
+        "lemma": "выемка",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.84)"
+      },
+      {
+        "distractor": "лунк",
+        "lemma": "лунк",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "ячейка",
+        "lemma": "ячейка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (96)"
+      },
+      {
+        "distractor": "яма",
+        "lemma": "яма",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (33)"
+      },
+      {
+        "distractor": "поле",
+        "lemma": "поле",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1462)"
+      },
+      {
+        "distractor": "углуб",
+        "lemma": "углуб",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "воронко",
+        "lemma": "воронко",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (17.04)"
+      },
+      {
+        "distractor": "впадь",
+        "lemma": "впадь",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "ложбина",
+        "lemma": "ложбина",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      }
+    ],
+    "valid_distractors": [
+      "пазуха",
+      "впадина",
+      "углубление",
+      "полость",
+      "бугор",
+      "воронка",
+      "ячейка",
+      "яма",
+      "воронко"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'синус' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'синус', 'пазуха', 'впадина', 'углубление' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Глубокое место или полость в чем-либо.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfJpPIAX8oTdknAvrQ2HjXRw50dM', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Глубокое место или полость в чем-либо.', role='assistant', function_call=None, tool_calls=None))], created=1716142385, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=19, prompt_tokens=200, total_tokens=219))",
+  "initial_definition": "Глубокое место или полость в чем-либо",
+  "final_definition": "Глубокое место или полость в чем-либо",
+  "formatted_definition": "Глубокое место или полость в чем-либо",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Глубокое место или полость в чем-либо",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Глубокое",
+            "место",
+            "или",
+            "полость",
+            "в",
+            "чем-либо"
+          ],
+          "removed_tokens": [
+            "или",
+            "в",
+            "чем-либо"
+          ],
+          "final_tokens": [
+            "Глубокое",
+            "место",
+            "полость"
+          ],
+          "lemmas": [
+            "глубокий",
+            "место",
+            "полость"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "глубокий",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "место",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "полость",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-13-03",
+  "end_time": "2024.05.19 18-13-05"
+}

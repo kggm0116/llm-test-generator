@@ -1,0 +1,185 @@
+{
+  "word": "ливоние",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "рыцари",
+    "монарх",
+    "землевладельцы"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'ливоние'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'ливоние'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'ливоние', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "балтийцы, рыцари, монарх, крестоносцы, крестьяне, крестовые походы, правители, вассалы, войско, землевладельцы, города, купцы, история, культура, иностранцы, поселенцы",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfXBRsDnKLFsjsccayliA4ZHJ2YX', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='балтийцы, рыцари, монарх, крестоносцы, крестьяне, крестовые походы, правители, вассалы, войско, землевладельцы, города, купцы, история, культура, иностранцы, поселенцы', role='assistant', function_call=None, tool_calls=None))], created=1716143213, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=98, prompt_tokens=202, total_tokens=300))",
+    "distractor_analysis": [
+      {
+        "distractor": "балтийцы",
+        "lemma": "балтиец",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "рыцари",
+        "lemma": "рыцарь",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (87)"
+      },
+      {
+        "distractor": "монарх",
+        "lemma": "монарх",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (12)"
+      },
+      {
+        "distractor": "крестоносцы",
+        "lemma": "крестоносец",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.49)"
+      },
+      {
+        "distractor": "крестьяне",
+        "lemma": "крестьянин",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (347)"
+      },
+      {
+        "distractor": "крестовые походы",
+        "lemma": "крестовые поход",
+        "is_valid": false,
+        "reason": "Содержит пробел"
+      },
+      {
+        "distractor": "правители",
+        "lemma": "правитель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (267)"
+      },
+      {
+        "distractor": "вассалы",
+        "lemma": "вассал",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "войско",
+        "lemma": "войско",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (587)"
+      },
+      {
+        "distractor": "землевладельцы",
+        "lemma": "землевладелец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (38)"
+      },
+      {
+        "distractor": "города",
+        "lemma": "город",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3819)"
+      },
+      {
+        "distractor": "купцы",
+        "lemma": "купец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (147)"
+      },
+      {
+        "distractor": "история",
+        "lemma": "история",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1412)"
+      },
+      {
+        "distractor": "культура",
+        "lemma": "культура",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (729)"
+      },
+      {
+        "distractor": "иностранцы",
+        "lemma": "иностранец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (24)"
+      },
+      {
+        "distractor": "поселенцы",
+        "lemma": "поселенец",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.45)"
+      }
+    ],
+    "valid_distractors": [
+      "рыцари",
+      "монарх",
+      "землевладельцы",
+      "купцы",
+      "иностранцы"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'ливоние' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'ливоние', 'рыцари', 'монарх', 'землевладельцы' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "исторические области на севере Европы.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfXD1vYJqnbbziILVFXrc8SJ3nd5', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='исторические области на севере Европы.', role='assistant', function_call=None, tool_calls=None))], created=1716143215, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=19, prompt_tokens=205, total_tokens=224))",
+  "initial_definition": "исторические области на севере Европы",
+  "final_definition": "исторические области на севере Европы",
+  "formatted_definition": "исторические области на севере Европы",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "исторические области на севере Европы",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "исторические",
+            "области",
+            "на",
+            "севере",
+            "Европы"
+          ],
+          "removed_tokens": [
+            "на"
+          ],
+          "final_tokens": [
+            "исторические",
+            "области",
+            "севере",
+            "Европы"
+          ],
+          "lemmas": [
+            "исторический",
+            "область",
+            "север",
+            "европа"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "исторический",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "область",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "север",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "европа",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-26-53",
+  "end_time": "2024.05.19 18-26-56"
+}

@@ -1,0 +1,189 @@
+{
+  "word": "шельф",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "тумбочка",
+    "подоконник",
+    "стойка"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'шельф'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'шельф'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'шельф', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "полка, плоскость, столешница, балдахин, тумбочка, подоконник, стойка, карниз, перина, балкон, крыша, кассетник, паркет, пандус, стенд, веранда",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfGuqR8WhBghBMGKquCGGQ90ZxSi', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='полка, плоскость, столешница, балдахин, тумбочка, подоконник, стойка, карниз, перина, балкон, крыша, кассетник, паркет, пандус, стенд, веранда', role='assistant', function_call=None, tool_calls=None))], created=1716142204, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=75, prompt_tokens=199, total_tokens=274))",
+    "distractor_analysis": [
+      {
+        "distractor": "полка",
+        "lemma": "полка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (319)"
+      },
+      {
+        "distractor": "плоскость",
+        "lemma": "плоскость",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (211)"
+      },
+      {
+        "distractor": "столешница",
+        "lemma": "столешница",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "балдахин",
+        "lemma": "балдахин",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "тумбочка",
+        "lemma": "тумбочка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "подоконник",
+        "lemma": "подоконник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (42)"
+      },
+      {
+        "distractor": "стойка",
+        "lemma": "стойка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (13)"
+      },
+      {
+        "distractor": "карниз",
+        "lemma": "карниз",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (8)"
+      },
+      {
+        "distractor": "перина",
+        "lemma": "перина",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (12)"
+      },
+      {
+        "distractor": "балкон",
+        "lemma": "балкон",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (36)"
+      },
+      {
+        "distractor": "крыша",
+        "lemma": "крыша",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (268)"
+      },
+      {
+        "distractor": "кассетник",
+        "lemma": "кассетник",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "паркет",
+        "lemma": "паркет",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (19)"
+      },
+      {
+        "distractor": "пандус",
+        "lemma": "пандус",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "стенд",
+        "lemma": "стенд",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (22)"
+      },
+      {
+        "distractor": "веранда",
+        "lemma": "веранда",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (6)"
+      }
+    ],
+    "valid_distractors": [
+      "тумбочка",
+      "подоконник",
+      "стойка",
+      "карниз",
+      "перина",
+      "балкон",
+      "паркет",
+      "стенд",
+      "веранда"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'шельф' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'шельф', 'тумбочка', 'подоконник', 'стойка' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Горизонтальная поверхность для размещения предметов.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfGvtrXg81xKuTFPk0vYBE994ujZ', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Горизонтальная поверхность для размещения предметов.', role='assistant', function_call=None, tool_calls=None))], created=1716142205, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=20, prompt_tokens=200, total_tokens=220))",
+  "initial_definition": "Горизонтальная поверхность для размещения предметов",
+  "final_definition": "Горизонтальная поверхность для размещения предметов",
+  "formatted_definition": "Горизонтальная поверхность для размещения предметов",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Горизонтальная поверхность для размещения предметов",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Горизонтальная",
+            "поверхность",
+            "для",
+            "размещения",
+            "предметов"
+          ],
+          "removed_tokens": [
+            "для"
+          ],
+          "final_tokens": [
+            "Горизонтальная",
+            "поверхность",
+            "размещения",
+            "предметов"
+          ],
+          "lemmas": [
+            "горизонтальный",
+            "поверхность",
+            "размещение",
+            "предмет"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "горизонтальный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "поверхность",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "размещение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "предмет",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-10-03",
+  "end_time": "2024.05.19 18-10-06"
+}

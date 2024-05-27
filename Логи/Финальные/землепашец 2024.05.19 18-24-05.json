@@ -1,0 +1,184 @@
+{
+  "word": "землепашец",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "Фермер",
+    "агроном",
+    "садовод"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'землепашец'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'землепашец'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'землепашец', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Фермер, агроном, садовод, растениевод, огородник, агрокультурник, ризоторф, плантатор, земледелец, трэкторист, сельскохозяйственник, дачник, ленодел, мелиоратор, селекционер, молочник.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfUUgloTgY1Tvj3LS8HrtxHeE8Em', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Фермер, агроном, садовод, растениевод, огородник, агрокультурник, ризоторф, плантатор, земледелец, трэкторист, сельскохозяйственник, дачник, ленодел, мелиоратор, селекционер, молочник.', role='assistant', function_call=None, tool_calls=None))], created=1716143046, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=97, prompt_tokens=211, total_tokens=308))",
+    "distractor_analysis": [
+      {
+        "distractor": "Фермер",
+        "lemma": "фермер",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (69)"
+      },
+      {
+        "distractor": "агроном",
+        "lemma": "агроном",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (15)"
+      },
+      {
+        "distractor": "садовод",
+        "lemma": "садовод",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (21)"
+      },
+      {
+        "distractor": "растениевод",
+        "lemma": "растениевод",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "огородник",
+        "lemma": "огородник",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "агрокультурник",
+        "lemma": "агрокультурник",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "ризоторф",
+        "lemma": "ризоторф",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "плантатор",
+        "lemma": "плантатор",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "земледелец",
+        "lemma": "земледелец",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (204)"
+      },
+      {
+        "distractor": "трэкторист",
+        "lemma": "трэкторист",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "сельскохозяйственник",
+        "lemma": "сельскохозяйственник",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "дачник",
+        "lemma": "дачник",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "ленодел",
+        "lemma": "ленодеть",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "мелиоратор",
+        "lemma": "мелиоратор",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "селекционер",
+        "lemma": "селекционер",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "молочник",
+        "lemma": "молочник",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      }
+    ],
+    "valid_distractors": [
+      "Фермер",
+      "агроном",
+      "садовод",
+      "растениевод"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'землепашец' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'землепашец', 'Фермер', 'агроном', 'садовод' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Человек, который обрабатывает землю.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfUWvbkTkn58JkWiRITyMMgHXo0P', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Человек, который обрабатывает землю.', role='assistant', function_call=None, tool_calls=None))], created=1716143048, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=16, prompt_tokens=206, total_tokens=222))",
+  "initial_definition": "Человек, который обрабатывает землю",
+  "final_definition": "Человек, который обрабатывает землю",
+  "formatted_definition": "Человек, который обрабатывает землю",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Человек, который обрабатывает землю",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек",
+            ",",
+            "который",
+            "обрабатывает",
+            "землю"
+          ],
+          "removed_tokens": [
+            ","
+          ],
+          "final_tokens": [
+            "Человек",
+            "который",
+            "обрабатывает",
+            "землю"
+          ],
+          "lemmas": [
+            "человек",
+            "который",
+            "обрабатывать",
+            "земля"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "который",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (3361.51)"
+          },
+          {
+            "lemma": "обрабатывать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "земля",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-24-05",
+  "end_time": "2024.05.19 18-24-08"
+}

@@ -1,0 +1,172 @@
+{
+  "word": "дактиль",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "пальчик",
+    "кисточка",
+    "ладошка"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'дактиль'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'дактиль'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'дактиль', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "пальчик, кисточка, ноготок, пяточка, ладошка, пятка, пястной, костяшка, ножка, пятка, ушко, губка, ложечка, перстик, пятак, лопатка",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfaMRVaG95MGXFA6NTUqlLVn5cwc', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='пальчик, кисточка, ноготок, пяточка, ладошка, пятка, пястной, костяшка, ножка, пятка, ушко, губка, ложечка, перстик, пятак, лопатка', role='assistant', function_call=None, tool_calls=None))], created=1716143410, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=75, prompt_tokens=202, total_tokens=277))",
+    "distractor_analysis": [
+      {
+        "distractor": "пальчик",
+        "lemma": "пальчик",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (8)"
+      },
+      {
+        "distractor": "кисточка",
+        "lemma": "кисточка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (64)"
+      },
+      {
+        "distractor": "ноготок",
+        "lemma": "ноготок",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.22)"
+      },
+      {
+        "distractor": "пяточка",
+        "lemma": "пяточек",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "ладошка",
+        "lemma": "ладошка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (16)"
+      },
+      {
+        "distractor": "пятка",
+        "lemma": "пятка",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.18)"
+      },
+      {
+        "distractor": "пястной",
+        "lemma": "пястный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "костяшка",
+        "lemma": "костяшка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "ножка",
+        "lemma": "ножка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (186)"
+      },
+      {
+        "distractor": "ушко",
+        "lemma": "ушко",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (39)"
+      },
+      {
+        "distractor": "губка",
+        "lemma": "губка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (33)"
+      },
+      {
+        "distractor": "ложечка",
+        "lemma": "ложечка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (14)"
+      },
+      {
+        "distractor": "перстик",
+        "lemma": "перстик",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "пятак",
+        "lemma": "пятак",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (8)"
+      },
+      {
+        "distractor": "лопатка",
+        "lemma": "лопатка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (14)"
+      }
+    ],
+    "valid_distractors": [
+      "пальчик",
+      "кисточка",
+      "ладошка",
+      "ножка",
+      "ушко",
+      "губка",
+      "ложечка",
+      "пятак",
+      "лопатка"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'дактиль' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'дактиль', 'пальчик', 'кисточка', 'ладошка' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Часть тела человека.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfaO2nNRUyy6DM7spgaYh2teg8x7', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Часть тела человека.', role='assistant', function_call=None, tool_calls=None))], created=1716143412, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=12, prompt_tokens=201, total_tokens=213))",
+  "initial_definition": "Часть тела человека",
+  "final_definition": "Часть тела человека",
+  "formatted_definition": "Часть тела человека",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Часть тела человека",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Часть",
+            "тела",
+            "человека"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Часть",
+            "тела",
+            "человека"
+          ],
+          "lemmas": [
+            "часть",
+            "тело",
+            "человек"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "часть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "тело",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-30-10",
+  "end_time": "2024.05.19 18-30-13"
+}

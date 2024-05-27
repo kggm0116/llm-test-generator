@@ -1,0 +1,178 @@
+{
+  "word": "архаизм",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "оригинал",
+    "предисловие",
+    "превзойти"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'архаизм'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'архаизм'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'архаизм', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "искона, недосягаемое, оригинал, старомодность, предисловие, первоисточник, диспут, превзойти, проимение, ипостась, предшественник, прототип, предтеча, гарант, предшествующее, исток",
+    "response_details": "ChatCompletion(id='chatcmpl-9Qf35YzgAPkGVZpOeDYSZEsqpbgQU', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='искона, недосягаемое, оригинал, старомодность, предисловие, первоисточник, диспут, превзойти, проимение, ипостась, предшественник, прототип, предтеча, гарант, предшествующее, исток', role='assistant', function_call=None, tool_calls=None))], created=1716141347, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=87, prompt_tokens=205, total_tokens=292))",
+    "distractor_analysis": [
+      {
+        "distractor": "искона",
+        "lemma": "искона",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "недосягаемое",
+        "lemma": "недосягаемый",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "оригинал",
+        "lemma": "оригинал",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (27)"
+      },
+      {
+        "distractor": "старомодность",
+        "lemma": "старомодность",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "предисловие",
+        "lemma": "предисловие",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (7)"
+      },
+      {
+        "distractor": "первоисточник",
+        "lemma": "первоисточник",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.72)"
+      },
+      {
+        "distractor": "диспут",
+        "lemma": "диспут",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "превзойти",
+        "lemma": "превзойти",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (13)"
+      },
+      {
+        "distractor": "проимение",
+        "lemma": "проимение",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "ипостась",
+        "lemma": "ипостась",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "предшественник",
+        "lemma": "предшественник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (26)"
+      },
+      {
+        "distractor": "прототип",
+        "lemma": "прототип",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "предтеча",
+        "lemma": "предтеча",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.26)"
+      },
+      {
+        "distractor": "гарант",
+        "lemma": "гарант",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.57)"
+      },
+      {
+        "distractor": "предшествующее",
+        "lemma": "предшествовать",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (55)"
+      },
+      {
+        "distractor": "исток",
+        "lemma": "исток",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (61)"
+      }
+    ],
+    "valid_distractors": [
+      "оригинал",
+      "предисловие",
+      "превзойти",
+      "предшественник",
+      "предшествующее",
+      "исток"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'архаизм' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'архаизм', 'оригинал', 'предисловие', 'превзойти' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Устаревшее слово или выражение.",
+  "response_details": "ChatCompletion(id='chatcmpl-9Qf37BEYT0GaJ2l4hd8bfRsKBMsuy', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Устаревшее слово или выражение.', role='assistant', function_call=None, tool_calls=None))], created=1716141349, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=14, prompt_tokens=207, total_tokens=221))",
+  "initial_definition": "Устаревшее слово или выражение",
+  "final_definition": "Устаревшее слово или выражение",
+  "formatted_definition": "Устаревшее слово или выражение",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Устаревшее слово или выражение",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Устаревшее",
+            "слово",
+            "или",
+            "выражение"
+          ],
+          "removed_tokens": [
+            "или"
+          ],
+          "final_tokens": [
+            "Устаревшее",
+            "слово",
+            "выражение"
+          ],
+          "lemmas": [
+            "устаревший",
+            "слово",
+            "выражение"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "устаревший",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "слово",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "выражение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 17-55-46",
+  "end_time": "2024.05.19 17-55-49"
+}

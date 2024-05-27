@@ -1,0 +1,262 @@
+{
+  "word": "проекция",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "Отражение",
+    "макет",
+    "эскиз"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'проекция'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'проекция'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'проекция', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Отражение, изображение, модель, макет, план, чертёж, диаграмма, схема, рисунок, эскиз, портрет, личность, образ, оттиск, отпечаток, абстракция.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfCk93iMzZ4f4S4PgtPq99Cz3q6B', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Отражение, изображение, модель, макет, план, чертёж, диаграмма, схема, рисунок, эскиз, портрет, личность, образ, оттиск, отпечаток, абстракция.', role='assistant', function_call=None, tool_calls=None))], created=1716141946, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=74, prompt_tokens=205, total_tokens=279))",
+    "distractor_analysis": [
+      {
+        "distractor": "Отражение",
+        "lemma": "отражение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (48)"
+      },
+      {
+        "distractor": "изображение",
+        "lemma": "изображение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (847)"
+      },
+      {
+        "distractor": "модель",
+        "lemma": "модель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (630)"
+      },
+      {
+        "distractor": "макет",
+        "lemma": "макет",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (96)"
+      },
+      {
+        "distractor": "план",
+        "lemma": "план",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1232)"
+      },
+      {
+        "distractor": "чертёж",
+        "lemma": "чертёж",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (592)"
+      },
+      {
+        "distractor": "диаграмма",
+        "lemma": "диаграмма",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (358)"
+      },
+      {
+        "distractor": "схема",
+        "lemma": "схема",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1363)"
+      },
+      {
+        "distractor": "рисунок",
+        "lemma": "рисунок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3254)"
+      },
+      {
+        "distractor": "эскиз",
+        "lemma": "эскиз",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (113)"
+      },
+      {
+        "distractor": "портрет",
+        "lemma": "портрет",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (286)"
+      },
+      {
+        "distractor": "личность",
+        "lemma": "личность",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (86.37)"
+      },
+      {
+        "distractor": "образ",
+        "lemma": "образ",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1233)"
+      },
+      {
+        "distractor": "оттиск",
+        "lemma": "оттиск",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.3)"
+      },
+      {
+        "distractor": "отпечаток",
+        "lemma": "отпечаток",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (21)"
+      },
+      {
+        "distractor": "абстракция",
+        "lemma": "абстракция",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.22)"
+      }
+    ],
+    "valid_distractors": [
+      "Отражение",
+      "макет",
+      "эскиз",
+      "отпечаток"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'проекция' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'проекция', 'Отражение', 'макет', 'эскиз' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Отображение измерений объекта на плоскости или экране.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfCmpEZ7Hmso34jal1f0bf0AoplT', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Отображение измерений объекта на плоскости или экране.', role='assistant', function_call=None, tool_calls=None))], created=1716141948, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=19, prompt_tokens=201, total_tokens=220))",
+  "initial_definition": "Отображение измерений объекта на плоскости или экране",
+  "final_definition": "Представление размеров объекта на плоскости или экране.",
+  "formatted_definition": "Представление размеров объекта на плоскости или экране",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Представление размеров объекта на плоскости или экране.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Отображение",
+            "измерений",
+            "объекта",
+            "на",
+            "плоскости",
+            "или",
+            "экране"
+          ],
+          "removed_tokens": [
+            "или",
+            "на"
+          ],
+          "final_tokens": [
+            "Отображение",
+            "измерений",
+            "объекта",
+            "плоскости",
+            "экране"
+          ],
+          "lemmas": [
+            "отображение",
+            "измерение",
+            "объект",
+            "плоскость",
+            "экран"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "отображение",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (2.11)"
+          },
+          {
+            "lemma": "измерение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "объект",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "плоскость",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "экран",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "отображение"
+        ],
+        "correction_prompt": "Исправь толкование 'Отображение измерений объекта на плоскости или экране' для слова 'проекция' так, чтобы в нем не использовались слова 'проекция', 'отображение', 'макет', 'эскиз', 'Отражение' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Представление размеров объекта на плоскости или экране.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfCmyT4BW6oAqHq30a48EpyUQaJ0', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Представление размеров объекта на плоскости или экране.', role='assistant', function_call=None, tool_calls=None))], created=1716141948, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=19, prompt_tokens=235, total_tokens=254))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Представление размеров объекта на плоскости или экране.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Представление",
+            "размеров",
+            "объекта",
+            "на",
+            "плоскости",
+            "или",
+            "экране"
+          ],
+          "removed_tokens": [
+            "или",
+            "на"
+          ],
+          "final_tokens": [
+            "Представление",
+            "размеров",
+            "объекта",
+            "плоскости",
+            "экране"
+          ],
+          "lemmas": [
+            "представление",
+            "размер",
+            "объект",
+            "плоскость",
+            "экран"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "представление",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "размер",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "объект",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "плоскость",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "экран",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-05-46",
+  "end_time": "2024.05.19 18-05-49"
+}

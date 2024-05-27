@@ -1,0 +1,283 @@
+{
+  "word": "аккаунт",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "карточка",
+    "бухгалтерия",
+    "баланс"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'аккаунт'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'аккаунт'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'аккаунт', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "счёт, карточка, бухгалтерия, кэш, депозит, счета, финансы, баланс, документ, вклад, транзакция, субсчёт, операция, заявление, кредит, отчёт",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfFCdpeDnYusjjIqX5QFewTTvBPk', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='счёт, карточка, бухгалтерия, кэш, депозит, счета, финансы, баланс, документ, вклад, транзакция, субсчёт, операция, заявление, кредит, отчёт', role='assistant', function_call=None, tool_calls=None))], created=1716142098, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=78, prompt_tokens=202, total_tokens=280))",
+    "distractor_analysis": [
+      {
+        "distractor": "счета",
+        "lemma": "счёт",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (339)"
+      },
+      {
+        "distractor": "карточка",
+        "lemma": "карточка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (102)"
+      },
+      {
+        "distractor": "бухгалтерия",
+        "lemma": "бухгалтерия",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (7.24)"
+      },
+      {
+        "distractor": "кэш",
+        "lemma": "кэш",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "депозит",
+        "lemma": "депозит",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "финансы",
+        "lemma": "финансы",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "баланс",
+        "lemma": "баланс",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (9.34)"
+      },
+      {
+        "distractor": "документ",
+        "lemma": "документ",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (408)"
+      },
+      {
+        "distractor": "вклад",
+        "lemma": "вклад",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (79)"
+      },
+      {
+        "distractor": "транзакция",
+        "lemma": "транзакция",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "субсчёт",
+        "lemma": "субсчёт",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "операция",
+        "lemma": "операция",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (214)"
+      },
+      {
+        "distractor": "заявление",
+        "lemma": "заявление",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (68.37)"
+      },
+      {
+        "distractor": "кредит",
+        "lemma": "кредит",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "отчёт",
+        "lemma": "отчёт",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (19)"
+      }
+    ],
+    "valid_distractors": [
+      "карточка",
+      "бухгалтерия",
+      "баланс",
+      "вклад",
+      "отчёт"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'аккаунт' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'аккаунт', 'карточка', 'бухгалтерия', 'баланс' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Запись информации о деньгах в банке, на веб-сайте и т.п.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfFEdqsToy1P2Q2wzukUapWbMQaM', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Запись информации о деньгах в банке, на веб-сайте и т.п.', role='assistant', function_call=None, tool_calls=None))], created=1716142100, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=29, prompt_tokens=205, total_tokens=234))",
+  "initial_definition": "Запись информации о деньгах в банке, на веб-сайте и т.п",
+  "final_definition": "Запись информации о средствах на учете в финансовой системе.",
+  "formatted_definition": "Запись информации о средствах на учете в финансовой системе",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Запись информации о средствах на учете в финансовой системе.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Запись",
+            "информации",
+            "о",
+            "деньгах",
+            "в",
+            "банке",
+            ",",
+            "на",
+            "веб-сайте",
+            "и",
+            "т.п"
+          ],
+          "removed_tokens": [
+            "на",
+            "о",
+            "и",
+            "в",
+            ","
+          ],
+          "final_tokens": [
+            "Запись",
+            "информации",
+            "деньгах",
+            "банке",
+            "веб-сайте",
+            "т.п"
+          ],
+          "lemmas": [
+            "запись",
+            "информация",
+            "деньга",
+            "банк",
+            "веб-сайт",
+            "т.п"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "запись",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "информация",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "деньга",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (2.18)"
+          },
+          {
+            "lemma": "банк",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "веб-сайт",
+            "is_valid": false,
+            "reason": "Высокого класса (7)"
+          },
+          {
+            "lemma": "т.п",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "деньга",
+          "веб-сайт",
+          "т.п"
+        ],
+        "correction_prompt": "Исправь толкование 'Запись информации о деньгах в банке, на веб-сайте и т.п' для слова 'аккаунт' так, чтобы в нем не использовались слова 'аккаунт', 'деньга', 'бухгалтерия', 'т.п', 'баланс', 'веб-сайт', 'карточка' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Запись информации о средствах на учете в финансовой системе.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfFFwkWjvReEl5Q6mJXGKPf4F9O8', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Запись информации о средствах на учете в финансовой системе.', role='assistant', function_call=None, tool_calls=None))], created=1716142101, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=25, prompt_tokens=263, total_tokens=288))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Запись информации о средствах на учете в финансовой системе.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Запись",
+            "информации",
+            "о",
+            "средствах",
+            "на",
+            "учете",
+            "в",
+            "финансовой",
+            "системе"
+          ],
+          "removed_tokens": [
+            "на",
+            "в",
+            "о"
+          ],
+          "final_tokens": [
+            "Запись",
+            "информации",
+            "средствах",
+            "учете",
+            "финансовой",
+            "системе"
+          ],
+          "lemmas": [
+            "запись",
+            "информация",
+            "средство",
+            "учёт",
+            "финансовый",
+            "система"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "запись",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "информация",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "средство",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "учёт",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "финансовый",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "система",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-08-18",
+  "end_time": "2024.05.19 18-08-22"
+}

@@ -1,0 +1,334 @@
+{
+  "word": "сорвиголова",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "авантюрист",
+    "фанатик",
+    "проказник"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'сорвиголова'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'сорвиголова'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'сорвиголова', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "безрассудник, авантюрист, экстремал, дерзун, оптимист, фанатик, бесстрашный, драчун, бывалый, пустоголовка, проказник, смельчак, лихач, опрометчивый, интриган, азартный",
+    "response_details": "ChatCompletion(id='chatcmpl-9Qfa5cpN6icfpBQfzKSvvSNf7wAXa', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='безрассудник, авантюрист, экстремал, дерзун, оптимист, фанатик, бесстрашный, драчун, бывалый, пустоголовка, проказник, смельчак, лихач, опрометчивый, интриган, азартный', role='assistant', function_call=None, tool_calls=None))], created=1716143393, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=89, prompt_tokens=208, total_tokens=297))",
+    "distractor_analysis": [
+      {
+        "distractor": "безрассудник",
+        "lemma": "безрассудник",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "авантюрист",
+        "lemma": "авантюрист",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (5.7)"
+      },
+      {
+        "distractor": "экстремал",
+        "lemma": "экстремаленький",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "дерзун",
+        "lemma": "дерзун",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "оптимист",
+        "lemma": "оптимист",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "фанатик",
+        "lemma": "фанатик",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (6.47)"
+      },
+      {
+        "distractor": "бесстрашный",
+        "lemma": "бесстрашный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "драчун",
+        "lemma": "драчун",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "бывалый",
+        "lemma": "бывалый",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "пустоголовка",
+        "lemma": "пустоголовок",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "проказник",
+        "lemma": "проказник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (8)"
+      },
+      {
+        "distractor": "смельчак",
+        "lemma": "смельчак",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (18)"
+      },
+      {
+        "distractor": "лихач",
+        "lemma": "лихач",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.95)"
+      },
+      {
+        "distractor": "опрометчивый",
+        "lemma": "опрометчивый",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "интриган",
+        "lemma": "интриган",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.53)"
+      },
+      {
+        "distractor": "азартный",
+        "lemma": "азартный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      }
+    ],
+    "valid_distractors": [
+      "авантюрист",
+      "фанатик",
+      "проказник",
+      "смельчак"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'сорвиголова' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'сорвиголова', 'авантюрист', 'фанатик', 'проказник' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Человек, склонный к необдуманным поступкам.",
+  "response_details": "ChatCompletion(id='chatcmpl-9Qfa7Xa2uYQPqWzTcT1FwOYuSpImg', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Человек, склонный к необдуманным поступкам.', role='assistant', function_call=None, tool_calls=None))], created=1716143395, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=22, prompt_tokens=207, total_tokens=229))",
+  "initial_definition": "Человек, склонный к необдуманным поступкам",
+  "final_definition": "Человек, действующий без должного обдумывания и предварительных расчетов.",
+  "formatted_definition": "Человек, действующий без должного обдумывания и предварительных расчетов",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Человек, склонный к импульсивным и опрометчивым действиям.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек",
+            ",",
+            "склонный",
+            "к",
+            "необдуманным",
+            "поступкам"
+          ],
+          "removed_tokens": [
+            ",",
+            "к"
+          ],
+          "final_tokens": [
+            "Человек",
+            "склонный",
+            "необдуманным",
+            "поступкам"
+          ],
+          "lemmas": [
+            "человек",
+            "склонный",
+            "необдуманный",
+            "поступок"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "склонный",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          },
+          {
+            "lemma": "необдуманный",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (1.61)"
+          },
+          {
+            "lemma": "поступок",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "необдуманный"
+        ],
+        "correction_prompt": "Исправь толкование 'Человек, склонный к необдуманным поступкам' для слова 'сорвиголова' так, чтобы в нем не использовались слова 'сорвиголова', 'фанатик', 'авантюрист', 'проказник', 'необдуманный' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Человек, склонный к импульсивным и опрометчивым действиям.",
+        "response_details": "ChatCompletion(id='chatcmpl-9Qfa86aRofNjEnTRSsZI0XKf0ZMXL', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Человек, склонный к импульсивным и опрометчивым действиям.', role='assistant', function_call=None, tool_calls=None))], created=1716143396, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=32, prompt_tokens=247, total_tokens=279))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Человек, действующий без должного обдумывания и предварительных расчетов.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек",
+            ",",
+            "склонный",
+            "к",
+            "импульсивным",
+            "и",
+            "опрометчивым",
+            "действиям"
+          ],
+          "removed_tokens": [
+            "и",
+            ",",
+            "к"
+          ],
+          "final_tokens": [
+            "Человек",
+            "склонный",
+            "импульсивным",
+            "опрометчивым",
+            "действиям"
+          ],
+          "lemmas": [
+            "человек",
+            "склонный",
+            "импульсивный",
+            "опрометчивый",
+            "действие"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "склонный",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          },
+          {
+            "lemma": "импульсивный",
+            "is_valid": false,
+            "reason": "Высокого класса (6)"
+          },
+          {
+            "lemma": "опрометчивый",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          },
+          {
+            "lemma": "действие",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "импульсивный"
+        ],
+        "correction_prompt": "Исправь толкование 'Человек, склонный к импульсивным и опрометчивым действиям.' для слова 'сорвиголова' так, чтобы в нем не использовались слова 'сорвиголова', 'авантюрист', 'импульсивный', 'фанатик', 'проказник', 'необдуманный' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Человек, действующий без должного обдумывания и предварительных расчетов.",
+        "response_details": "ChatCompletion(id='chatcmpl-9Qfa9FrgKOBFRI38iFfvDQu6RkRmG', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Человек, действующий без должного обдумывания и предварительных расчетов.', role='assistant', function_call=None, tool_calls=None))], created=1716143397, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=27, prompt_tokens=266, total_tokens=293))"
+      }
+    },
+    "3": {
+      "corrected_definition": "Человек, действующий без должного обдумывания и предварительных расчетов.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек",
+            ",",
+            "действующий",
+            "без",
+            "должного",
+            "обдумывания",
+            "и",
+            "предварительных",
+            "расчетов"
+          ],
+          "removed_tokens": [
+            "и",
+            ",",
+            "без"
+          ],
+          "final_tokens": [
+            "Человек",
+            "действующий",
+            "должного",
+            "обдумывания",
+            "предварительных",
+            "расчетов"
+          ],
+          "lemmas": [
+            "человек",
+            "действовать",
+            "должный",
+            "обдумывание",
+            "предварительный",
+            "расчёт"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "действовать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "должный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "обдумывание",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          },
+          {
+            "lemma": "предварительный",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "расчёт",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-29-53",
+  "end_time": "2024.05.19 18-29-58"
+}

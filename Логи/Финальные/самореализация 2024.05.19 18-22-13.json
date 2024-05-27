@@ -1,0 +1,185 @@
+{
+  "word": "самореализация",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "реализация",
+    "достижение",
+    "потенциал"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'самореализация'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'самореализация'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'самореализация', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "реализация, достижение, успех, цель, мечта, развитие, уровень, достигнутый, задача, потенциал, активность, процесс, выполнение, план, карьера, рост",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfSgxVRBkY7HJ4MxUEPKQwLziOZg', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='реализация, достижение, успех, цель, мечта, развитие, уровень, достигнутый, задача, потенциал, активность, процесс, выполнение, план, карьера, рост', role='assistant', function_call=None, tool_calls=None))], created=1716142934, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=66, prompt_tokens=208, total_tokens=274))",
+    "distractor_analysis": [
+      {
+        "distractor": "реализация",
+        "lemma": "реализация",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (20.1)"
+      },
+      {
+        "distractor": "достижение",
+        "lemma": "достижение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (200)"
+      },
+      {
+        "distractor": "успех",
+        "lemma": "успех",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (98.69)"
+      },
+      {
+        "distractor": "цель",
+        "lemma": "цель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (779)"
+      },
+      {
+        "distractor": "мечта",
+        "lemma": "мечта",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (54.74)"
+      },
+      {
+        "distractor": "развитие",
+        "lemma": "развитие",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (633)"
+      },
+      {
+        "distractor": "уровень",
+        "lemma": "уровень",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (279)"
+      },
+      {
+        "distractor": "достигнутый",
+        "lemma": "достигнутый",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "задача",
+        "lemma": "задача",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4077)"
+      },
+      {
+        "distractor": "потенциал",
+        "lemma": "потенциал",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (13.78)"
+      },
+      {
+        "distractor": "активность",
+        "lemma": "активность",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (15)"
+      },
+      {
+        "distractor": "процесс",
+        "lemma": "процесс",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (560)"
+      },
+      {
+        "distractor": "выполнение",
+        "lemma": "выполнение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (464)"
+      },
+      {
+        "distractor": "план",
+        "lemma": "план",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1232)"
+      },
+      {
+        "distractor": "карьера",
+        "lemma": "карьера",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (17)"
+      },
+      {
+        "distractor": "рост",
+        "lemma": "рост",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (336)"
+      }
+    ],
+    "valid_distractors": [
+      "реализация",
+      "достижение",
+      "потенциал",
+      "активность",
+      "карьера"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'самореализация' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'самореализация', 'реализация', 'достижение', 'потенциал' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Раскрытие своих способностей и желаний.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfShC8ArDktHdHhjC85O9GsZEzRe', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Раскрытие своих способностей и желаний.', role='assistant', function_call=None, tool_calls=None))], created=1716142935, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=20, prompt_tokens=206, total_tokens=226))",
+  "initial_definition": "Раскрытие своих способностей и желаний",
+  "final_definition": "Раскрытие своих способностей и желаний",
+  "formatted_definition": "Раскрытие своих способностей и желаний",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Раскрытие своих способностей и желаний",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Раскрытие",
+            "своих",
+            "способностей",
+            "и",
+            "желаний"
+          ],
+          "removed_tokens": [
+            "и"
+          ],
+          "final_tokens": [
+            "Раскрытие",
+            "своих",
+            "способностей",
+            "желаний"
+          ],
+          "lemmas": [
+            "раскрытие",
+            "свой",
+            "способность",
+            "желание"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "раскрытие",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "свой",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (1528.89)"
+          },
+          {
+            "lemma": "способность",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "желание",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-22-13",
+  "end_time": "2024.05.19 18-22-16"
+}

@@ -1,0 +1,189 @@
+{
+  "word": "анаэроб",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "Фермент"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'анаэроб'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'анаэроб'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'анаэроб', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Дыхание, Организм, Процесс, Биология, Клетка, Рост, Существо, Метаболизм, Энергия, Исследование, Биохимия, Фермент, Молекула, Реакция, Ткань, Функция",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfRpxPUMk6fUoe8mLmnQ9vejZMDn', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Дыхание, Организм, Процесс, Биология, Клетка, Рост, Существо, Метаболизм, Энергия, Исследование, Биохимия, Фермент, Молекула, Реакция, Ткань, Функция', role='assistant', function_call=None, tool_calls=None))], created=1716142881, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=83, prompt_tokens=205, total_tokens=288))",
+    "distractor_analysis": [
+      {
+        "distractor": "Дыхание",
+        "lemma": "дыхание",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (80.81)"
+      },
+      {
+        "distractor": "Организм",
+        "lemma": "организм",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1966)"
+      },
+      {
+        "distractor": "Процесс",
+        "lemma": "процесс",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (560)"
+      },
+      {
+        "distractor": "Биология",
+        "lemma": "биология",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (254)"
+      },
+      {
+        "distractor": "Клетка",
+        "lemma": "клетка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2037)"
+      },
+      {
+        "distractor": "Рост",
+        "lemma": "рост",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (336)"
+      },
+      {
+        "distractor": "Существо",
+        "lemma": "существо",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (474)"
+      },
+      {
+        "distractor": "Метаболизм",
+        "lemma": "метаболизм",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "Энергия",
+        "lemma": "энергия",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (299)"
+      },
+      {
+        "distractor": "Исследование",
+        "lemma": "исследование",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (275)"
+      },
+      {
+        "distractor": "Биохимия",
+        "lemma": "биохимия",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "Фермент",
+        "lemma": "фермент",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (3.06)"
+      },
+      {
+        "distractor": "Молекула",
+        "lemma": "молекула",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (277)"
+      },
+      {
+        "distractor": "Реакция",
+        "lemma": "реакция",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (60.07)"
+      },
+      {
+        "distractor": "Ткань",
+        "lemma": "ткань",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1014)"
+      },
+      {
+        "distractor": "Функция",
+        "lemma": "функция",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (68.91)"
+      }
+    ],
+    "valid_distractors": [
+      "Фермент"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'анаэроб' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'анаэроб', 'Фермент' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Организм, способный размножаться без использования кислорода.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfRrJnzvGDFDqVboB4ACoBB6SRPl', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Организм, способный размножаться без использования кислорода.', role='assistant', function_call=None, tool_calls=None))], created=1716142883, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=24, prompt_tokens=190, total_tokens=214))",
+  "initial_definition": "Организм, способный размножаться без использования кислорода",
+  "final_definition": "Организм, способный размножаться без использования кислорода",
+  "formatted_definition": "Организм, способный размножаться без использования кислорода",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Организм, способный размножаться без использования кислорода",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Организм",
+            ",",
+            "способный",
+            "размножаться",
+            "без",
+            "использования",
+            "кислорода"
+          ],
+          "removed_tokens": [
+            ",",
+            "без"
+          ],
+          "final_tokens": [
+            "Организм",
+            "способный",
+            "размножаться",
+            "использования",
+            "кислорода"
+          ],
+          "lemmas": [
+            "организм",
+            "способный",
+            "размножаться",
+            "использование",
+            "кислород"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "организм",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "способный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "размножаться",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "использование",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "кислород",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-21-20",
+  "end_time": "2024.05.19 18-21-24"
+}

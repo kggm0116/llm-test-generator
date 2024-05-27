@@ -1,0 +1,176 @@
+{
+  "word": "пастернак",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "редис",
+    "лук",
+    "рябина"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'пастернак'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'пастернак'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'пастернак', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "корень, морковь, картофель, редис, лук, сельдерей, редька, рябина, лавровод, барбарис, брусника, ирис, лилия, фиалка, подсолнечник, гвоздика",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfRvT9Vps8a08HkctzZaDBkl1vBj', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='корень, морковь, картофель, редис, лук, сельдерей, редька, рябина, лавровод, барбарис, брусника, ирис, лилия, фиалка, подсолнечник, гвоздика', role='assistant', function_call=None, tool_calls=None))], created=1716142887, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=77, prompt_tokens=205, total_tokens=282))",
+    "distractor_analysis": [
+      {
+        "distractor": "корень",
+        "lemma": "корень",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2047)"
+      },
+      {
+        "distractor": "морковь",
+        "lemma": "морковь",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (206)"
+      },
+      {
+        "distractor": "картофель",
+        "lemma": "картофель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (390)"
+      },
+      {
+        "distractor": "редис",
+        "lemma": "редис",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (18)"
+      },
+      {
+        "distractor": "лук",
+        "lemma": "лук",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (110)"
+      },
+      {
+        "distractor": "сельдерей",
+        "lemma": "сельдерей",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "редька",
+        "lemma": "редька",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "рябина",
+        "lemma": "рябина",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (115)"
+      },
+      {
+        "distractor": "лавровод",
+        "lemma": "лавровод",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "барбарис",
+        "lemma": "барбарис",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "брусника",
+        "lemma": "брусника",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.83)"
+      },
+      {
+        "distractor": "ирис",
+        "lemma": "ирис",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (16)"
+      },
+      {
+        "distractor": "лилия",
+        "lemma": "лилия",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (8)"
+      },
+      {
+        "distractor": "фиалка",
+        "lemma": "фиалка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (23)"
+      },
+      {
+        "distractor": "подсолнечник",
+        "lemma": "подсолнечник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (37)"
+      },
+      {
+        "distractor": "гвоздика",
+        "lemma": "гвоздик",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.53)"
+      }
+    ],
+    "valid_distractors": [
+      "редис",
+      "лук",
+      "рябина",
+      "ирис",
+      "лилия",
+      "фиалка",
+      "подсолнечник"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'пастернак' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'пастернак', 'редис', 'лук', 'рябина' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Растение съедобными корнями.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfRx84t3MV1jTo6YeJ3hhsjf6mjQ', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Растение съедобными корнями.', role='assistant', function_call=None, tool_calls=None))], created=1716142889, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=13, prompt_tokens=199, total_tokens=212))",
+  "initial_definition": "Растение съедобными корнями",
+  "final_definition": "Растение съедобными корнями",
+  "formatted_definition": "Растение съедобными корнями",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Растение съедобными корнями",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Растение",
+            "съедобными",
+            "корнями"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Растение",
+            "съедобными",
+            "корнями"
+          ],
+          "lemmas": [
+            "растение",
+            "съедобный",
+            "корень"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "растение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "съедобный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "корень",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-21-27",
+  "end_time": "2024.05.19 18-21-29"
+}

@@ -1,0 +1,175 @@
+{
+  "word": "пыльник",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "молоток",
+    "ластик",
+    "костыль"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'пыльник'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'пыльник'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'пыльник', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Семена, батрак, фураж, молоток, ластик, флакон, фал, шнек, тяпка, шильник, лебедка, пулька, наждачка, бабочка, костыль, палка",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfM66qhOuIofvs1kEeCO6likyyic', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Семена, батрак, фураж, молоток, ластик, флакон, фал, шнек, тяпка, шильник, лебедка, пулька, наждачка, бабочка, костыль, палка', role='assistant', function_call=None, tool_calls=None))], created=1716142526, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=73, prompt_tokens=202, total_tokens=275))",
+    "distractor_analysis": [
+      {
+        "distractor": "Семена",
+        "lemma": "семя",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (655)"
+      },
+      {
+        "distractor": "батрак",
+        "lemma": "батрак",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.03)"
+      },
+      {
+        "distractor": "фураж",
+        "lemma": "фураж",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "молоток",
+        "lemma": "молоток",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (94)"
+      },
+      {
+        "distractor": "ластик",
+        "lemma": "ластик",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (43)"
+      },
+      {
+        "distractor": "флакон",
+        "lemma": "флакон",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "фал",
+        "lemma": "фал",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "шнек",
+        "lemma": "шнек",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "тяпка",
+        "lemma": "тяпка",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "шильник",
+        "lemma": "шильник",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "лебедка",
+        "lemma": "лебёдка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "пулька",
+        "lemma": "пулька",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.8)"
+      },
+      {
+        "distractor": "наждачка",
+        "lemma": "наждачка",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "бабочка",
+        "lemma": "бабочка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (302)"
+      },
+      {
+        "distractor": "костыль",
+        "lemma": "костыль",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (17.3)"
+      },
+      {
+        "distractor": "палка",
+        "lemma": "палка",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (57.5)"
+      }
+    ],
+    "valid_distractors": [
+      "молоток",
+      "ластик",
+      "костыль"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'пыльник' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'пыльник', 'молоток', 'ластик', 'костыль' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Предмет для удаления пыли.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfM7MzhHhhNphD6mZn98yNv5XDC6', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Предмет для удаления пыли.', role='assistant', function_call=None, tool_calls=None))], created=1716142527, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=11, prompt_tokens=200, total_tokens=211))",
+  "initial_definition": "Предмет для удаления пыли",
+  "final_definition": "Предмет для удаления пыли",
+  "formatted_definition": "Предмет для удаления пыли",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Предмет для удаления пыли",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Предмет",
+            "для",
+            "удаления",
+            "пыли"
+          ],
+          "removed_tokens": [
+            "для"
+          ],
+          "final_tokens": [
+            "Предмет",
+            "удаления",
+            "пыли"
+          ],
+          "lemmas": [
+            "предмет",
+            "удаление",
+            "пыль"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "предмет",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "удаление",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "пыль",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-15-25",
+  "end_time": "2024.05.19 18-15-28"
+}

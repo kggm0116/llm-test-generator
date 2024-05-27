@@ -1,0 +1,168 @@
+{
+  "word": "проекция",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "отражение",
+    "сегмент",
+    "контур"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'проекция'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'проекция'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'проекция', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "изображение, отражение, сегмент, элемент, символ, контур, участок, фигура, плоскость, тень, шаблон, форма, отображение, холст, ракурс, линия",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfCnuY5OcYp8209D03hZYwiwWuIu', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='изображение, отражение, сегмент, элемент, символ, контур, участок, фигура, плоскость, тень, шаблон, форма, отображение, холст, ракурс, линия', role='assistant', function_call=None, tool_calls=None))], created=1716141949, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=63, prompt_tokens=205, total_tokens=268))",
+    "distractor_analysis": [
+      {
+        "distractor": "изображение",
+        "lemma": "изображение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (847)"
+      },
+      {
+        "distractor": "отражение",
+        "lemma": "отражение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (48)"
+      },
+      {
+        "distractor": "сегмент",
+        "lemma": "сегмент",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (6)"
+      },
+      {
+        "distractor": "элемент",
+        "lemma": "элемент",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (646)"
+      },
+      {
+        "distractor": "символ",
+        "lemma": "символ",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (405)"
+      },
+      {
+        "distractor": "контур",
+        "lemma": "контур",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (135)"
+      },
+      {
+        "distractor": "участок",
+        "lemma": "участок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (917)"
+      },
+      {
+        "distractor": "фигура",
+        "lemma": "фигура",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1865)"
+      },
+      {
+        "distractor": "плоскость",
+        "lemma": "плоскость",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (211)"
+      },
+      {
+        "distractor": "тень",
+        "lemma": "тень",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (271)"
+      },
+      {
+        "distractor": "шаблон",
+        "lemma": "шаблон",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.6)"
+      },
+      {
+        "distractor": "форма",
+        "lemma": "форма",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4052)"
+      },
+      {
+        "distractor": "отображение",
+        "lemma": "отображение",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.11)"
+      },
+      {
+        "distractor": "холст",
+        "lemma": "холст",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (20)"
+      },
+      {
+        "distractor": "ракурс",
+        "lemma": "ракурс",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "линия",
+        "lemma": "линия",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1088)"
+      }
+    ],
+    "valid_distractors": [
+      "отражение",
+      "сегмент",
+      "контур",
+      "холст"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'проекция' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'проекция', 'отражение', 'сегмент', 'контур' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "изображение в тени",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfCpherwdR96SsTMJevHUqjU6txQ', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='изображение в тени', role='assistant', function_call=None, tool_calls=None))], created=1716141951, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=6, prompt_tokens=201, total_tokens=207))",
+  "initial_definition": "изображение в тени",
+  "final_definition": "изображение в тени",
+  "formatted_definition": "изображение в тени",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "изображение в тени",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "изображение",
+            "в",
+            "тени"
+          ],
+          "removed_tokens": [
+            "в"
+          ],
+          "final_tokens": [
+            "изображение",
+            "тени"
+          ],
+          "lemmas": [
+            "изображение",
+            "тень"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "изображение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "тень",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-05-49",
+  "end_time": "2024.05.19 18-05-51"
+}

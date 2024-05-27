@@ -1,0 +1,158 @@
+{
+  "word": "микролит",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "приспособление",
+    "препарат",
+    "ресурс"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'микролит'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'микролит'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'микролит', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Инструмент, орудие, артефакт, реликт, арматура, диагностик, агрегат, механизм, приспособление, устройство, аппарат, прибор, препарат, материал, ресурс, ресурс.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfaFiDysIwqhoKxqODI6eiHARa3e', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Инструмент, орудие, артефакт, реликт, арматура, диагностик, агрегат, механизм, приспособление, устройство, аппарат, прибор, препарат, материал, ресурс, ресурс.', role='assistant', function_call=None, tool_calls=None))], created=1716143403, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=88, prompt_tokens=205, total_tokens=293))",
+    "distractor_analysis": [
+      {
+        "distractor": "Инструмент",
+        "lemma": "инструмент",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (634)"
+      },
+      {
+        "distractor": "орудие",
+        "lemma": "орудие",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (227)"
+      },
+      {
+        "distractor": "артефакт",
+        "lemma": "артефакт",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "реликт",
+        "lemma": "реликт",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "арматура",
+        "lemma": "арматура",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.34)"
+      },
+      {
+        "distractor": "диагностик",
+        "lemma": "диагностик",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.91)"
+      },
+      {
+        "distractor": "агрегат",
+        "lemma": "агрегат",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "механизм",
+        "lemma": "механизм",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (52.87)"
+      },
+      {
+        "distractor": "приспособление",
+        "lemma": "приспособление",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (158)"
+      },
+      {
+        "distractor": "устройство",
+        "lemma": "устройство",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (585)"
+      },
+      {
+        "distractor": "аппарат",
+        "lemma": "аппарат",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (75.0)"
+      },
+      {
+        "distractor": "прибор",
+        "lemma": "прибор",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (392)"
+      },
+      {
+        "distractor": "препарат",
+        "lemma": "препарат",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (48)"
+      },
+      {
+        "distractor": "материал",
+        "lemma": "материал",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1092)"
+      },
+      {
+        "distractor": "ресурс",
+        "lemma": "ресурс",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (122)"
+      }
+    ],
+    "valid_distractors": [
+      "приспособление",
+      "препарат",
+      "ресурс"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'микролит' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'микролит', 'приспособление', 'препарат', 'ресурс' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Маленький камень.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfaGtYd9PuSW8HcAKC9A1rOQz6CM', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Маленький камень.', role='assistant', function_call=None, tool_calls=None))], created=1716143404, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=9, prompt_tokens=206, total_tokens=215))",
+  "initial_definition": "Маленький камень",
+  "final_definition": "Маленький камень",
+  "formatted_definition": "Маленький камень",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Маленький камень",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Маленький",
+            "камень"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Маленький",
+            "камень"
+          ],
+          "lemmas": [
+            "маленький",
+            "камень"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "маленький",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "камень",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-30-02",
+  "end_time": "2024.05.19 18-30-05"
+}

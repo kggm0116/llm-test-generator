@@ -1,0 +1,179 @@
+{
+  "word": "латыш",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "эстонец",
+    "славянин",
+    "европеец"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'латыш'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'латыш'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'латыш', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "эстонец, балт, славянин, инородец, житель, гражданин, ингерманландец, европеец, скандинав, рижанин, племянник, дружина, страновед, турист, мужчина, девушка",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfMyMIu988AIUV9SlxzBOT3lXoJi', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='эстонец, балт, славянин, инородец, житель, гражданин, ингерманландец, европеец, скандинав, рижанин, племянник, дружина, страновед, турист, мужчина, девушка', role='assistant', function_call=None, tool_calls=None))], created=1716142580, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=91, prompt_tokens=199, total_tokens=290))",
+    "distractor_analysis": [
+      {
+        "distractor": "эстонец",
+        "lemma": "эстонец",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (5.13)"
+      },
+      {
+        "distractor": "балт",
+        "lemma": "балта",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "славянин",
+        "lemma": "славянин",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (145)"
+      },
+      {
+        "distractor": "инородец",
+        "lemma": "инородец",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.19)"
+      },
+      {
+        "distractor": "житель",
+        "lemma": "житель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (747)"
+      },
+      {
+        "distractor": "гражданин",
+        "lemma": "гражданин",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (610)"
+      },
+      {
+        "distractor": "ингерманландец",
+        "lemma": "ингерманландец",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "европеец",
+        "lemma": "европеец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (42)"
+      },
+      {
+        "distractor": "скандинав",
+        "lemma": "скандинав",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "рижанин",
+        "lemma": "рижанин",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "племянник",
+        "lemma": "племянник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (13)"
+      },
+      {
+        "distractor": "дружина",
+        "lemma": "дружина",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (48)"
+      },
+      {
+        "distractor": "страновед",
+        "lemma": "страновед",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "турист",
+        "lemma": "турист",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (287)"
+      },
+      {
+        "distractor": "мужчина",
+        "lemma": "мужчина",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (208)"
+      },
+      {
+        "distractor": "девушка",
+        "lemma": "девушка",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (274.56)"
+      }
+    ],
+    "valid_distractors": [
+      "эстонец",
+      "славянин",
+      "европеец",
+      "племянник",
+      "дружина"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'латыш' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'латыш', 'эстонец', 'славянин', 'европеец' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Человек, живущий в Латвии.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfN0WSfipdkdpHMP70lcxn4kgA7d', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Человек, живущий в Латвии.', role='assistant', function_call=None, tool_calls=None))], created=1716142582, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=16, prompt_tokens=202, total_tokens=218))",
+  "initial_definition": "Человек, живущий в Латвии",
+  "final_definition": "Человек, живущий в Латвии",
+  "formatted_definition": "Человек, живущий в Латвии",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Человек, живущий в Латвии",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек",
+            ",",
+            "живущий",
+            "в",
+            "Латвии"
+          ],
+          "removed_tokens": [
+            "в",
+            ","
+          ],
+          "final_tokens": [
+            "Человек",
+            "живущий",
+            "Латвии"
+          ],
+          "lemmas": [
+            "человек",
+            "жить",
+            "латвия"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "жить",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "латвия",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-16-20",
+  "end_time": "2024.05.19 18-16-23"
+}

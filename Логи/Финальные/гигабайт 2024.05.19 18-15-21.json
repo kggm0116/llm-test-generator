@@ -1,0 +1,172 @@
+{
+  "word": "гигабайт",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "Емкость",
+    "байт",
+    "хранилище"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'гигабайт'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'гигабайт'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'гигабайт', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Емкость, объем, размер, байт, компьютер, память, информация, данные, хранилище, файл, передача, сигнал, сеть, интернет, облако, диск",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfM1cZ4k6t79o0XXOnX0GiiRLUOu', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Емкость, объем, размер, байт, компьютер, память, информация, данные, хранилище, файл, передача, сигнал, сеть, интернет, облако, диск', role='assistant', function_call=None, tool_calls=None))], created=1716142521, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=60, prompt_tokens=205, total_tokens=265))",
+    "distractor_analysis": [
+      {
+        "distractor": "Емкость",
+        "lemma": "ёмкость",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (28)"
+      },
+      {
+        "distractor": "объем",
+        "lemma": "объём",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (750)"
+      },
+      {
+        "distractor": "размер",
+        "lemma": "размер",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (892)"
+      },
+      {
+        "distractor": "байт",
+        "lemma": "байт",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (5.4)"
+      },
+      {
+        "distractor": "компьютер",
+        "lemma": "компьютер",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1297)"
+      },
+      {
+        "distractor": "память",
+        "lemma": "память",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (884)"
+      },
+      {
+        "distractor": "информация",
+        "lemma": "информация",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2289)"
+      },
+      {
+        "distractor": "данные",
+        "lemma": "дать",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1412)"
+      },
+      {
+        "distractor": "хранилище",
+        "lemma": "хранилище",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (59)"
+      },
+      {
+        "distractor": "файл",
+        "lemma": "файл",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (399)"
+      },
+      {
+        "distractor": "передача",
+        "lemma": "передача",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (246)"
+      },
+      {
+        "distractor": "сигнал",
+        "lemma": "сигнал",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (53.56)"
+      },
+      {
+        "distractor": "сеть",
+        "lemma": "сеть",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (265)"
+      },
+      {
+        "distractor": "интернет",
+        "lemma": "интернет",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (376)"
+      },
+      {
+        "distractor": "облако",
+        "lemma": "облако",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (417)"
+      },
+      {
+        "distractor": "диск",
+        "lemma": "диск",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (265)"
+      }
+    ],
+    "valid_distractors": [
+      "Емкость",
+      "байт",
+      "хранилище"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'гигабайт' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'гигабайт', 'Емкость', 'байт', 'хранилище' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Единица измерения информации.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfM21qW2hPazCrxEhXQTWDgxOmsx', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Единица измерения информации.', role='assistant', function_call=None, tool_calls=None))], created=1716142522, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=10, prompt_tokens=204, total_tokens=214))",
+  "initial_definition": "Единица измерения информации",
+  "final_definition": "Единица измерения информации",
+  "formatted_definition": "Единица измерения информации",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Единица измерения информации",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Единица",
+            "измерения",
+            "информации"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Единица",
+            "измерения",
+            "информации"
+          ],
+          "lemmas": [
+            "единица",
+            "измерение",
+            "информация"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "единица",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "измерение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "информация",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-15-21",
+  "end_time": "2024.05.19 18-15-23"
+}

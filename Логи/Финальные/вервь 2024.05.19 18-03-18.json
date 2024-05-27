@@ -1,0 +1,430 @@
+{
+  "word": "вервь",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "трос",
+    "шнур",
+    "верёвка"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'вервь'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'вервь'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'вервь', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "трос, тяга, лента, шнур, проволока, верёвка, канат, шпагат, пень, струна, нить, кабель, шнек, снасть, цепь, леер",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfAMm5fah4v9ohdZzoEfqFT2P9jm', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='трос, тяга, лента, шнур, проволока, верёвка, канат, шпагат, пень, струна, нить, кабель, шнек, снасть, цепь, леер', role='assistant', function_call=None, tool_calls=None))], created=1716141798, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=62, prompt_tokens=199, total_tokens=261))",
+    "distractor_analysis": [
+      {
+        "distractor": "трос",
+        "lemma": "трос",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (12)"
+      },
+      {
+        "distractor": "тяга",
+        "lemma": "тяга",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "лента",
+        "lemma": "лента",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (269)"
+      },
+      {
+        "distractor": "шнур",
+        "lemma": "шнур",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (31)"
+      },
+      {
+        "distractor": "проволока",
+        "lemma": "проволока",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (305)"
+      },
+      {
+        "distractor": "верёвка",
+        "lemma": "верёвка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (167)"
+      },
+      {
+        "distractor": "канат",
+        "lemma": "канат",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (32)"
+      },
+      {
+        "distractor": "шпагат",
+        "lemma": "шпагат",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.03)"
+      },
+      {
+        "distractor": "пень",
+        "lemma": "пенить",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (34)"
+      },
+      {
+        "distractor": "струна",
+        "lemma": "струна",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (30)"
+      },
+      {
+        "distractor": "нить",
+        "lemma": "нить",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (401)"
+      },
+      {
+        "distractor": "кабель",
+        "lemma": "кабель",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (7)"
+      },
+      {
+        "distractor": "шнек",
+        "lemma": "шнек",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "снасть",
+        "lemma": "снасть",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (8)"
+      },
+      {
+        "distractor": "цепь",
+        "lemma": "цепь",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (268)"
+      },
+      {
+        "distractor": "леер",
+        "lemma": "леер",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      }
+    ],
+    "valid_distractors": [
+      "трос",
+      "шнур",
+      "верёвка",
+      "канат",
+      "пень",
+      "струна",
+      "кабель",
+      "снасть"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'вервь' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'вервь', 'трос', 'шнур', 'верёвка' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Тонкая полоса материи, предназначенная для поддержания или удерживания.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfAOMGDp8QxuKWSw5EYj98quUsQP', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Тонкая полоса материи, предназначенная для поддержания или удерживания.', role='assistant', function_call=None, tool_calls=None))], created=1716141800, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=29, prompt_tokens=196, total_tokens=225))",
+  "initial_definition": "Тонкая полоса материи, предназначенная для поддержания или удерживания",
+  "final_definition": "Узкая полоса материи, необходимая для поддержания предмета.",
+  "formatted_definition": "Узкая полоса материи, необходимая для поддержания предмета",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Узкая полоса материи, нужная для поддержки или удержания.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Тонкая",
+            "полоса",
+            "материи",
+            ",",
+            "предназначенная",
+            "для",
+            "поддержания",
+            "или",
+            "удерживания"
+          ],
+          "removed_tokens": [
+            "или",
+            ",",
+            "для"
+          ],
+          "final_tokens": [
+            "Тонкая",
+            "полоса",
+            "материи",
+            "предназначенная",
+            "поддержания",
+            "удерживания"
+          ],
+          "lemmas": [
+            "тонкий",
+            "полоса",
+            "материя",
+            "предназначить",
+            "поддержание",
+            "удерживание"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "тонкий",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "полоса",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "материя",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "предназначить",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          },
+          {
+            "lemma": "поддержание",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "удерживание",
+            "is_valid": false,
+            "reason": "Высокого класса (7)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "удерживание"
+        ],
+        "correction_prompt": "Исправь толкование 'Тонкая полоса материи, предназначенная для поддержания или удерживания' для слова 'вервь' так, чтобы в нем не использовались слова 'вервь', 'шнур', 'трос', 'верёвка', 'удерживание' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Узкая полоса материи, нужная для поддержки или удержания.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfAPf9OrKcrNkAJ9KVssZLBbAenR', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Узкая полоса материи, нужная для поддержки или удержания.', role='assistant', function_call=None, tool_calls=None))], created=1716141801, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=24, prompt_tokens=241, total_tokens=265))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Узкая полоса материи, необходимая для подпорки.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Узкая",
+            "полоса",
+            "материи",
+            ",",
+            "нужная",
+            "для",
+            "поддержки",
+            "или",
+            "удержания"
+          ],
+          "removed_tokens": [
+            "или",
+            ",",
+            "для"
+          ],
+          "final_tokens": [
+            "Узкая",
+            "полоса",
+            "материи",
+            "нужная",
+            "поддержки",
+            "удержания"
+          ],
+          "lemmas": [
+            "узкий",
+            "полоса",
+            "материя",
+            "нужный",
+            "поддержка",
+            "удержание"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "узкий",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "полоса",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "материя",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "нужный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "поддержка",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "удержание",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (2.26)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "удержание"
+        ],
+        "correction_prompt": "Исправь толкование 'Узкая полоса материи, нужная для поддержки или удержания.' для слова 'вервь' так, чтобы в нем не использовались слова 'вервь', 'шнур', 'трос', 'удержание', 'верёвка', 'удерживание' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Узкая полоса материи, необходимая для подпорки.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfAQ42yakrF67cZRp7BfebzzPioc', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Узкая полоса материи, необходимая для подпорки.', role='assistant', function_call=None, tool_calls=None))], created=1716141802, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=20, prompt_tokens=241, total_tokens=261))"
+      }
+    },
+    "3": {
+      "corrected_definition": "Узкая полоса материи, необходимая для поддержания предмета.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Узкая",
+            "полоса",
+            "материи",
+            ",",
+            "необходимая",
+            "для",
+            "подпорки"
+          ],
+          "removed_tokens": [
+            ",",
+            "для"
+          ],
+          "final_tokens": [
+            "Узкая",
+            "полоса",
+            "материи",
+            "необходимая",
+            "подпорки"
+          ],
+          "lemmas": [
+            "узкий",
+            "полоса",
+            "материя",
+            "необходимый",
+            "подпорка"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "узкий",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "полоса",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "материя",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "необходимый",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "подпорка",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (2.41)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "подпорка"
+        ],
+        "correction_prompt": "Исправь толкование 'Узкая полоса материи, необходимая для подпорки.' для слова 'вервь' так, чтобы в нем не использовались слова 'вервь', 'шнур', 'трос', 'удержание', 'подпорка', 'верёвка', 'удерживание' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Узкая полоса материи, необходимая для поддержания предмета.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfAROUJCMK3kl9mOfLmIdTtYNHqb', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Узкая полоса материи, необходимая для поддержания предмета.', role='assistant', function_call=None, tool_calls=None))], created=1716141803, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=24, prompt_tokens=244, total_tokens=268))"
+      }
+    },
+    "4": {
+      "corrected_definition": "Узкая полоса материи, необходимая для поддержания предмета.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Узкая",
+            "полоса",
+            "материи",
+            ",",
+            "необходимая",
+            "для",
+            "поддержания",
+            "предмета"
+          ],
+          "removed_tokens": [
+            ",",
+            "для"
+          ],
+          "final_tokens": [
+            "Узкая",
+            "полоса",
+            "материи",
+            "необходимая",
+            "поддержания",
+            "предмета"
+          ],
+          "lemmas": [
+            "узкий",
+            "полоса",
+            "материя",
+            "необходимый",
+            "поддержание",
+            "предмет"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "узкий",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "полоса",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "материя",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "необходимый",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "поддержание",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "предмет",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-03-18",
+  "end_time": "2024.05.19 18-03-24"
+}

@@ -1,0 +1,156 @@
+{
+  "word": "братчина",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "коллектив",
+    "товарищество",
+    "социум"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'братчина'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'братчина'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'братчина', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "братство, братство, коллектив, общество, сообщество, группа, семья, товарищество, гильдия, братство, братство, социум, общество, сообщество, формирование, сообщество",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfNfFZsPckMujtR9sHIweIIy9Plc', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='братство, братство, коллектив, общество, сообщество, группа, семья, товарищество, гильдия, братство, братство, социум, общество, сообщество, формирование, сообщество', role='assistant', function_call=None, tool_calls=None))], created=1716142623, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=68, prompt_tokens=202, total_tokens=270))",
+    "distractor_analysis": [
+      {
+        "distractor": "братство",
+        "lemma": "братство",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "коллектив",
+        "lemma": "коллектив",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (49)"
+      },
+      {
+        "distractor": "общество",
+        "lemma": "общество",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (342)"
+      },
+      {
+        "distractor": "сообщество",
+        "lemma": "сообщество",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (253)"
+      },
+      {
+        "distractor": "группа",
+        "lemma": "группа",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2095)"
+      },
+      {
+        "distractor": "семья",
+        "lemma": "семья",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (861)"
+      },
+      {
+        "distractor": "товарищество",
+        "lemma": "товарищество",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (6)"
+      },
+      {
+        "distractor": "гильдия",
+        "lemma": "гильдия",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.37)"
+      },
+      {
+        "distractor": "социум",
+        "lemma": "социум",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (3.25)"
+      },
+      {
+        "distractor": "формирование",
+        "lemma": "формирование",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (16)"
+      }
+    ],
+    "valid_distractors": [
+      "коллектив",
+      "товарищество",
+      "социум",
+      "формирование"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'братчина' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'братчина', 'коллектив', 'товарищество', 'социум' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Общество людей, объединенных общим интересом.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfNiGqUnIYO2f6NDs7DD1HNXRBV8', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Общество людей, объединенных общим интересом.', role='assistant', function_call=None, tool_calls=None))], created=1716142626, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=19, prompt_tokens=203, total_tokens=222))",
+  "initial_definition": "Общество людей, объединенных общим интересом",
+  "final_definition": "Общество людей, объединенных общим интересом",
+  "formatted_definition": "Общество людей, объединенных общим интересом",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Общество людей, объединенных общим интересом",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Общество",
+            "людей",
+            ",",
+            "объединенных",
+            "общим",
+            "интересом"
+          ],
+          "removed_tokens": [
+            ","
+          ],
+          "final_tokens": [
+            "Общество",
+            "людей",
+            "объединенных",
+            "общим",
+            "интересом"
+          ],
+          "lemmas": [
+            "общество",
+            "человек",
+            "объединить",
+            "общий",
+            "интерес"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "общество",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "объединить",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "общий",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "интерес",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-17-03",
+  "end_time": "2024.05.19 18-17-06"
+}

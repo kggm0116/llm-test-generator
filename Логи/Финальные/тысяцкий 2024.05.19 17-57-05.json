@@ -1,0 +1,181 @@
+{
+  "word": "тысяцкий",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "аристократ",
+    "барин",
+    "сенатор"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'тысяцкий'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'тысяцкий'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'тысяцкий', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "вельможа, аристократ, барин, феодал, сенатор, патриции, помещик, господин, патриарх, магнат, боярин, племянник, амазонка, купеческий, бестселлер, интеллигент.",
+    "response_details": "ChatCompletion(id='chatcmpl-9Qf4MpEkZjHNfUl7XmrmBOxyBIKuu', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='вельможа, аристократ, барин, феодал, сенатор, патриции, помещик, господин, патриарх, магнат, боярин, племянник, амазонка, купеческий, бестселлер, интеллигент.', role='assistant', function_call=None, tool_calls=None))], created=1716141426, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=88, prompt_tokens=205, total_tokens=293))",
+    "distractor_analysis": [
+      {
+        "distractor": "вельможа",
+        "lemma": "вельможа",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.83)"
+      },
+      {
+        "distractor": "аристократ",
+        "lemma": "аристократ",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (89)"
+      },
+      {
+        "distractor": "барин",
+        "lemma": "барин",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (14)"
+      },
+      {
+        "distractor": "феодал",
+        "lemma": "феодал",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "сенатор",
+        "lemma": "сенатор",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (111)"
+      },
+      {
+        "distractor": "патриции",
+        "lemma": "патриция",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "помещик",
+        "lemma": "помещик",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (27)"
+      },
+      {
+        "distractor": "господин",
+        "lemma": "господин",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (187.32)"
+      },
+      {
+        "distractor": "патриарх",
+        "lemma": "патриарх",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (17)"
+      },
+      {
+        "distractor": "магнат",
+        "lemma": "магнат",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.3)"
+      },
+      {
+        "distractor": "боярин",
+        "lemma": "боярин",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (58)"
+      },
+      {
+        "distractor": "племянник",
+        "lemma": "племянник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (13)"
+      },
+      {
+        "distractor": "амазонка",
+        "lemma": "амазонка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (21)"
+      },
+      {
+        "distractor": "купеческий",
+        "lemma": "купеческий",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "бестселлер",
+        "lemma": "бестселлер",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.07)"
+      },
+      {
+        "distractor": "интеллигент",
+        "lemma": "интеллигент",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (24.69)"
+      }
+    ],
+    "valid_distractors": [
+      "аристократ",
+      "барин",
+      "сенатор",
+      "помещик",
+      "патриарх",
+      "боярин",
+      "племянник",
+      "амазонка",
+      "интеллигент"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'тысяцкий' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'тысяцкий', 'аристократ', 'барин', 'сенатор' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Высший чиновник при дворе.",
+  "response_details": "ChatCompletion(id='chatcmpl-9Qf4Oh6T0BBqBLOVf8MewjxbeioaX', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Высший чиновник при дворе.', role='assistant', function_call=None, tool_calls=None))], created=1716141428, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=13, prompt_tokens=201, total_tokens=214))",
+  "initial_definition": "Высший чиновник при дворе",
+  "final_definition": "Высший чиновник при дворе",
+  "formatted_definition": "Высший чиновник при дворе",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Высший чиновник при дворе",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Высший",
+            "чиновник",
+            "при",
+            "дворе"
+          ],
+          "removed_tokens": [
+            "при"
+          ],
+          "final_tokens": [
+            "Высший",
+            "чиновник",
+            "дворе"
+          ],
+          "lemmas": [
+            "высокий",
+            "чиновник",
+            "двор"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "высокий",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "чиновник",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "двор",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 17-57-05",
+  "end_time": "2024.05.19 17-57-08"
+}

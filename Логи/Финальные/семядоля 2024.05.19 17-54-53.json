@@ -1,0 +1,206 @@
+{
+  "word": "семядоля",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "луковица",
+    "побег",
+    "боб"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'семядоля'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'семядоля'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'семядоля', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "луковица, семя, клубень, корневище, стебель, побег, цветок, лист, боб, плод, зерно, семечко, кора, чешуя, шишка, ягода",
+    "response_details": "ChatCompletion(id='chatcmpl-9Qf2DZriZ49X9L5coLDsSKsnr19Tx', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='луковица, семя, клубень, корневище, стебель, побег, цветок, лист, боб, плод, зерно, семечко, кора, чешуя, шишка, ягода', role='assistant', function_call=None, tool_calls=None))], created=1716141293, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=68, prompt_tokens=202, total_tokens=270))",
+    "distractor_analysis": [
+      {
+        "distractor": "луковица",
+        "lemma": "луковица",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (83)"
+      },
+      {
+        "distractor": "семя",
+        "lemma": "семя",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (655)"
+      },
+      {
+        "distractor": "клубень",
+        "lemma": "клубень",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.84)"
+      },
+      {
+        "distractor": "корневище",
+        "lemma": "корневище",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.18)"
+      },
+      {
+        "distractor": "стебель",
+        "lemma": "стебель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (324)"
+      },
+      {
+        "distractor": "побег",
+        "lemma": "побег",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (124)"
+      },
+      {
+        "distractor": "цветок",
+        "lemma": "цветок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (911)"
+      },
+      {
+        "distractor": "лист",
+        "lemma": "лист",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1995)"
+      },
+      {
+        "distractor": "боб",
+        "lemma": "боб",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (15.62)"
+      },
+      {
+        "distractor": "плод",
+        "lemma": "плод",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (443)"
+      },
+      {
+        "distractor": "зерно",
+        "lemma": "зерно",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (427)"
+      },
+      {
+        "distractor": "семечко",
+        "lemma": "семечко",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (28)"
+      },
+      {
+        "distractor": "кора",
+        "lemma": "кора",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (355)"
+      },
+      {
+        "distractor": "чешуя",
+        "lemma": "чешуя",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (48)"
+      },
+      {
+        "distractor": "шишка",
+        "lemma": "шишка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (191)"
+      },
+      {
+        "distractor": "ягода",
+        "lemma": "ягода",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (339)"
+      }
+    ],
+    "valid_distractors": [
+      "луковица",
+      "побег",
+      "боб",
+      "семечко",
+      "чешуя",
+      "шишка"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'семядоля' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'семядоля', 'луковица', 'побег', 'боб' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Растение, из которого выращивают плоды для получения семян.",
+  "response_details": "ChatCompletion(id='chatcmpl-9Qf2FpcpkrSIE7Yfw5ofkvuFl3HKV', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Растение, из которого выращивают плоды для получения семян.', role='assistant', function_call=None, tool_calls=None))], created=1716141295, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=24, prompt_tokens=199, total_tokens=223))",
+  "initial_definition": "Растение, из которого выращивают плоды для получения семян",
+  "final_definition": "Растение, из которого выращивают плоды для получения семян",
+  "formatted_definition": "Растение, из которого выращивают плоды для получения семян",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Растение, из которого выращивают плоды для получения семян",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Растение",
+            ",",
+            "из",
+            "которого",
+            "выращивают",
+            "плоды",
+            "для",
+            "получения",
+            "семян"
+          ],
+          "removed_tokens": [
+            "из",
+            ",",
+            "для"
+          ],
+          "final_tokens": [
+            "Растение",
+            "которого",
+            "выращивают",
+            "плоды",
+            "получения",
+            "семян"
+          ],
+          "lemmas": [
+            "растение",
+            "который",
+            "выращивать",
+            "плод",
+            "получение",
+            "семя"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "растение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "который",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (3361.51)"
+          },
+          {
+            "lemma": "выращивать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "плод",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "получение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "семя",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 17-54-53",
+  "end_time": "2024.05.19 17-54-56"
+}

@@ -1,0 +1,248 @@
+{
+  "word": "генуэзец",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "абориген",
+    "испанец",
+    "китаец"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'генуэзец'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'генуэзец'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'генуэзец', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "абориген, ирландец, индиец, испанец, калифорниец, канадец, китаец, немец, поляк, сибиряк, суицидник, француз, хакер, хамелеон, цыган, швед.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfOOp81i68xccFWycjaC3eJeZ85G', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='абориген, ирландец, индиец, испанец, калифорниец, канадец, китаец, немец, поляк, сибиряк, суицидник, француз, хакер, хамелеон, цыган, швед.', role='assistant', function_call=None, tool_calls=None))], created=1716142668, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=87, prompt_tokens=211, total_tokens=298))",
+    "distractor_analysis": [
+      {
+        "distractor": "абориген",
+        "lemma": "абориген",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (6)"
+      },
+      {
+        "distractor": "ирландец",
+        "lemma": "ирландец",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "индиец",
+        "lemma": "индиец",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.38)"
+      },
+      {
+        "distractor": "испанец",
+        "lemma": "испанец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (11)"
+      },
+      {
+        "distractor": "калифорниец",
+        "lemma": "калифорниец",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "канадец",
+        "lemma": "канадец",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "китаец",
+        "lemma": "китаец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (107)"
+      },
+      {
+        "distractor": "немец",
+        "lemma": "немец",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (214.23)"
+      },
+      {
+        "distractor": "поляк",
+        "lemma": "поляк",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (21)"
+      },
+      {
+        "distractor": "сибиряк",
+        "lemma": "сибиряк",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (13)"
+      },
+      {
+        "distractor": "суицидник",
+        "lemma": "суицидник",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "француз",
+        "lemma": "француз",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (46)"
+      },
+      {
+        "distractor": "хакер",
+        "lemma": "хакер",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (7.31)"
+      },
+      {
+        "distractor": "хамелеон",
+        "lemma": "хамелеон",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.49)"
+      },
+      {
+        "distractor": "цыган",
+        "lemma": "цыган",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (14)"
+      },
+      {
+        "distractor": "швед",
+        "lemma": "швед",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (27)"
+      }
+    ],
+    "valid_distractors": [
+      "абориген",
+      "испанец",
+      "китаец",
+      "поляк",
+      "сибиряк",
+      "француз",
+      "хакер",
+      "цыган",
+      "швед"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'генуэзец' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'генуэзец', 'абориген', 'испанец', 'китаец' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Житель города Генуи.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfOQqfqiYLGGiajen34yC70qW0rc', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Житель города Генуи.', role='assistant', function_call=None, tool_calls=None))], created=1716142670, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=11, prompt_tokens=209, total_tokens=220))",
+  "initial_definition": "Житель города Генуи",
+  "final_definition": "Человек, проживающий в городе на северо-западе Италии.",
+  "formatted_definition": "Человек, проживающий в городе на северо-западе Италии",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Человек, проживающий в городе на северо-западе Италии.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Житель",
+            "города",
+            "Генуи"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Житель",
+            "города",
+            "Генуи"
+          ],
+          "lemmas": [
+            "житель",
+            "город",
+            "генуя"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "житель",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "город",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "генуя",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "генуя"
+        ],
+        "correction_prompt": "Исправь толкование 'Житель города Генуи' для слова 'генуэзец' так, чтобы в нем не использовались слова 'генуэзец', 'испанец', 'абориген', 'китаец', 'генуя' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Человек, проживающий в городе на северо-западе Италии.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfORfOdBsFmb0NjUDoBO7aK8EFGa', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Человек, проживающий в городе на северо-западе Италии.', role='assistant', function_call=None, tool_calls=None))], created=1716142671, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=31, prompt_tokens=236, total_tokens=267))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Человек, проживающий в городе на северо-западе Италии.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек",
+            ",",
+            "проживающий",
+            "в",
+            "городе",
+            "на",
+            "северо-западе",
+            "Италии"
+          ],
+          "removed_tokens": [
+            "в",
+            ",",
+            "на"
+          ],
+          "final_tokens": [
+            "Человек",
+            "проживающий",
+            "городе",
+            "северо-западе",
+            "Италии"
+          ],
+          "lemmas": [
+            "человек",
+            "проживать",
+            "город",
+            "северо-запад",
+            "италия"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "проживать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "город",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "северо-запад",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          },
+          {
+            "lemma": "италия",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-17-48",
+  "end_time": "2024.05.19 18-17-51"
+}

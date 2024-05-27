@@ -1,0 +1,228 @@
+{
+  "word": "капище",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "собор",
+    "мечеть",
+    "обители"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'капище'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'капище'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'капище', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "храм, собор, мечеть, башня, здание, святилище, обители, алтарь, мавзолей, скит, амбары, колокольня, гробница, холм, погреб, святое.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfIJM7bmyimqVXzAPkXysoPD3Q8u', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='храм, собор, мечеть, башня, здание, святилище, обители, алтарь, мавзолей, скит, амбары, колокольня, гробница, холм, погреб, святое.', role='assistant', function_call=None, tool_calls=None))], created=1716142291, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=77, prompt_tokens=205, total_tokens=282))",
+    "distractor_analysis": [
+      {
+        "distractor": "храм",
+        "lemma": "храм",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (902)"
+      },
+      {
+        "distractor": "собор",
+        "lemma": "собор",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (193)"
+      },
+      {
+        "distractor": "мечеть",
+        "lemma": "мечеть",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (38)"
+      },
+      {
+        "distractor": "башня",
+        "lemma": "башня",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (263)"
+      },
+      {
+        "distractor": "здание",
+        "lemma": "здание",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (349)"
+      },
+      {
+        "distractor": "святилище",
+        "lemma": "святилище",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.38)"
+      },
+      {
+        "distractor": "обители",
+        "lemma": "обитель",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (12)"
+      },
+      {
+        "distractor": "алтарь",
+        "lemma": "алтарь",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (46)"
+      },
+      {
+        "distractor": "мавзолей",
+        "lemma": "мавзолей",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (13)"
+      },
+      {
+        "distractor": "скит",
+        "lemma": "скит",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.87)"
+      },
+      {
+        "distractor": "амбары",
+        "lemma": "амбар",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (26)"
+      },
+      {
+        "distractor": "колокольня",
+        "lemma": "колокольня",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (27)"
+      },
+      {
+        "distractor": "гробница",
+        "lemma": "гробница",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (119)"
+      },
+      {
+        "distractor": "холм",
+        "lemma": "холм",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (271)"
+      },
+      {
+        "distractor": "погреб",
+        "lemma": "погреб",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (10)"
+      },
+      {
+        "distractor": "святое",
+        "lemma": "святой",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      }
+    ],
+    "valid_distractors": [
+      "собор",
+      "мечеть",
+      "обители",
+      "алтарь",
+      "мавзолей",
+      "амбары",
+      "колокольня",
+      "гробница",
+      "погреб"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'капище' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'капище', 'собор', 'мечеть', 'обители' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Место богослужения.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfIK7h6QreFEF22iqcGgznkiEZL8', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Место богослужения.', role='assistant', function_call=None, tool_calls=None))], created=1716142292, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=9, prompt_tokens=201, total_tokens=210))",
+  "initial_definition": "Место богослужения",
+  "final_definition": "Место для исполнения религиозных обрядов.",
+  "formatted_definition": "Место для исполнения религиозных обрядов",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Место для исполнения религиозных обрядов.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Место",
+            "богослужения"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Место",
+            "богослужения"
+          ],
+          "lemmas": [
+            "место",
+            "богослужение"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "место",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "богослужение",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (1.76)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "богослужение"
+        ],
+        "correction_prompt": "Исправь толкование 'Место богослужения' для слова 'капище' так, чтобы в нем не использовались слова 'капище', 'мечеть', 'собор', 'богослужение', 'обители' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Место для исполнения религиозных обрядов.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfILRj1SWoZngsOECeMxEPm3O5IT', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Место для исполнения религиозных обрядов.', role='assistant', function_call=None, tool_calls=None))], created=1716142293, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=18, prompt_tokens=227, total_tokens=245))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Место для исполнения религиозных обрядов.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Место",
+            "для",
+            "исполнения",
+            "религиозных",
+            "обрядов"
+          ],
+          "removed_tokens": [
+            "для"
+          ],
+          "final_tokens": [
+            "Место",
+            "исполнения",
+            "религиозных",
+            "обрядов"
+          ],
+          "lemmas": [
+            "место",
+            "исполнение",
+            "религиозный",
+            "обряд"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "место",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "исполнение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "религиозный",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "обряд",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-11-30",
+  "end_time": "2024.05.19 18-11-34"
+}

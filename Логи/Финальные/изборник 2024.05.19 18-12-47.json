@@ -1,0 +1,157 @@
+{
+  "word": "изборник",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "гимназист",
+    "экземпляр"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'изборник'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'изборник'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'изборник', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "гимназист, образец, шаблон, прототип, образчик, объект, предмет, экземпляр, образец, тип, экземпляр, элемент, представитель, образец, экземпляр, сущность",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfJYjNkVFDp59tSemKpPAUVqTPlO', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='гимназист, образец, шаблон, прототип, образчик, объект, предмет, экземпляр, образец, тип, экземпляр, элемент, представитель, образец, экземпляр, сущность', role='assistant', function_call=None, tool_calls=None))], created=1716142368, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=74, prompt_tokens=202, total_tokens=276))",
+    "distractor_analysis": [
+      {
+        "distractor": "гимназист",
+        "lemma": "гимназист",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (7)"
+      },
+      {
+        "distractor": "образец",
+        "lemma": "образец",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1304)"
+      },
+      {
+        "distractor": "шаблон",
+        "lemma": "шаблон",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.6)"
+      },
+      {
+        "distractor": "прототип",
+        "lemma": "прототип",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "образчик",
+        "lemma": "образчик",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.03)"
+      },
+      {
+        "distractor": "объект",
+        "lemma": "объект",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1090)"
+      },
+      {
+        "distractor": "предмет",
+        "lemma": "предмет",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2017)"
+      },
+      {
+        "distractor": "экземпляр",
+        "lemma": "экземпляр",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (19)"
+      },
+      {
+        "distractor": "тип",
+        "lemma": "тип",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (608)"
+      },
+      {
+        "distractor": "элемент",
+        "lemma": "элемент",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (646)"
+      },
+      {
+        "distractor": "представитель",
+        "lemma": "представитель",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (100.57)"
+      },
+      {
+        "distractor": "сущность",
+        "lemma": "сущность",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (55.82)"
+      }
+    ],
+    "valid_distractors": [
+      "гимназист",
+      "экземпляр"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'изборник' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'изборник', 'гимназист', 'экземпляр' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Книга, содержащая отборные произведения.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfJZoOjmX01KJXNvIoHdhQUxVsdZ', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Книга, содержащая отборные произведения.', role='assistant', function_call=None, tool_calls=None))], created=1716142369, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=18, prompt_tokens=199, total_tokens=217))",
+  "initial_definition": "Книга, содержащая отборные произведения",
+  "final_definition": "Книга, содержащая отборные произведения",
+  "formatted_definition": "Книга, содержащая отборные произведения",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Книга, содержащая отборные произведения",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Книга",
+            ",",
+            "содержащая",
+            "отборные",
+            "произведения"
+          ],
+          "removed_tokens": [
+            ","
+          ],
+          "final_tokens": [
+            "Книга",
+            "содержащая",
+            "отборные",
+            "произведения"
+          ],
+          "lemmas": [
+            "книга",
+            "содержать",
+            "отборный",
+            "произведение"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "книга",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "содержать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "отборный",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "произведение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-12-47",
+  "end_time": "2024.05.19 18-12-50"
+}

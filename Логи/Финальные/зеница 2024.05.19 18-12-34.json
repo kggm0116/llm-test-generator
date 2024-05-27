@@ -1,0 +1,262 @@
+{
+  "word": "зеница",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "веко",
+    "ресница",
+    "диафрагма"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'зеница'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'зеница'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'зеница', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "радужка, зрачок, глаз, веко, ресница, водянистый, зрачное, свет, диафрагма, глазное, слезный, расширенный, зрительный, контактный, оптический, лазерный",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfJKcGUZF6VFJ9LIes3duGzKg1yZ', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='\\nрадужка, зрачок, глаз, веко, ресница, водянистый, зрачное, свет, диафрагма, глазное, слезный, расширенный, зрительный, контактный, оптический, лазерный', role='assistant', function_call=None, tool_calls=None))], created=1716142354, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=83, prompt_tokens=199, total_tokens=282))",
+    "distractor_analysis": [
+      {
+        "distractor": "радужка",
+        "lemma": "радужка",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.03)"
+      },
+      {
+        "distractor": "зрачок",
+        "lemma": "зрачок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "глаз",
+        "lemma": "глаз",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (834)"
+      },
+      {
+        "distractor": "веко",
+        "lemma": "веко",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (18)"
+      },
+      {
+        "distractor": "ресница",
+        "lemma": "ресница",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (11)"
+      },
+      {
+        "distractor": "водянистый",
+        "lemma": "водянистый",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "зрачное",
+        "lemma": "зрачной",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "свет",
+        "lemma": "свет",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1243)"
+      },
+      {
+        "distractor": "диафрагма",
+        "lemma": "диафрагма",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (3.56)"
+      },
+      {
+        "distractor": "глазное",
+        "lemma": "глазной",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "слезный",
+        "lemma": "слёзный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "расширенный",
+        "lemma": "расширить",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (75)"
+      },
+      {
+        "distractor": "зрительный",
+        "lemma": "зрительный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "контактный",
+        "lemma": "контактный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "оптический",
+        "lemma": "оптический",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "лазерный",
+        "lemma": "лазерный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      }
+    ],
+    "valid_distractors": [
+      "веко",
+      "ресница",
+      "диафрагма",
+      "расширенный"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'зеница' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'зеница', 'веко', 'ресница', 'диафрагма' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Круглое отверстие в радужке глаза.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfJM7mB6Snif1eMrNOawunPwjzQW', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Круглое отверстие в радужке глаза.', role='assistant', function_call=None, tool_calls=None))], created=1716142356, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=18, prompt_tokens=201, total_tokens=219))",
+  "initial_definition": "Круглое отверстие в радужке глаза",
+  "final_definition": "Круглое отверстие в глазе, через которое проходит свет.",
+  "formatted_definition": "Круглое отверстие в глазе, через которое проходит свет",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Круглое отверстие в глазе, через которое проходит свет.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Круглое",
+            "отверстие",
+            "в",
+            "радужке",
+            "глаза"
+          ],
+          "removed_tokens": [
+            "в"
+          ],
+          "final_tokens": [
+            "Круглое",
+            "отверстие",
+            "радужке",
+            "глаза"
+          ],
+          "lemmas": [
+            "круглый",
+            "отверстие",
+            "радужка",
+            "глаз"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "круглый",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "отверстие",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "радужка",
+            "is_valid": false,
+            "reason": "Высокого класса (7)"
+          },
+          {
+            "lemma": "глаз",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "радужка"
+        ],
+        "correction_prompt": "Исправь толкование 'Круглое отверстие в радужке глаза' для слова 'зеница' так, чтобы в нем не использовались слова 'зеница', 'ресница', 'радужка', 'веко', 'диафрагма' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Круглое отверстие в глазе, через которое проходит свет.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfJNMTl8X43eBM4RgXjJUd6cZMzY', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Круглое отверстие в глазе, через которое проходит свет.', role='assistant', function_call=None, tool_calls=None))], created=1716142357, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=24, prompt_tokens=235, total_tokens=259))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Круглое отверстие в глазе, через которое проходит свет.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Круглое",
+            "отверстие",
+            "в",
+            "глазе",
+            ",",
+            "через",
+            "которое",
+            "проходит",
+            "свет"
+          ],
+          "removed_tokens": [
+            ",",
+            "в",
+            "через"
+          ],
+          "final_tokens": [
+            "Круглое",
+            "отверстие",
+            "глазе",
+            "которое",
+            "проходит",
+            "свет"
+          ],
+          "lemmas": [
+            "круглый",
+            "отверстие",
+            "глаз",
+            "который",
+            "проходить",
+            "свет"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "круглый",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "отверстие",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "глаз",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "который",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (3361.51)"
+          },
+          {
+            "lemma": "проходить",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "свет",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-12-34",
+  "end_time": "2024.05.19 18-12-38"
+}

@@ -1,0 +1,187 @@
+{
+  "word": "геймер",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "игрок",
+    "зритель",
+    "программист"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'геймер'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'геймер'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'геймер', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "игрок, зритель, стример, киберспортсмен, программист, разработчик, аналитик, журналист, комментатор, арбитр, тренер, организатор, режиссер, художник, тестировщик, игровщик",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfMYoYXLf440HmFddgnR6NvftFPY', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='игрок, зритель, стример, киберспортсмен, программист, разработчик, аналитик, журналист, комментатор, арбитр, тренер, организатор, режиссер, художник, тестировщик, игровщик', role='assistant', function_call=None, tool_calls=None))], created=1716142554, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=82, prompt_tokens=199, total_tokens=281))",
+    "distractor_analysis": [
+      {
+        "distractor": "игрок",
+        "lemma": "игрок",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (162)"
+      },
+      {
+        "distractor": "зритель",
+        "lemma": "зритель",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (135)"
+      },
+      {
+        "distractor": "стример",
+        "lemma": "стример",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "киберспортсмен",
+        "lemma": "киберспортсмен",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "программист",
+        "lemma": "программист",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (15)"
+      },
+      {
+        "distractor": "разработчик",
+        "lemma": "разработчик",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.22)"
+      },
+      {
+        "distractor": "аналитик",
+        "lemma": "аналитик",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.3)"
+      },
+      {
+        "distractor": "журналист",
+        "lemma": "журналист",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (72.74)"
+      },
+      {
+        "distractor": "комментатор",
+        "lemma": "комментатор",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "арбитр",
+        "lemma": "арбитр",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (3.06)"
+      },
+      {
+        "distractor": "тренер",
+        "lemma": "тренер",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (12)"
+      },
+      {
+        "distractor": "организатор",
+        "lemma": "организатор",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (9)"
+      },
+      {
+        "distractor": "режиссер",
+        "lemma": "режиссёр",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (16)"
+      },
+      {
+        "distractor": "художник",
+        "lemma": "художник",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1077)"
+      },
+      {
+        "distractor": "тестировщик",
+        "lemma": "тестировщик",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "игровщик",
+        "lemma": "игровщик",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      }
+    ],
+    "valid_distractors": [
+      "игрок",
+      "зритель",
+      "программист",
+      "арбитр",
+      "тренер",
+      "организатор",
+      "режиссер"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'геймер' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'геймер', 'игрок', 'зритель', 'программист' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Человек, увлекающийся компьютерными играми.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfMaL4kVQ46vebToUZiDi9RWPqax', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Человек, увлекающийся компьютерными играми.', role='assistant', function_call=None, tool_calls=None))], created=1716142556, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=22, prompt_tokens=198, total_tokens=220))",
+  "initial_definition": "Человек, увлекающийся компьютерными играми",
+  "final_definition": "Человек, увлекающийся компьютерными играми",
+  "formatted_definition": "Человек, увлекающийся компьютерными играми",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Человек, увлекающийся компьютерными играми",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек",
+            ",",
+            "увлекающийся",
+            "компьютерными",
+            "играми"
+          ],
+          "removed_tokens": [
+            ","
+          ],
+          "final_tokens": [
+            "Человек",
+            "увлекающийся",
+            "компьютерными",
+            "играми"
+          ],
+          "lemmas": [
+            "человек",
+            "увлекаться",
+            "компьютерный",
+            "игра"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "увлекаться",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "компьютерный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "игра",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-15-53",
+  "end_time": "2024.05.19 18-15-56"
+}

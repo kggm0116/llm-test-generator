@@ -1,0 +1,255 @@
+{
+  "word": "коэффициент",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "показатель",
+    "параметр",
+    "фактор"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'коэффициент'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'коэффициент'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'коэффициент', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Множитель, показатель, параметр, фактор, член, индекс, отношение, значение, показания, характеристика, условие, измерение, сигнал, коэффициент, отклонение, доля.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QesvoxWnNRrKpgNipUufF3WF2voL', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Множитель, показатель, параметр, фактор, член, индекс, отношение, значение, показания, характеристика, условие, измерение, сигнал, коэффициент, отклонение, доля.', role='assistant', function_call=None, tool_calls=None))], created=1716140717, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=72, prompt_tokens=211, total_tokens=283))",
+    "distractor_analysis": [
+      {
+        "distractor": "Множитель",
+        "lemma": "множитель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (565)"
+      },
+      {
+        "distractor": "показатель",
+        "lemma": "показатель",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (112)"
+      },
+      {
+        "distractor": "параметр",
+        "lemma": "параметр",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (31)"
+      },
+      {
+        "distractor": "фактор",
+        "lemma": "фактор",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (95)"
+      },
+      {
+        "distractor": "член",
+        "lemma": "член",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1847)"
+      },
+      {
+        "distractor": "индекс",
+        "lemma": "индекс",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (10)"
+      },
+      {
+        "distractor": "отношение",
+        "lemma": "отношение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (658)"
+      },
+      {
+        "distractor": "значение",
+        "lemma": "значение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (5927)"
+      },
+      {
+        "distractor": "показания",
+        "lemma": "показание",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (31)"
+      },
+      {
+        "distractor": "характеристика",
+        "lemma": "характеристика",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (190)"
+      },
+      {
+        "distractor": "условие",
+        "lemma": "условие",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1290)"
+      },
+      {
+        "distractor": "измерение",
+        "lemma": "измерение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (900)"
+      },
+      {
+        "distractor": "сигнал",
+        "lemma": "сигнал",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (53.56)"
+      },
+      {
+        "distractor": "коэффициент",
+        "lemma": "коэффициент",
+        "is_valid": false,
+        "reason": "Является исходным словом"
+      },
+      {
+        "distractor": "отклонение",
+        "lemma": "отклонение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (6)"
+      },
+      {
+        "distractor": "доля",
+        "lemma": "доля",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (344)"
+      }
+    ],
+    "valid_distractors": [
+      "показатель",
+      "параметр",
+      "фактор",
+      "индекс",
+      "показания",
+      "характеристика",
+      "отклонение"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'коэффициент' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'коэффициент', 'показатель', 'параметр', 'фактор' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Число, на которое умножают другое число.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QesxFzeTdYd7G2O4I27dB6VREOMU', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Число, на которое умножают другое число.', role='assistant', function_call=None, tool_calls=None))], created=1716140719, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=17, prompt_tokens=204, total_tokens=221))",
+  "initial_definition": "Число, на которое умножают другое число",
+  "final_definition": "Число, на которое делится другое число.",
+  "formatted_definition": "Число, на которое делится другое число",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Число, на которое делится другое число.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Число",
+            ",",
+            "на",
+            "которое",
+            "умножают",
+            "другое",
+            "число"
+          ],
+          "removed_tokens": [
+            "на",
+            ","
+          ],
+          "final_tokens": [
+            "Число",
+            "которое",
+            "умножают",
+            "другое",
+            "число"
+          ],
+          "lemmas": [
+            "число",
+            "который",
+            "умножать",
+            "другой",
+            "число"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "число",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "который",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (3361.51)"
+          },
+          {
+            "lemma": "умножать",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (2.72)"
+          },
+          {
+            "lemma": "другой",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (1577.31)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "умножать"
+        ],
+        "correction_prompt": "Исправь толкование 'Число, на которое умножают другое число' для слова 'коэффициент' так, чтобы в нем не использовались слова 'коэффициент', 'показатель', 'параметр', 'умножать', 'фактор' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Число, на которое делится другое число.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QesxaHTMNRX6JsT1nbpvrDmtcrZQ', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Число, на которое делится другое число.', role='assistant', function_call=None, tool_calls=None))], created=1716140719, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=13, prompt_tokens=237, total_tokens=250))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Число, на которое делится другое число.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Число",
+            ",",
+            "на",
+            "которое",
+            "делится",
+            "другое",
+            "число"
+          ],
+          "removed_tokens": [
+            "на",
+            ","
+          ],
+          "final_tokens": [
+            "Число",
+            "которое",
+            "делится",
+            "другое",
+            "число"
+          ],
+          "lemmas": [
+            "число",
+            "который",
+            "делиться",
+            "другой",
+            "число"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "число",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "который",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (3361.51)"
+          },
+          {
+            "lemma": "делиться",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "другой",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (1577.31)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 17-45-16",
+  "end_time": "2024.05.19 17-45-20"
+}

@@ -1,0 +1,424 @@
+{
+  "word": "мегабайт",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "Хранилище",
+    "Архив",
+    "Буфер"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'мегабайт'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'мегабайт'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'мегабайт', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Единица, Поток, Кластер, Хранилище, Архив, Файл, Артефакт, Буфер, Запись, Раздел, Фрагмент, Заголовок, Пакет, Блок, Переполнение, Плагин.",
+    "response_details": "ChatCompletion(id='chatcmpl-9Qf9E4x9XxSHVvnncPCGwGzTSaqre', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Единица, Поток, Кластер, Хранилище, Архив, Файл, Артефакт, Буфер, Запись, Раздел, Фрагмент, Заголовок, Пакет, Блок, Переполнение, Плагин.', role='assistant', function_call=None, tool_calls=None))], created=1716141728, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=81, prompt_tokens=205, total_tokens=286))",
+    "distractor_analysis": [
+      {
+        "distractor": "Единица",
+        "lemma": "единица",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2228)"
+      },
+      {
+        "distractor": "Поток",
+        "lemma": "поток",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (65.92)"
+      },
+      {
+        "distractor": "Кластер",
+        "lemma": "кластер",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "Хранилище",
+        "lemma": "хранилище",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (59)"
+      },
+      {
+        "distractor": "Архив",
+        "lemma": "архив",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (41)"
+      },
+      {
+        "distractor": "Файл",
+        "lemma": "файл",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (399)"
+      },
+      {
+        "distractor": "Артефакт",
+        "lemma": "артефакт",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "Буфер",
+        "lemma": "буфер",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (24)"
+      },
+      {
+        "distractor": "Запись",
+        "lemma": "запись",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1762)"
+      },
+      {
+        "distractor": "Раздел",
+        "lemma": "раздел",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (365)"
+      },
+      {
+        "distractor": "Фрагмент",
+        "lemma": "фрагмент",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (375)"
+      },
+      {
+        "distractor": "Заголовок",
+        "lemma": "заголовок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (376)"
+      },
+      {
+        "distractor": "Пакет",
+        "lemma": "пакет",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (270)"
+      },
+      {
+        "distractor": "Блок",
+        "lemma": "блок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (226)"
+      },
+      {
+        "distractor": "Переполнение",
+        "lemma": "переполнение",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "Плагин",
+        "lemma": "плагин",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      }
+    ],
+    "valid_distractors": [
+      "Хранилище",
+      "Архив",
+      "Буфер"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'мегабайт' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'мегабайт', 'Хранилище', 'Архив', 'Буфер' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Единица измерения информации, равная 1024 килобайтам.",
+  "response_details": "ChatCompletion(id='chatcmpl-9Qf9GQVfJxFngCvaQ4ZM6fyM6tgXA', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Единица измерения информации, равная 1024 килобайтам.', role='assistant', function_call=None, tool_calls=None))], created=1716141730, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=23, prompt_tokens=206, total_tokens=229))",
+  "initial_definition": "Единица измерения информации, равная 1024 килобайтам",
+  "final_definition": "Единица информации, превышающая размер килобайта в пространстве данных.",
+  "formatted_definition": "Единица информации, превышающая размер килобайта в пространстве данных",
+  "success": false,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Единица измерения информации, равная приблизительно 1000 килобайт.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Единица",
+            "измерения",
+            "информации",
+            ",",
+            "равная",
+            "1024",
+            "килобайтам"
+          ],
+          "removed_tokens": [
+            ","
+          ],
+          "final_tokens": [
+            "Единица",
+            "измерения",
+            "информации",
+            "равная",
+            "1024",
+            "килобайтам"
+          ],
+          "lemmas": [
+            "единица",
+            "измерение",
+            "информация",
+            "равный",
+            "1024",
+            "килобайт"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "единица",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "измерение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "информация",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "равный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "1024",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          },
+          {
+            "lemma": "килобайт",
+            "is_valid": false,
+            "reason": "Высокого класса (6)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "1024",
+          "килобайт"
+        ],
+        "correction_prompt": "Исправь толкование 'Единица измерения информации, равная 1024 килобайтам' для слова 'мегабайт' так, чтобы в нем не использовались слова 'мегабайт', '1024', 'Хранилище', 'Архив', 'Буфер', 'килобайт' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Единица измерения информации, равная приблизительно 1000 килобайт.",
+        "response_details": "ChatCompletion(id='chatcmpl-9Qf9IwfyENRIrkG3xr3Ei3dqLoPUy', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Единица измерения информации, равная приблизительно 1000 килобайт.', role='assistant', function_call=None, tool_calls=None))], created=1716141732, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=28, prompt_tokens=250, total_tokens=278))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Единица измерения информации, равная приблизительно 1000000 байт.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Единица",
+            "измерения",
+            "информации",
+            ",",
+            "равная",
+            "приблизительно",
+            "1000",
+            "килобайт"
+          ],
+          "removed_tokens": [
+            ","
+          ],
+          "final_tokens": [
+            "Единица",
+            "измерения",
+            "информации",
+            "равная",
+            "приблизительно",
+            "1000",
+            "килобайт"
+          ],
+          "lemmas": [
+            "единица",
+            "измерение",
+            "информация",
+            "равный",
+            "приблизительно",
+            "1000",
+            "килобайт"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "единица",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "измерение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "информация",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "равный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "приблизительно",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          },
+          {
+            "lemma": "1000",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          },
+          {
+            "lemma": "килобайт",
+            "is_valid": false,
+            "reason": "Высокого класса (6)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "1000",
+          "килобайт"
+        ],
+        "correction_prompt": "Исправь толкование 'Единица измерения информации, равная приблизительно 1000 килобайт.' для слова 'мегабайт' так, чтобы в нем не использовались слова 'мегабайт', '1000', '1024', 'Хранилище', 'Архив', 'Буфер', 'килобайт' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Единица измерения информации, равная приблизительно 1000000 байт.",
+        "response_details": "ChatCompletion(id='chatcmpl-9Qf9JxDAcNUEQOgTCKwAd4xHtd6Yb', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Единица измерения информации, равная приблизительно 1000000 байт.', role='assistant', function_call=None, tool_calls=None))], created=1716141733, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=27, prompt_tokens=259, total_tokens=286))"
+      }
+    },
+    "3": {
+      "corrected_definition": "Единица информации, больше чем килобайт.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Единица",
+            "измерения",
+            "информации",
+            ",",
+            "равная",
+            "приблизительно",
+            "1000000",
+            "байт"
+          ],
+          "removed_tokens": [
+            ","
+          ],
+          "final_tokens": [
+            "Единица",
+            "измерения",
+            "информации",
+            "равная",
+            "приблизительно",
+            "1000000",
+            "байт"
+          ],
+          "lemmas": [
+            "единица",
+            "измерение",
+            "информация",
+            "равный",
+            "приблизительно",
+            "1000000",
+            "байт"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "единица",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "измерение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "информация",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "равный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "приблизительно",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          },
+          {
+            "lemma": "1000000",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          },
+          {
+            "lemma": "байт",
+            "is_valid": false,
+            "reason": "Высокого класса (6)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "1000000",
+          "байт"
+        ],
+        "correction_prompt": "Исправь толкование 'Единица измерения информации, равная приблизительно 1000000 байт.' для слова 'мегабайт' так, чтобы в нем не использовались слова 'мегабайт', '1000000', '1024', '1000', 'Хранилище', 'Архив', 'Буфер', 'байт', 'килобайт' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Единица информации, больше чем килобайт.",
+        "response_details": "ChatCompletion(id='chatcmpl-9Qf9Kx05y6mWfMQKsQdPClegYSA4e', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Единица информации, больше чем килобайт.', role='assistant', function_call=None, tool_calls=None))], created=1716141734, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=17, prompt_tokens=268, total_tokens=285))"
+      }
+    },
+    "4": {
+      "corrected_definition": "Единица информации, превышающая размер килобайта в пространстве данных.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Единица",
+            "информации",
+            ",",
+            "больше",
+            "чем",
+            "килобайт"
+          ],
+          "removed_tokens": [
+            "больше",
+            ",",
+            "чем"
+          ],
+          "final_tokens": [
+            "Единица",
+            "информации",
+            "килобайт"
+          ],
+          "lemmas": [
+            "единица",
+            "информация",
+            "килобайт"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "единица",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "информация",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "килобайт",
+            "is_valid": false,
+            "reason": "Высокого класса (6)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "килобайт"
+        ],
+        "correction_prompt": "Исправь толкование 'Единица информации, больше чем килобайт.' для слова 'мегабайт' так, чтобы в нем не использовались слова 'мегабайт', '1000000', '1024', '1000', 'Хранилище', 'Архив', 'Буфер', 'байт', 'килобайт' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Единица информации, превышающая размер килобайта в пространстве данных.",
+        "response_details": "ChatCompletion(id='chatcmpl-9Qf9K0yT0tdrj2QiZ0yl0aArbqyCs', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Единица информации, превышающая размер килобайта в пространстве данных.', role='assistant', function_call=None, tool_calls=None))], created=1716141734, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=28, prompt_tokens=258, total_tokens=286))"
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-02-08",
+  "end_time": "2024.05.19 18-02-15"
+}

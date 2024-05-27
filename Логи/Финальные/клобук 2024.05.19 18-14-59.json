@@ -1,0 +1,196 @@
+{
+  "word": "клобук",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "колпак",
+    "капюшон",
+    "цилиндр"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'клобук'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'клобук'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'клобук', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "шапка, берет, кепка, платок, панама, фетра, колпак, капюшон, бейсболка, цилиндр, шлем, тюрбан, ковбойка, фуражка, бонет, митра",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfLgaM8K6wat3RsCBJww0ygq1R6q', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='шапка, берет, кепка, платок, панама, фетра, колпак, капюшон, бейсболка, цилиндр, шлем, тюрбан, ковбойка, фуражка, бонет, митра', role='assistant', function_call=None, tool_calls=None))], created=1716142500, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=76, prompt_tokens=202, total_tokens=278))",
+    "distractor_analysis": [
+      {
+        "distractor": "шапка",
+        "lemma": "шапка",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (68.79)"
+      },
+      {
+        "distractor": "берет",
+        "lemma": "брать",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (394)"
+      },
+      {
+        "distractor": "кепка",
+        "lemma": "кепка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "платок",
+        "lemma": "платок",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (65.08)"
+      },
+      {
+        "distractor": "панама",
+        "lemma": "панама",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "фетра",
+        "lemma": "фетр",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "колпак",
+        "lemma": "колпак",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (10)"
+      },
+      {
+        "distractor": "капюшон",
+        "lemma": "капюшон",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (18)"
+      },
+      {
+        "distractor": "бейсболка",
+        "lemma": "бейсболка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "цилиндр",
+        "lemma": "цилиндр",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (86)"
+      },
+      {
+        "distractor": "шлем",
+        "lemma": "шлем",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (48)"
+      },
+      {
+        "distractor": "тюрбан",
+        "lemma": "тюрбан",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.45)"
+      },
+      {
+        "distractor": "ковбойка",
+        "lemma": "ковбойка",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (4.02)"
+      },
+      {
+        "distractor": "фуражка",
+        "lemma": "фуражка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (8)"
+      },
+      {
+        "distractor": "бонет",
+        "lemma": "бонет",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "митра",
+        "lemma": "митра",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      }
+    ],
+    "valid_distractors": [
+      "колпак",
+      "капюшон",
+      "цилиндр",
+      "шлем",
+      "ковбойка",
+      "фуражка"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'клобук' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'клобук', 'колпак', 'капюшон', 'цилиндр' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Головной убор без поля и округлой тульи.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfLiOL94jU50jStWudkMPcLbOoR1', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Головной убор без поля и округлой тульи.', role='assistant', function_call=None, tool_calls=None))], created=1716142502, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=18, prompt_tokens=202, total_tokens=220))",
+  "initial_definition": "Головной убор без поля и округлой тульи",
+  "final_definition": "Головной убор без поля и округлой тульи",
+  "formatted_definition": "Головной убор без поля и округлой тульи",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Головной убор без поля и округлой тульи",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Головной",
+            "убор",
+            "без",
+            "поля",
+            "и",
+            "округлой",
+            "тульи"
+          ],
+          "removed_tokens": [
+            "и",
+            "без"
+          ],
+          "final_tokens": [
+            "Головной",
+            "убор",
+            "поля",
+            "округлой",
+            "тульи"
+          ],
+          "lemmas": [
+            "головной",
+            "убор",
+            "поле",
+            "округлый",
+            "тулья"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "головной",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "убор",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "поле",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "округлый",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "тулья",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-14-59",
+  "end_time": "2024.05.19 18-15-02"
+}

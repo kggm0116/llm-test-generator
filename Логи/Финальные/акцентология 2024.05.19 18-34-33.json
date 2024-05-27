@@ -1,0 +1,175 @@
+{
+  "word": "акцентология",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "анализ",
+    "методика",
+    "дисциплина"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'акцентология'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'акцентология'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'акцентология', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "изучение, теория, анализ, исследование, проблематика, методика, наука, раздел, дисциплина, область, специализация, знание, предмет, учение, теоретическая, работа",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfecxsMDonhFfEs5bdN425ugV6ZB', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='изучение, теория, анализ, исследование, проблематика, методика, наука, раздел, дисциплина, область, специализация, знание, предмет, учение, теоретическая, работа', role='assistant', function_call=None, tool_calls=None))], created=1716143674, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=76, prompt_tokens=208, total_tokens=284))",
+    "distractor_analysis": [
+      {
+        "distractor": "изучение",
+        "lemma": "изучение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (310)"
+      },
+      {
+        "distractor": "теория",
+        "lemma": "теория",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (57.73)"
+      },
+      {
+        "distractor": "анализ",
+        "lemma": "анализ",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (111)"
+      },
+      {
+        "distractor": "исследование",
+        "lemma": "исследование",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (275)"
+      },
+      {
+        "distractor": "проблематика",
+        "lemma": "проблематика",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.23)"
+      },
+      {
+        "distractor": "методика",
+        "lemma": "методика",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (9.53)"
+      },
+      {
+        "distractor": "наука",
+        "lemma": "наука",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (911)"
+      },
+      {
+        "distractor": "раздел",
+        "lemma": "раздел",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (365)"
+      },
+      {
+        "distractor": "дисциплина",
+        "lemma": "дисциплина",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (43)"
+      },
+      {
+        "distractor": "область",
+        "lemma": "область",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (558)"
+      },
+      {
+        "distractor": "специализация",
+        "lemma": "специализация",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "знание",
+        "lemma": "знание",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (918)"
+      },
+      {
+        "distractor": "предмет",
+        "lemma": "предмет",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2017)"
+      },
+      {
+        "distractor": "учение",
+        "lemma": "учение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (260)"
+      },
+      {
+        "distractor": "теоретическая",
+        "lemma": "теоретический",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "работа",
+        "lemma": "работа",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3092)"
+      }
+    ],
+    "valid_distractors": [
+      "анализ",
+      "методика",
+      "дисциплина"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'акцентология' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'акцентология', 'анализ', 'методика', 'дисциплина' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "исследование ударений в словах.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfedBdV7FCAMUbTYS2B7JSIajPoY', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='исследование ударений в словах.', role='assistant', function_call=None, tool_calls=None))], created=1716143675, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=14, prompt_tokens=204, total_tokens=218))",
+  "initial_definition": "исследование ударений в словах",
+  "final_definition": "исследование ударений в словах",
+  "formatted_definition": "исследование ударений в словах",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "исследование ударений в словах",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "исследование",
+            "ударений",
+            "в",
+            "словах"
+          ],
+          "removed_tokens": [
+            "в"
+          ],
+          "final_tokens": [
+            "исследование",
+            "ударений",
+            "словах"
+          ],
+          "lemmas": [
+            "исследование",
+            "ударение",
+            "слово"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "исследование",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "ударение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "слово",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-34-33",
+  "end_time": "2024.05.19 18-34-36"
+}

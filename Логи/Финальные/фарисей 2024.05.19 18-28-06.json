@@ -1,0 +1,253 @@
+{
+  "word": "фарисей",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "иудей",
+    "фермент",
+    "раввин"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'фарисей'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'фарисей'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'фарисей', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "еврей, законник, книжник, иудей, фермент, синедрионит, религиозник, фарисаид, раввин, сектант, караит, обрядовщик, типолог, священник, книжник, интерпретатор",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfYMqAvenOKfcQSk2jgx33LsVgoM', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='еврей, законник, книжник, иудей, фермент, синедрионит, религиозник, фарисаид, раввин, сектант, караит, обрядовщик, типолог, священник, книжник, интерпретатор', role='assistant', function_call=None, tool_calls=None))], created=1716143286, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=83, prompt_tokens=202, total_tokens=285))",
+    "distractor_analysis": [
+      {
+        "distractor": "еврей",
+        "lemma": "еврей",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (95.06)"
+      },
+      {
+        "distractor": "законник",
+        "lemma": "законник",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.37)"
+      },
+      {
+        "distractor": "книжник",
+        "lemma": "книжник",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "иудей",
+        "lemma": "иудей",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (41)"
+      },
+      {
+        "distractor": "фермент",
+        "lemma": "фермент",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (3.06)"
+      },
+      {
+        "distractor": "синедрионит",
+        "lemma": "синедрионит",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "религиозник",
+        "lemma": "религиозник",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "фарисаид",
+        "lemma": "фарисаид",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "раввин",
+        "lemma": "раввин",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (4.29)"
+      },
+      {
+        "distractor": "сектант",
+        "lemma": "сектант",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (3.18)"
+      },
+      {
+        "distractor": "караит",
+        "lemma": "караит",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "обрядовщик",
+        "lemma": "обрядовщик",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "типолог",
+        "lemma": "типолог",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "священник",
+        "lemma": "священник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (69)"
+      },
+      {
+        "distractor": "интерпретатор",
+        "lemma": "интерпретатор",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.03)"
+      }
+    ],
+    "valid_distractors": [
+      "иудей",
+      "фермент",
+      "раввин",
+      "сектант",
+      "священник"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'фарисей' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'фарисей', 'иудей', 'фермент', 'раввин' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Представитель религиозной секты в древнем Израиле.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfYOjzg3m76ZiclqdbFv7N2cB215', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Представитель религиозной секты в древнем Израиле.', role='assistant', function_call=None, tool_calls=None))], created=1716143288, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=25, prompt_tokens=198, total_tokens=223))",
+  "initial_definition": "Представитель религиозной секты в древнем Израиле",
+  "final_definition": "Представитель религиозной группы в древнем Израиле.",
+  "formatted_definition": "Представитель религиозной группы в древнем Израиле",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Представитель религиозной группы в древнем Израиле.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Представитель",
+            "религиозной",
+            "секты",
+            "в",
+            "древнем",
+            "Израиле"
+          ],
+          "removed_tokens": [
+            "в"
+          ],
+          "final_tokens": [
+            "Представитель",
+            "религиозной",
+            "секты",
+            "древнем",
+            "Израиле"
+          ],
+          "lemmas": [
+            "представитель",
+            "религиозный",
+            "секта",
+            "древний",
+            "израиль"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "представитель",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "религиозный",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "секта",
+            "is_valid": false,
+            "reason": "Высокого класса (7)"
+          },
+          {
+            "lemma": "древний",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "израиль",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (54.55)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "секта"
+        ],
+        "correction_prompt": "Исправь толкование 'Представитель религиозной секты в древнем Израиле' для слова 'фарисей' так, чтобы в нем не использовались слова 'фарисей', 'секта', 'раввин', 'иудей', 'фермент' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Представитель религиозной группы в древнем Израиле.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfYPUMgqhuheMBoTOuEIKogiqMmQ', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Представитель религиозной группы в древнем Израиле.', role='assistant', function_call=None, tool_calls=None))], created=1716143289, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=25, prompt_tokens=238, total_tokens=263))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Представитель религиозной группы в древнем Израиле.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Представитель",
+            "религиозной",
+            "группы",
+            "в",
+            "древнем",
+            "Израиле"
+          ],
+          "removed_tokens": [
+            "в"
+          ],
+          "final_tokens": [
+            "Представитель",
+            "религиозной",
+            "группы",
+            "древнем",
+            "Израиле"
+          ],
+          "lemmas": [
+            "представитель",
+            "религиозный",
+            "группа",
+            "древний",
+            "израиль"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "представитель",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "религиозный",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "группа",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "древний",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "израиль",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (54.55)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-28-06",
+  "end_time": "2024.05.19 18-28-10"
+}

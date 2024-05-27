@@ -1,0 +1,237 @@
+{
+  "word": "хорват",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "славяне",
+    "европейцы",
+    "горожане"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'хорват'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'хорват'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'хорват', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "славяне, балканцы, европейцы, люди, граждане, горожане, туристы, родственники, жители, граждане, путешественники, индивидуумы, иноземцы, славяне, женщины, мужчины, иностранцы",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfLn1TC2bqDxCP1H3WM3M6J1rTo5', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='славяне, балканцы, европейцы, люди, граждане, горожане, туристы, родственники, жители, граждане, путешественники, индивидуумы, иноземцы, славяне, женщины, мужчины, иностранцы', role='assistant', function_call=None, tool_calls=None))], created=1716142507, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=106, prompt_tokens=202, total_tokens=308))",
+    "distractor_analysis": [
+      {
+        "distractor": "славяне",
+        "lemma": "славянин",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (145)"
+      },
+      {
+        "distractor": "балканцы",
+        "lemma": "балканец",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "европейцы",
+        "lemma": "европеец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (42)"
+      },
+      {
+        "distractor": "люди",
+        "lemma": "человек",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (10201)"
+      },
+      {
+        "distractor": "граждане",
+        "lemma": "гражданин",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (610)"
+      },
+      {
+        "distractor": "горожане",
+        "lemma": "горожанин",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (109)"
+      },
+      {
+        "distractor": "туристы",
+        "lemma": "турист",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (287)"
+      },
+      {
+        "distractor": "родственники",
+        "lemma": "родственник",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (75.61)"
+      },
+      {
+        "distractor": "жители",
+        "lemma": "житель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (747)"
+      },
+      {
+        "distractor": "путешественники",
+        "lemma": "путешественник",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (260)"
+      },
+      {
+        "distractor": "индивидуумы",
+        "lemma": "индивидуум",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.37)"
+      },
+      {
+        "distractor": "иноземцы",
+        "lemma": "иноземец",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.61)"
+      },
+      {
+        "distractor": "женщины",
+        "lemma": "женщина",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (343)"
+      },
+      {
+        "distractor": "мужчины",
+        "lemma": "мужчина",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (208)"
+      },
+      {
+        "distractor": "иностранцы",
+        "lemma": "иностранец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (24)"
+      }
+    ],
+    "valid_distractors": [
+      "славяне",
+      "европейцы",
+      "горожане",
+      "иностранцы"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'хорват' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'хорват', 'славяне', 'европейцы', 'горожане' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Житель Хорватии.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfLpzCgWZAsN9AgN568uAnluwB8W', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Житель Хорватии.', role='assistant', function_call=None, tool_calls=None))], created=1716142509, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=10, prompt_tokens=204, total_tokens=214))",
+  "initial_definition": "Житель Хорватии",
+  "final_definition": "Человек, проживающий на территории государства в Юго-Восточной Европе.",
+  "formatted_definition": "Человек, проживающий на территории государства в Юго-Восточной Европе",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Человек, проживающий на территории государства в Юго-Восточной Европе.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Житель",
+            "Хорватии"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Житель",
+            "Хорватии"
+          ],
+          "lemmas": [
+            "житель",
+            "хорватия"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "житель",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "хорватия",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (1.11)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "хорватия"
+        ],
+        "correction_prompt": "Исправь толкование 'Житель Хорватии' для слова 'хорват' так, чтобы в нем не использовались слова 'хорват', 'славяне', 'горожане', 'хорватия', 'европейцы' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Человек, проживающий на территории государства в Юго-Восточной Европе.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfLqCcNiVqPZIV7jBWEZpRnNslU9', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Человек, проживающий на территории государства в Юго-Восточной Европе.', role='assistant', function_call=None, tool_calls=None))], created=1716142510, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=38, prompt_tokens=231, total_tokens=269))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Человек, проживающий на территории государства в Юго-Восточной Европе.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек",
+            ",",
+            "проживающий",
+            "на",
+            "территории",
+            "государства",
+            "в",
+            "Юго-Восточной",
+            "Европе"
+          ],
+          "removed_tokens": [
+            "на",
+            ",",
+            "в"
+          ],
+          "final_tokens": [
+            "Человек",
+            "проживающий",
+            "территории",
+            "государства",
+            "Юго-Восточной",
+            "Европе"
+          ],
+          "lemmas": [
+            "человек",
+            "проживать",
+            "территория",
+            "государство",
+            "юго-восточный",
+            "европа"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "проживать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "территория",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "государство",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "юго-восточный",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          },
+          {
+            "lemma": "европа",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-15-07",
+  "end_time": "2024.05.19 18-15-11"
+}

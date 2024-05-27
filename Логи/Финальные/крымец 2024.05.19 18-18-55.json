@@ -1,0 +1,177 @@
+{
+  "word": "крымец",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "жилет",
+    "экземпляр"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'крымец'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'крымец'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'крымец', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "платье, жилет, плащ, плащ-накидка, халат, туника, кимоно, модель, образец, экземпляр, образчик, экземпляр, образец, аналог, плод, образ, спецификация",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfPTl3c7Qgy46IcYXtYtOVn3uM1z', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='платье, жилет, плащ, плащ-накидка, халат, туника, кимоно, модель, образец, экземпляр, образчик, экземпляр, образец, аналог, плод, образ, спецификация', role='assistant', function_call=None, tool_calls=None))], created=1716142735, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=85, prompt_tokens=202, total_tokens=287))",
+    "distractor_analysis": [
+      {
+        "distractor": "платье",
+        "lemma": "платье",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (250)"
+      },
+      {
+        "distractor": "жилет",
+        "lemma": "жилет",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "плащ",
+        "lemma": "плащ",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (66.0)"
+      },
+      {
+        "distractor": "плащ-накидка",
+        "lemma": "плащ-накидка",
+        "is_valid": false,
+        "reason": "Содержит дефис"
+      },
+      {
+        "distractor": "халат",
+        "lemma": "халат",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (51.87)"
+      },
+      {
+        "distractor": "туника",
+        "lemma": "туника",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.38)"
+      },
+      {
+        "distractor": "кимоно",
+        "lemma": "кимоно",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "модель",
+        "lemma": "модель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (630)"
+      },
+      {
+        "distractor": "образец",
+        "lemma": "образец",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1304)"
+      },
+      {
+        "distractor": "экземпляр",
+        "lemma": "экземпляр",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (19)"
+      },
+      {
+        "distractor": "образчик",
+        "lemma": "образчик",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.03)"
+      },
+      {
+        "distractor": "аналог",
+        "lemma": "аналог",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "плод",
+        "lemma": "плод",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (443)"
+      },
+      {
+        "distractor": "образ",
+        "lemma": "образ",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1233)"
+      },
+      {
+        "distractor": "спецификация",
+        "lemma": "спецификация",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      }
+    ],
+    "valid_distractors": [
+      "жилет",
+      "экземпляр"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'крымец' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'крымец', 'жилет', 'экземпляр' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Человек, который живет в Крыму.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfPVfFPUqwMf34OC8UlIMxnTNB0e', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Человек, который живет в Крыму.', role='assistant', function_call=None, tool_calls=None))], created=1716142737, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=15, prompt_tokens=197, total_tokens=212))",
+  "initial_definition": "Человек, который живет в Крыму",
+  "final_definition": "Человек, который живет в Крыму",
+  "formatted_definition": "Человек, который живет в Крыму",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Человек, который живет в Крыму",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек",
+            ",",
+            "который",
+            "живет",
+            "в",
+            "Крыму"
+          ],
+          "removed_tokens": [
+            "в",
+            ","
+          ],
+          "final_tokens": [
+            "Человек",
+            "который",
+            "живет",
+            "Крыму"
+          ],
+          "lemmas": [
+            "человек",
+            "который",
+            "жить",
+            "крым"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "который",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (3361.51)"
+          },
+          {
+            "lemma": "жить",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "крым",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-18-55",
+  "end_time": "2024.05.19 18-18-58"
+}

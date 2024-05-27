@@ -1,0 +1,189 @@
+{
+  "word": "латинянин",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "иностранец",
+    "француз",
+    "голландец"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'латинянин'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'латинянин'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'латинянин', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "иностранец, американец, француз, голландец, испанец, немец, британец, китаец, японец, индиец, бразилец, армянин, австралиец, швед, кубинец, грек",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfajlRLxv4NVTVmAz2Fh59AiyLVe', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='иностранец, американец, француз, голландец, испанец, немец, британец, китаец, японец, индиец, бразилец, армянин, австралиец, швед, кубинец, грек', role='assistant', function_call=None, tool_calls=None))], created=1716143433, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=92, prompt_tokens=205, total_tokens=297))",
+    "distractor_analysis": [
+      {
+        "distractor": "иностранец",
+        "lemma": "иностранец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (24)"
+      },
+      {
+        "distractor": "американец",
+        "lemma": "американец",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (50.15)"
+      },
+      {
+        "distractor": "француз",
+        "lemma": "француз",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (46)"
+      },
+      {
+        "distractor": "голландец",
+        "lemma": "голландец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (6)"
+      },
+      {
+        "distractor": "испанец",
+        "lemma": "испанец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (11)"
+      },
+      {
+        "distractor": "немец",
+        "lemma": "немец",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (214.23)"
+      },
+      {
+        "distractor": "британец",
+        "lemma": "британец",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (3.06)"
+      },
+      {
+        "distractor": "китаец",
+        "lemma": "китаец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (107)"
+      },
+      {
+        "distractor": "японец",
+        "lemma": "японец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (20)"
+      },
+      {
+        "distractor": "индиец",
+        "lemma": "индиец",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.38)"
+      },
+      {
+        "distractor": "бразилец",
+        "lemma": "бразилец",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "армянин",
+        "lemma": "армянин",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (6)"
+      },
+      {
+        "distractor": "австралиец",
+        "lemma": "австралиец",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "швед",
+        "lemma": "швед",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (27)"
+      },
+      {
+        "distractor": "кубинец",
+        "lemma": "кубинец",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.76)"
+      },
+      {
+        "distractor": "грек",
+        "lemma": "грек",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (672)"
+      }
+    ],
+    "valid_distractors": [
+      "иностранец",
+      "француз",
+      "голландец",
+      "испанец",
+      "британец",
+      "китаец",
+      "японец",
+      "армянин",
+      "швед"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'латинянин' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'латинянин', 'иностранец', 'француз', 'голландец' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Человек из страны Латинской Америки.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfalN5aToYyVFt77Efi6mQqKabaJ', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Человек из страны Латинской Америки.', role='assistant', function_call=None, tool_calls=None))], created=1716143435, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=19, prompt_tokens=208, total_tokens=227))",
+  "initial_definition": "Человек из страны Латинской Америки",
+  "final_definition": "Человек из страны Латинской Америки",
+  "formatted_definition": "Человек из страны Латинской Америки",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Человек из страны Латинской Америки",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек",
+            "из",
+            "страны",
+            "Латинской",
+            "Америки"
+          ],
+          "removed_tokens": [
+            "из"
+          ],
+          "final_tokens": [
+            "Человек",
+            "страны",
+            "Латинской",
+            "Америки"
+          ],
+          "lemmas": [
+            "человек",
+            "страна",
+            "латинский",
+            "америка"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "страна",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "латинский",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "америка",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-30-33",
+  "end_time": "2024.05.19 18-30-36"
+}

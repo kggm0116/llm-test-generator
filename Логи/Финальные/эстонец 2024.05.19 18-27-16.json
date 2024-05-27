@@ -1,0 +1,191 @@
+{
+  "word": "эстонец",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "араб",
+    "британец",
+    "японец"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'эстонец'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'эстонец'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'эстонец', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "белорус, финн, араб, британец, мексиканец, японец, индиец, китаец, француз, немец, итальянец, испанец, грек, швед, голландец, бразилец",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfXZFbvdl3bFM32vWBbOa4RX7rYK', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='белорус, финн, араб, британец, мексиканец, японец, индиец, китаец, француз, немец, итальянец, испанец, грек, швед, голландец, бразилец', role='assistant', function_call=None, tool_calls=None))], created=1716143237, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=86, prompt_tokens=205, total_tokens=291))",
+    "distractor_analysis": [
+      {
+        "distractor": "белорус",
+        "lemma": "белорус",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.68)"
+      },
+      {
+        "distractor": "финн",
+        "lemma": "финн",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.83)"
+      },
+      {
+        "distractor": "араб",
+        "lemma": "араб",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (30)"
+      },
+      {
+        "distractor": "британец",
+        "lemma": "британец",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (3.06)"
+      },
+      {
+        "distractor": "мексиканец",
+        "lemma": "мексиканец",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "японец",
+        "lemma": "японец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (20)"
+      },
+      {
+        "distractor": "индиец",
+        "lemma": "индиец",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.38)"
+      },
+      {
+        "distractor": "китаец",
+        "lemma": "китаец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (107)"
+      },
+      {
+        "distractor": "француз",
+        "lemma": "француз",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (46)"
+      },
+      {
+        "distractor": "немец",
+        "lemma": "немец",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (214.23)"
+      },
+      {
+        "distractor": "итальянец",
+        "lemma": "итальянец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (14)"
+      },
+      {
+        "distractor": "испанец",
+        "lemma": "испанец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (11)"
+      },
+      {
+        "distractor": "грек",
+        "lemma": "грек",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (672)"
+      },
+      {
+        "distractor": "швед",
+        "lemma": "швед",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (27)"
+      },
+      {
+        "distractor": "голландец",
+        "lemma": "голландец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (6)"
+      },
+      {
+        "distractor": "бразилец",
+        "lemma": "бразилец",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      }
+    ],
+    "valid_distractors": [
+      "араб",
+      "британец",
+      "японец",
+      "китаец",
+      "француз",
+      "итальянец",
+      "испанец",
+      "швед",
+      "голландец"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'эстонец' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'эстонец', 'араб', 'британец', 'японец' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Человек из государства на севере Европы.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfXbo3kfnOowqzVMjvUTcZk8Zu1r', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Человек из государства на севере Европы.', role='assistant', function_call=None, tool_calls=None))], created=1716143239, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=21, prompt_tokens=205, total_tokens=226))",
+  "initial_definition": "Человек из государства на севере Европы",
+  "final_definition": "Человек из государства на севере Европы",
+  "formatted_definition": "Человек из государства на севере Европы",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Человек из государства на севере Европы",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек",
+            "из",
+            "государства",
+            "на",
+            "севере",
+            "Европы"
+          ],
+          "removed_tokens": [
+            "из",
+            "на"
+          ],
+          "final_tokens": [
+            "Человек",
+            "государства",
+            "севере",
+            "Европы"
+          ],
+          "lemmas": [
+            "человек",
+            "государство",
+            "север",
+            "европа"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "государство",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "север",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "европа",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-27-16",
+  "end_time": "2024.05.19 18-27-20"
+}

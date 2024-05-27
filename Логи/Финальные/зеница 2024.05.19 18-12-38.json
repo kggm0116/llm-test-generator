@@ -1,0 +1,249 @@
+{
+  "word": "зеница",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "роговица",
+    "веко",
+    "глазница"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'зеница'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'зеница'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'зеница', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "радужка, зрачок, роговица, хрусталик, склера, веко, слезопровод, зрительный, глаз, зрение, зраченице, зеницевидный, зенициспорт, зеницное оперение, глазница, глазопокров.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfJOLCSHM7ieQy1x97VeFumoQbZ2', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='радужка, зрачок, роговица, хрусталик, склера, веко, слезопровод, зрительный, глаз, зрение, зраченице, зеницевидный, зенициспорт, зеницное оперение, глазница, глазопокров.', role='assistant', function_call=None, tool_calls=None))], created=1716142358, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=91, prompt_tokens=199, total_tokens=290))",
+    "distractor_analysis": [
+      {
+        "distractor": "радужка",
+        "lemma": "радужка",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.03)"
+      },
+      {
+        "distractor": "зрачок",
+        "lemma": "зрачок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "роговица",
+        "lemma": "роговица",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (4.44)"
+      },
+      {
+        "distractor": "хрусталик",
+        "lemma": "хрусталик",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "склера",
+        "lemma": "склера",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "веко",
+        "lemma": "веко",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (18)"
+      },
+      {
+        "distractor": "слезопровод",
+        "lemma": "слезопровод",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "зрительный",
+        "lemma": "зрительный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "глаз",
+        "lemma": "глаз",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (834)"
+      },
+      {
+        "distractor": "зрение",
+        "lemma": "зрение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (218)"
+      },
+      {
+        "distractor": "зраченице",
+        "lemma": "зраченица",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "зеницевидный",
+        "lemma": "зеницевидный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "зенициспорт",
+        "lemma": "зенициспорт",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "зеницное оперение",
+        "lemma": "зеницное оперение",
+        "is_valid": false,
+        "reason": "Содержит пробел"
+      },
+      {
+        "distractor": "глазница",
+        "lemma": "глазница",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (4.56)"
+      },
+      {
+        "distractor": "глазопокров",
+        "lemma": "глазопокров",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      }
+    ],
+    "valid_distractors": [
+      "роговица",
+      "веко",
+      "глазница"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'зеница' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'зеница', 'роговица', 'веко', 'глазница' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Маленькое отверстие в центре радужки глаза.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfJQT0TXxBpyyALIQNwaRhnGWROy', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Маленькое отверстие в центре радужки глаза.', role='assistant', function_call=None, tool_calls=None))], created=1716142360, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=23, prompt_tokens=200, total_tokens=223))",
+  "initial_definition": "Маленькое отверстие в центре радужки глаза",
+  "final_definition": "Маленькое отверстие в центре глаза.",
+  "formatted_definition": "Маленькое отверстие в центре глаза",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Маленькое отверстие в центре глаза.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Маленькое",
+            "отверстие",
+            "в",
+            "центре",
+            "радужки",
+            "глаза"
+          ],
+          "removed_tokens": [
+            "в"
+          ],
+          "final_tokens": [
+            "Маленькое",
+            "отверстие",
+            "центре",
+            "радужки",
+            "глаза"
+          ],
+          "lemmas": [
+            "маленький",
+            "отверстие",
+            "центр",
+            "радужка",
+            "глаз"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "маленький",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "отверстие",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "центр",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "радужка",
+            "is_valid": false,
+            "reason": "Высокого класса (7)"
+          },
+          {
+            "lemma": "глаз",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "радужка"
+        ],
+        "correction_prompt": "Исправь толкование 'Маленькое отверстие в центре радужки глаза' для слова 'зеница' так, чтобы в нем не использовались слова 'зеница', 'глазница', 'радужка', 'веко', 'роговица' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Маленькое отверстие в центре глаза.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfJRxEQYDIn3QnYhybRPdrw0rkPz', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Маленькое отверстие в центре глаза.', role='assistant', function_call=None, tool_calls=None))], created=1716142361, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=19, prompt_tokens=239, total_tokens=258))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Маленькое отверстие в центре глаза.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Маленькое",
+            "отверстие",
+            "в",
+            "центре",
+            "глаза"
+          ],
+          "removed_tokens": [
+            "в"
+          ],
+          "final_tokens": [
+            "Маленькое",
+            "отверстие",
+            "центре",
+            "глаза"
+          ],
+          "lemmas": [
+            "маленький",
+            "отверстие",
+            "центр",
+            "глаз"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "маленький",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "отверстие",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "центр",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "глаз",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-12-38",
+  "end_time": "2024.05.19 18-12-41"
+}

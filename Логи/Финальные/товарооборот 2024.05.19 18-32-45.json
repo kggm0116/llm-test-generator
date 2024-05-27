@@ -1,0 +1,181 @@
+{
+  "word": "товарооборот",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "торговля",
+    "продажа",
+    "реализация"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'товарооборот'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'товарооборот'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'товарооборот', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "торговля, продажа, закупка, поставка, дистрибуция, реализация, импорт, экспорт, сбыт, оборот, снабжение, сектор, коммерция, обмен, сфера, ассортимент",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfcrshvUhYGFvI7KQNSVXS0XKMA6', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='торговля, продажа, закупка, поставка, дистрибуция, реализация, импорт, экспорт, сбыт, оборот, снабжение, сектор, коммерция, обмен, сфера, ассортимент', role='assistant', function_call=None, tool_calls=None))], created=1716143565, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=76, prompt_tokens=208, total_tokens=284))",
+    "distractor_analysis": [
+      {
+        "distractor": "торговля",
+        "lemma": "торговля",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (173)"
+      },
+      {
+        "distractor": "продажа",
+        "lemma": "продажа",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (62)"
+      },
+      {
+        "distractor": "закупка",
+        "lemma": "закупка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "поставка",
+        "lemma": "поставка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "дистрибуция",
+        "lemma": "дистрибуция",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "реализация",
+        "lemma": "реализация",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (20.1)"
+      },
+      {
+        "distractor": "импорт",
+        "lemma": "импорт",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (4.9)"
+      },
+      {
+        "distractor": "экспорт",
+        "lemma": "экспорт",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "сбыт",
+        "lemma": "сбыт",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "оборот",
+        "lemma": "оборот",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (143)"
+      },
+      {
+        "distractor": "снабжение",
+        "lemma": "снабжение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "сектор",
+        "lemma": "сектор",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (13)"
+      },
+      {
+        "distractor": "коммерция",
+        "lemma": "коммерция",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (3.06)"
+      },
+      {
+        "distractor": "обмен",
+        "lemma": "обмен",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (145)"
+      },
+      {
+        "distractor": "сфера",
+        "lemma": "сфера",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (52.64)"
+      },
+      {
+        "distractor": "ассортимент",
+        "lemma": "ассортимент",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      }
+    ],
+    "valid_distractors": [
+      "торговля",
+      "продажа",
+      "реализация",
+      "импорт",
+      "оборот",
+      "снабжение",
+      "сектор",
+      "коммерция",
+      "обмен"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'товарооборот' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'товарооборот', 'торговля', 'продажа', 'реализация' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "движение товаров в экономике",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfctOjZ8EVxzCEkLHYGBH7oeWv8J', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='движение товаров в экономике', role='assistant', function_call=None, tool_calls=None))], created=1716143567, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=13, prompt_tokens=206, total_tokens=219))",
+  "initial_definition": "движение товаров в экономике",
+  "final_definition": "движение товаров в экономике",
+  "formatted_definition": "движение товаров в экономике",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "движение товаров в экономике",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "движение",
+            "товаров",
+            "в",
+            "экономике"
+          ],
+          "removed_tokens": [
+            "в"
+          ],
+          "final_tokens": [
+            "движение",
+            "товаров",
+            "экономике"
+          ],
+          "lemmas": [
+            "движение",
+            "товар",
+            "экономика"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "движение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "товар",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "экономика",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-32-45",
+  "end_time": "2024.05.19 18-32-48"
+}

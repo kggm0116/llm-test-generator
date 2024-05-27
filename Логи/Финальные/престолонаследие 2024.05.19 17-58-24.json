@@ -1,0 +1,306 @@
+{
+  "word": "престолонаследие",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "монархия",
+    "королевство",
+    "трон"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'престолонаследие'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'престолонаследие'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'престолонаследие', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "коронация, монархия, королевство, трон, династия, правление, кушанье, король, царь, император, власть, престол, монарх, монархиня, правитель, наследие",
+    "response_details": "ChatCompletion(id='chatcmpl-9Qf5c7ew5wazfel0sbUeWBEtgX7je', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='коронация, монархия, королевство, трон, династия, правление, кушанье, король, царь, император, власть, престол, монарх, монархиня, правитель, наследие', role='assistant', function_call=None, tool_calls=None))], created=1716141504, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=74, prompt_tokens=214, total_tokens=288))",
+    "distractor_analysis": [
+      {
+        "distractor": "коронация",
+        "lemma": "коронация",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "монархия",
+        "lemma": "монархия",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (13)"
+      },
+      {
+        "distractor": "королевство",
+        "lemma": "королевство",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (15)"
+      },
+      {
+        "distractor": "трон",
+        "lemma": "трон",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (62)"
+      },
+      {
+        "distractor": "династия",
+        "lemma": "династия",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (64)"
+      },
+      {
+        "distractor": "правление",
+        "lemma": "правление",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (164)"
+      },
+      {
+        "distractor": "кушанье",
+        "lemma": "кушанье",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.6)"
+      },
+      {
+        "distractor": "король",
+        "lemma": "король",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (147.27)"
+      },
+      {
+        "distractor": "царь",
+        "lemma": "царь",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1338)"
+      },
+      {
+        "distractor": "император",
+        "lemma": "император",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (548)"
+      },
+      {
+        "distractor": "власть",
+        "lemma": "власть",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (731)"
+      },
+      {
+        "distractor": "престол",
+        "lemma": "престол",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (43)"
+      },
+      {
+        "distractor": "монарх",
+        "lemma": "монарх",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (12)"
+      },
+      {
+        "distractor": "монархиня",
+        "lemma": "монархиня",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "правитель",
+        "lemma": "правитель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (267)"
+      },
+      {
+        "distractor": "наследие",
+        "lemma": "наследие",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (100)"
+      }
+    ],
+    "valid_distractors": [
+      "монархия",
+      "королевство",
+      "трон",
+      "династия",
+      "правление",
+      "престол",
+      "монарх",
+      "наследие"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'престолонаследие' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'престолонаследие', 'монархия', 'королевство', 'трон' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "право на наследование царского престола.",
+  "response_details": "ChatCompletion(id='chatcmpl-9Qf5eHTbZsLUoJzyimi9ERFV6YMZ1', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='право на наследование царского престола.', role='assistant', function_call=None, tool_calls=None))], created=1716141506, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=17, prompt_tokens=211, total_tokens=228))",
+  "initial_definition": "право на наследование царского престола",
+  "final_definition": "Право на сохранение власти в государстве.",
+  "formatted_definition": "Право на сохранение власти в государстве",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Право на преемство государственной власти.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "право",
+            "на",
+            "наследование",
+            "царского",
+            "престола"
+          ],
+          "removed_tokens": [
+            "на"
+          ],
+          "final_tokens": [
+            "право",
+            "наследование",
+            "царского",
+            "престола"
+          ],
+          "lemmas": [
+            "право",
+            "наследование",
+            "царский",
+            "престол"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "право",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "наследование",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (1.68)"
+          },
+          {
+            "lemma": "царский",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "престол",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "наследование"
+        ],
+        "correction_prompt": "Исправь толкование 'право на наследование царского престола' для слова 'престолонаследие' так, чтобы в нем не использовались слова 'престолонаследие', 'королевство', 'монархия', 'наследование', 'трон' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Право на преемство государственной власти.",
+        "response_details": "ChatCompletion(id='chatcmpl-9Qf5fQlcRhhor5QUHFLCndTPJMI0o', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Право на преемство государственной власти.', role='assistant', function_call=None, tool_calls=None))], created=1716141507, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=20, prompt_tokens=245, total_tokens=265))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Право на сохранение власти в государстве.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Право",
+            "на",
+            "преемство",
+            "государственной",
+            "власти"
+          ],
+          "removed_tokens": [
+            "на"
+          ],
+          "final_tokens": [
+            "Право",
+            "преемство",
+            "государственной",
+            "власти"
+          ],
+          "lemmas": [
+            "право",
+            "преемство",
+            "государственный",
+            "власть"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "право",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "преемство",
+            "is_valid": false,
+            "reason": "Высокого класса (7)"
+          },
+          {
+            "lemma": "государственный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "власть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "преемство"
+        ],
+        "correction_prompt": "Исправь толкование 'Право на преемство государственной власти.' для слова 'престолонаследие' так, чтобы в нем не использовались слова 'престолонаследие', 'королевство', 'преемство', 'монархия', 'наследование', 'трон' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Право на сохранение власти в государстве.",
+        "response_details": "ChatCompletion(id='chatcmpl-9Qf5gzx2BL04YBx1TtvA7yPyv9bmZ', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Право на сохранение власти в государстве.', role='assistant', function_call=None, tool_calls=None))], created=1716141508, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=17, prompt_tokens=256, total_tokens=273))"
+      }
+    },
+    "3": {
+      "corrected_definition": "Право на сохранение власти в государстве.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Право",
+            "на",
+            "сохранение",
+            "власти",
+            "в",
+            "государстве"
+          ],
+          "removed_tokens": [
+            "на",
+            "в"
+          ],
+          "final_tokens": [
+            "Право",
+            "сохранение",
+            "власти",
+            "государстве"
+          ],
+          "lemmas": [
+            "право",
+            "сохранение",
+            "власть",
+            "государство"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "право",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "сохранение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "власть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "государство",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 17-58-24",
+  "end_time": "2024.05.19 17-58-28"
+}

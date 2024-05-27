@@ -1,0 +1,168 @@
+{
+  "word": "индивид",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "субъект",
+    "согражданин",
+    "контингент"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'индивид'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'индивид'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'индивид', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "личность, существо, субъект, субъективность, согражданин, контингент, индивидуум, личник, экземпляр, персона, гражданин, субъектность, существо, особь, единичка, животное",
+    "response_details": "ChatCompletion(id='chatcmpl-9Qf9jJZ2slJHF7ARep73Dm4PtPP6x', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='личность, существо, субъект, субъективность, согражданин, контингент, индивидуум, личник, экземпляр, персона, гражданин, субъектность, существо, особь, единичка, животное', role='assistant', function_call=None, tool_calls=None))], created=1716141759, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=84, prompt_tokens=202, total_tokens=286))",
+    "distractor_analysis": [
+      {
+        "distractor": "личность",
+        "lemma": "личность",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (86.37)"
+      },
+      {
+        "distractor": "существо",
+        "lemma": "существо",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (474)"
+      },
+      {
+        "distractor": "субъект",
+        "lemma": "субъект",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (11)"
+      },
+      {
+        "distractor": "субъективность",
+        "lemma": "субъективность",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "согражданин",
+        "lemma": "согражданин",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (26)"
+      },
+      {
+        "distractor": "контингент",
+        "lemma": "контингент",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (4.71)"
+      },
+      {
+        "distractor": "индивидуум",
+        "lemma": "индивидуум",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.37)"
+      },
+      {
+        "distractor": "личник",
+        "lemma": "личникнуть",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "экземпляр",
+        "lemma": "экземпляр",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (19)"
+      },
+      {
+        "distractor": "персона",
+        "lemma": "персона",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "гражданин",
+        "lemma": "гражданин",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (610)"
+      },
+      {
+        "distractor": "субъектность",
+        "lemma": "субъектность",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "особь",
+        "lemma": "особь",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (38)"
+      },
+      {
+        "distractor": "единичка",
+        "lemma": "единичка",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "животное",
+        "lemma": "животное",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3666)"
+      }
+    ],
+    "valid_distractors": [
+      "субъект",
+      "согражданин",
+      "контингент",
+      "экземпляр",
+      "особь"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'индивид' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'индивид', 'субъект', 'согражданин', 'контингент' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Отдельное человеческое существо.",
+  "response_details": "ChatCompletion(id='chatcmpl-9Qf9lQnFgQVgEHlFHyPBSbcVPN9jd', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Отдельное человеческое существо.', role='assistant', function_call=None, tool_calls=None))], created=1716141761, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=15, prompt_tokens=205, total_tokens=220))",
+  "initial_definition": "Отдельное человеческое существо",
+  "final_definition": "Отдельное человеческое существо",
+  "formatted_definition": "Отдельное человеческое существо",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Отдельное человеческое существо",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Отдельное",
+            "человеческое",
+            "существо"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Отдельное",
+            "человеческое",
+            "существо"
+          ],
+          "lemmas": [
+            "отдельный",
+            "человеческий",
+            "существо"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "отдельный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "человеческий",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "существо",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-02-39",
+  "end_time": "2024.05.19 18-02-41"
+}

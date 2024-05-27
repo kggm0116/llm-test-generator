@@ -1,0 +1,185 @@
+{
+  "word": "катапульта",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "праща",
+    "копье",
+    "кузнец"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'катапульта'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'катапульта'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'катапульта', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "мангонель, баллиста, арбалет, праща, пикировщик, танк, рогатка, аркебуза, самострел, копье, кузнец, топор, дробовик, пулемет, аркан, кинжал",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfT69Ku0Ubfoua2HF0urX8UcBm8r', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='мангонель, баллиста, арбалет, праща, пикировщик, танк, рогатка, аркебуза, самострел, копье, кузнец, топор, дробовик, пулемет, аркан, кинжал', role='assistant', function_call=None, tool_calls=None))], created=1716142960, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=87, prompt_tokens=208, total_tokens=295))",
+    "distractor_analysis": [
+      {
+        "distractor": "мангонель",
+        "lemma": "мангонель",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "баллиста",
+        "lemma": "баллиста",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "арбалет",
+        "lemma": "арбалет",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "праща",
+        "lemma": "пращ",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (10)"
+      },
+      {
+        "distractor": "пикировщик",
+        "lemma": "пикировщик",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "танк",
+        "lemma": "танк",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (113.85)"
+      },
+      {
+        "distractor": "рогатка",
+        "lemma": "рогатка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "аркебуза",
+        "lemma": "аркебуз",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "самострел",
+        "lemma": "самострел",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.53)"
+      },
+      {
+        "distractor": "копье",
+        "lemma": "копьё",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (166)"
+      },
+      {
+        "distractor": "кузнец",
+        "lemma": "кузнец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (58)"
+      },
+      {
+        "distractor": "топор",
+        "lemma": "топор",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (55.85)"
+      },
+      {
+        "distractor": "дробовик",
+        "lemma": "дробовик",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.19)"
+      },
+      {
+        "distractor": "пулемет",
+        "lemma": "пулемёт",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (8)"
+      },
+      {
+        "distractor": "аркан",
+        "lemma": "аркан",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "кинжал",
+        "lemma": "кинжал",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (19)"
+      }
+    ],
+    "valid_distractors": [
+      "праща",
+      "копье",
+      "кузнец",
+      "пулемет",
+      "кинжал"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'катапульта' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'катапульта', 'праща', 'копье', 'кузнец' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "механизм для запуска тяжелых предметов.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfT8px2nfBbwpZlYPnw3zEcU8xc3', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='механизм для запуска тяжелых предметов.', role='assistant', function_call=None, tool_calls=None))], created=1716142962, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=19, prompt_tokens=204, total_tokens=223))",
+  "initial_definition": "механизм для запуска тяжелых предметов",
+  "final_definition": "механизм для запуска тяжелых предметов",
+  "formatted_definition": "механизм для запуска тяжелых предметов",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "механизм для запуска тяжелых предметов",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "механизм",
+            "для",
+            "запуска",
+            "тяжелых",
+            "предметов"
+          ],
+          "removed_tokens": [
+            "для"
+          ],
+          "final_tokens": [
+            "механизм",
+            "запуска",
+            "тяжелых",
+            "предметов"
+          ],
+          "lemmas": [
+            "механизм",
+            "запуск",
+            "тяжёлый",
+            "предмет"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "механизм",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "запуск",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "тяжёлый",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "предмет",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-22-40",
+  "end_time": "2024.05.19 18-22-43"
+}

@@ -1,0 +1,189 @@
+{
+  "word": "гарнитура",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "Наушники",
+    "микрофон",
+    "рамка"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'гарнитура'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'гарнитура'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'гарнитура', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Наушники, микрофон, поводок, драйвер, звуковод, оголовье, амбушюр, громкоговоритель, шумоподавление, рамка, регулятор, аудиофайл, диафрагма, кабель, подставка, чехол",
+    "response_details": "ChatCompletion(id='chatcmpl-9Qfgo3jd8fpXodgTVTQAHqaWdLSA4', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Наушники, микрофон, поводок, драйвер, звуковод, оголовье, амбушюр, громкоговоритель, шумоподавление, рамка, регулятор, аудиофайл, диафрагма, кабель, подставка, чехол', role='assistant', function_call=None, tool_calls=None))], created=1716143810, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=95, prompt_tokens=208, total_tokens=303))",
+    "distractor_analysis": [
+      {
+        "distractor": "Наушники",
+        "lemma": "наушник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (13)"
+      },
+      {
+        "distractor": "микрофон",
+        "lemma": "микрофон",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (20)"
+      },
+      {
+        "distractor": "поводок",
+        "lemma": "поводок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "драйвер",
+        "lemma": "драйвер",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.45)"
+      },
+      {
+        "distractor": "звуковод",
+        "lemma": "звуковод",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "оголовье",
+        "lemma": "оголовье",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "амбушюр",
+        "lemma": "амбушюр",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "громкоговоритель",
+        "lemma": "громкоговоритель",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.99)"
+      },
+      {
+        "distractor": "шумоподавление",
+        "lemma": "шумоподавление",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "рамка",
+        "lemma": "рамка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (178)"
+      },
+      {
+        "distractor": "регулятор",
+        "lemma": "регулятор",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "аудиофайл",
+        "lemma": "аудиофайл",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "диафрагма",
+        "lemma": "диафрагма",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (3.56)"
+      },
+      {
+        "distractor": "кабель",
+        "lemma": "кабель",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (7)"
+      },
+      {
+        "distractor": "подставка",
+        "lemma": "подставка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (93)"
+      },
+      {
+        "distractor": "чехол",
+        "lemma": "чехол",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (15)"
+      }
+    ],
+    "valid_distractors": [
+      "Наушники",
+      "микрофон",
+      "рамка",
+      "диафрагма",
+      "кабель",
+      "подставка",
+      "чехол"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'гарнитура' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'гарнитура', 'Наушники', 'микрофон', 'рамка' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Набор устройств для общения по телефону.",
+  "response_details": "ChatCompletion(id='chatcmpl-9Qfgq6B43lpgV3sZ9mLaNTgqq9Ax9', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Набор устройств для общения по телефону.', role='assistant', function_call=None, tool_calls=None))], created=1716143812, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=16, prompt_tokens=206, total_tokens=222))",
+  "initial_definition": "Набор устройств для общения по телефону",
+  "final_definition": "Набор устройств для общения по телефону",
+  "formatted_definition": "Набор устройств для общения по телефону",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Набор устройств для общения по телефону",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Набор",
+            "устройств",
+            "для",
+            "общения",
+            "по",
+            "телефону"
+          ],
+          "removed_tokens": [
+            "по",
+            "для"
+          ],
+          "final_tokens": [
+            "Набор",
+            "устройств",
+            "общения",
+            "телефону"
+          ],
+          "lemmas": [
+            "набор",
+            "устройство",
+            "общение",
+            "телефон"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "набор",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "устройство",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "общение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "телефон",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-36-49",
+  "end_time": "2024.05.19 18-36-52"
+}

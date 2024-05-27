@@ -1,0 +1,165 @@
+{
+  "word": "интерпретация",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "анализ",
+    "изложение",
+    "разъяснение"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'интерпретация'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'интерпретация'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'интерпретация', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Выставление, объяснение, анализ, изложение, определение, разъяснение, описание, разбор, декодирование, экспликация, толкование, разъяснение, демонстрация, иллюстрация, расшифровка, детализация.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfelIzZbgJTzaUcgOXXcNOMOMRsZ', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Выставление, объяснение, анализ, изложение, определение, разъяснение, описание, разбор, декодирование, экспликация, толкование, разъяснение, демонстрация, иллюстрация, расшифровка, детализация.', role='assistant', function_call=None, tool_calls=None))], created=1716143683, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=86, prompt_tokens=208, total_tokens=294))",
+    "distractor_analysis": [
+      {
+        "distractor": "Выставление",
+        "lemma": "выставление",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "объяснение",
+        "lemma": "объяснение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (223)"
+      },
+      {
+        "distractor": "анализ",
+        "lemma": "анализ",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (111)"
+      },
+      {
+        "distractor": "изложение",
+        "lemma": "изложение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (200)"
+      },
+      {
+        "distractor": "определение",
+        "lemma": "определение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (542)"
+      },
+      {
+        "distractor": "разъяснение",
+        "lemma": "разъяснение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (11)"
+      },
+      {
+        "distractor": "описание",
+        "lemma": "описание",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (710)"
+      },
+      {
+        "distractor": "разбор",
+        "lemma": "разбор",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (344)"
+      },
+      {
+        "distractor": "декодирование",
+        "lemma": "декодирование",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (11)"
+      },
+      {
+        "distractor": "экспликация",
+        "lemma": "экспликация",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "толкование",
+        "lemma": "толкование",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (122)"
+      },
+      {
+        "distractor": "демонстрация",
+        "lemma": "демонстрация",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (17)"
+      },
+      {
+        "distractor": "иллюстрация",
+        "lemma": "иллюстрация",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (325)"
+      },
+      {
+        "distractor": "расшифровка",
+        "lemma": "расшифровка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (24)"
+      },
+      {
+        "distractor": "детализация",
+        "lemma": "детализация",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      }
+    ],
+    "valid_distractors": [
+      "анализ",
+      "изложение",
+      "разъяснение",
+      "декодирование",
+      "толкование",
+      "демонстрация",
+      "расшифровка"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'интерпретация' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'интерпретация', 'анализ', 'изложение', 'разъяснение' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Понимание смысла чего-либо.",
+  "response_details": "ChatCompletion(id='chatcmpl-9Qfem1Rbrwy72u5i18AkwQYnzZCxn', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='\\nПонимание смысла чего-либо.', role='assistant', function_call=None, tool_calls=None))], created=1716143684, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=17, prompt_tokens=204, total_tokens=221))",
+  "initial_definition": "Понимание смысла чего-либо",
+  "final_definition": "Понимание смысла чего-либо",
+  "formatted_definition": "Понимание смысла чего-либо",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Понимание смысла чего-либо",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Понимание",
+            "смысла",
+            "чего-либо"
+          ],
+          "removed_tokens": [
+            "чего-либо"
+          ],
+          "final_tokens": [
+            "Понимание",
+            "смысла"
+          ],
+          "lemmas": [
+            "понимание",
+            "смысл"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "понимание",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "смысл",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-34-42",
+  "end_time": "2024.05.19 18-34-45"
+}

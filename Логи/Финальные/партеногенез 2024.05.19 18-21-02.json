@@ -1,0 +1,150 @@
+{
+  "word": "партеногенез",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "эволюция",
+    "репродукция",
+    "генетика"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'партеногенез'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'партеногенез'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'партеногенез', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "размножение, эволюция, репродукция, генетика, биология, организм, клетка, размножение, размножение, год, выживание, эволюция, размножение, размножение, клетка, размножение.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfRX6iVtE3N6xkvlkBGNo98W2dhP', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='размножение, эволюция, репродукция, генетика, биология, организм, клетка, размножение, размножение, год, выживание, эволюция, размножение, размножение, клетка, размножение.', role='assistant', function_call=None, tool_calls=None))], created=1716142863, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=88, prompt_tokens=208, total_tokens=296))",
+    "distractor_analysis": [
+      {
+        "distractor": "размножение",
+        "lemma": "размножение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (216)"
+      },
+      {
+        "distractor": "эволюция",
+        "lemma": "эволюция",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (9)"
+      },
+      {
+        "distractor": "репродукция",
+        "lemma": "репродукция",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (92)"
+      },
+      {
+        "distractor": "генетика",
+        "lemma": "генетика",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (18)"
+      },
+      {
+        "distractor": "биология",
+        "lemma": "биология",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (254)"
+      },
+      {
+        "distractor": "организм",
+        "lemma": "организм",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1966)"
+      },
+      {
+        "distractor": "клетка",
+        "lemma": "клетка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2037)"
+      },
+      {
+        "distractor": "год",
+        "lemma": "год",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (6175)"
+      },
+      {
+        "distractor": "выживание",
+        "lemma": "выживание",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (15)"
+      }
+    ],
+    "valid_distractors": [
+      "эволюция",
+      "репродукция",
+      "генетика",
+      "выживание"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'партеногенез' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'партеногенез', 'эволюция', 'репродукция', 'генетика' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Форма размножения без участия мужской клетки.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfRZpCjzFqpmKgPAKWdII4xIBPaH', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Форма размножения без участия мужской клетки.', role='assistant', function_call=None, tool_calls=None))], created=1716142865, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=21, prompt_tokens=208, total_tokens=229))",
+  "initial_definition": "Форма размножения без участия мужской клетки",
+  "final_definition": "Форма размножения без участия мужской клетки",
+  "formatted_definition": "Форма размножения без участия мужской клетки",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Форма размножения без участия мужской клетки",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Форма",
+            "размножения",
+            "без",
+            "участия",
+            "мужской",
+            "клетки"
+          ],
+          "removed_tokens": [
+            "без"
+          ],
+          "final_tokens": [
+            "Форма",
+            "размножения",
+            "участия",
+            "мужской",
+            "клетки"
+          ],
+          "lemmas": [
+            "форма",
+            "размножение",
+            "участие",
+            "мужской",
+            "клетка"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "форма",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "размножение",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "участие",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "мужской",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "клетка",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-21-02",
+  "end_time": "2024.05.19 18-21-06"
+}

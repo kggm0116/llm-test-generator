@@ -1,0 +1,178 @@
+{
+  "word": "местничество",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "окрестность",
+    "простор",
+    "пейзаж"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'местничество'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'местничество'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'местничество', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "территория, ареал, локальность, местность, окрестность, простор, участок, пунктация, участковость, пейзаж, план, сцена, участие, квартал, рельеф, участничество",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfCSZCe6lm1wyz8pQYoDYmZefKrB', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='территория, ареал, локальность, местность, окрестность, простор, участок, пунктация, участковость, пейзаж, план, сцена, участие, квартал, рельеф, участничество', role='assistant', function_call=None, tool_calls=None))], created=1716141928, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=79, prompt_tokens=205, total_tokens=284))",
+    "distractor_analysis": [
+      {
+        "distractor": "территория",
+        "lemma": "территория",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (619)"
+      },
+      {
+        "distractor": "ареал",
+        "lemma": "ареал",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "локальность",
+        "lemma": "локальность",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "местность",
+        "lemma": "местность",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (544)"
+      },
+      {
+        "distractor": "окрестность",
+        "lemma": "окрестность",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (49)"
+      },
+      {
+        "distractor": "простор",
+        "lemma": "простор",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (101)"
+      },
+      {
+        "distractor": "участок",
+        "lemma": "участок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (917)"
+      },
+      {
+        "distractor": "пунктация",
+        "lemma": "пунктация",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "участковость",
+        "lemma": "участковость",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "пейзаж",
+        "lemma": "пейзаж",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (154)"
+      },
+      {
+        "distractor": "план",
+        "lemma": "план",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1232)"
+      },
+      {
+        "distractor": "сцена",
+        "lemma": "сцена",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (91.27)"
+      },
+      {
+        "distractor": "участие",
+        "lemma": "участие",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (84.49)"
+      },
+      {
+        "distractor": "квартал",
+        "lemma": "квартал",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (63)"
+      },
+      {
+        "distractor": "рельеф",
+        "lemma": "рельеф",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (190)"
+      },
+      {
+        "distractor": "участничество",
+        "lemma": "участничество",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      }
+    ],
+    "valid_distractors": [
+      "окрестность",
+      "простор",
+      "пейзаж",
+      "квартал",
+      "рельеф"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'местничество' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'местничество', 'окрестность', 'простор', 'пейзаж' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "территория, область, местность.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfCUTvxpfovUWFVuG8SwvQoV8U1g', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='территория, область, местность.', role='assistant', function_call=None, tool_calls=None))], created=1716141930, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=14, prompt_tokens=203, total_tokens=217))",
+  "initial_definition": "территория, область, местность",
+  "final_definition": "территория, область, местность",
+  "formatted_definition": "территория, область, местность",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "территория, область, местность",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "территория",
+            ",",
+            "область",
+            ",",
+            "местность"
+          ],
+          "removed_tokens": [
+            ","
+          ],
+          "final_tokens": [
+            "территория",
+            "область",
+            "местность"
+          ],
+          "lemmas": [
+            "территория",
+            "область",
+            "местность"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "территория",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "область",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "местность",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-05-28",
+  "end_time": "2024.05.19 18-05-30"
+}

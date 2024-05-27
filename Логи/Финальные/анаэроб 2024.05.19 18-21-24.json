@@ -1,0 +1,204 @@
+{
+  "word": "анаэроб",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "фермент",
+    "цитоплазма",
+    "фосфор"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'анаэроб'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'анаэроб'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'анаэроб', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "бактерия, процесс, окисление, молекула, метаболизм, клетка, аэроб, минерал, энергия, кислород, аминокислота, биология, фермент, цитоплазма, фосфор, генетика",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfRsAc3VeZ7A7MuoheBQl9IQPYKi', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='бактерия, процесс, окисление, молекула, метаболизм, клетка, аэроб, минерал, энергия, кислород, аминокислота, биология, фермент, цитоплазма, фосфор, генетика', role='assistant', function_call=None, tool_calls=None))], created=1716142884, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=86, prompt_tokens=205, total_tokens=291))",
+    "distractor_analysis": [
+      {
+        "distractor": "бактерия",
+        "lemma": "бактерия",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (836)"
+      },
+      {
+        "distractor": "процесс",
+        "lemma": "процесс",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (560)"
+      },
+      {
+        "distractor": "окисление",
+        "lemma": "окисление",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.64)"
+      },
+      {
+        "distractor": "молекула",
+        "lemma": "молекула",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (277)"
+      },
+      {
+        "distractor": "метаболизм",
+        "lemma": "метаболизм",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "клетка",
+        "lemma": "клетка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2037)"
+      },
+      {
+        "distractor": "аэроб",
+        "lemma": "аэроб",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "минерал",
+        "lemma": "минерал",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.99)"
+      },
+      {
+        "distractor": "энергия",
+        "lemma": "энергия",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (299)"
+      },
+      {
+        "distractor": "кислород",
+        "lemma": "кислород",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (337)"
+      },
+      {
+        "distractor": "аминокислота",
+        "lemma": "аминокислота",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "биология",
+        "lemma": "биология",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (254)"
+      },
+      {
+        "distractor": "фермент",
+        "lemma": "фермент",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (3.06)"
+      },
+      {
+        "distractor": "цитоплазма",
+        "lemma": "цитоплазма",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (136)"
+      },
+      {
+        "distractor": "фосфор",
+        "lemma": "фосфор",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (20)"
+      },
+      {
+        "distractor": "генетика",
+        "lemma": "генетика",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (18)"
+      }
+    ],
+    "valid_distractors": [
+      "фермент",
+      "цитоплазма",
+      "фосфор",
+      "генетика"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'анаэроб' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'анаэроб', 'фермент', 'цитоплазма', 'фосфор' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Вид живых организмов, обитающих без доступа к кислороду.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfRuwdLF2VK1lHR76bfmzBQGZYSu', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Вид живых организмов, обитающих без доступа к кислороду.', role='assistant', function_call=None, tool_calls=None))], created=1716142886, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=28, prompt_tokens=204, total_tokens=232))",
+  "initial_definition": "Вид живых организмов, обитающих без доступа к кислороду",
+  "final_definition": "Вид живых организмов, обитающих без доступа к кислороду",
+  "formatted_definition": "Вид живых организмов, обитающих без доступа к кислороду",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Вид живых организмов, обитающих без доступа к кислороду",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Вид",
+            "живых",
+            "организмов",
+            ",",
+            "обитающих",
+            "без",
+            "доступа",
+            "к",
+            "кислороду"
+          ],
+          "removed_tokens": [
+            ",",
+            "к",
+            "без"
+          ],
+          "final_tokens": [
+            "Вид",
+            "живых",
+            "организмов",
+            "обитающих",
+            "доступа",
+            "кислороду"
+          ],
+          "lemmas": [
+            "вид",
+            "живой",
+            "организм",
+            "обитать",
+            "доступ",
+            "кислород"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "вид",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "живой",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "организм",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "обитать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "доступ",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "кислород",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-21-24",
+  "end_time": "2024.05.19 18-21-27"
+}

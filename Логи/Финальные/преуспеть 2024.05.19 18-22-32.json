@@ -1,0 +1,176 @@
+{
+  "word": "преуспеть",
+  "class": 6,
+  "pos": "INFN",
+  "distractors": [
+    "уверить",
+    "постичь",
+    "избежать"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'преуспеть'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'преуспеть'. Слова должны быть части речи INFN. Желательно, чтобы слова соответствовали предметной области слова 'преуспеть', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "достигнуть, уверить, суметь, постичь, избежать, освоить, соревноваться, удаваться, найти, домыслить, вникнуть, заинтересовать, научиться, побеждать, выдержать, совладать.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfSyE8hWRbcJtYUcU6ghVz4KaCG8', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='достигнуть, уверить, суметь, постичь, избежать, освоить, соревноваться, удаваться, найти, домыслить, вникнуть, заинтересовать, научиться, побеждать, выдержать, совладать.', role='assistant', function_call=None, tool_calls=None))], created=1716142952, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=84, prompt_tokens=211, total_tokens=295))",
+    "distractor_analysis": [
+      {
+        "distractor": "достигнуть",
+        "lemma": "достигнуть",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (204)"
+      },
+      {
+        "distractor": "уверить",
+        "lemma": "уверить",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (6)"
+      },
+      {
+        "distractor": "суметь",
+        "lemma": "суметь",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (96.24)"
+      },
+      {
+        "distractor": "постичь",
+        "lemma": "постичь",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (28)"
+      },
+      {
+        "distractor": "избежать",
+        "lemma": "избежать",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (62)"
+      },
+      {
+        "distractor": "освоить",
+        "lemma": "освоить",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (83)"
+      },
+      {
+        "distractor": "соревноваться",
+        "lemma": "соревноваться",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (35)"
+      },
+      {
+        "distractor": "удаваться",
+        "lemma": "удаваться",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (50.8)"
+      },
+      {
+        "distractor": "найти",
+        "lemma": "найти",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (8212)"
+      },
+      {
+        "distractor": "домыслить",
+        "lemma": "домыслить",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "вникнуть",
+        "lemma": "вникнуть",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "заинтересовать",
+        "lemma": "заинтересовать",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (40)"
+      },
+      {
+        "distractor": "научиться",
+        "lemma": "научиться",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (762)"
+      },
+      {
+        "distractor": "побеждать",
+        "lemma": "побеждать",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (52)"
+      },
+      {
+        "distractor": "выдержать",
+        "lemma": "выдержать",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (82.5)"
+      },
+      {
+        "distractor": "совладать",
+        "lemma": "совладать",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      }
+    ],
+    "valid_distractors": [
+      "уверить",
+      "постичь",
+      "избежать",
+      "освоить",
+      "соревноваться",
+      "заинтересовать",
+      "побеждать"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'преуспеть' части речи INFN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'преуспеть', 'уверить', 'постичь', 'избежать' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "достичь успешного результата",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfT0lo80n417giuSKzVrkK5U1KO7', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='достичь успешного результата', role='assistant', function_call=None, tool_calls=None))], created=1716142954, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=9, prompt_tokens=206, total_tokens=215))",
+  "initial_definition": "достичь успешного результата",
+  "final_definition": "достичь успешного результата",
+  "formatted_definition": "достичь успешного результата",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "достичь успешного результата",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "достичь",
+            "успешного",
+            "результата"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "достичь",
+            "успешного",
+            "результата"
+          ],
+          "lemmas": [
+            "достигнуть",
+            "успешный",
+            "результат"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "достигнуть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "успешный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "результат",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-22-32",
+  "end_time": "2024.05.19 18-22-35"
+}

@@ -1,0 +1,175 @@
+{
+  "word": "листорасположение",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "побег",
+    "луковица",
+    "серединка"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'листорасположение'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'листорасположение'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'листорасположение', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "плодонос, побег, почкодержание, бутоны, цветение, стебель, корневище, семянеделие, ботва, луковица, прицветник, чашелистик, пестик, серединка, насекомоопыление, запыленение",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfgTF1lu0pmJSpmNZ0VK7wj2aUBJ', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='плодонос, побег, почкодержание, бутоны, цветение, стебель, корневище, семянеделие, ботва, луковица, прицветник, чашелистик, пестик, серединка, насекомоопыление, запыленение', role='assistant', function_call=None, tool_calls=None))], created=1716143789, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=88, prompt_tokens=214, total_tokens=302))",
+    "distractor_analysis": [
+      {
+        "distractor": "плодонос",
+        "lemma": "плодонос",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "побег",
+        "lemma": "побег",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (124)"
+      },
+      {
+        "distractor": "почкодержание",
+        "lemma": "почкодержание",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "бутоны",
+        "lemma": "бутон",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.83)"
+      },
+      {
+        "distractor": "цветение",
+        "lemma": "цветение",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.79)"
+      },
+      {
+        "distractor": "стебель",
+        "lemma": "стебель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (324)"
+      },
+      {
+        "distractor": "корневище",
+        "lemma": "корневище",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.18)"
+      },
+      {
+        "distractor": "семянеделие",
+        "lemma": "семянеделие",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "ботва",
+        "lemma": "ботва",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "луковица",
+        "lemma": "луковица",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (83)"
+      },
+      {
+        "distractor": "прицветник",
+        "lemma": "прицветник",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "чашелистик",
+        "lemma": "чашелистик",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "пестик",
+        "lemma": "пестик",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "серединка",
+        "lemma": "серединка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (10)"
+      },
+      {
+        "distractor": "насекомоопыление",
+        "lemma": "насекомоопыление",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "запыленение",
+        "lemma": "запыленение",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      }
+    ],
+    "valid_distractors": [
+      "побег",
+      "луковица",
+      "серединка"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'листорасположение' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'листорасположение', 'побег', 'луковица', 'серединка' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "расположение листьев на растении.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfgW41ZDYOtJy8MZKzA09yvD3HPh', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='расположение листьев на растении.', role='assistant', function_call=None, tool_calls=None))], created=1716143792, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=15, prompt_tokens=210, total_tokens=225))",
+  "initial_definition": "расположение листьев на растении",
+  "final_definition": "расположение листьев на растении",
+  "formatted_definition": "расположение листьев на растении",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "расположение листьев на растении",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "расположение",
+            "листьев",
+            "на",
+            "растении"
+          ],
+          "removed_tokens": [
+            "на"
+          ],
+          "final_tokens": [
+            "расположение",
+            "листьев",
+            "растении"
+          ],
+          "lemmas": [
+            "расположение",
+            "лист",
+            "растение"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "расположение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "лист",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "растение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-36-29",
+  "end_time": "2024.05.19 18-36-32"
+}

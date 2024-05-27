@@ -1,0 +1,192 @@
+{
+  "word": "изобата",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "плита",
+    "алмаз",
+    "теннис"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'изобата'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'изобата'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'изобата', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "поле, метр, вода, плита, облако, дерево, ракурс, алмаз, яблоко, автомобиль, теннис, белка, кристалл, песок, картина, линия",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfXExzLALdV3rmmYHljuCdxfCihS', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='поле, метр, вода, плита, облако, дерево, ракурс, алмаз, яблоко, автомобиль, теннис, белка, кристалл, песок, картина, линия', role='assistant', function_call=None, tool_calls=None))], created=1716143216, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=73, prompt_tokens=199, total_tokens=272))",
+    "distractor_analysis": [
+      {
+        "distractor": "поле",
+        "lemma": "поле",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1462)"
+      },
+      {
+        "distractor": "метр",
+        "lemma": "метр",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1417)"
+      },
+      {
+        "distractor": "вода",
+        "lemma": "вода",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4772)"
+      },
+      {
+        "distractor": "плита",
+        "lemma": "плита",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (176)"
+      },
+      {
+        "distractor": "облако",
+        "lemma": "облако",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (417)"
+      },
+      {
+        "distractor": "дерево",
+        "lemma": "дерево",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2611)"
+      },
+      {
+        "distractor": "ракурс",
+        "lemma": "ракурс",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "алмаз",
+        "lemma": "алмаз",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (55)"
+      },
+      {
+        "distractor": "яблоко",
+        "lemma": "яблоко",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (961)"
+      },
+      {
+        "distractor": "автомобиль",
+        "lemma": "автомобиль",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (515)"
+      },
+      {
+        "distractor": "теннис",
+        "lemma": "теннис",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (29)"
+      },
+      {
+        "distractor": "белка",
+        "lemma": "белок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (264)"
+      },
+      {
+        "distractor": "кристалл",
+        "lemma": "кристалл",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (28)"
+      },
+      {
+        "distractor": "песок",
+        "lemma": "песок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (355)"
+      },
+      {
+        "distractor": "картина",
+        "lemma": "картина",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1031)"
+      },
+      {
+        "distractor": "линия",
+        "lemma": "линия",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1088)"
+      }
+    ],
+    "valid_distractors": [
+      "плита",
+      "алмаз",
+      "теннис",
+      "кристалл"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'изобата' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'изобата', 'плита', 'алмаз', 'теннис' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Равенство давлений в разных точках жидкости.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfXGyzJXFlfIHfzbenCwRyffETVV', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Равенство давлений в разных точках жидкости.', role='assistant', function_call=None, tool_calls=None))], created=1716143218, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=20, prompt_tokens=198, total_tokens=218))",
+  "initial_definition": "Равенство давлений в разных точках жидкости",
+  "final_definition": "Равенство давлений в разных точках жидкости",
+  "formatted_definition": "Равенство давлений в разных точках жидкости",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Равенство давлений в разных точках жидкости",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Равенство",
+            "давлений",
+            "в",
+            "разных",
+            "точках",
+            "жидкости"
+          ],
+          "removed_tokens": [
+            "в"
+          ],
+          "final_tokens": [
+            "Равенство",
+            "давлений",
+            "разных",
+            "точках",
+            "жидкости"
+          ],
+          "lemmas": [
+            "равенство",
+            "давление",
+            "разный",
+            "точка",
+            "жидкость"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "равенство",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "давление",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "разный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "точка",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "жидкость",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-26-56",
+  "end_time": "2024.05.19 18-26-58"
+}

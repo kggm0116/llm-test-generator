@@ -1,0 +1,181 @@
+{
+  "word": "поморье",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "уклон",
+    "залив",
+    "поселение"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'поморье'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'поморье'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'поморье', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "район, берег, уклон, побережье, залив, лиман, песчанник, поселение, село, устье, местность, окраина, обитель, акватория, курорт, дача",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfNolPHFOSLGSh1A1CBWRcjQw8ph', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='район, берег, уклон, побережье, залив, лиман, песчанник, поселение, село, устье, местность, окраина, обитель, акватория, курорт, дача', role='assistant', function_call=None, tool_calls=None))], created=1716142632, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=71, prompt_tokens=205, total_tokens=276))",
+    "distractor_analysis": [
+      {
+        "distractor": "район",
+        "lemma": "район",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (282)"
+      },
+      {
+        "distractor": "берег",
+        "lemma": "берег",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1026)"
+      },
+      {
+        "distractor": "уклон",
+        "lemma": "уклон",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (6)"
+      },
+      {
+        "distractor": "побережье",
+        "lemma": "побережье",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (207)"
+      },
+      {
+        "distractor": "залив",
+        "lemma": "залив",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (60)"
+      },
+      {
+        "distractor": "лиман",
+        "lemma": "лиман",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "песчанник",
+        "lemma": "песчанник",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "поселение",
+        "lemma": "поселение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (158)"
+      },
+      {
+        "distractor": "село",
+        "lemma": "село",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (457)"
+      },
+      {
+        "distractor": "устье",
+        "lemma": "устье",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (71)"
+      },
+      {
+        "distractor": "местность",
+        "lemma": "местность",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (544)"
+      },
+      {
+        "distractor": "окраина",
+        "lemma": "окраина",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (37)"
+      },
+      {
+        "distractor": "обитель",
+        "lemma": "обитель",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (12)"
+      },
+      {
+        "distractor": "акватория",
+        "lemma": "акватория",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "курорт",
+        "lemma": "курорт",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (11)"
+      },
+      {
+        "distractor": "дача",
+        "lemma": "дача",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (74.0)"
+      }
+    ],
+    "valid_distractors": [
+      "уклон",
+      "залив",
+      "поселение",
+      "устье",
+      "окраина",
+      "обитель",
+      "курорт"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'поморье' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'поморье', 'уклон', 'залив', 'поселение' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Побережье, район вблизи моря.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfNpByBVKItA8qk9nRHrgJtVawBR', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Побережье, район вблизи моря.', role='assistant', function_call=None, tool_calls=None))], created=1716142633, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=19, prompt_tokens=201, total_tokens=220))",
+  "initial_definition": "Побережье, район вблизи моря",
+  "final_definition": "Побережье, район вблизи моря",
+  "formatted_definition": "Побережье, район вблизи моря",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Побережье, район вблизи моря",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Побережье",
+            ",",
+            "район",
+            "вблизи",
+            "моря"
+          ],
+          "removed_tokens": [
+            ",",
+            "вблизи"
+          ],
+          "final_tokens": [
+            "Побережье",
+            "район",
+            "моря"
+          ],
+          "lemmas": [
+            "побережье",
+            "район",
+            "море"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "побережье",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "район",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "море",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-17-11",
+  "end_time": "2024.05.19 18-17-14"
+}

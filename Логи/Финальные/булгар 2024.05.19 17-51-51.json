@@ -1,0 +1,214 @@
+{
+  "word": "булгар",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "крупа",
+    "кружка",
+    "каша"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'булгар'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'булгар'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'булгар', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "крупа, кружка, закваска, хлеб, пшеница, мука, каша, самовар, рис, овес, гречка, ржанка, манка, ячмень, кукуруза, пшено",
+    "response_details": "ChatCompletion(id='chatcmpl-9QezH0rwsrpt7Zn5eEltvYkA8olDT', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='крупа, кружка, закваска, хлеб, пшеница, мука, каша, самовар, рис, овес, гречка, ржанка, манка, ячмень, кукуруза, пшено', role='assistant', function_call=None, tool_calls=None))], created=1716141111, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=70, prompt_tokens=205, total_tokens=275))",
+    "distractor_analysis": [
+      {
+        "distractor": "крупа",
+        "lemma": "крупа",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (92)"
+      },
+      {
+        "distractor": "кружка",
+        "lemma": "кружка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (135)"
+      },
+      {
+        "distractor": "закваска",
+        "lemma": "закваска",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "хлеб",
+        "lemma": "хлеб",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (528)"
+      },
+      {
+        "distractor": "пшеница",
+        "lemma": "пшеница",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (243)"
+      },
+      {
+        "distractor": "мука",
+        "lemma": "мука",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (250)"
+      },
+      {
+        "distractor": "каша",
+        "lemma": "каша",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (126)"
+      },
+      {
+        "distractor": "самовар",
+        "lemma": "самовар",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (16)"
+      },
+      {
+        "distractor": "рис",
+        "lemma": "рис",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (114)"
+      },
+      {
+        "distractor": "овес",
+        "lemma": "овёс",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (76)"
+      },
+      {
+        "distractor": "гречка",
+        "lemma": "гречка",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.19)"
+      },
+      {
+        "distractor": "ржанка",
+        "lemma": "ржанка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "манка",
+        "lemma": "манка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "ячмень",
+        "lemma": "ячмень",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.34)"
+      },
+      {
+        "distractor": "кукуруза",
+        "lemma": "кукуруза",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (39)"
+      },
+      {
+        "distractor": "пшено",
+        "lemma": "пшено",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.99)"
+      }
+    ],
+    "valid_distractors": [
+      "крупа",
+      "кружка",
+      "каша",
+      "самовар",
+      "рис",
+      "овес",
+      "ржанка",
+      "кукуруза"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'булгар' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'булгар', 'крупа', 'кружка', 'каша' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Мелкая часть пищи, используемая для приготовления различных блюд.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QezIwPF0u40Zs81PuBZYbW74mCnB', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Мелкая часть пищи, используемая для приготовления различных блюд.', role='assistant', function_call=None, tool_calls=None))], created=1716141112, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=29, prompt_tokens=202, total_tokens=231))",
+  "initial_definition": "Мелкая часть пищи, используемая для приготовления различных блюд",
+  "final_definition": "Мелкая часть пищи, используемая для приготовления различных блюд",
+  "formatted_definition": "Мелкая часть пищи, используемая для приготовления различных блюд",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Мелкая часть пищи, используемая для приготовления различных блюд",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Мелкая",
+            "часть",
+            "пищи",
+            ",",
+            "используемая",
+            "для",
+            "приготовления",
+            "различных",
+            "блюд"
+          ],
+          "removed_tokens": [
+            ",",
+            "для"
+          ],
+          "final_tokens": [
+            "Мелкая",
+            "часть",
+            "пищи",
+            "используемая",
+            "приготовления",
+            "различных",
+            "блюд"
+          ],
+          "lemmas": [
+            "мелкий",
+            "часть",
+            "пища",
+            "использовать",
+            "приготовление",
+            "различный",
+            "блюдо"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "мелкий",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "часть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "пища",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "использовать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "приготовление",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "различный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "блюдо",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 17-51-51",
+  "end_time": "2024.05.19 17-51-53"
+}

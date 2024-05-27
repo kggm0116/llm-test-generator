@@ -1,0 +1,201 @@
+{
+  "word": "откупщик",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "торговец",
+    "покупатель",
+    "продавец"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'откупщик'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'откупщик'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'откупщик', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "торговец, покупатель, продавец, торговля, сделка, бизнесмен, дилер, агент, покупка, продажа, контракт, клиент, аукцион, товар, магазин, рынок",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfZvLdPyoG0ta7Wtc9BdZvgJHYsX', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='торговец, покупатель, продавец, торговля, сделка, бизнесмен, дилер, агент, покупка, продажа, контракт, клиент, аукцион, товар, магазин, рынок', role='assistant', function_call=None, tool_calls=None))], created=1716143383, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=73, prompt_tokens=205, total_tokens=278))",
+    "distractor_analysis": [
+      {
+        "distractor": "торговец",
+        "lemma": "торговец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (75)"
+      },
+      {
+        "distractor": "покупатель",
+        "lemma": "покупатель",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (60)"
+      },
+      {
+        "distractor": "продавец",
+        "lemma": "продавец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (68)"
+      },
+      {
+        "distractor": "торговля",
+        "lemma": "торговля",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (173)"
+      },
+      {
+        "distractor": "сделка",
+        "lemma": "сделка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (8)"
+      },
+      {
+        "distractor": "бизнесмен",
+        "lemma": "бизнесмен",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "дилер",
+        "lemma": "дилер",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.45)"
+      },
+      {
+        "distractor": "агент",
+        "lemma": "агент",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "покупка",
+        "lemma": "покупка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (199)"
+      },
+      {
+        "distractor": "продажа",
+        "lemma": "продажа",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (62)"
+      },
+      {
+        "distractor": "контракт",
+        "lemma": "контракт",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "клиент",
+        "lemma": "клиент",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (17)"
+      },
+      {
+        "distractor": "аукцион",
+        "lemma": "аукцион",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "товар",
+        "lemma": "товар",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (268)"
+      },
+      {
+        "distractor": "магазин",
+        "lemma": "магазин",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (486)"
+      },
+      {
+        "distractor": "рынок",
+        "lemma": "рынок",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (100.15)"
+      }
+    ],
+    "valid_distractors": [
+      "торговец",
+      "покупатель",
+      "продавец",
+      "торговля",
+      "сделка",
+      "покупка",
+      "продажа",
+      "клиент"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'откупщик' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'откупщик', 'торговец', 'покупатель', 'продавец' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Человек, который покупает товары у других людей.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfZx375NjU29wHVRYnzGgxnNTBck', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Человек, который покупает товары у других людей.', role='assistant', function_call=None, tool_calls=None))], created=1716143385, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=19, prompt_tokens=206, total_tokens=225))",
+  "initial_definition": "Человек, который покупает товары у других людей",
+  "final_definition": "Человек, который покупает товары у других людей",
+  "formatted_definition": "Человек, который покупает товары у других людей",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Человек, который покупает товары у других людей",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек",
+            ",",
+            "который",
+            "покупает",
+            "товары",
+            "у",
+            "других",
+            "людей"
+          ],
+          "removed_tokens": [
+            "у",
+            ","
+          ],
+          "final_tokens": [
+            "Человек",
+            "который",
+            "покупает",
+            "товары",
+            "других",
+            "людей"
+          ],
+          "lemmas": [
+            "человек",
+            "который",
+            "покупать",
+            "товар",
+            "другой",
+            "человек"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "который",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (3361.51)"
+          },
+          {
+            "lemma": "покупать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "товар",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "другой",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (1577.31)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-29-43",
+  "end_time": "2024.05.19 18-29-45"
+}

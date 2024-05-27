@@ -1,0 +1,248 @@
+{
+  "word": "ускользать",
+  "class": 6,
+  "pos": "INFN",
+  "distractors": [
+    "избегать",
+    "упустить",
+    "скользить"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'ускользать'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'ускользать'. Слова должны быть части речи INFN. Желательно, чтобы слова соответствовали предметной области слова 'ускользать', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "избегать, упустить, скользить, уходить, утекать, устраивать, прокрасться, ускользнуть, замахнуться, улизнуть, уклониться, уклонить, упрыгать, ускользать, вырваться, уплывать",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfcYbuIC2MBCEso1KBqDGxG3pTNE', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='избегать, упустить, скользить, уходить, утекать, устраивать, прокрасться, ускользнуть, замахнуться, улизнуть, уклониться, уклонить, упрыгать, ускользать, вырваться, уплывать', role='assistant', function_call=None, tool_calls=None))], created=1716143546, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=89, prompt_tokens=202, total_tokens=291))",
+    "distractor_analysis": [
+      {
+        "distractor": "избегать",
+        "lemma": "избегать",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (36)"
+      },
+      {
+        "distractor": "упустить",
+        "lemma": "упустить",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (8)"
+      },
+      {
+        "distractor": "скользить",
+        "lemma": "скользить",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (51)"
+      },
+      {
+        "distractor": "уходить",
+        "lemma": "уходить",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (244.4)"
+      },
+      {
+        "distractor": "утекать",
+        "lemma": "утекать",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "устраивать",
+        "lemma": "устраивать",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (53.4)"
+      },
+      {
+        "distractor": "прокрасться",
+        "lemma": "прокрасться",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "ускользнуть",
+        "lemma": "ускользнуть",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (5.67)"
+      },
+      {
+        "distractor": "замахнуться",
+        "lemma": "замахнуться",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "улизнуть",
+        "lemma": "улизнуть",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.49)"
+      },
+      {
+        "distractor": "уклониться",
+        "lemma": "уклониться",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (6.89)"
+      },
+      {
+        "distractor": "уклонить",
+        "lemma": "уклонить",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "упрыгать",
+        "lemma": "упрыгать",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "ускользать",
+        "lemma": "ускользать",
+        "is_valid": false,
+        "reason": "Является исходным словом"
+      },
+      {
+        "distractor": "вырваться",
+        "lemma": "вырваться",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (23)"
+      },
+      {
+        "distractor": "уплывать",
+        "lemma": "уплывать",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      }
+    ],
+    "valid_distractors": [
+      "избегать",
+      "упустить",
+      "скользить",
+      "ускользнуть",
+      "уклониться",
+      "вырваться"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'ускользать' части речи INFN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'ускользать', 'избегать', 'упустить', 'скользить' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "не уловить, не поймать, избежать словно что-то скользнуло",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfcaOJj2wDiH8uKeS2Zbm3NC1Ma9', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='не уловить, не поймать, избежать словно что-то скользнуло', role='assistant', function_call=None, tool_calls=None))], created=1716143548, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=26, prompt_tokens=199, total_tokens=225))",
+  "initial_definition": "не уловить, не поймать, избежать словно что-то скользнуло",
+  "final_definition": "Пропустить мимо себя, не зацепить.",
+  "formatted_definition": "Пропустить мимо себя, не зацепить",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Пропустить мимо себя, не зацепить.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "не",
+            "уловить",
+            ",",
+            "не",
+            "поймать",
+            ",",
+            "избежать",
+            "словно",
+            "что-то",
+            "скользнуло"
+          ],
+          "removed_tokens": [
+            "не",
+            "словно",
+            ","
+          ],
+          "final_tokens": [
+            "уловить",
+            "поймать",
+            "избежать",
+            "что-то",
+            "скользнуло"
+          ],
+          "lemmas": [
+            "уловить",
+            "поймать",
+            "избежать",
+            "что-то",
+            "скользнуть"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "уловить",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "поймать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "избежать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "что-то",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          },
+          {
+            "lemma": "скользнуть",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "что-то"
+        ],
+        "correction_prompt": "Исправь толкование 'не уловить, не поймать, избежать словно что-то скользнуло' для слова 'ускользать' так, чтобы в нем не использовались слова 'ускользать', 'избегать', 'что-то', 'упустить', 'скользить' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Пропустить мимо себя, не зацепить.",
+        "response_details": "ChatCompletion(id='chatcmpl-9Qfcb6xBzq4P6vNQn0bqo8v4Kxv4H', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Пропустить мимо себя, не зацепить.', role='assistant', function_call=None, tool_calls=None))], created=1716143549, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=17, prompt_tokens=242, total_tokens=259))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Пропустить мимо себя, не зацепить.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Пропустить",
+            "мимо",
+            "себя",
+            ",",
+            "не",
+            "зацепить"
+          ],
+          "removed_tokens": [
+            "не",
+            ",",
+            "себя",
+            "мимо"
+          ],
+          "final_tokens": [
+            "Пропустить",
+            "зацепить"
+          ],
+          "lemmas": [
+            "пропустить",
+            "зацепить"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "пропустить",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "зацепить",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-32-26",
+  "end_time": "2024.05.19 18-32-30"
+}

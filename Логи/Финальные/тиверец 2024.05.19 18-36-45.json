@@ -1,0 +1,176 @@
+{
+  "word": "тиверец",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "ковер",
+    "радуга",
+    "молния"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'тиверец'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'тиверец'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'тиверец', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "рыба, лошадь, книга, стол, дом, банка, автомобиль, платье, мяч, цветок, ковер, сапог, стакан, радуга, молния, магнит",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfgjHmv05L2p5qLZNIqTm6Q0uNV9', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='рыба, лошадь, книга, стол, дом, банка, автомобиль, платье, мяч, цветок, ковер, сапог, стакан, радуга, молния, магнит', role='assistant', function_call=None, tool_calls=None))], created=1716143805, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=69, prompt_tokens=202, total_tokens=271))",
+    "distractor_analysis": [
+      {
+        "distractor": "рыба",
+        "lemma": "рыба",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (705)"
+      },
+      {
+        "distractor": "лошадь",
+        "lemma": "лошадь",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (358)"
+      },
+      {
+        "distractor": "книга",
+        "lemma": "книга",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2652)"
+      },
+      {
+        "distractor": "стол",
+        "lemma": "стол",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (812)"
+      },
+      {
+        "distractor": "дом",
+        "lemma": "дом",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2502)"
+      },
+      {
+        "distractor": "банка",
+        "lemma": "банк",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (306)"
+      },
+      {
+        "distractor": "автомобиль",
+        "lemma": "автомобиль",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (515)"
+      },
+      {
+        "distractor": "платье",
+        "lemma": "платье",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (250)"
+      },
+      {
+        "distractor": "мяч",
+        "lemma": "мяч",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (218)"
+      },
+      {
+        "distractor": "цветок",
+        "lemma": "цветок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (911)"
+      },
+      {
+        "distractor": "ковер",
+        "lemma": "ковёр",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (138)"
+      },
+      {
+        "distractor": "сапог",
+        "lemma": "сапог",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (134.14)"
+      },
+      {
+        "distractor": "стакан",
+        "lemma": "стакан",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (330)"
+      },
+      {
+        "distractor": "радуга",
+        "lemma": "радуга",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (82)"
+      },
+      {
+        "distractor": "молния",
+        "lemma": "молния",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (137)"
+      },
+      {
+        "distractor": "магнит",
+        "lemma": "магнит",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (77)"
+      }
+    ],
+    "valid_distractors": [
+      "ковер",
+      "радуга",
+      "молния",
+      "магнит"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'тиверец' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'тиверец', 'ковер', 'радуга', 'молния' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "предмет для сушки тканей",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfgkdTCVUrGm5GYH9XgQMTSZpywl', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='предмет для сушки тканей', role='assistant', function_call=None, tool_calls=None))], created=1716143806, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=13, prompt_tokens=199, total_tokens=212))",
+  "initial_definition": "предмет для сушки тканей",
+  "final_definition": "предмет для сушки тканей",
+  "formatted_definition": "предмет для сушки тканей",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "предмет для сушки тканей",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "предмет",
+            "для",
+            "сушки",
+            "тканей"
+          ],
+          "removed_tokens": [
+            "для"
+          ],
+          "final_tokens": [
+            "предмет",
+            "сушки",
+            "тканей"
+          ],
+          "lemmas": [
+            "предмет",
+            "сушка",
+            "ткань"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "предмет",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "сушка",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "ткань",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-36-45",
+  "end_time": "2024.05.19 18-36-47"
+}

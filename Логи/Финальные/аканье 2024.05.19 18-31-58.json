@@ -1,0 +1,231 @@
+{
+  "word": "аканье",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "Гримаса",
+    "шепот",
+    "шипение"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'аканье'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'аканье'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'аканье', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Гримаса, дислалия, искривление, истерия, пущение, храпение, реверсия, тремор, шепот, шипение, жужжание, блеяние, крякание, мурыжение, хрипение, руготня.",
+    "response_details": "ChatCompletion(id='chatcmpl-9Qfc7Jcldr3S6Bu5Lz5zcjWkY8c9z', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Гримаса, дислалия, искривление, истерия, пущение, храпение, реверсия, тремор, шепот, шипение, жужжание, блеяние, крякание, мурыжение, хрипение, руготня.', role='assistant', function_call=None, tool_calls=None))], created=1716143519, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=83, prompt_tokens=202, total_tokens=285))",
+    "distractor_analysis": [
+      {
+        "distractor": "Гримаса",
+        "lemma": "гримаса",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (10.68)"
+      },
+      {
+        "distractor": "дислалия",
+        "lemma": "дислалий",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "искривление",
+        "lemma": "искривление",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.45)"
+      },
+      {
+        "distractor": "истерия",
+        "lemma": "истерия",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.3)"
+      },
+      {
+        "distractor": "пущение",
+        "lemma": "пущение",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "храпение",
+        "lemma": "храпение",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "реверсия",
+        "lemma": "реверсия",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "тремор",
+        "lemma": "тремор",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "шепот",
+        "lemma": "шёпот",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (43)"
+      },
+      {
+        "distractor": "шипение",
+        "lemma": "шипение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "жужжание",
+        "lemma": "жужжание",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (12)"
+      },
+      {
+        "distractor": "блеяние",
+        "lemma": "блеяние",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "крякание",
+        "lemma": "крякание",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "мурыжение",
+        "lemma": "мурыжение",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "хрипение",
+        "lemma": "хрипение",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "руготня",
+        "lemma": "руготня",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      }
+    ],
+    "valid_distractors": [
+      "Гримаса",
+      "шепот",
+      "шипение",
+      "жужжание"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'аканье' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'аканье', 'Гримаса', 'шепот', 'шипение' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Неумелое произношение некоторых звуков.",
+  "response_details": "ChatCompletion(id='chatcmpl-9Qfc9qaQZIMN5oO14tIZG9kvmDvew', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Неумелое произношение некоторых звуков.', role='assistant', function_call=None, tool_calls=None))], created=1716143521, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=18, prompt_tokens=200, total_tokens=218))",
+  "initial_definition": "Неумелое произношение некоторых звуков",
+  "final_definition": "Искажение звуков при произношении.",
+  "formatted_definition": "Искажение звуков при произношении",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Искажение звуков при произношении.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Неумелое",
+            "произношение",
+            "некоторых",
+            "звуков"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Неумелое",
+            "произношение",
+            "некоторых",
+            "звуков"
+          ],
+          "lemmas": [
+            "неумелый",
+            "произношение",
+            "некоторый",
+            "звук"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "неумелый",
+            "is_valid": true,
+            "reason": "Низкого класса (4)"
+          },
+          {
+            "lemma": "произношение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "некоторый",
+            "is_valid": false,
+            "reason": "Высокого класса (6)"
+          },
+          {
+            "lemma": "звук",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "некоторый"
+        ],
+        "correction_prompt": "Исправь толкование 'Неумелое произношение некоторых звуков' для слова 'аканье' так, чтобы в нем не использовались слова 'аканье', 'шепот', 'шипение', 'некоторый', 'Гримаса' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Искажение звуков при произношении.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfcAEIZtdxwexVsA5FhxzPooBBw1', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Искажение звуков при произношении.', role='assistant', function_call=None, tool_calls=None))], created=1716143522, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=15, prompt_tokens=234, total_tokens=249))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Искажение звуков при произношении.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Искажение",
+            "звуков",
+            "при",
+            "произношении"
+          ],
+          "removed_tokens": [
+            "при"
+          ],
+          "final_tokens": [
+            "Искажение",
+            "звуков",
+            "произношении"
+          ],
+          "lemmas": [
+            "искажение",
+            "звук",
+            "произношение"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "искажение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "звук",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "произношение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-31-58",
+  "end_time": "2024.05.19 18-32-02"
+}

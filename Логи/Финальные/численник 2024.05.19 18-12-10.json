@@ -1,0 +1,185 @@
+{
+  "word": "численник",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "увеличение",
+    "убывание",
+    "уменьшение"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'численник'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'численник'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'численник', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "число, отношение, операнд, результат, последовательность, количество, сумма, множитель, делитель, увеличение, убывание, уменьшение, равенство, разряд, модуль, индекс",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfIwYgbnbs0N05rmiAhLqtNZ0Oe7', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='число, отношение, операнд, результат, последовательность, количество, сумма, множитель, делитель, увеличение, убывание, уменьшение, равенство, разряд, модуль, индекс', role='assistant', function_call=None, tool_calls=None))], created=1716142330, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=67, prompt_tokens=202, total_tokens=269))",
+    "distractor_analysis": [
+      {
+        "distractor": "число",
+        "lemma": "число",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (16926)"
+      },
+      {
+        "distractor": "отношение",
+        "lemma": "отношение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (658)"
+      },
+      {
+        "distractor": "операнд",
+        "lemma": "операнд",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "результат",
+        "lemma": "результат",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1545)"
+      },
+      {
+        "distractor": "последовательность",
+        "lemma": "последовательность",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (617)"
+      },
+      {
+        "distractor": "количество",
+        "lemma": "количество",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1180)"
+      },
+      {
+        "distractor": "сумма",
+        "lemma": "сумма",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2238)"
+      },
+      {
+        "distractor": "множитель",
+        "lemma": "множитель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (565)"
+      },
+      {
+        "distractor": "делитель",
+        "lemma": "делитель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (705)"
+      },
+      {
+        "distractor": "увеличение",
+        "lemma": "увеличение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (171)"
+      },
+      {
+        "distractor": "убывание",
+        "lemma": "убывание",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (121)"
+      },
+      {
+        "distractor": "уменьшение",
+        "lemma": "уменьшение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (58)"
+      },
+      {
+        "distractor": "равенство",
+        "lemma": "равенство",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1247)"
+      },
+      {
+        "distractor": "разряд",
+        "lemma": "разряд",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (767)"
+      },
+      {
+        "distractor": "модуль",
+        "lemma": "модуль",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (7)"
+      },
+      {
+        "distractor": "индекс",
+        "lemma": "индекс",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (10)"
+      }
+    ],
+    "valid_distractors": [
+      "увеличение",
+      "убывание",
+      "уменьшение",
+      "модуль",
+      "индекс"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'численник' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'численник', 'увеличение', 'убывание', 'уменьшение' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Слово, обозначающее количество предметов.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfJ0ZjBgQAoHWqNO6ox53hkMUeON', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Слово, обозначающее количество предметов.', role='assistant', function_call=None, tool_calls=None))], created=1716142334, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=17, prompt_tokens=202, total_tokens=219))",
+  "initial_definition": "Слово, обозначающее количество предметов",
+  "final_definition": "Слово, обозначающее количество предметов",
+  "formatted_definition": "Слово, обозначающее количество предметов",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Слово, обозначающее количество предметов",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Слово",
+            ",",
+            "обозначающее",
+            "количество",
+            "предметов"
+          ],
+          "removed_tokens": [
+            ","
+          ],
+          "final_tokens": [
+            "Слово",
+            "обозначающее",
+            "количество",
+            "предметов"
+          ],
+          "lemmas": [
+            "слово",
+            "обозначать",
+            "количество",
+            "предмет"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "слово",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "обозначать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "количество",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "предмет",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-12-10",
+  "end_time": "2024.05.19 18-12-14"
+}

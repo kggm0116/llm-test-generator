@@ -1,0 +1,187 @@
+{
+  "word": "магистр",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "наставник",
+    "аспирант",
+    "преподаватель"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'магистр'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'магистр'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'магистр', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "учитель, руководитель, наставник, профессор, доктор, специалист, ученый, аспирант, преподаватель, дипломник, исследователь, защитник, консультант, эксперт, лектор, научный.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfeqOPUSqfKYuy5xBkWsonrCI1hA', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='учитель, руководитель, наставник, профессор, доктор, специалист, ученый, аспирант, преподаватель, дипломник, исследователь, защитник, консультант, эксперт, лектор, научный.', role='assistant', function_call=None, tool_calls=None))], created=1716143688, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=82, prompt_tokens=202, total_tokens=284))",
+    "distractor_analysis": [
+      {
+        "distractor": "учитель",
+        "lemma": "учитель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (536)"
+      },
+      {
+        "distractor": "руководитель",
+        "lemma": "руководитель",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (89.77)"
+      },
+      {
+        "distractor": "наставник",
+        "lemma": "наставник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (12)"
+      },
+      {
+        "distractor": "профессор",
+        "lemma": "профессор",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (147.5)"
+      },
+      {
+        "distractor": "доктор",
+        "lemma": "доктор",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (158.14)"
+      },
+      {
+        "distractor": "специалист",
+        "lemma": "специалист",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (87.71)"
+      },
+      {
+        "distractor": "ученый",
+        "lemma": "учёный",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1266)"
+      },
+      {
+        "distractor": "аспирант",
+        "lemma": "аспирант",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (7.31)"
+      },
+      {
+        "distractor": "преподаватель",
+        "lemma": "преподаватель",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (14)"
+      },
+      {
+        "distractor": "дипломник",
+        "lemma": "дипломник",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "исследователь",
+        "lemma": "исследователь",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (75)"
+      },
+      {
+        "distractor": "защитник",
+        "lemma": "защитник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (145)"
+      },
+      {
+        "distractor": "консультант",
+        "lemma": "консультант",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (7.85)"
+      },
+      {
+        "distractor": "эксперт",
+        "lemma": "эксперт",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (22.09)"
+      },
+      {
+        "distractor": "лектор",
+        "lemma": "лектор",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "научный",
+        "lemma": "научный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      }
+    ],
+    "valid_distractors": [
+      "наставник",
+      "аспирант",
+      "преподаватель",
+      "исследователь",
+      "защитник",
+      "консультант",
+      "эксперт"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'магистр' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'магистр', 'наставник', 'аспирант', 'преподаватель' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Выпускник университета с высшим образованием.",
+  "response_details": "ChatCompletion(id='chatcmpl-9Qfesa1dZCZOsPn8LehuW5Ppri1Ep', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Выпускник университета с высшим образованием.', role='assistant', function_call=None, tool_calls=None))], created=1716143690, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=23, prompt_tokens=203, total_tokens=226))",
+  "initial_definition": "Выпускник университета с высшим образованием",
+  "final_definition": "Выпускник университета с высшим образованием",
+  "formatted_definition": "Выпускник университета с высшим образованием",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Выпускник университета с высшим образованием",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Выпускник",
+            "университета",
+            "с",
+            "высшим",
+            "образованием"
+          ],
+          "removed_tokens": [
+            "с"
+          ],
+          "final_tokens": [
+            "Выпускник",
+            "университета",
+            "высшим",
+            "образованием"
+          ],
+          "lemmas": [
+            "выпускник",
+            "университет",
+            "высокий",
+            "образование"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "выпускник",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "университет",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "высокий",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "образование",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-34-47",
+  "end_time": "2024.05.19 18-34-50"
+}

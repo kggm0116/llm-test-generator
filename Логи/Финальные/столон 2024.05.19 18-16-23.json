@@ -1,0 +1,191 @@
+{
+  "word": "столон",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "Побег",
+    "усик",
+    "усовершенствование"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'столон'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'столон'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'столон', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Побег, побегонка, побегушка, корневище, побеголист, стебель, боковой побег, усик, усечение, побегать, побегон, подземный побег, удлинение, побегальцы, усовершенствование, ветвь.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfN1RsvBJk9LWej3mLrDnxcY1Slb', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Побег, побегонка, побегушка, корневище, побеголист, стебель, боковой побег, усик, усечение, побегать, побегон, подземный побег, удлинение, побегальцы, усовершенствование, ветвь.', role='assistant', function_call=None, tool_calls=None))], created=1716142583, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=97, prompt_tokens=199, total_tokens=296))",
+    "distractor_analysis": [
+      {
+        "distractor": "Побег",
+        "lemma": "побег",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (124)"
+      },
+      {
+        "distractor": "побегонка",
+        "lemma": "побегонка",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "побегушка",
+        "lemma": "побегушко",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "корневище",
+        "lemma": "корневище",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.18)"
+      },
+      {
+        "distractor": "побеголист",
+        "lemma": "побеголистый",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "стебель",
+        "lemma": "стебель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (324)"
+      },
+      {
+        "distractor": "боковой побег",
+        "lemma": "боковой побег",
+        "is_valid": false,
+        "reason": "Содержит пробел"
+      },
+      {
+        "distractor": "усик",
+        "lemma": "усик",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (13)"
+      },
+      {
+        "distractor": "усечение",
+        "lemma": "усечение",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "побегать",
+        "lemma": "побегать",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "побегон",
+        "lemma": "побегон",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "подземный побег",
+        "lemma": "подземный побег",
+        "is_valid": false,
+        "reason": "Содержит пробел"
+      },
+      {
+        "distractor": "удлинение",
+        "lemma": "удлинение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "побегальцы",
+        "lemma": "побегалец",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "усовершенствование",
+        "lemma": "усовершенствование",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (22)"
+      },
+      {
+        "distractor": "ветвь",
+        "lemma": "ветвь",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (225)"
+      }
+    ],
+    "valid_distractors": [
+      "Побег",
+      "усик",
+      "усовершенствование"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'столон' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'столон', 'Побег', 'усик', 'усовершенствование' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Появление новых растений из основного корня.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfN3QA6I61awpaCWlk0vO570ZLdN', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Появление новых растений из основного корня.', role='assistant', function_call=None, tool_calls=None))], created=1716142585, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=16, prompt_tokens=200, total_tokens=216))",
+  "initial_definition": "Появление новых растений из основного корня",
+  "final_definition": "Появление новых растений из основного корня",
+  "formatted_definition": "Появление новых растений из основного корня",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Появление новых растений из основного корня",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Появление",
+            "новых",
+            "растений",
+            "из",
+            "основного",
+            "корня"
+          ],
+          "removed_tokens": [
+            "из"
+          ],
+          "final_tokens": [
+            "Появление",
+            "новых",
+            "растений",
+            "основного",
+            "корня"
+          ],
+          "lemmas": [
+            "появление",
+            "новый",
+            "растение",
+            "основный",
+            "корень"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "появление",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "новый",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "растение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "основный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "корень",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-16-23",
+  "end_time": "2024.05.19 18-16-25"
+}

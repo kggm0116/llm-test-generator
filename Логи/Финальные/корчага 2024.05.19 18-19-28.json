@@ -1,0 +1,185 @@
+{
+  "word": "корчага",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "ведерко",
+    "сито",
+    "бидон"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'корчага'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'корчага'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'корчага', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "ведро, ведерко, сачок, сито, бидон, ведеречко, ковш, емкость, ёмкость, таз, бондарчук, контейнер, кувшин, кувшинчик, кадка, кувалда",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfQ0BJ7BKlPpLHfaEhnFFYX2RDuF', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='ведро, ведерко, сачок, сито, бидон, ведеречко, ковш, емкость, ёмкость, таз, бондарчук, контейнер, кувшин, кувшинчик, кадка, кувалда', role='assistant', function_call=None, tool_calls=None))], created=1716142768, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=83, prompt_tokens=205, total_tokens=288))",
+    "distractor_analysis": [
+      {
+        "distractor": "ведро",
+        "lemma": "ведро",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (213)"
+      },
+      {
+        "distractor": "ведерко",
+        "lemma": "ведёрко",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (14)"
+      },
+      {
+        "distractor": "сачок",
+        "lemma": "сачок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "сито",
+        "lemma": "сито",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (9)"
+      },
+      {
+        "distractor": "бидон",
+        "lemma": "бидон",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (108)"
+      },
+      {
+        "distractor": "ведеречко",
+        "lemma": "ведеречко",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "ковш",
+        "lemma": "ковш",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (38)"
+      },
+      {
+        "distractor": "ёмкость",
+        "lemma": "ёмкость",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (28)"
+      },
+      {
+        "distractor": "таз",
+        "lemma": "таз",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (8)"
+      },
+      {
+        "distractor": "бондарчук",
+        "lemma": "бондарчук",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "контейнер",
+        "lemma": "контейнер",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "кувшин",
+        "lemma": "кувшин",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (70)"
+      },
+      {
+        "distractor": "кувшинчик",
+        "lemma": "кувшинчик",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "кадка",
+        "lemma": "кадка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (8)"
+      },
+      {
+        "distractor": "кувалда",
+        "lemma": "кувалда",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      }
+    ],
+    "valid_distractors": [
+      "ведерко",
+      "сито",
+      "бидон",
+      "ковш",
+      "ёмкость",
+      "таз",
+      "кувшин",
+      "кувшинчик",
+      "кадка"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'корчага' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'корчага', 'ведерко', 'сито', 'бидон' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Сосуд для переноски и хранения жидкостей.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfQ29cmeOvbeek26Wva9pJQCQcfi', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Сосуд для переноски и хранения жидкостей.', role='assistant', function_call=None, tool_calls=None))], created=1716142770, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=18, prompt_tokens=200, total_tokens=218))",
+  "initial_definition": "Сосуд для переноски и хранения жидкостей",
+  "final_definition": "Сосуд для переноски и хранения жидкостей",
+  "formatted_definition": "Сосуд для переноски и хранения жидкостей",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Сосуд для переноски и хранения жидкостей",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Сосуд",
+            "для",
+            "переноски",
+            "и",
+            "хранения",
+            "жидкостей"
+          ],
+          "removed_tokens": [
+            "и",
+            "для"
+          ],
+          "final_tokens": [
+            "Сосуд",
+            "переноски",
+            "хранения",
+            "жидкостей"
+          ],
+          "lemmas": [
+            "сосуд",
+            "переноска",
+            "хранение",
+            "жидкость"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "сосуд",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "переноска",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "хранение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "жидкость",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-19-28",
+  "end_time": "2024.05.19 18-19-30"
+}

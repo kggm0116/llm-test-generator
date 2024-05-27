@@ -1,0 +1,198 @@
+{
+  "word": "миссионер",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "пастор",
+    "священник",
+    "проповедник"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'миссионер'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'миссионер'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'миссионер', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "пастор, священник, духовенство, проповедник, монах, богослов, святой, религиозный, проповедник, апостол, священнослужитель, жрец, монашество, брат, епископ, папа",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfVkfe6UrJtxVjH9e9ItcvTdJf9W', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='пастор, священник, духовенство, проповедник, монах, богослов, святой, религиозный, проповедник, апостол, священнослужитель, жрец, монашество, брат, епископ, папа', role='assistant', function_call=None, tool_calls=None))], created=1716143124, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=85, prompt_tokens=208, total_tokens=293))",
+    "distractor_analysis": [
+      {
+        "distractor": "пастор",
+        "lemma": "пастор",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (6.09)"
+      },
+      {
+        "distractor": "священник",
+        "lemma": "священник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (69)"
+      },
+      {
+        "distractor": "духовенство",
+        "lemma": "духовенство",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "проповедник",
+        "lemma": "проповедник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (15)"
+      },
+      {
+        "distractor": "монах",
+        "lemma": "монах",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (95)"
+      },
+      {
+        "distractor": "богослов",
+        "lemma": "богослов",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.53)"
+      },
+      {
+        "distractor": "святой",
+        "lemma": "святой",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "религиозный",
+        "lemma": "религиозный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "апостол",
+        "lemma": "апостол",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (260)"
+      },
+      {
+        "distractor": "священнослужитель",
+        "lemma": "священнослужитель",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.56)"
+      },
+      {
+        "distractor": "жрец",
+        "lemma": "жрец",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (206)"
+      },
+      {
+        "distractor": "монашество",
+        "lemma": "монашество",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (9)"
+      },
+      {
+        "distractor": "брат",
+        "lemma": "брат",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (730)"
+      },
+      {
+        "distractor": "епископ",
+        "lemma": "епископ",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (34)"
+      },
+      {
+        "distractor": "папа",
+        "lemma": "папа",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (456)"
+      }
+    ],
+    "valid_distractors": [
+      "пастор",
+      "священник",
+      "проповедник",
+      "монах",
+      "монашество",
+      "епископ"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'миссионер' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'миссионер', 'пастор', 'священник', 'проповедник' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Человек, который распространяет веру в новые места.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfVmtgOb8Ai4lSweuTV7IBOy735n', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Человек, который распространяет веру в новые места.', role='assistant', function_call=None, tool_calls=None))], created=1716143126, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=22, prompt_tokens=208, total_tokens=230))",
+  "initial_definition": "Человек, который распространяет веру в новые места",
+  "final_definition": "Человек, который распространяет веру в новые места",
+  "formatted_definition": "Человек, который распространяет веру в новые места",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Человек, который распространяет веру в новые места",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек",
+            ",",
+            "который",
+            "распространяет",
+            "веру",
+            "в",
+            "новые",
+            "места"
+          ],
+          "removed_tokens": [
+            "в",
+            ","
+          ],
+          "final_tokens": [
+            "Человек",
+            "который",
+            "распространяет",
+            "веру",
+            "новые",
+            "места"
+          ],
+          "lemmas": [
+            "человек",
+            "который",
+            "распространять",
+            "вера",
+            "новый",
+            "место"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "который",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (3361.51)"
+          },
+          {
+            "lemma": "распространять",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "вера",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "новый",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "место",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-25-24",
+  "end_time": "2024.05.19 18-25-27"
+}

@@ -1,0 +1,189 @@
+{
+  "word": "биогеоценоз",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "растительность"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'биогеоценоз'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'биогеоценоз'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'биогеоценоз', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Экосистема, ареал, агроценоз, хозяин, катера, добыча, растительность, минерал, астраханка, рыболовство, лесосека, земельный, живность, высокий, горизонт, растения.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfIfCAHJt0KoV7ZRTwZdvgwEyOZK', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Экосистема, ареал, агроценоз, хозяин, катера, добыча, растительность, минерал, астраханка, рыболовство, лесосека, земельный, живность, высокий, горизонт, растения.', role='assistant', function_call=None, tool_calls=None))], created=1716142313, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=85, prompt_tokens=214, total_tokens=299))",
+    "distractor_analysis": [
+      {
+        "distractor": "Экосистема",
+        "lemma": "экосистема",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.23)"
+      },
+      {
+        "distractor": "ареал",
+        "lemma": "ареал",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "агроценоз",
+        "lemma": "агроценоз",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "хозяин",
+        "lemma": "хозяин",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (295)"
+      },
+      {
+        "distractor": "катера",
+        "lemma": "катер",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (273)"
+      },
+      {
+        "distractor": "добыча",
+        "lemma": "добыча",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (236)"
+      },
+      {
+        "distractor": "растительность",
+        "lemma": "растительность",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (103)"
+      },
+      {
+        "distractor": "минерал",
+        "lemma": "минерал",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.99)"
+      },
+      {
+        "distractor": "астраханка",
+        "lemma": "астраханка",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "рыболовство",
+        "lemma": "рыболовство",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.34)"
+      },
+      {
+        "distractor": "лесосека",
+        "lemma": "лесосека",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "земельный",
+        "lemma": "земельный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "живность",
+        "lemma": "живность",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "высокий",
+        "lemma": "высокий",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "горизонт",
+        "lemma": "горизонт",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (318)"
+      },
+      {
+        "distractor": "растения",
+        "lemma": "растение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4254)"
+      }
+    ],
+    "valid_distractors": [
+      "растительность"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'биогеоценоз' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'биогеоценоз', 'растительность' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Совокупность живых организмов и их окружающей среды.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfIhY56JUrg1JkDZh6Q3ah7n8Cxd', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Совокупность живых организмов и их окружающей среды.', role='assistant', function_call=None, tool_calls=None))], created=1716142315, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=27, prompt_tokens=197, total_tokens=224))",
+  "initial_definition": "Совокупность живых организмов и их окружающей среды",
+  "final_definition": "Совокупность живых организмов и их окружающей среды",
+  "formatted_definition": "Совокупность живых организмов и их окружающей среды",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Совокупность живых организмов и их окружающей среды",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Совокупность",
+            "живых",
+            "организмов",
+            "и",
+            "их",
+            "окружающей",
+            "среды"
+          ],
+          "removed_tokens": [
+            "и",
+            "их"
+          ],
+          "final_tokens": [
+            "Совокупность",
+            "живых",
+            "организмов",
+            "окружающей",
+            "среды"
+          ],
+          "lemmas": [
+            "совокупность",
+            "живой",
+            "организм",
+            "окружающий",
+            "среда"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "совокупность",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "живой",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "организм",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "окружающий",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "среда",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-11-53",
+  "end_time": "2024.05.19 18-11-55"
+}

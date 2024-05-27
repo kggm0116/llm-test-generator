@@ -1,0 +1,186 @@
+{
+  "word": "половец",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "воевода",
+    "богатырь",
+    "незнайка"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'половец'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'половец'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'половец', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "воин, воевода, богатырь, гуляка, незнайка, странник, солдат, сторож, князь, пастух, бродяга, паломник, стрелок, поборник, меченосец, скиталец",
+    "response_details": "ChatCompletion(id='chatcmpl-9Qet2hl8RSNRvdrVqXYVkn5BIm0xK', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='воин, воевода, богатырь, гуляка, незнайка, странник, солдат, сторож, князь, пастух, бродяга, паломник, стрелок, поборник, меченосец, скиталец', role='assistant', function_call=None, tool_calls=None))], created=1716140724, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=83, prompt_tokens=202, total_tokens=285))",
+    "distractor_analysis": [
+      {
+        "distractor": "воин",
+        "lemma": "воин",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (509)"
+      },
+      {
+        "distractor": "воевода",
+        "lemma": "воевода",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (11)"
+      },
+      {
+        "distractor": "богатырь",
+        "lemma": "богатырь",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (157)"
+      },
+      {
+        "distractor": "гуляка",
+        "lemma": "гуляка",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.41)"
+      },
+      {
+        "distractor": "незнайка",
+        "lemma": "незнайка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (12)"
+      },
+      {
+        "distractor": "странник",
+        "lemma": "странник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (24)"
+      },
+      {
+        "distractor": "солдат",
+        "lemma": "солдат",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (248)"
+      },
+      {
+        "distractor": "сторож",
+        "lemma": "сторож",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (53)"
+      },
+      {
+        "distractor": "князь",
+        "lemma": "князь",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (450)"
+      },
+      {
+        "distractor": "пастух",
+        "lemma": "пастух",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (73.85)"
+      },
+      {
+        "distractor": "бродяга",
+        "lemma": "бродяга",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (6)"
+      },
+      {
+        "distractor": "паломник",
+        "lemma": "паломник",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.76)"
+      },
+      {
+        "distractor": "стрелок",
+        "lemma": "стрелка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (438)"
+      },
+      {
+        "distractor": "поборник",
+        "lemma": "поборник",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.91)"
+      },
+      {
+        "distractor": "меченосец",
+        "lemma": "меченосец",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "скиталец",
+        "lemma": "скиталец",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      }
+    ],
+    "valid_distractors": [
+      "воевода",
+      "богатырь",
+      "незнайка",
+      "странник",
+      "сторож",
+      "бродяга"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'половец' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'половец', 'воевода', 'богатырь', 'незнайка' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Человек определенной национальности из древности.",
+  "response_details": "ChatCompletion(id='chatcmpl-9Qet4bl7KgEsaQj2iVMHhzPNjBohM', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Человек определенной национальности из древности.', role='assistant', function_call=None, tool_calls=None))], created=1716140726, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=19, prompt_tokens=204, total_tokens=223))",
+  "initial_definition": "Человек определенной национальности из древности",
+  "final_definition": "Человек определенной национальности из древности",
+  "formatted_definition": "Человек определенной национальности из древности",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Человек определенной национальности из древности",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек",
+            "определенной",
+            "национальности",
+            "из",
+            "древности"
+          ],
+          "removed_tokens": [
+            "из"
+          ],
+          "final_tokens": [
+            "Человек",
+            "определенной",
+            "национальности",
+            "древности"
+          ],
+          "lemmas": [
+            "человек",
+            "определённый",
+            "национальность",
+            "древность"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "определённый",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "национальность",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "древность",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 17-45-24",
+  "end_time": "2024.05.19 17-45-27"
+}

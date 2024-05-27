@@ -1,0 +1,216 @@
+{
+  "word": "асимметрия",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "расхождение"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'асимметрия'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'асимметрия'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'асимметрия', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Несимметрия, диспропорция, неравновесие, различие, несбалансированность, неоднородность, дисбаланс, неравенство, ассимиляция, неоднородность, несогласованность, ассоциация, расхождение, антагонизм, контрастность, несоразмерность",
+    "response_details": "ChatCompletion(id='chatcmpl-9Qfbn7oM8MXgYFhv07lOPBM3UWdqR', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Несимметрия, диспропорция, неравновесие, различие, несбалансированность, неоднородность, дисбаланс, неравенство, ассимиляция, неоднородность, несогласованность, ассоциация, расхождение, антагонизм, контрастность, несоразмерность', role='assistant', function_call=None, tool_calls=None))], created=1716143499, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=114, prompt_tokens=208, total_tokens=322))",
+    "distractor_analysis": [
+      {
+        "distractor": "Несимметрия",
+        "lemma": "несимметрия",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "диспропорция",
+        "lemma": "диспропорция",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "неравновесие",
+        "lemma": "неравновесие",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "различие",
+        "lemma": "различие",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (311)"
+      },
+      {
+        "distractor": "несбалансированность",
+        "lemma": "несбалансированность",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "неоднородность",
+        "lemma": "неоднородность",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "дисбаланс",
+        "lemma": "дисбаланс",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "неравенство",
+        "lemma": "неравенство",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (492)"
+      },
+      {
+        "distractor": "ассимиляция",
+        "lemma": "ассимиляция",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "несогласованность",
+        "lemma": "несогласованность",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "ассоциация",
+        "lemma": "ассоциация",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "расхождение",
+        "lemma": "расхождение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (7)"
+      },
+      {
+        "distractor": "антагонизм",
+        "lemma": "антагонизм",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.53)"
+      },
+      {
+        "distractor": "контрастность",
+        "lemma": "контрастность",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "несоразмерность",
+        "lemma": "несоразмерность",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      }
+    ],
+    "valid_distractors": [
+      "расхождение"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'асимметрия' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'асимметрия', 'расхождение' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Отсутствие симметрии, несимметричность.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfboM5Rui1n5C9dPtF3L1LHwk0ss', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Отсутствие симметрии, несимметричность.', role='assistant', function_call=None, tool_calls=None))], created=1716143500, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=21, prompt_tokens=195, total_tokens=216))",
+  "initial_definition": "Отсутствие симметрии, несимметричность",
+  "final_definition": "Отличие от равномерной формы.",
+  "formatted_definition": "Отличие от равномерной формы",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Отличие от равномерной формы.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Отсутствие",
+            "симметрии",
+            ",",
+            "несимметричность"
+          ],
+          "removed_tokens": [
+            ","
+          ],
+          "final_tokens": [
+            "Отсутствие",
+            "симметрии",
+            "несимметричность"
+          ],
+          "lemmas": [
+            "отсутствие",
+            "симметрия",
+            "несимметричность"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "отсутствие",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "симметрия",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (1.84)"
+          },
+          {
+            "lemma": "несимметричность",
+            "is_valid": false,
+            "reason": "Высокого класса (6)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "симметрия",
+          "несимметричность"
+        ],
+        "correction_prompt": "Исправь толкование 'Отсутствие симметрии, несимметричность' для слова 'асимметрия' так, чтобы в нем не использовались слова 'асимметрия', 'симметрия', 'расхождение', 'несимметричность' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Отличие от равномерной формы.",
+        "response_details": "ChatCompletion(id='chatcmpl-9Qfbp393twzv8UsKmtxl2r4As2wQ9', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Отличие от равномерной формы.', role='assistant', function_call=None, tool_calls=None))], created=1716143501, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=12, prompt_tokens=244, total_tokens=256))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Отличие от равномерной формы.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Отличие",
+            "от",
+            "равномерной",
+            "формы"
+          ],
+          "removed_tokens": [
+            "от"
+          ],
+          "final_tokens": [
+            "Отличие",
+            "равномерной",
+            "формы"
+          ],
+          "lemmas": [
+            "отличие",
+            "равномерный",
+            "форма"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "отличие",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "равномерный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "форма",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-31-38",
+  "end_time": "2024.05.19 18-31-42"
+}

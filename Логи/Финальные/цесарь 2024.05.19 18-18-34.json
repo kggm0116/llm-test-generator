@@ -1,0 +1,167 @@
+{
+  "word": "цесарь",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "властелин",
+    "монарх",
+    "государь"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'цесарь'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'цесарь'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'цесарь', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "правитель, властелин, князь, император, монарх, король, суверен, монарх, верховный, деспот, вождь, государь, султан, магнат, глава, директор",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfP8tOo9hZqj5zz6B8NAZyRWwUAZ', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='правитель, властелин, князь, император, монарх, король, суверен, монарх, верховный, деспот, вождь, государь, султан, магнат, глава, директор', role='assistant', function_call=None, tool_calls=None))], created=1716142714, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=77, prompt_tokens=202, total_tokens=279))",
+    "distractor_analysis": [
+      {
+        "distractor": "правитель",
+        "lemma": "правитель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (267)"
+      },
+      {
+        "distractor": "властелин",
+        "lemma": "властелин",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (7)"
+      },
+      {
+        "distractor": "князь",
+        "lemma": "князь",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (450)"
+      },
+      {
+        "distractor": "император",
+        "lemma": "император",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (548)"
+      },
+      {
+        "distractor": "монарх",
+        "lemma": "монарх",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (12)"
+      },
+      {
+        "distractor": "король",
+        "lemma": "король",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (147.27)"
+      },
+      {
+        "distractor": "суверен",
+        "lemma": "суверен",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "верховный",
+        "lemma": "верховный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "деспот",
+        "lemma": "деспот",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "вождь",
+        "lemma": "вождь",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (55.47)"
+      },
+      {
+        "distractor": "государь",
+        "lemma": "государь",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (61)"
+      },
+      {
+        "distractor": "султан",
+        "lemma": "султан",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (15.43)"
+      },
+      {
+        "distractor": "магнат",
+        "lemma": "магнат",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.3)"
+      },
+      {
+        "distractor": "глава",
+        "lemma": "глава",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (486)"
+      },
+      {
+        "distractor": "директор",
+        "lemma": "директор",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (173.23)"
+      }
+    ],
+    "valid_distractors": [
+      "властелин",
+      "монарх",
+      "государь",
+      "султан"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'цесарь' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'цесарь', 'властелин', 'монарх', 'государь' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Руководитель древнеримской империи.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfPAkfUpTcfrZ7caBMHb2z5OC5ew', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='\\nРуководитель древнеримской империи.', role='assistant', function_call=None, tool_calls=None))], created=1716142716, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=19, prompt_tokens=203, total_tokens=222))",
+  "initial_definition": "Руководитель древнеримской империи",
+  "final_definition": "Руководитель древнеримской империи",
+  "formatted_definition": "Руководитель древнеримской империи",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Руководитель древнеримской империи",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Руководитель",
+            "древнеримской",
+            "империи"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Руководитель",
+            "древнеримской",
+            "империи"
+          ],
+          "lemmas": [
+            "руководитель",
+            "древнеримский",
+            "империя"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "руководитель",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "древнеримский",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "империя",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-18-34",
+  "end_time": "2024.05.19 18-18-36"
+}

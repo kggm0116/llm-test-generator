@@ -1,0 +1,262 @@
+{
+  "word": "чадить",
+  "class": 6,
+  "pos": "INFN",
+  "distractors": [
+    "родить",
+    "ласкать",
+    "рыть"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'чадить'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'чадить'. Слова должны быть части речи INFN. Желательно, чтобы слова соответствовали предметной области слова 'чадить', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "родить, ласкать, рыть, сушить, кожать, реке, плакать, шептать, ждать, бранить, естись, гулять, томить, молить, хлопотать, кипрять",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfEvCjQGMgvLwqg3yE416GU0TlSU', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='родить, ласкать, рыть, сушить, кожать, реке, плакать, шептать, ждать, бранить, естись, гулять, томить, молить, хлопотать, кипрять', role='assistant', function_call=None, tool_calls=None))], created=1716142081, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=72, prompt_tokens=199, total_tokens=271))",
+    "distractor_analysis": [
+      {
+        "distractor": "родить",
+        "lemma": "родить",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (180)"
+      },
+      {
+        "distractor": "ласкать",
+        "lemma": "ласкать",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (14)"
+      },
+      {
+        "distractor": "рыть",
+        "lemma": "рыть",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (46)"
+      },
+      {
+        "distractor": "сушить",
+        "lemma": "сушить",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (252)"
+      },
+      {
+        "distractor": "кожать",
+        "lemma": "кожать",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "реке",
+        "lemma": "река",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2274)"
+      },
+      {
+        "distractor": "плакать",
+        "lemma": "плакать",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (114.08)"
+      },
+      {
+        "distractor": "шептать",
+        "lemma": "шептать",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (41)"
+      },
+      {
+        "distractor": "ждать",
+        "lemma": "ждать",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (264)"
+      },
+      {
+        "distractor": "бранить",
+        "lemma": "бранить",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.72)"
+      },
+      {
+        "distractor": "естись",
+        "lemma": "еститься",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "гулять",
+        "lemma": "гулять",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (65.54)"
+      },
+      {
+        "distractor": "томить",
+        "lemma": "томить",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (6.39)"
+      },
+      {
+        "distractor": "молить",
+        "lemma": "молить",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (24)"
+      },
+      {
+        "distractor": "хлопотать",
+        "lemma": "хлопотать",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (12)"
+      },
+      {
+        "distractor": "кипрять",
+        "lemma": "кипрять",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      }
+    ],
+    "valid_distractors": [
+      "родить",
+      "ласкать",
+      "рыть",
+      "шептать",
+      "томить",
+      "молить",
+      "хлопотать"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'чадить' части речи INFN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'чадить', 'родить', 'ласкать', 'рыть' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "выхаживать, воспитывать, заботиться о молодом существе",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfExqUJpA1LdCzuXrE51CNYPABpN', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='выхаживать, воспитывать, заботиться о молодом существе', role='assistant', function_call=None, tool_calls=None))], created=1716142083, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=27, prompt_tokens=196, total_tokens=223))",
+  "initial_definition": "выхаживать, воспитывать, заботиться о молодом существе",
+  "final_definition": "Заботиться о младенце, воспитывать и развивать его.",
+  "formatted_definition": "Заботиться о младенце, воспитывать и развивать его",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Заботиться о младенце, воспитывать и развивать его.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "выхаживать",
+            ",",
+            "воспитывать",
+            ",",
+            "заботиться",
+            "о",
+            "молодом",
+            "существе"
+          ],
+          "removed_tokens": [
+            ",",
+            "о"
+          ],
+          "final_tokens": [
+            "выхаживать",
+            "воспитывать",
+            "заботиться",
+            "молодом",
+            "существе"
+          ],
+          "lemmas": [
+            "выхаживать",
+            "воспитывать",
+            "заботиться",
+            "молодой",
+            "существо"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "выхаживать",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (1.19)"
+          },
+          {
+            "lemma": "воспитывать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "заботиться",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "молодой",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "существо",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "выхаживать"
+        ],
+        "correction_prompt": "Исправь толкование 'выхаживать, воспитывать, заботиться о молодом существе' для слова 'чадить' так, чтобы в нем не использовались слова 'чадить', 'родить', 'ласкать', 'рыть', 'выхаживать' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Заботиться о младенце, воспитывать и развивать его.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfEyc2lIwAcIjI5lhy0ilTPrdgW5', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Заботиться о младенце, воспитывать и развивать его.', role='assistant', function_call=None, tool_calls=None))], created=1716142084, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=25, prompt_tokens=240, total_tokens=265))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Заботиться о младенце, воспитывать и развивать его.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Заботиться",
+            "о",
+            "младенце",
+            ",",
+            "воспитывать",
+            "и",
+            "развивать",
+            "его"
+          ],
+          "removed_tokens": [
+            "его",
+            "и",
+            ",",
+            "о"
+          ],
+          "final_tokens": [
+            "Заботиться",
+            "младенце",
+            "воспитывать",
+            "развивать"
+          ],
+          "lemmas": [
+            "заботиться",
+            "младенец",
+            "воспитывать",
+            "развивать"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "заботиться",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "младенец",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "воспитывать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "развивать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-08-01",
+  "end_time": "2024.05.19 18-08-04"
+}

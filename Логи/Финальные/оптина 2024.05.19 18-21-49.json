@@ -1,0 +1,170 @@
+{
+  "word": "оптина",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "окуляр",
+    "бинокль",
+    "линза"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'оптина'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'оптина'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'оптина', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "окуляр, бинокль, линза, зрачок, микроскоп, телескоп, светофор, прицел, очки, лупа, объектив, фотоаппарат, камера, окуляр, прожектор, бинокль.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfSHKMdQOQkcCTLr93NDuxrZfUxY', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='окуляр, бинокль, линза, зрачок, микроскоп, телескоп, светофор, прицел, очки, лупа, объектив, фотоаппарат, камера, окуляр, прожектор, бинокль.', role='assistant', function_call=None, tool_calls=None))], created=1716142909, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=80, prompt_tokens=199, total_tokens=279))",
+    "distractor_analysis": [
+      {
+        "distractor": "окуляр",
+        "lemma": "окуляр",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (33)"
+      },
+      {
+        "distractor": "бинокль",
+        "lemma": "бинокль",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (29)"
+      },
+      {
+        "distractor": "линза",
+        "lemma": "линза",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (19)"
+      },
+      {
+        "distractor": "зрачок",
+        "lemma": "зрачок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "микроскоп",
+        "lemma": "микроскоп",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (278)"
+      },
+      {
+        "distractor": "телескоп",
+        "lemma": "телескоп",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (77)"
+      },
+      {
+        "distractor": "светофор",
+        "lemma": "светофор",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (54)"
+      },
+      {
+        "distractor": "прицел",
+        "lemma": "прицел",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "очки",
+        "lemma": "очки",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (69)"
+      },
+      {
+        "distractor": "лупа",
+        "lemma": "лупа",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (97)"
+      },
+      {
+        "distractor": "объектив",
+        "lemma": "объектив",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (30)"
+      },
+      {
+        "distractor": "фотоаппарат",
+        "lemma": "фотоаппарат",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (37)"
+      },
+      {
+        "distractor": "камера",
+        "lemma": "камера",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (88.82)"
+      },
+      {
+        "distractor": "прожектор",
+        "lemma": "прожектор",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (10)"
+      }
+    ],
+    "valid_distractors": [
+      "окуляр",
+      "бинокль",
+      "линза",
+      "телескоп",
+      "светофор",
+      "очки",
+      "лупа",
+      "объектив",
+      "фотоаппарат",
+      "прожектор"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'оптина' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'оптина', 'окуляр', 'бинокль', 'линза' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Прибор для увеличения изображения.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfSJqS9ifyY5xiOLtFoDpvtbeMup', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Прибор для увеличения изображения.', role='assistant', function_call=None, tool_calls=None))], created=1716142911, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=14, prompt_tokens=199, total_tokens=213))",
+  "initial_definition": "Прибор для увеличения изображения",
+  "final_definition": "Прибор для увеличения изображения",
+  "formatted_definition": "Прибор для увеличения изображения",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Прибор для увеличения изображения",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Прибор",
+            "для",
+            "увеличения",
+            "изображения"
+          ],
+          "removed_tokens": [
+            "для"
+          ],
+          "final_tokens": [
+            "Прибор",
+            "увеличения",
+            "изображения"
+          ],
+          "lemmas": [
+            "прибор",
+            "увеличение",
+            "изображение"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "прибор",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "увеличение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "изображение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-21-49",
+  "end_time": "2024.05.19 18-21-52"
+}

@@ -1,0 +1,246 @@
+{
+  "word": "опока",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "трясина",
+    "ракушка",
+    "кочка"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'опока'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'опока'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'опока', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "трясина, болото, лишайник, торф, мох, ракушка, водоросль, кочка, нива, озеро, болотце, болотинка, тряска, барлог, мшистое, тиновка",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfTeSZx0ml0Q80XseHrjs0g5Begg', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='трясина, болото, лишайник, торф, мох, ракушка, водоросль, кочка, нива, озеро, болотце, болотинка, тряска, барлог, мшистое, тиновка', role='assistant', function_call=None, tool_calls=None))], created=1716142994, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=80, prompt_tokens=196, total_tokens=276))",
+    "distractor_analysis": [
+      {
+        "distractor": "трясина",
+        "lemma": "трясина",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "болото",
+        "lemma": "болото",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (405)"
+      },
+      {
+        "distractor": "лишайник",
+        "lemma": "лишайник",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (253)"
+      },
+      {
+        "distractor": "торф",
+        "lemma": "торф",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.57)"
+      },
+      {
+        "distractor": "мох",
+        "lemma": "мох",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (321)"
+      },
+      {
+        "distractor": "ракушка",
+        "lemma": "ракушка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (37)"
+      },
+      {
+        "distractor": "водоросль",
+        "lemma": "водоросль",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (538)"
+      },
+      {
+        "distractor": "кочка",
+        "lemma": "кочка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (49)"
+      },
+      {
+        "distractor": "нива",
+        "lemma": "нива",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (10)"
+      },
+      {
+        "distractor": "озеро",
+        "lemma": "озеро",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (970)"
+      },
+      {
+        "distractor": "болотце",
+        "lemma": "болотце",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "болотинка",
+        "lemma": "болотинк",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "тряска",
+        "lemma": "тряска",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.18)"
+      },
+      {
+        "distractor": "барлог",
+        "lemma": "барлог",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "мшистое",
+        "lemma": "мшистый",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "тиновка",
+        "lemma": "тиновка",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      }
+    ],
+    "valid_distractors": [
+      "трясина",
+      "ракушка",
+      "кочка",
+      "нива"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'опока' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'опока', 'трясина', 'ракушка', 'кочка' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "болотистое место, где скапливается вода.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfTgiPh3Yg3doZb6uUXjkDuwMsz5', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='болотистое место, где скапливается вода.', role='assistant', function_call=None, tool_calls=None))], created=1716142996, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=19, prompt_tokens=198, total_tokens=217))",
+  "initial_definition": "болотистое место, где скапливается вода",
+  "final_definition": "Влажная территория, где задерживается вода.",
+  "formatted_definition": "Влажная территория, где задерживается вода",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Влажная территория, где задерживается вода.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "болотистое",
+            "место",
+            ",",
+            "где",
+            "скапливается",
+            "вода"
+          ],
+          "removed_tokens": [
+            "где",
+            ","
+          ],
+          "final_tokens": [
+            "болотистое",
+            "место",
+            "скапливается",
+            "вода"
+          ],
+          "lemmas": [
+            "болотистый",
+            "место",
+            "скапливаться",
+            "вода"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "болотистый",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (2.79)"
+          },
+          {
+            "lemma": "место",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "скапливаться",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "вода",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "болотистый"
+        ],
+        "correction_prompt": "Исправь толкование 'болотистое место, где скапливается вода' для слова 'опока' так, чтобы в нем не использовались слова 'опока', 'трясина', 'ракушка', 'кочка', 'болотистый' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Влажная территория, где задерживается вода.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfTgJ2bp1lLOm93ZhJFNCbadh88l', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Влажная территория, где задерживается вода.', role='assistant', function_call=None, tool_calls=None))], created=1716142996, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=20, prompt_tokens=234, total_tokens=254))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Влажная территория, где задерживается вода.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Влажная",
+            "территория",
+            ",",
+            "где",
+            "задерживается",
+            "вода"
+          ],
+          "removed_tokens": [
+            "где",
+            ","
+          ],
+          "final_tokens": [
+            "Влажная",
+            "территория",
+            "задерживается",
+            "вода"
+          ],
+          "lemmas": [
+            "влажный",
+            "территория",
+            "задерживаться",
+            "вода"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "влажный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "территория",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "задерживаться",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "вода",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-23-14",
+  "end_time": "2024.05.19 18-23-17"
+}

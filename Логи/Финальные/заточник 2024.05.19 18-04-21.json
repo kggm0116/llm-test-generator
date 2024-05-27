@@ -1,0 +1,320 @@
+{
+  "word": "заточник",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "приспособление",
+    "принадлежность"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'заточник'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'заточник'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'заточник', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "инструмент, орудие, приспособление, приспособье, приспособность, прибор, устройство, приспособленец, приставка, приспособа, принадлежность, принадлежащее, аппарат, устройствие, механизм, принадлежность",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfBN9qMfp0VNRhLDHkov0GgkH8LX', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='инструмент, орудие, приспособление, приспособье, приспособность, прибор, устройство, приспособленец, приставка, приспособа, принадлежность, принадлежащее, аппарат, устройствие, механизм, принадлежность', role='assistant', function_call=None, tool_calls=None))], created=1716141861, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=100, prompt_tokens=202, total_tokens=302))",
+    "distractor_analysis": [
+      {
+        "distractor": "инструмент",
+        "lemma": "инструмент",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (634)"
+      },
+      {
+        "distractor": "орудие",
+        "lemma": "орудие",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (227)"
+      },
+      {
+        "distractor": "приспособление",
+        "lemma": "приспособление",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (158)"
+      },
+      {
+        "distractor": "приспособье",
+        "lemma": "приспособие",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "приспособность",
+        "lemma": "приспособность",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "прибор",
+        "lemma": "прибор",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (392)"
+      },
+      {
+        "distractor": "устройство",
+        "lemma": "устройство",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (585)"
+      },
+      {
+        "distractor": "приспособленец",
+        "lemma": "приспособленец",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "приставка",
+        "lemma": "приставка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (865)"
+      },
+      {
+        "distractor": "приспособа",
+        "lemma": "приспособ",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "принадлежность",
+        "lemma": "принадлежность",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (65)"
+      },
+      {
+        "distractor": "принадлежащее",
+        "lemma": "принадлежащий",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "аппарат",
+        "lemma": "аппарат",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (75.0)"
+      },
+      {
+        "distractor": "устройствие",
+        "lemma": "устройствие",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "механизм",
+        "lemma": "механизм",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (52.87)"
+      }
+    ],
+    "valid_distractors": [
+      "приспособление",
+      "принадлежность"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'заточник' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'заточник', 'приспособление', 'принадлежность' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Человек, который делает что-то остро или острит что-то.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfBPZEHUJgZcAauiQNG4urfF9syP', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Человек, который делает что-то остро или острит что-то.', role='assistant', function_call=None, tool_calls=None))], created=1716141863, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=22, prompt_tokens=201, total_tokens=223))",
+  "initial_definition": "Человек, который делает что-то остро или острит что-то",
+  "final_definition": "Персона, выполняющая процесс создания острого конца.",
+  "formatted_definition": "Персона, выполняющая процесс создания острого конца",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Личность, осуществляющая заточение.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек",
+            ",",
+            "который",
+            "делает",
+            "что-то",
+            "остро",
+            "или",
+            "острит",
+            "что-то"
+          ],
+          "removed_tokens": [
+            "или",
+            ","
+          ],
+          "final_tokens": [
+            "Человек",
+            "который",
+            "делает",
+            "что-то",
+            "остро",
+            "острит",
+            "что-то"
+          ],
+          "lemmas": [
+            "человек",
+            "который",
+            "делать",
+            "что-то",
+            "остро",
+            "острить",
+            "что-то"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "который",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (3361.51)"
+          },
+          {
+            "lemma": "делать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "что-то",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          },
+          {
+            "lemma": "остро",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          },
+          {
+            "lemma": "острить",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "что-то"
+        ],
+        "correction_prompt": "Исправь толкование 'Человек, который делает что-то остро или острит что-то' для слова 'заточник' так, чтобы в нем не использовались слова 'заточник', 'что-то', 'принадлежность', 'приспособление' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Личность, осуществляющая заточение.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfBQkSnnJ3fnkCcLc8VVaPCgONtR', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Личность, осуществляющая заточение.', role='assistant', function_call=None, tool_calls=None))], created=1716141864, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=14, prompt_tokens=239, total_tokens=253))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Персона, выполняющая процесс создания острого конца.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Личность",
+            ",",
+            "осуществляющая",
+            "заточение"
+          ],
+          "removed_tokens": [
+            ","
+          ],
+          "final_tokens": [
+            "Личность",
+            "осуществляющая",
+            "заточение"
+          ],
+          "lemmas": [
+            "личность",
+            "осуществлять",
+            "заточение"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "личность",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "осуществлять",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "заточение",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (2.11)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "заточение"
+        ],
+        "correction_prompt": "Исправь толкование 'Личность, осуществляющая заточение.' для слова 'заточник' так, чтобы в нем не использовались слова 'заточник', 'приспособление', 'что-то', 'принадлежность', 'заточение' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Персона, выполняющая процесс создания острого конца.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfBRThwsqINRdm5ueM9nkKTKZJaO', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Персона, выполняющая процесс создания острого конца.', role='assistant', function_call=None, tool_calls=None))], created=1716141865, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=20, prompt_tokens=237, total_tokens=257))"
+      }
+    },
+    "3": {
+      "corrected_definition": "Персона, выполняющая процесс создания острого конца.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Персона",
+            ",",
+            "выполняющая",
+            "процесс",
+            "создания",
+            "острого",
+            "конца"
+          ],
+          "removed_tokens": [
+            ","
+          ],
+          "final_tokens": [
+            "Персона",
+            "выполняющая",
+            "процесс",
+            "создания",
+            "острого",
+            "конца"
+          ],
+          "lemmas": [
+            "персона",
+            "выполнять",
+            "процесс",
+            "создание",
+            "острый",
+            "конец"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "персона",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "выполнять",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "процесс",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "создание",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "острый",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "конец",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-04-21",
+  "end_time": "2024.05.19 18-04-25"
+}

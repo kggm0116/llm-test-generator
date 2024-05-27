@@ -1,0 +1,173 @@
+{
+  "word": "хронограф",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "компас",
+    "весы"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'хронограф'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'хронограф'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'хронограф', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "часы, тахеометр, пульсометр, рефрактометр, спектрометр, барометр, линейка, тахиметр, компас, гироскоп, калибратор, манометр, оптиметр, скорометр, стоп-вач, весы",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfJF4WCUqB13qEiduKkl0ZUTSaZY', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='часы, тахеометр, пульсометр, рефрактометр, спектрометр, барометр, линейка, тахиметр, компас, гироскоп, калибратор, манометр, оптиметр, скорометр, стоп-вач, весы', role='assistant', function_call=None, tool_calls=None))], created=1716142349, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=96, prompt_tokens=208, total_tokens=304))",
+    "distractor_analysis": [
+      {
+        "distractor": "часы",
+        "lemma": "часы",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (340)"
+      },
+      {
+        "distractor": "тахеометр",
+        "lemma": "тахеометр",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "пульсометр",
+        "lemma": "пульсометр",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "рефрактометр",
+        "lemma": "рефрактометр",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "спектрометр",
+        "lemma": "спектрометр",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "барометр",
+        "lemma": "барометр",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.84)"
+      },
+      {
+        "distractor": "линейка",
+        "lemma": "линейка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (419)"
+      },
+      {
+        "distractor": "тахиметр",
+        "lemma": "тахиметр",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "компас",
+        "lemma": "компас",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (167)"
+      },
+      {
+        "distractor": "гироскоп",
+        "lemma": "гироскоп",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "калибратор",
+        "lemma": "калибратор",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "манометр",
+        "lemma": "манометр",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "оптиметр",
+        "lemma": "оптиметр",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "скорометр",
+        "lemma": "скорометр",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "стоп-вач",
+        "lemma": "стоп-вач",
+        "is_valid": false,
+        "reason": "Содержит дефис"
+      },
+      {
+        "distractor": "весы",
+        "lemma": "весы",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (92)"
+      }
+    ],
+    "valid_distractors": [
+      "компас",
+      "весы"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'хронограф' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'хронограф', 'компас', 'весы' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "прибор для измерения времени",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfJHyX6lb6SBzgMSHUtZiCsOo1my', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='прибор для измерения времени', role='assistant', function_call=None, tool_calls=None))], created=1716142351, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=10, prompt_tokens=198, total_tokens=208))",
+  "initial_definition": "прибор для измерения времени",
+  "final_definition": "прибор для измерения времени",
+  "formatted_definition": "прибор для измерения времени",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "прибор для измерения времени",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "прибор",
+            "для",
+            "измерения",
+            "времени"
+          ],
+          "removed_tokens": [
+            "для"
+          ],
+          "final_tokens": [
+            "прибор",
+            "измерения",
+            "времени"
+          ],
+          "lemmas": [
+            "прибор",
+            "измерение",
+            "время"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "прибор",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "измерение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "время",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-12-28",
+  "end_time": "2024.05.19 18-12-31"
+}

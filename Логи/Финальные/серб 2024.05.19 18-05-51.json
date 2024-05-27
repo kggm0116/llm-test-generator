@@ -1,0 +1,165 @@
+{
+  "word": "серб",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "славянин",
+    "хорват",
+    "македонец"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'серб'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'серб'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'серб', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "славянин, балканец, хорват, босниец, черногорец, македонец, словенец, сербка, хорватка, боснийка, черногорка, македонка, словенка, югослав, балканский, югославия",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfCppkSx3iF3aoS3VgxpcPvu4xKD', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='славянин, балканец, хорват, босниец, черногорец, македонец, словенец, сербка, хорватка, боснийка, черногорка, македонка, словенка, югослав, балканский, югославия', role='assistant', function_call=None, tool_calls=None))], created=1716141951, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=94, prompt_tokens=199, total_tokens=293))",
+    "distractor_analysis": [
+      {
+        "distractor": "славянин",
+        "lemma": "славянин",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (145)"
+      },
+      {
+        "distractor": "балканец",
+        "lemma": "балканец",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "хорват",
+        "lemma": "хорват",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (4.98)"
+      },
+      {
+        "distractor": "босниец",
+        "lemma": "босниец",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "черногорец",
+        "lemma": "черногорец",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "македонец",
+        "lemma": "македонец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (12)"
+      },
+      {
+        "distractor": "словенец",
+        "lemma": "словенец",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "сербка",
+        "lemma": "сербка",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "хорватка",
+        "lemma": "хорватка",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "боснийка",
+        "lemma": "боснийка",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "черногорка",
+        "lemma": "черногорка",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "македонка",
+        "lemma": "македонка",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "словенка",
+        "lemma": "словенка",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "югослав",
+        "lemma": "югослав",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.15)"
+      },
+      {
+        "distractor": "балканский",
+        "lemma": "балканский",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "югославия",
+        "lemma": "югославия",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (4.94)"
+      }
+    ],
+    "valid_distractors": [
+      "славянин",
+      "хорват",
+      "македонец",
+      "югославия"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'серб' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'серб', 'славянин', 'хорват', 'македонец' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Представитель народа.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfCrphxSDuh1w0Xd2Bepi0lHY5VO', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Представитель народа.', role='assistant', function_call=None, tool_calls=None))], created=1716141953, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=8, prompt_tokens=202, total_tokens=210))",
+  "initial_definition": "Представитель народа",
+  "final_definition": "Представитель народа",
+  "formatted_definition": "Представитель народа",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Представитель народа",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Представитель",
+            "народа"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Представитель",
+            "народа"
+          ],
+          "lemmas": [
+            "представитель",
+            "народ"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "представитель",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "народ",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-05-51",
+  "end_time": "2024.05.19 18-05-54"
+}

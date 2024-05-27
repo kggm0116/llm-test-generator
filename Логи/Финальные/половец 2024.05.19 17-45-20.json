@@ -1,0 +1,252 @@
+{
+  "word": "половец",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "богатырь",
+    "воевода",
+    "защитник"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'половец'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'половец'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'половец', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "воин, богатырь, стрелок, герой, воевода, защитник, захватчик, страж, вождь, атаман, князь, боевик, защитник, воитель, военачальник, военачальник",
+    "response_details": "ChatCompletion(id='chatcmpl-9QesyUc1pHG73kiaOgx15BsfDgERL', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='воин, богатырь, стрелок, герой, воевода, защитник, захватчик, страж, вождь, атаман, князь, боевик, защитник, воитель, военачальник, военачальник', role='assistant', function_call=None, tool_calls=None))], created=1716140720, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=82, prompt_tokens=202, total_tokens=284))",
+    "distractor_analysis": [
+      {
+        "distractor": "воин",
+        "lemma": "воин",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (509)"
+      },
+      {
+        "distractor": "богатырь",
+        "lemma": "богатырь",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (157)"
+      },
+      {
+        "distractor": "стрелок",
+        "lemma": "стрелка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (438)"
+      },
+      {
+        "distractor": "герой",
+        "lemma": "герой",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (846)"
+      },
+      {
+        "distractor": "воевода",
+        "lemma": "воевода",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (11)"
+      },
+      {
+        "distractor": "защитник",
+        "lemma": "защитник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (145)"
+      },
+      {
+        "distractor": "захватчик",
+        "lemma": "захватчик",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (89)"
+      },
+      {
+        "distractor": "страж",
+        "lemma": "страж",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (18)"
+      },
+      {
+        "distractor": "вождь",
+        "lemma": "вождь",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (55.47)"
+      },
+      {
+        "distractor": "атаман",
+        "lemma": "атаман",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "князь",
+        "lemma": "князь",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (450)"
+      },
+      {
+        "distractor": "боевик",
+        "lemma": "боевик",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "воитель",
+        "lemma": "воитель",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.53)"
+      },
+      {
+        "distractor": "военачальник",
+        "lemma": "военачальник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (59)"
+      }
+    ],
+    "valid_distractors": [
+      "богатырь",
+      "воевода",
+      "защитник",
+      "захватчик",
+      "страж",
+      "военачальник"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'половец' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'половец', 'богатырь', 'воевода', 'защитник' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Человек-воин, обитавший на территории степей.",
+  "response_details": "ChatCompletion(id='chatcmpl-9Qet0xWlUEmrXTPfILaiKr5FgvxRP', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Человек-воин, обитавший на территории степей.', role='assistant', function_call=None, tool_calls=None))], created=1716140722, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=25, prompt_tokens=204, total_tokens=229))",
+  "initial_definition": "Человек-воин, обитавший на территории степей",
+  "final_definition": "Житель степных районов, участвовавший в военных действиях.",
+  "formatted_definition": "Житель степных районов, участвовавший в военных действиях",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Житель степных районов, участвовавший в военных действиях.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек-воин",
+            ",",
+            "обитавший",
+            "на",
+            "территории",
+            "степей"
+          ],
+          "removed_tokens": [
+            "на",
+            ","
+          ],
+          "final_tokens": [
+            "Человек-воин",
+            "обитавший",
+            "территории",
+            "степей"
+          ],
+          "lemmas": [
+            "человек-воин",
+            "обитать",
+            "территория",
+            "степь"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек-воин",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          },
+          {
+            "lemma": "обитать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "территория",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "степь",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "человек-воин"
+        ],
+        "correction_prompt": "Исправь толкование 'Человек-воин, обитавший на территории степей' для слова 'половец' так, чтобы в нем не использовались слова 'половец', 'воевода', 'защитник', 'богатырь', 'человек-воин' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Житель степных районов, участвовавший в военных действиях.",
+        "response_details": "ChatCompletion(id='chatcmpl-9Qet1feci43ZrPNdqE7MBpxcU2ALL', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Житель степных районов, участвовавший в военных действиях.', role='assistant', function_call=None, tool_calls=None))], created=1716140723, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=29, prompt_tokens=249, total_tokens=278))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Житель степных районов, участвовавший в военных действиях.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Житель",
+            "степных",
+            "районов",
+            ",",
+            "участвовавший",
+            "в",
+            "военных",
+            "действиях"
+          ],
+          "removed_tokens": [
+            "в",
+            ","
+          ],
+          "final_tokens": [
+            "Житель",
+            "степных",
+            "районов",
+            "участвовавший",
+            "военных",
+            "действиях"
+          ],
+          "lemmas": [
+            "житель",
+            "степной",
+            "район",
+            "участвовать",
+            "военный",
+            "действие"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "житель",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "степной",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "район",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "участвовать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "военный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "действие",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 17-45-20",
+  "end_time": "2024.05.19 17-45-24"
+}

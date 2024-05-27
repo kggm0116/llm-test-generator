@@ -1,0 +1,251 @@
+{
+  "word": "престолонаследие",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "корона",
+    "монархия",
+    "титул"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'престолонаследие'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'престолонаследие'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'престолонаследие', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "корона, власть, государство, монархия, титул, кронпринц, наследник, потомственность, династия, монарх, наследство, правление, наследственный принц, монаршество, престол, правопреемник.",
+    "response_details": "ChatCompletion(id='chatcmpl-9Qf5Yj9Y9fXKhbpe4UJavUyJErSlq', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='корона, власть, государство, монархия, титул, кронпринц, наследник, потомственность, династия, монарх, наследство, правление, наследственный принц, монаршество, престол, правопреемник.', role='assistant', function_call=None, tool_calls=None))], created=1716141500, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=91, prompt_tokens=214, total_tokens=305))",
+    "distractor_analysis": [
+      {
+        "distractor": "корона",
+        "lemma": "корона",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (71)"
+      },
+      {
+        "distractor": "власть",
+        "lemma": "власть",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (731)"
+      },
+      {
+        "distractor": "государство",
+        "lemma": "государство",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1307)"
+      },
+      {
+        "distractor": "монархия",
+        "lemma": "монархия",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (13)"
+      },
+      {
+        "distractor": "титул",
+        "lemma": "титул",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (46)"
+      },
+      {
+        "distractor": "кронпринц",
+        "lemma": "кронпринц",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "наследник",
+        "lemma": "наследник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (42)"
+      },
+      {
+        "distractor": "потомственность",
+        "lemma": "потомственность",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "династия",
+        "lemma": "династия",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (64)"
+      },
+      {
+        "distractor": "монарх",
+        "lemma": "монарх",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (12)"
+      },
+      {
+        "distractor": "наследство",
+        "lemma": "наследство",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (81)"
+      },
+      {
+        "distractor": "правление",
+        "lemma": "правление",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (164)"
+      },
+      {
+        "distractor": "наследственный принц",
+        "lemma": "наследственный принц",
+        "is_valid": false,
+        "reason": "Содержит пробел"
+      },
+      {
+        "distractor": "монаршество",
+        "lemma": "монаршество",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "престол",
+        "lemma": "престол",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (43)"
+      },
+      {
+        "distractor": "правопреемник",
+        "lemma": "правопреемник",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      }
+    ],
+    "valid_distractors": [
+      "корона",
+      "монархия",
+      "титул",
+      "наследник",
+      "династия",
+      "монарх",
+      "наследство",
+      "правление",
+      "престол"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'престолонаследие' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'престолонаследие', 'корона', 'монархия', 'титул' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Право на наследование правления.",
+  "response_details": "ChatCompletion(id='chatcmpl-9Qf5aTyVBYy9MPBKH6wcCgWzlkBwP', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Право на наследование правления.', role='assistant', function_call=None, tool_calls=None))], created=1716141502, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=12, prompt_tokens=209, total_tokens=221))",
+  "initial_definition": "Право на наследование правления",
+  "final_definition": "Право на передачу власти от родителей к детям.",
+  "formatted_definition": "Право на передачу власти от родителей к детям",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Право на передачу власти от родителей к детям.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Право",
+            "на",
+            "наследование",
+            "правления"
+          ],
+          "removed_tokens": [
+            "на"
+          ],
+          "final_tokens": [
+            "Право",
+            "наследование",
+            "правления"
+          ],
+          "lemmas": [
+            "право",
+            "наследование",
+            "правление"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "право",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "наследование",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (1.68)"
+          },
+          {
+            "lemma": "правление",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "наследование"
+        ],
+        "correction_prompt": "Исправь толкование 'Право на наследование правления' для слова 'престолонаследие' так, чтобы в нем не использовались слова 'престолонаследие', 'титул', 'монархия', 'корона', 'наследование' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Право на передачу власти от родителей к детям.",
+        "response_details": "ChatCompletion(id='chatcmpl-9Qf5cOd8mxUEl1VmDPLW73oPn6M5U', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Право на передачу власти от родителей к детям.', role='assistant', function_call=None, tool_calls=None))], created=1716141504, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=22, prompt_tokens=238, total_tokens=260))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Право на передачу власти от родителей к детям.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Право",
+            "на",
+            "передачу",
+            "власти",
+            "от",
+            "родителей",
+            "к",
+            "детям"
+          ],
+          "removed_tokens": [
+            "от",
+            "на",
+            "к"
+          ],
+          "final_tokens": [
+            "Право",
+            "передачу",
+            "власти",
+            "родителей",
+            "детям"
+          ],
+          "lemmas": [
+            "право",
+            "передача",
+            "власть",
+            "родитель",
+            "ребёнок"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "право",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "передача",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "власть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "родитель",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "ребёнок",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 17-58-20",
+  "end_time": "2024.05.19 17-58-24"
+}

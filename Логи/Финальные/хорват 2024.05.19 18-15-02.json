@@ -1,0 +1,306 @@
+{
+  "word": "хорват",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "славянин",
+    "македонец",
+    "россиянин"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'хорват'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'хорват'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'хорват', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "балканец, славянин, гражданин, босниец, житель, серб, македонец, словенец, марио, черногорец, крайневосточник, болгарин, чех, россиянин, немец, итальянец",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfLiuR8RXr1TqADg3SEwVQNAT2Pq', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='балканец, славянин, гражданин, босниец, житель, серб, македонец, словенец, марио, черногорец, крайневосточник, болгарин, чех, россиянин, немец, итальянец', role='assistant', function_call=None, tool_calls=None))], created=1716142502, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=92, prompt_tokens=202, total_tokens=294))",
+    "distractor_analysis": [
+      {
+        "distractor": "балканец",
+        "lemma": "балканец",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "славянин",
+        "lemma": "славянин",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (145)"
+      },
+      {
+        "distractor": "гражданин",
+        "lemma": "гражданин",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (610)"
+      },
+      {
+        "distractor": "босниец",
+        "lemma": "босниец",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "житель",
+        "lemma": "житель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (747)"
+      },
+      {
+        "distractor": "серб",
+        "lemma": "серб",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.61)"
+      },
+      {
+        "distractor": "македонец",
+        "lemma": "македонец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (12)"
+      },
+      {
+        "distractor": "словенец",
+        "lemma": "словенец",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "марио",
+        "lemma": "марио",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "черногорец",
+        "lemma": "черногорец",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "крайневосточник",
+        "lemma": "крайневосточник",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "болгарин",
+        "lemma": "болгарин",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "чех",
+        "lemma": "чех",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "россиянин",
+        "lemma": "россиянин",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (32)"
+      },
+      {
+        "distractor": "немец",
+        "lemma": "немец",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (214.23)"
+      },
+      {
+        "distractor": "итальянец",
+        "lemma": "итальянец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (14)"
+      }
+    ],
+    "valid_distractors": [
+      "славянин",
+      "македонец",
+      "россиянин",
+      "итальянец"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'хорват' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'хорват', 'славянин', 'македонец', 'россиянин' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Человек, проживающий на Балканском полуострове.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfLkuAGjTP2kg8gO1dnl5nVF0I8Q', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Человек, проживающий на Балканском полуострове.', role='assistant', function_call=None, tool_calls=None))], created=1716142504, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=24, prompt_tokens=205, total_tokens=229))",
+  "initial_definition": "Человек, проживающий на Балканском полуострове",
+  "final_definition": "Человек, проживающий в середине полуострова.",
+  "formatted_definition": "Человек, проживающий в середине полуострова",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Человек, живущий на срдцевине полуострова.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек",
+            ",",
+            "проживающий",
+            "на",
+            "Балканском",
+            "полуострове"
+          ],
+          "removed_tokens": [
+            "на",
+            ","
+          ],
+          "final_tokens": [
+            "Человек",
+            "проживающий",
+            "Балканском",
+            "полуострове"
+          ],
+          "lemmas": [
+            "человек",
+            "проживать",
+            "балканский",
+            "полуостров"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "проживать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "балканский",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (1.91)"
+          },
+          {
+            "lemma": "полуостров",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "балканский"
+        ],
+        "correction_prompt": "Исправь толкование 'Человек, проживающий на Балканском полуострове' для слова 'хорват' так, чтобы в нем не использовались слова 'хорват', 'македонец', 'россиянин', 'славянин', 'балканский' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Человек, живущий на срдцевине полуострова.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfLltpGD8y2MZ6k29h4BapWwrAAY', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Человек, живущий на срдцевине полуострова.', role='assistant', function_call=None, tool_calls=None))], created=1716142505, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=23, prompt_tokens=247, total_tokens=270))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Человек, проживающий в середине полуострова.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек",
+            ",",
+            "живущий",
+            "на",
+            "срдцевине",
+            "полуострова"
+          ],
+          "removed_tokens": [
+            "на",
+            ","
+          ],
+          "final_tokens": [
+            "Человек",
+            "живущий",
+            "срдцевине",
+            "полуострова"
+          ],
+          "lemmas": [
+            "человек",
+            "жить",
+            "срдцевино",
+            "полуостров"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "жить",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "срдцевино",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          },
+          {
+            "lemma": "полуостров",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "срдцевино"
+        ],
+        "correction_prompt": "Исправь толкование 'Человек, живущий на срдцевине полуострова.' для слова 'хорват' так, чтобы в нем не использовались слова 'хорват', 'срдцевино', 'россиянин', 'славянин', 'балканский', 'македонец' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Человек, проживающий в середине полуострова.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfLmYxW5NvFZmFzy2gpQGzsPLlnz', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Человек, проживающий в середине полуострова.', role='assistant', function_call=None, tool_calls=None))], created=1716142506, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=22, prompt_tokens=255, total_tokens=277))"
+      }
+    },
+    "3": {
+      "corrected_definition": "Человек, проживающий в середине полуострова.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек",
+            ",",
+            "проживающий",
+            "в",
+            "середине",
+            "полуострова"
+          ],
+          "removed_tokens": [
+            "в",
+            ","
+          ],
+          "final_tokens": [
+            "Человек",
+            "проживающий",
+            "середине",
+            "полуострова"
+          ],
+          "lemmas": [
+            "человек",
+            "проживать",
+            "середина",
+            "полуостров"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "проживать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "середина",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "полуостров",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-15-02",
+  "end_time": "2024.05.19 18-15-07"
+}

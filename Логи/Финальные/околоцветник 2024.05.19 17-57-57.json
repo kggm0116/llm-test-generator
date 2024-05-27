@@ -1,0 +1,211 @@
+{
+  "word": "околоцветник",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "Роза",
+    "лилия",
+    "тюльпан"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'околоцветник'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'околоцветник'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'околоцветник', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Роза, лилия, тюльпан, нарцисс, гвоздика, астра, ирис, пион, гиацинт, фрезия, орхидея, гербера, гелиотроп, ранункулус, калла, крокус.",
+    "response_details": "ChatCompletion(id='chatcmpl-9Qf5CTGVIvIGoph6IsH3NC9KbxdP9', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Роза, лилия, тюльпан, нарцисс, гвоздика, астра, ирис, пион, гиацинт, фрезия, орхидея, гербера, гелиотроп, ранункулус, калла, крокус.', role='assistant', function_call=None, tool_calls=None))], created=1716141478, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=82, prompt_tokens=208, total_tokens=290))",
+    "distractor_analysis": [
+      {
+        "distractor": "Роза",
+        "lemma": "роза",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (61)"
+      },
+      {
+        "distractor": "лилия",
+        "lemma": "лилия",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (8)"
+      },
+      {
+        "distractor": "тюльпан",
+        "lemma": "тюльпан",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (93)"
+      },
+      {
+        "distractor": "нарцисс",
+        "lemma": "нарцисс",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.88)"
+      },
+      {
+        "distractor": "гвоздика",
+        "lemma": "гвоздик",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.53)"
+      },
+      {
+        "distractor": "астра",
+        "lemma": "астр",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "ирис",
+        "lemma": "ирис",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (16)"
+      },
+      {
+        "distractor": "пион",
+        "lemma": "пион",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.26)"
+      },
+      {
+        "distractor": "гиацинт",
+        "lemma": "гиацинт",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (24)"
+      },
+      {
+        "distractor": "фрезия",
+        "lemma": "фрезия",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "орхидея",
+        "lemma": "орхидея",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.61)"
+      },
+      {
+        "distractor": "гербера",
+        "lemma": "гербер",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "гелиотроп",
+        "lemma": "гелиотроп",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "ранункулус",
+        "lemma": "ранункулус",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "калла",
+        "lemma": "калла",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "крокус",
+        "lemma": "крокус",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      }
+    ],
+    "valid_distractors": [
+      "Роза",
+      "лилия",
+      "тюльпан",
+      "ирис",
+      "гиацинт"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'околоцветник' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'околоцветник', 'Роза', 'лилия', 'тюльпан' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Растение, имеющее красивые и яркие цветки разных оттенков.",
+  "response_details": "ChatCompletion(id='chatcmpl-9Qf5DemcLQMu66gSt0MLjehEuW6Ua', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Растение, имеющее красивые и яркие цветки разных оттенков.', role='assistant', function_call=None, tool_calls=None))], created=1716141479, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=28, prompt_tokens=204, total_tokens=232))",
+  "initial_definition": "Растение, имеющее красивые и яркие цветки разных оттенков",
+  "final_definition": "Растение, имеющее красивые и яркие цветки разных оттенков",
+  "formatted_definition": "Растение, имеющее красивые и яркие цветки разных оттенков",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Растение, имеющее красивые и яркие цветки разных оттенков",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Растение",
+            ",",
+            "имеющее",
+            "красивые",
+            "и",
+            "яркие",
+            "цветки",
+            "разных",
+            "оттенков"
+          ],
+          "removed_tokens": [
+            "и",
+            ","
+          ],
+          "final_tokens": [
+            "Растение",
+            "имеющее",
+            "красивые",
+            "яркие",
+            "цветки",
+            "разных",
+            "оттенков"
+          ],
+          "lemmas": [
+            "растение",
+            "иметь",
+            "красивый",
+            "яркий",
+            "цветок",
+            "разный",
+            "оттенок"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "растение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "иметь",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "красивый",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "яркий",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "цветок",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "разный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "оттенок",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 17-57-57",
+  "end_time": "2024.05.19 17-58-00"
+}

@@ -1,0 +1,197 @@
+{
+  "word": "двуполье",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "пастбище",
+    "сквер",
+    "поляна"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'двуполье'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'двуполье'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'двуполье', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "пастбище, бассейн, поле, огород, луг, участок, сад, сквер, поляна, парк, снег, асфальт, тропинка, дорога, сугроб, обочина",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfJi2NDAeIKGl1MJAp75nIkKUEAf', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='пастбище, бассейн, поле, огород, луг, участок, сад, сквер, поляна, парк, снег, асфальт, тропинка, дорога, сугроб, обочина', role='assistant', function_call=None, tool_calls=None))], created=1716142378, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=68, prompt_tokens=205, total_tokens=273))",
+    "distractor_analysis": [
+      {
+        "distractor": "пастбище",
+        "lemma": "пастбище",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (81)"
+      },
+      {
+        "distractor": "бассейн",
+        "lemma": "бассейн",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (234)"
+      },
+      {
+        "distractor": "поле",
+        "lemma": "поле",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1462)"
+      },
+      {
+        "distractor": "огород",
+        "lemma": "огород",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (249)"
+      },
+      {
+        "distractor": "луг",
+        "lemma": "луг",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (586)"
+      },
+      {
+        "distractor": "участок",
+        "lemma": "участок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (917)"
+      },
+      {
+        "distractor": "сад",
+        "lemma": "сад",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (709)"
+      },
+      {
+        "distractor": "сквер",
+        "lemma": "сквер",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (30)"
+      },
+      {
+        "distractor": "поляна",
+        "lemma": "поляна",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (171)"
+      },
+      {
+        "distractor": "парк",
+        "lemma": "парк",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (239)"
+      },
+      {
+        "distractor": "снег",
+        "lemma": "снег",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (989)"
+      },
+      {
+        "distractor": "асфальт",
+        "lemma": "асфальт",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (25)"
+      },
+      {
+        "distractor": "тропинка",
+        "lemma": "тропинка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (124)"
+      },
+      {
+        "distractor": "дорога",
+        "lemma": "дорога",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1204)"
+      },
+      {
+        "distractor": "сугроб",
+        "lemma": "сугроб",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (62)"
+      },
+      {
+        "distractor": "обочина",
+        "lemma": "обочина",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (7)"
+      }
+    ],
+    "valid_distractors": [
+      "пастбище",
+      "сквер",
+      "поляна",
+      "асфальт",
+      "тропинка",
+      "сугроб",
+      "обочина"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'двуполье' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'двуполье', 'пастбище', 'сквер', 'поляна' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Открытое пространство, используемое для выпаса скота.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfJk56T9KEUkfcX6kMmhQ3IvOpFo', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Открытое пространство, используемое для выпаса скота.', role='assistant', function_call=None, tool_calls=None))], created=1716142380, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=22, prompt_tokens=202, total_tokens=224))",
+  "initial_definition": "Открытое пространство, используемое для выпаса скота",
+  "final_definition": "Открытое пространство, используемое для выпаса скота",
+  "formatted_definition": "Открытое пространство, используемое для выпаса скота",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Открытое пространство, используемое для выпаса скота",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Открытое",
+            "пространство",
+            ",",
+            "используемое",
+            "для",
+            "выпаса",
+            "скота"
+          ],
+          "removed_tokens": [
+            ",",
+            "для"
+          ],
+          "final_tokens": [
+            "Открытое",
+            "пространство",
+            "используемое",
+            "выпаса",
+            "скота"
+          ],
+          "lemmas": [
+            "открытый",
+            "пространство",
+            "использовать",
+            "выпас",
+            "скот"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "открытый",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "пространство",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "использовать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "выпас",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "скот",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-12-58",
+  "end_time": "2024.05.19 18-13-00"
+}

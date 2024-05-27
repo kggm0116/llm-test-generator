@@ -1,0 +1,257 @@
+{
+  "word": "изборник",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "отбор",
+    "комплект",
+    "ансамбль"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'изборник'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'изборник'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'изборник', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "собиратель, набор, отбор, выбор, подбор, ассортимент, комплект, наборчик, ассорти, ансамбль, пакет, сборник, комплектация, ассортиментация, подборочка, товаричество",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfJaLkFLOj0ZadflyjR9ipeqput5', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='собиратель, набор, отбор, выбор, подбор, ассортимент, комплект, наборчик, ассорти, ансамбль, пакет, сборник, комплектация, ассортиментация, подборочка, товаричество', role='assistant', function_call=None, tool_calls=None))], created=1716142370, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=82, prompt_tokens=202, total_tokens=284))",
+    "distractor_analysis": [
+      {
+        "distractor": "собиратель",
+        "lemma": "собиратель",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.95)"
+      },
+      {
+        "distractor": "набор",
+        "lemma": "набор",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (280)"
+      },
+      {
+        "distractor": "отбор",
+        "lemma": "отбор",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (8)"
+      },
+      {
+        "distractor": "выбор",
+        "lemma": "выбор",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (670)"
+      },
+      {
+        "distractor": "подбор",
+        "lemma": "подбор",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.76)"
+      },
+      {
+        "distractor": "ассортимент",
+        "lemma": "ассортимент",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "комплект",
+        "lemma": "комплект",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (30)"
+      },
+      {
+        "distractor": "наборчик",
+        "lemma": "наборчик",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "ассорти",
+        "lemma": "ассорти",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "ансамбль",
+        "lemma": "ансамбль",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (28)"
+      },
+      {
+        "distractor": "пакет",
+        "lemma": "пакет",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (270)"
+      },
+      {
+        "distractor": "сборник",
+        "lemma": "сборник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (73)"
+      },
+      {
+        "distractor": "комплектация",
+        "lemma": "комплектация",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "ассортиментация",
+        "lemma": "ассортиментация",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "подборочка",
+        "lemma": "подборочка",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "товаричество",
+        "lemma": "товаричество",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      }
+    ],
+    "valid_distractors": [
+      "отбор",
+      "комплект",
+      "ансамбль",
+      "сборник"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'изборник' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'изборник', 'отбор', 'комплект', 'ансамбль' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "подборка, собрание или набор вещей одного вида",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfJcAgdtpD5Z0jYB1vLIovHqZUdo', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='подборка, собрание или набор вещей одного вида', role='assistant', function_call=None, tool_calls=None))], created=1716142372, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=22, prompt_tokens=202, total_tokens=224))",
+  "initial_definition": "подборка, собрание или набор вещей одного вида",
+  "final_definition": "Собрание предметов одного вида.",
+  "formatted_definition": "Собрание предметов одного вида",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Собрание предметов одного вида.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "подборка",
+            ",",
+            "собрание",
+            "или",
+            "набор",
+            "вещей",
+            "одного",
+            "вида"
+          ],
+          "removed_tokens": [
+            "или",
+            ","
+          ],
+          "final_tokens": [
+            "подборка",
+            "собрание",
+            "набор",
+            "вещей",
+            "одного",
+            "вида"
+          ],
+          "lemmas": [
+            "подборка",
+            "собрание",
+            "набор",
+            "вещь",
+            "один",
+            "вид"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "подборка",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (1.15)"
+          },
+          {
+            "lemma": "собрание",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "набор",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "вещь",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "один",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (33.34)"
+          },
+          {
+            "lemma": "вид",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "подборка"
+        ],
+        "correction_prompt": "Исправь толкование 'подборка, собрание или набор вещей одного вида' для слова 'изборник' так, чтобы в нем не использовались слова 'изборник', 'комплект', 'ансамбль', 'подборка', 'отбор' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Собрание предметов одного вида.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfJdPb4cU8WnrGtiWQUUEj45I1h8', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Собрание предметов одного вида.', role='assistant', function_call=None, tool_calls=None))], created=1716142373, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=14, prompt_tokens=242, total_tokens=256))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Собрание предметов одного вида.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Собрание",
+            "предметов",
+            "одного",
+            "вида"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Собрание",
+            "предметов",
+            "одного",
+            "вида"
+          ],
+          "lemmas": [
+            "собрание",
+            "предмет",
+            "один",
+            "вид"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "собрание",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "предмет",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "один",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (33.34)"
+          },
+          {
+            "lemma": "вид",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-12-50",
+  "end_time": "2024.05.19 18-12-54"
+}

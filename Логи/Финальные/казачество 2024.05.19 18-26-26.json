@@ -1,0 +1,265 @@
+{
+  "word": "казачество",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "дружина",
+    "пехота",
+    "кавалерия"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'казачество'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'казачество'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'казачество', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "войско, армия, дружина, отряд, полк, бригада, дивизия, пехота, кавалерия, караул, конница, дозор, ополчение, милиция, стража, гарнизон",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfWkRZ2egc1tfGuEehYQHyIHK6DR', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='войско, армия, дружина, отряд, полк, бригада, дивизия, пехота, кавалерия, караул, конница, дозор, ополчение, милиция, стража, гарнизон', role='assistant', function_call=None, tool_calls=None))], created=1716143186, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=78, prompt_tokens=199, total_tokens=277))",
+    "distractor_analysis": [
+      {
+        "distractor": "войско",
+        "lemma": "войско",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (587)"
+      },
+      {
+        "distractor": "армия",
+        "lemma": "армия",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (566)"
+      },
+      {
+        "distractor": "дружина",
+        "lemma": "дружина",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (48)"
+      },
+      {
+        "distractor": "отряд",
+        "lemma": "отряд",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (212)"
+      },
+      {
+        "distractor": "полк",
+        "lemma": "полк",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (70.21)"
+      },
+      {
+        "distractor": "бригада",
+        "lemma": "бригада",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (66.5)"
+      },
+      {
+        "distractor": "дивизия",
+        "lemma": "дивизия",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (60.37)"
+      },
+      {
+        "distractor": "пехота",
+        "lemma": "пехота",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (56)"
+      },
+      {
+        "distractor": "кавалерия",
+        "lemma": "кавалерия",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (9)"
+      },
+      {
+        "distractor": "караул",
+        "lemma": "караул",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (16)"
+      },
+      {
+        "distractor": "конница",
+        "lemma": "конница",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (108)"
+      },
+      {
+        "distractor": "дозор",
+        "lemma": "дозор",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (10)"
+      },
+      {
+        "distractor": "ополчение",
+        "lemma": "ополчение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (67)"
+      },
+      {
+        "distractor": "милиция",
+        "lemma": "милиция",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "стража",
+        "lemma": "страж",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (18)"
+      },
+      {
+        "distractor": "гарнизон",
+        "lemma": "гарнизон",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (8)"
+      }
+    ],
+    "valid_distractors": [
+      "дружина",
+      "пехота",
+      "кавалерия",
+      "караул",
+      "конница",
+      "дозор",
+      "ополчение",
+      "стража",
+      "гарнизон"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'казачество' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'казачество', 'дружина', 'пехота', 'кавалерия' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "вооружённое холопство, наёмные воины",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfWmGTizWsn0uNpAo0Vr7sqPgVTj', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='вооружённое холопство, наёмные воины', role='assistant', function_call=None, tool_calls=None))], created=1716143188, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=21, prompt_tokens=200, total_tokens=221))",
+  "initial_definition": "вооружённое холопство, наёмные воины",
+  "final_definition": "Вооружённые служилые люди, нанятые для военных задач.",
+  "formatted_definition": "Вооружённые служилые люди, нанятые для военных задач",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Вооружённые служилые люди, нанятые для военных задач.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "вооружённое",
+            "холопство",
+            ",",
+            "наёмные",
+            "воины"
+          ],
+          "removed_tokens": [
+            ","
+          ],
+          "final_tokens": [
+            "вооружённое",
+            "холопство",
+            "наёмные",
+            "воины"
+          ],
+          "lemmas": [
+            "вооружённый",
+            "холопство",
+            "наёмный",
+            "воин"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "вооружённый",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "холопство",
+            "is_valid": false,
+            "reason": "Высокого класса (6)"
+          },
+          {
+            "lemma": "наёмный",
+            "is_valid": true,
+            "reason": "Низкого класса (4)"
+          },
+          {
+            "lemma": "воин",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "холопство"
+        ],
+        "correction_prompt": "Исправь толкование 'вооружённое холопство, наёмные воины' для слова 'казачество' так, чтобы в нем не использовались слова 'казачество', 'пехота', 'холопство', 'кавалерия', 'дружина' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Вооружённые служилые люди, нанятые для военных задач.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfWnWXV2l3DUkoattcCRqcPjL4L8', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Вооружённые служилые люди, нанятые для военных задач.', role='assistant', function_call=None, tool_calls=None))], created=1716143189, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=27, prompt_tokens=239, total_tokens=266))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Вооружённые служилые люди, нанятые для военных задач.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Вооружённые",
+            "служилые",
+            "люди",
+            ",",
+            "нанятые",
+            "для",
+            "военных",
+            "задач"
+          ],
+          "removed_tokens": [
+            ",",
+            "для"
+          ],
+          "final_tokens": [
+            "Вооружённые",
+            "служилые",
+            "люди",
+            "нанятые",
+            "военных",
+            "задач"
+          ],
+          "lemmas": [
+            "вооружённый",
+            "служилый",
+            "человек",
+            "нанять",
+            "военный",
+            "задача"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "вооружённый",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "служилый",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "нанять",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          },
+          {
+            "lemma": "военный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "задача",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-26-26",
+  "end_time": "2024.05.19 18-26-30"
+}

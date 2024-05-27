@@ -1,0 +1,194 @@
+{
+  "word": "дьявол",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "бес",
+    "мрак",
+    "преисподняя"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'дьявол'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'дьявол'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'дьявол', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "сатана, бес, шайтан, лукавый, темный, зло, мрак, грех, адское, искушение, искуситель, преисподняя, поругание, демон, последний, пагуба",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfGoYEys5MIVzs1JwXdfKh7GgrgV', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='сатана, бес, шайтан, лукавый, темный, зло, мрак, грех, адское, искушение, искуситель, преисподняя, поругание, демон, последний, пагуба', role='assistant', function_call=None, tool_calls=None))], created=1716142198, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=74, prompt_tokens=205, total_tokens=279))",
+    "distractor_analysis": [
+      {
+        "distractor": "сатана",
+        "lemma": "сатана",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "бес",
+        "lemma": "бес",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (22)"
+      },
+      {
+        "distractor": "шайтан",
+        "lemma": "шайтан",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.8)"
+      },
+      {
+        "distractor": "лукавый",
+        "lemma": "лукавый",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.72)"
+      },
+      {
+        "distractor": "темный",
+        "lemma": "тёмный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "зло",
+        "lemma": "зло",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (72.16)"
+      },
+      {
+        "distractor": "мрак",
+        "lemma": "мрак",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (23)"
+      },
+      {
+        "distractor": "грех",
+        "lemma": "грех",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (63.97)"
+      },
+      {
+        "distractor": "адское",
+        "lemma": "адский",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "искушение",
+        "lemma": "искушение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "искуситель",
+        "lemma": "искуситель",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.53)"
+      },
+      {
+        "distractor": "преисподняя",
+        "lemma": "преисподняя",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (3.98)"
+      },
+      {
+        "distractor": "поругание",
+        "lemma": "поругание",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "демон",
+        "lemma": "демон",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (14)"
+      },
+      {
+        "distractor": "последний",
+        "lemma": "последний",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "пагуба",
+        "lemma": "пагуба",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      }
+    ],
+    "valid_distractors": [
+      "бес",
+      "мрак",
+      "преисподняя",
+      "демон"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'дьявол' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'дьявол', 'бес', 'мрак', 'преисподняя' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Злой дух, выражающий зло в мире.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfGqyYzv7Juxp2mGEmIF1P6FbfB0', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Злой дух, выражающий зло в мире.', role='assistant', function_call=None, tool_calls=None))], created=1716142200, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=20, prompt_tokens=204, total_tokens=224))",
+  "initial_definition": "Злой дух, выражающий зло в мире",
+  "final_definition": "Злой дух, выражающий зло в мире",
+  "formatted_definition": "Злой дух, выражающий зло в мире",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Злой дух, выражающий зло в мире",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Злой",
+            "дух",
+            ",",
+            "выражающий",
+            "зло",
+            "в",
+            "мире"
+          ],
+          "removed_tokens": [
+            "в",
+            ","
+          ],
+          "final_tokens": [
+            "Злой",
+            "дух",
+            "выражающий",
+            "зло",
+            "мире"
+          ],
+          "lemmas": [
+            "злой",
+            "дух",
+            "выражать",
+            "зло",
+            "мир"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "злой",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "дух",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "выражать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "зло",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "мир",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-09-58",
+  "end_time": "2024.05.19 18-10-00"
+}

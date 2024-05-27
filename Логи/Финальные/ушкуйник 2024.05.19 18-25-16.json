@@ -1,0 +1,157 @@
+{
+  "word": "ушкуйник",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "приспособление",
+    "инвентарь",
+    "аппаратура"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'ушкуйник'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'ушкуйник'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'ушкуйник', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "приспособление, прибор, аксессуар, инструмент, атрибут, приспособление, аппарат, механизм, устройство, инвентарь, аппаратура, оборудование, агрегат, артефакт, приспособление, принадлежность",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfVcVyVWwpfP8RNmGAum4cZxo9bW', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='приспособление, прибор, аксессуар, инструмент, атрибут, приспособление, аппарат, механизм, устройство, инвентарь, аппаратура, оборудование, агрегат, артефакт, приспособление, принадлежность', role='assistant', function_call=None, tool_calls=None))], created=1716143116, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=97, prompt_tokens=205, total_tokens=302))",
+    "distractor_analysis": [
+      {
+        "distractor": "приспособление",
+        "lemma": "приспособление",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (158)"
+      },
+      {
+        "distractor": "прибор",
+        "lemma": "прибор",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (392)"
+      },
+      {
+        "distractor": "аксессуар",
+        "lemma": "аксессуар",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.42)"
+      },
+      {
+        "distractor": "инструмент",
+        "lemma": "инструмент",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (634)"
+      },
+      {
+        "distractor": "атрибут",
+        "lemma": "атрибут",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "аппарат",
+        "lemma": "аппарат",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (75.0)"
+      },
+      {
+        "distractor": "механизм",
+        "lemma": "механизм",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (52.87)"
+      },
+      {
+        "distractor": "устройство",
+        "lemma": "устройство",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (585)"
+      },
+      {
+        "distractor": "инвентарь",
+        "lemma": "инвентарь",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "аппаратура",
+        "lemma": "аппаратура",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (7)"
+      },
+      {
+        "distractor": "оборудование",
+        "lemma": "оборудование",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (70)"
+      },
+      {
+        "distractor": "агрегат",
+        "lemma": "агрегат",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "артефакт",
+        "lemma": "артефакт",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "принадлежность",
+        "lemma": "принадлежность",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (65)"
+      }
+    ],
+    "valid_distractors": [
+      "приспособление",
+      "инвентарь",
+      "аппаратура",
+      "оборудование",
+      "принадлежность"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'ушкуйник' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'ушкуйник', 'приспособление', 'инвентарь', 'аппаратура' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Устройство для шума.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfVeGk2lBe2trPseaOffCqygQTjT', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Устройство для шума.', role='assistant', function_call=None, tool_calls=None))], created=1716143118, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=9, prompt_tokens=209, total_tokens=218))",
+  "initial_definition": "Устройство для шума",
+  "final_definition": "Устройство для шума",
+  "formatted_definition": "Устройство для шума",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Устройство для шума",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Устройство",
+            "для",
+            "шума"
+          ],
+          "removed_tokens": [
+            "для"
+          ],
+          "final_tokens": [
+            "Устройство",
+            "шума"
+          ],
+          "lemmas": [
+            "устройство",
+            "шум"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "устройство",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "шум",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-25-16",
+  "end_time": "2024.05.19 18-25-18"
+}

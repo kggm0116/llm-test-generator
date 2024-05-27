@@ -1,0 +1,261 @@
+{
+  "word": "столпник",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "сторож",
+    "страж",
+    "дозор"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'столпник'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'столпник'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'столпник', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Сигнализатор, охранник, патрульный, сторож, дозорный, патруль, страж, дозор, караул, вахтер, уборщик, ночной сторож, охраник, куратор, стражник, вахта",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfXNhPIZEbALiUOBkkjDNaz7Q6kH', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Сигнализатор, охранник, патрульный, сторож, дозорный, патруль, страж, дозор, караул, вахтер, уборщик, ночной сторож, охраник, куратор, стражник, вахта', role='assistant', function_call=None, tool_calls=None))], created=1716143225, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=82, prompt_tokens=202, total_tokens=284))",
+    "distractor_analysis": [
+      {
+        "distractor": "Сигнализатор",
+        "lemma": "сигнализатор",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "охранник",
+        "lemma": "охранник",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "патрульный",
+        "lemma": "патрульный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "сторож",
+        "lemma": "сторож",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (53)"
+      },
+      {
+        "distractor": "дозорный",
+        "lemma": "дозорный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "патруль",
+        "lemma": "патруль",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "страж",
+        "lemma": "страж",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (18)"
+      },
+      {
+        "distractor": "дозор",
+        "lemma": "дозор",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (10)"
+      },
+      {
+        "distractor": "караул",
+        "lemma": "караул",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (16)"
+      },
+      {
+        "distractor": "вахтер",
+        "lemma": "вахтер",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (4.79)"
+      },
+      {
+        "distractor": "уборщик",
+        "lemma": "уборщик",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "ночной сторож",
+        "lemma": "ночной сторожий",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "охраник",
+        "lemma": "охраник",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "куратор",
+        "lemma": "куратор",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (4.63)"
+      },
+      {
+        "distractor": "стражник",
+        "lemma": "стражник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (24)"
+      },
+      {
+        "distractor": "вахта",
+        "lemma": "вахта",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      }
+    ],
+    "valid_distractors": [
+      "сторож",
+      "страж",
+      "дозор",
+      "караул",
+      "вахтер",
+      "куратор",
+      "стражник"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'столпник' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'столпник', 'сторож', 'страж', 'дозор' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "человек, который сторожит какое-либо место",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfXPMtxmDMsYCrBIaW3BCBiI9cCx', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='человек, который сторожит какое-либо место', role='assistant', function_call=None, tool_calls=None))], created=1716143227, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=19, prompt_tokens=198, total_tokens=217))",
+  "initial_definition": "человек, который сторожит какое-либо место",
+  "final_definition": "Человек, который охраняет определенное место.",
+  "formatted_definition": "Человек, который охраняет определенное место",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Человек, который охраняет определенное место.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "человек",
+            ",",
+            "который",
+            "сторожит",
+            "какое-либо",
+            "место"
+          ],
+          "removed_tokens": [
+            ","
+          ],
+          "final_tokens": [
+            "человек",
+            "который",
+            "сторожит",
+            "какое-либо",
+            "место"
+          ],
+          "lemmas": [
+            "человек",
+            "который",
+            "сторожить",
+            "какой-либо",
+            "место"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "который",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (3361.51)"
+          },
+          {
+            "lemma": "сторожить",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "какой-либо",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          },
+          {
+            "lemma": "место",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "какой-либо"
+        ],
+        "correction_prompt": "Исправь толкование 'человек, который сторожит какое-либо место' для слова 'столпник' так, чтобы в нем не использовались слова 'столпник', 'дозор', 'какой-либо', 'страж', 'сторож' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Человек, который охраняет определенное место.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfXQZEM2OlpWkrGNxwREfgKbmpuo', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Человек, который охраняет определенное место.', role='assistant', function_call=None, tool_calls=None))], created=1716143228, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=18, prompt_tokens=237, total_tokens=255))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Человек, который охраняет определенное место.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек",
+            ",",
+            "который",
+            "охраняет",
+            "определенное",
+            "место"
+          ],
+          "removed_tokens": [
+            ","
+          ],
+          "final_tokens": [
+            "Человек",
+            "который",
+            "охраняет",
+            "определенное",
+            "место"
+          ],
+          "lemmas": [
+            "человек",
+            "который",
+            "охранять",
+            "определённый",
+            "место"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "который",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (3361.51)"
+          },
+          {
+            "lemma": "охранять",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "определённый",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "место",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-27-05",
+  "end_time": "2024.05.19 18-27-08"
+}

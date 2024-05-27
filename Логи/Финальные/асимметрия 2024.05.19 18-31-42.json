@@ -1,0 +1,249 @@
+{
+  "word": "асимметрия",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "геометрия",
+    "баланс",
+    "аналогия"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'асимметрия'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'асимметрия'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'асимметрия', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Паритет, геометрия, баланс, регулярность, форма, правило, симметрия, аналогия, многогранник, композиция, комбинация, пропорция, разнородность, однородность, согласованность, гармония",
+    "response_details": "ChatCompletion(id='chatcmpl-9Qfbq9bY3evbdgpeLNasrZsCjqqhs', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Паритет, геометрия, баланс, регулярность, форма, правило, симметрия, аналогия, многогранник, композиция, комбинация, пропорция, разнородность, однородность, согласованность, гармония', role='assistant', function_call=None, tool_calls=None))], created=1716143502, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=91, prompt_tokens=208, total_tokens=299))",
+    "distractor_analysis": [
+      {
+        "distractor": "Паритет",
+        "lemma": "паритет",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "геометрия",
+        "lemma": "геометрия",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (66)"
+      },
+      {
+        "distractor": "баланс",
+        "lemma": "баланс",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (9.34)"
+      },
+      {
+        "distractor": "регулярность",
+        "lemma": "регулярность",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "форма",
+        "lemma": "форма",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4052)"
+      },
+      {
+        "distractor": "правило",
+        "lemma": "правило",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2196)"
+      },
+      {
+        "distractor": "симметрия",
+        "lemma": "симметрия",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.84)"
+      },
+      {
+        "distractor": "аналогия",
+        "lemma": "аналогия",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (10)"
+      },
+      {
+        "distractor": "многогранник",
+        "lemma": "многогранник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (91)"
+      },
+      {
+        "distractor": "композиция",
+        "lemma": "композиция",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (234)"
+      },
+      {
+        "distractor": "комбинация",
+        "lemma": "комбинация",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (39)"
+      },
+      {
+        "distractor": "пропорция",
+        "lemma": "пропорция",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (33)"
+      },
+      {
+        "distractor": "разнородность",
+        "lemma": "разнородность",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "однородность",
+        "lemma": "однородность",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "согласованность",
+        "lemma": "согласованность",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "гармония",
+        "lemma": "гармония",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (14)"
+      }
+    ],
+    "valid_distractors": [
+      "геометрия",
+      "баланс",
+      "аналогия",
+      "многогранник",
+      "комбинация",
+      "пропорция",
+      "гармония"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'асимметрия' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'асимметрия', 'геометрия', 'баланс', 'аналогия' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Отсутствие симметрии в форме или строении.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfbsNITH0ybOitcORyxUoK0sRWt7', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Отсутствие симметрии в форме или строении.', role='assistant', function_call=None, tool_calls=None))], created=1716143504, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=19, prompt_tokens=207, total_tokens=226))",
+  "initial_definition": "Отсутствие симметрии в форме или строении",
+  "final_definition": "Отсутствие точности в форме или строении.",
+  "formatted_definition": "Отсутствие точности в форме или строении",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Отсутствие точности в форме или строении.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Отсутствие",
+            "симметрии",
+            "в",
+            "форме",
+            "или",
+            "строении"
+          ],
+          "removed_tokens": [
+            "или",
+            "в"
+          ],
+          "final_tokens": [
+            "Отсутствие",
+            "симметрии",
+            "форме",
+            "строении"
+          ],
+          "lemmas": [
+            "отсутствие",
+            "симметрия",
+            "форма",
+            "строение"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "отсутствие",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "симметрия",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (1.84)"
+          },
+          {
+            "lemma": "форма",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "строение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "симметрия"
+        ],
+        "correction_prompt": "Исправь толкование 'Отсутствие симметрии в форме или строении' для слова 'асимметрия' так, чтобы в нем не использовались слова 'асимметрия', 'симметрия', 'баланс', 'аналогия', 'геометрия' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Отсутствие точности в форме или строении.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfbtXQflzzeh1yZLkpixJKT6F6Jj', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Отсутствие точности в форме или строении.', role='assistant', function_call=None, tool_calls=None))], created=1716143505, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=15, prompt_tokens=244, total_tokens=259))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Отсутствие точности в форме или строении.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Отсутствие",
+            "точности",
+            "в",
+            "форме",
+            "или",
+            "строении"
+          ],
+          "removed_tokens": [
+            "или",
+            "в"
+          ],
+          "final_tokens": [
+            "Отсутствие",
+            "точности",
+            "форме",
+            "строении"
+          ],
+          "lemmas": [
+            "отсутствие",
+            "точность",
+            "форма",
+            "строение"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "отсутствие",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "точность",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "форма",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "строение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-31-42",
+  "end_time": "2024.05.19 18-31-45"
+}

@@ -1,0 +1,167 @@
+{
+  "word": "боярство",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "господство",
+    "дворянин",
+    "дворянка"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'боярство'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'боярство'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'боярство', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "дворянство, знать, аристократия, дворянство, шляхетство, привилегированное, патрициат, патрицианство, патриций, генрих, благородие, господство, дворянин, дворянка, аристократию, аристократия",
+    "response_details": "ChatCompletion(id='chatcmpl-9Qf2VyYt9ETmftVpiKnOlZkG643Vv', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='дворянство, знать, аристократия, дворянство, шляхетство, привилегированное, патрициат, патрицианство, патриций, генрих, благородие, господство, дворянин, дворянка, аристократию, аристократия', role='assistant', function_call=None, tool_calls=None))], created=1716141311, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=105, prompt_tokens=205, total_tokens=310))",
+    "distractor_analysis": [
+      {
+        "distractor": "дворянство",
+        "lemma": "дворянство",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "знать",
+        "lemma": "знать",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2781)"
+      },
+      {
+        "distractor": "аристократия",
+        "lemma": "аристократия",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.18)"
+      },
+      {
+        "distractor": "шляхетство",
+        "lemma": "шляхетство",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "привилегированное",
+        "lemma": "привилегированный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "патрициат",
+        "lemma": "патрициат",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "патрицианство",
+        "lemma": "патрицианство",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "патриций",
+        "lemma": "патриция",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "генрих",
+        "lemma": "генрих",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "благородие",
+        "lemma": "благородие",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.95)"
+      },
+      {
+        "distractor": "господство",
+        "lemma": "господство",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (43)"
+      },
+      {
+        "distractor": "дворянин",
+        "lemma": "дворянин",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (69)"
+      },
+      {
+        "distractor": "дворянка",
+        "lemma": "дворянка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (10)"
+      }
+    ],
+    "valid_distractors": [
+      "господство",
+      "дворянин",
+      "дворянка"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'боярство' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'боярство', 'господство', 'дворянин', 'дворянка' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Часть общества с привилегиями и влиянием.",
+  "response_details": "ChatCompletion(id='chatcmpl-9Qf2XjQXAa6knEawmvaYYlVC8UFgr', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Часть общества с привилегиями и влиянием.', role='assistant', function_call=None, tool_calls=None))], created=1716141313, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=21, prompt_tokens=209, total_tokens=230))",
+  "initial_definition": "Часть общества с привилегиями и влиянием",
+  "final_definition": "Часть общества с привилегиями и влиянием",
+  "formatted_definition": "Часть общества с привилегиями и влиянием",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Часть общества с привилегиями и влиянием",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Часть",
+            "общества",
+            "с",
+            "привилегиями",
+            "и",
+            "влиянием"
+          ],
+          "removed_tokens": [
+            "и",
+            "с"
+          ],
+          "final_tokens": [
+            "Часть",
+            "общества",
+            "привилегиями",
+            "влиянием"
+          ],
+          "lemmas": [
+            "часть",
+            "общество",
+            "привилегия",
+            "влияние"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "часть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "общество",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "привилегия",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          },
+          {
+            "lemma": "влияние",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 17-55-10",
+  "end_time": "2024.05.19 17-55-14"
+}

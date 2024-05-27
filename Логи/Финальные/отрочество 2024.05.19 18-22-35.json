@@ -1,0 +1,189 @@
+{
+  "word": "отрочество",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "Юность",
+    "зрелость",
+    "старость"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'отрочество'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'отрочество'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'отрочество', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Юность, студенчество, детство, зрелость, старость, дети, подростки, взрослые, возраст, молодежь, пенсионеры, школьники, воспитанники, учащиеся, младенцы, ребята",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfT1j0xUlNVeOdhyJ13a0au7roWE', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Юность, студенчество, детство, зрелость, старость, дети, подростки, взрослые, возраст, молодежь, пенсионеры, школьники, воспитанники, учащиеся, младенцы, ребята', role='assistant', function_call=None, tool_calls=None))], created=1716142955, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=88, prompt_tokens=202, total_tokens=290))",
+    "distractor_analysis": [
+      {
+        "distractor": "Юность",
+        "lemma": "юность",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (40)"
+      },
+      {
+        "distractor": "студенчество",
+        "lemma": "студенчество",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "детство",
+        "lemma": "детство",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (203)"
+      },
+      {
+        "distractor": "зрелость",
+        "lemma": "зрелость",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (6)"
+      },
+      {
+        "distractor": "старость",
+        "lemma": "старость",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (40)"
+      },
+      {
+        "distractor": "дети",
+        "lemma": "ребёнок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1485)"
+      },
+      {
+        "distractor": "подростки",
+        "lemma": "подросток",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (40)"
+      },
+      {
+        "distractor": "взрослые",
+        "lemma": "взрослый",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (509)"
+      },
+      {
+        "distractor": "возраст",
+        "lemma": "возраст",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (119.06)"
+      },
+      {
+        "distractor": "молодежь",
+        "lemma": "молодёжь",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (51)"
+      },
+      {
+        "distractor": "пенсионеры",
+        "lemma": "пенсионер",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (8)"
+      },
+      {
+        "distractor": "школьники",
+        "lemma": "школьник",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (241)"
+      },
+      {
+        "distractor": "воспитанники",
+        "lemma": "воспитанник",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "учащиеся",
+        "lemma": "учиться",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (757)"
+      },
+      {
+        "distractor": "младенцы",
+        "lemma": "младенец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (80)"
+      },
+      {
+        "distractor": "ребята",
+        "lemma": "ребята",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (623)"
+      }
+    ],
+    "valid_distractors": [
+      "Юность",
+      "зрелость",
+      "старость",
+      "подростки",
+      "молодежь",
+      "пенсионеры",
+      "младенцы"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'отрочество' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'отрочество', 'Юность', 'зрелость', 'старость' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "период жизни между детством и взрослостью.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfT3ByiXhHDrETqCOJF1Xt8fE5Ze', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='период жизни между детством и взрослостью.', role='assistant', function_call=None, tool_calls=None))], created=1716142957, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=23, prompt_tokens=199, total_tokens=222))",
+  "initial_definition": "период жизни между детством и взрослостью",
+  "final_definition": "период жизни между детством и взрослостью",
+  "formatted_definition": "период жизни между детством и взрослостью",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "период жизни между детством и взрослостью",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "период",
+            "жизни",
+            "между",
+            "детством",
+            "и",
+            "взрослостью"
+          ],
+          "removed_tokens": [
+            "между",
+            "и"
+          ],
+          "final_tokens": [
+            "период",
+            "жизни",
+            "детством",
+            "взрослостью"
+          ],
+          "lemmas": [
+            "период",
+            "жизнь",
+            "детство",
+            "взрослость"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "период",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "жизнь",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "детство",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "взрослость",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-22-35",
+  "end_time": "2024.05.19 18-22-37"
+}

@@ -1,0 +1,192 @@
+{
+  "word": "бриз",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "вихрь",
+    "ураган",
+    "шторм"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'бриз'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'бриз'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'бриз', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "ветер, вихрь, ураган, шторм, гурьба, устремление, рассыпь, взмах, порыв, ветерок, смерч, шквал, воздух, влажность, сквозняк, воздушный поток",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfIi1jaRmNxPzhcsnUJvP4T06Jmg', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='ветер, вихрь, ураган, шторм, гурьба, устремление, рассыпь, взмах, порыв, ветерок, смерч, шквал, воздух, влажность, сквозняк, воздушный поток', role='assistant', function_call=None, tool_calls=None))], created=1716142316, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=79, prompt_tokens=199, total_tokens=278))",
+    "distractor_analysis": [
+      {
+        "distractor": "ветер",
+        "lemma": "ветер",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1061)"
+      },
+      {
+        "distractor": "вихрь",
+        "lemma": "вихрь",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (40)"
+      },
+      {
+        "distractor": "ураган",
+        "lemma": "ураган",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (67)"
+      },
+      {
+        "distractor": "шторм",
+        "lemma": "шторм",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (37)"
+      },
+      {
+        "distractor": "гурьба",
+        "lemma": "гурьба",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.53)"
+      },
+      {
+        "distractor": "устремление",
+        "lemma": "устремление",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "рассыпь",
+        "lemma": "рассыпать",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (30)"
+      },
+      {
+        "distractor": "взмах",
+        "lemma": "взмах",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (10)"
+      },
+      {
+        "distractor": "порыв",
+        "lemma": "порыв",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (26)"
+      },
+      {
+        "distractor": "ветерок",
+        "lemma": "ветерок",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (53)"
+      },
+      {
+        "distractor": "смерч",
+        "lemma": "смерч",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (25)"
+      },
+      {
+        "distractor": "шквал",
+        "lemma": "шквал",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "воздух",
+        "lemma": "воздух",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1523)"
+      },
+      {
+        "distractor": "влажность",
+        "lemma": "влажность",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (55)"
+      },
+      {
+        "distractor": "сквозняк",
+        "lemma": "сквозняк",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "воздушный поток",
+        "lemma": "воздушный поток",
+        "is_valid": false,
+        "reason": "Содержит пробел"
+      }
+    ],
+    "valid_distractors": [
+      "вихрь",
+      "ураган",
+      "шторм",
+      "рассыпь",
+      "взмах",
+      "порыв",
+      "ветерок",
+      "смерч",
+      "шквал",
+      "влажность"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'бриз' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'бриз', 'вихрь', 'ураган', 'шторм' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Легкий ветер, дующий с моря.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfIjIx5vdyp2cMzivMMK03a3uxXy', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Легкий ветер, дующий с моря.', role='assistant', function_call=None, tool_calls=None))], created=1716142317, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=16, prompt_tokens=198, total_tokens=214))",
+  "initial_definition": "Легкий ветер, дующий с моря",
+  "final_definition": "Легкий ветер, дующий с моря",
+  "formatted_definition": "Легкий ветер, дующий с моря",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Легкий ветер, дующий с моря",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Легкий",
+            "ветер",
+            ",",
+            "дующий",
+            "с",
+            "моря"
+          ],
+          "removed_tokens": [
+            ",",
+            "с"
+          ],
+          "final_tokens": [
+            "Легкий",
+            "ветер",
+            "дующий",
+            "моря"
+          ],
+          "lemmas": [
+            "лёгкий",
+            "ветер",
+            "дуть",
+            "море"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "лёгкий",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "ветер",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "дуть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "море",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-11-55",
+  "end_time": "2024.05.19 18-11-58"
+}

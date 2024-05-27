@@ -1,0 +1,183 @@
+{
+  "word": "бластула",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "рельеф",
+    "соцветие"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'бластула'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'бластула'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'бластула', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Эмбрион, инвагинация, фузия, гаструляция, криобанка, метамерия, неврон, октомерия, паранема, рельеф, соцветие, тератома, фасетка, галоид, характида, ценокарп.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfUDHplOI5iuWq6XtYWdTI4uuMrL', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Эмбрион, инвагинация, фузия, гаструляция, криобанка, метамерия, неврон, октомерия, паранема, рельеф, соцветие, тератома, фасетка, галоид, характида, ценокарп.', role='assistant', function_call=None, tool_calls=None))], created=1716143029, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=89, prompt_tokens=205, total_tokens=294))",
+    "distractor_analysis": [
+      {
+        "distractor": "Эмбрион",
+        "lemma": "эмбрион",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.23)"
+      },
+      {
+        "distractor": "инвагинация",
+        "lemma": "инвагинация",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "фузия",
+        "lemma": "фузия",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "гаструляция",
+        "lemma": "гаструляция",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "криобанка",
+        "lemma": "криобанк",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "метамерия",
+        "lemma": "метамерия",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "неврон",
+        "lemma": "неврон",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "октомерия",
+        "lemma": "октомерия",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "паранема",
+        "lemma": "паранемой",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "рельеф",
+        "lemma": "рельеф",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (190)"
+      },
+      {
+        "distractor": "соцветие",
+        "lemma": "соцветие",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (29)"
+      },
+      {
+        "distractor": "тератома",
+        "lemma": "тератома",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "фасетка",
+        "lemma": "фасетка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "галоид",
+        "lemma": "галоид",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "характида",
+        "lemma": "характид",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "ценокарп",
+        "lemma": "ценокарп",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      }
+    ],
+    "valid_distractors": [
+      "рельеф",
+      "соцветие"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'бластула' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'бластула', 'рельеф', 'соцветие' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Зародыш в виде полости с жидкостью.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfUFVLBXFE6nc1QuEEMHFUGQUBhL', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Зародыш в виде полости с жидкостью.', role='assistant', function_call=None, tool_calls=None))], created=1716143031, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=17, prompt_tokens=198, total_tokens=215))",
+  "initial_definition": "Зародыш в виде полости с жидкостью",
+  "final_definition": "Зародыш в виде полости с жидкостью",
+  "formatted_definition": "Зародыш в виде полости с жидкостью",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Зародыш в виде полости с жидкостью",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Зародыш",
+            "в",
+            "виде",
+            "полости",
+            "с",
+            "жидкостью"
+          ],
+          "removed_tokens": [
+            "в",
+            "с"
+          ],
+          "final_tokens": [
+            "Зародыш",
+            "виде",
+            "полости",
+            "жидкостью"
+          ],
+          "lemmas": [
+            "зародыш",
+            "вид",
+            "полость",
+            "жидкость"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "зародыш",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "вид",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "полость",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "жидкость",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-23-49",
+  "end_time": "2024.05.19 18-23-52"
+}

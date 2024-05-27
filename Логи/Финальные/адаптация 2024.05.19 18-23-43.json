@@ -1,0 +1,233 @@
+{
+  "word": "адаптация",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "приспособление",
+    "трансформация",
+    "согласование"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'адаптация'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'адаптация'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'адаптация', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "приспособление, трансформация, приспособленчество, модификация, согласование, преобразование, метаморфоза, перестройка, модернизация, изменение, акклиматизация, переделка, реорганизация, вариация, реконструкция, эволюция",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfU7wqeWCaIt3kkV1ks6SSJD9Qdr', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='приспособление, трансформация, приспособленчество, модификация, согласование, преобразование, метаморфоза, перестройка, модернизация, изменение, акклиматизация, переделка, реорганизация, вариация, реконструкция, эволюция', role='assistant', function_call=None, tool_calls=None))], created=1716143023, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=101, prompt_tokens=202, total_tokens=303))",
+    "distractor_analysis": [
+      {
+        "distractor": "приспособление",
+        "lemma": "приспособление",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (158)"
+      },
+      {
+        "distractor": "трансформация",
+        "lemma": "трансформация",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (3.9)"
+      },
+      {
+        "distractor": "приспособленчество",
+        "lemma": "приспособленчество",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "модификация",
+        "lemma": "модификация",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "согласование",
+        "lemma": "согласование",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (7)"
+      },
+      {
+        "distractor": "преобразование",
+        "lemma": "преобразование",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (123)"
+      },
+      {
+        "distractor": "метаморфоза",
+        "lemma": "метаморфоза",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "перестройка",
+        "lemma": "перестройка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "модернизация",
+        "lemma": "модернизация",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (4.06)"
+      },
+      {
+        "distractor": "изменение",
+        "lemma": "изменение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (621)"
+      },
+      {
+        "distractor": "акклиматизация",
+        "lemma": "акклиматизация",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "переделка",
+        "lemma": "переделка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "реорганизация",
+        "lemma": "реорганизация",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (3.79)"
+      },
+      {
+        "distractor": "вариация",
+        "lemma": "вариация",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (9)"
+      },
+      {
+        "distractor": "реконструкция",
+        "lemma": "реконструкция",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (68)"
+      },
+      {
+        "distractor": "эволюция",
+        "lemma": "эволюция",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (9)"
+      }
+    ],
+    "valid_distractors": [
+      "приспособление",
+      "трансформация",
+      "согласование",
+      "преобразование",
+      "модернизация",
+      "реорганизация",
+      "вариация",
+      "реконструкция",
+      "эволюция"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'адаптация' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'адаптация', 'приспособление', 'трансформация', 'согласование' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Приспособление к новым условиям.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfU9bPKR2KWt6rkztEihHpFzrcUb', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Приспособление к новым условиям.', role='assistant', function_call=None, tool_calls=None))], created=1716143025, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=15, prompt_tokens=207, total_tokens=222))",
+  "initial_definition": "Приспособление к новым условиям",
+  "final_definition": "Приведение к новым условиям.",
+  "formatted_definition": "Приведение к новым условиям",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Приведение к новым условиям.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Приспособление",
+            "к",
+            "новым",
+            "условиям"
+          ],
+          "removed_tokens": [
+            "к"
+          ],
+          "final_tokens": [
+            "Приспособление",
+            "новым",
+            "условиям"
+          ],
+          "lemmas": [
+            "приспособление",
+            "новый",
+            "условие"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "приспособление",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "новый",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "условие",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [
+          "приспособление"
+        ],
+        "words_to_fix": [
+          "приспособление"
+        ],
+        "correction_prompt": "Исправь толкование 'Приспособление к новым условиям' для слова 'адаптация' так, чтобы в нем не использовались слова 'адаптация', 'трансформация', 'согласование', 'приспособление' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Приведение к новым условиям.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfUAdDn2IYV56ofk8REoL7Oz8Sk5', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Приведение к новым условиям.', role='assistant', function_call=None, tool_calls=None))], created=1716143026, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=13, prompt_tokens=232, total_tokens=245))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Приведение к новым условиям.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Приведение",
+            "к",
+            "новым",
+            "условиям"
+          ],
+          "removed_tokens": [
+            "к"
+          ],
+          "final_tokens": [
+            "Приведение",
+            "новым",
+            "условиям"
+          ],
+          "lemmas": [
+            "приведение",
+            "новый",
+            "условие"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "приведение",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "новый",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "условие",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-23-43",
+  "end_time": "2024.05.19 18-23-46"
+}

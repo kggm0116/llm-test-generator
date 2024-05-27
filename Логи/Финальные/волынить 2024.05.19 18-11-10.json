@@ -1,0 +1,325 @@
+{
+  "word": "волынить",
+  "class": 6,
+  "pos": "INFN",
+  "distractors": [
+    "томить",
+    "моргать",
+    "вешать"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'волынить'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'волынить'. Слова должны быть части речи INFN. Желательно, чтобы слова соответствовали предметной области слова 'волынить', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "пылить, валять, томить, маяться, жеманить, ялосить, пырять, курлыкать, лентяить, выёживаться, моргать, томиться, вешать, носить, тупить, замечтаться",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfHzZmcNwhMbWt1gOyy99pU4lbGm', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='пылить, валять, томить, маяться, жеманить, ялосить, пырять, курлыкать, лентяить, выёживаться, моргать, томиться, вешать, носить, тупить, замечтаться', role='assistant', function_call=None, tool_calls=None))], created=1716142271, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=79, prompt_tokens=205, total_tokens=284))",
+    "distractor_analysis": [
+      {
+        "distractor": "пылить",
+        "lemma": "пылить",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "валять",
+        "lemma": "валять",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "томить",
+        "lemma": "томить",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (6.39)"
+      },
+      {
+        "distractor": "маяться",
+        "lemma": "маяться",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "жеманить",
+        "lemma": "жеманить",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "ялосить",
+        "lemma": "ялосить",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "пырять",
+        "lemma": "пырять",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "курлыкать",
+        "lemma": "курлыкать",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "лентяить",
+        "lemma": "лентяить",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "выёживаться",
+        "lemma": "выеживаться",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "моргать",
+        "lemma": "моргать",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (6)"
+      },
+      {
+        "distractor": "томиться",
+        "lemma": "томиться",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "вешать",
+        "lemma": "вешать",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (25)"
+      },
+      {
+        "distractor": "носить",
+        "lemma": "носить",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (264)"
+      },
+      {
+        "distractor": "тупить",
+        "lemma": "тупить",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "замечтаться",
+        "lemma": "замечтаться",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      }
+    ],
+    "valid_distractors": [
+      "томить",
+      "моргать",
+      "вешать"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'волынить' части речи INFN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'волынить', 'томить', 'моргать', 'вешать' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "бесцельно изнывать, медленно утомляться",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfI2mWfzNksOz9R6B3dIxeKXCIUr', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='бесцельно изнывать, медленно утомляться\\n\\n', role='assistant', function_call=None, tool_calls=None))], created=1716142274, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=20, prompt_tokens=200, total_tokens=220))",
+  "initial_definition": "бесцельно изнывать, медленно утомляться",
+  "final_definition": "Пассивно тратить время, ждать скучно.",
+  "formatted_definition": "Пассивно тратить время, ждать скучно",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "бездейственно проводить время, потерпевая скучное ожидание.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "бесцельно",
+            "изнывать",
+            ",",
+            "медленно",
+            "утомляться"
+          ],
+          "removed_tokens": [
+            ","
+          ],
+          "final_tokens": [
+            "бесцельно",
+            "изнывать",
+            "медленно",
+            "утомляться"
+          ],
+          "lemmas": [
+            "бесцельно",
+            "изнывать",
+            "медленно",
+            "утомляться"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "бесцельно",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          },
+          {
+            "lemma": "изнывать",
+            "is_valid": false,
+            "reason": "Высокого класса (6)"
+          },
+          {
+            "lemma": "медленно",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          },
+          {
+            "lemma": "утомляться",
+            "is_valid": false,
+            "reason": "Высокого класса (7)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "изнывать",
+          "утомляться"
+        ],
+        "correction_prompt": "Исправь толкование 'бесцельно изнывать, медленно утомляться' для слова 'волынить' так, чтобы в нем не использовались слова 'волынить', 'утомляться', 'томить', 'изнывать', 'вешать', 'моргать' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "бездейственно проводить время, потерпевая скучное ожидание.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfI3usSHIuNsquXcm8JKa3q8XywQ', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='бездейственно проводить время, потерпевая скучное ожидание.', role='assistant', function_call=None, tool_calls=None))], created=1716142275, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=24, prompt_tokens=243, total_tokens=267))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Пассивно тратить время, ждать скучно.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "бездейственно",
+            "проводить",
+            "время",
+            ",",
+            "потерпевая",
+            "скучное",
+            "ожидание"
+          ],
+          "removed_tokens": [
+            ","
+          ],
+          "final_tokens": [
+            "бездейственно",
+            "проводить",
+            "время",
+            "потерпевая",
+            "скучное",
+            "ожидание"
+          ],
+          "lemmas": [
+            "бездейственный",
+            "проводить",
+            "время",
+            "потерпевать",
+            "скучный",
+            "ожидание"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "бездейственный",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          },
+          {
+            "lemma": "проводить",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "время",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "потерпевать",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          },
+          {
+            "lemma": "скучный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "ожидание",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "бездейственный",
+          "потерпевать"
+        ],
+        "correction_prompt": "Исправь толкование 'бездейственно проводить время, потерпевая скучное ожидание.' для слова 'волынить' так, чтобы в нем не использовались слова 'волынить', 'утомляться', 'томить', 'бездейственный', 'потерпевать', 'изнывать', 'вешать', 'моргать' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Пассивно тратить время, ждать скучно.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfI4Lpw5bK69LZSvhtcpROWKmubn', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Пассивно тратить время, ждать скучно.', role='assistant', function_call=None, tool_calls=None))], created=1716142276, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=15, prompt_tokens=263, total_tokens=278))"
+      }
+    },
+    "3": {
+      "corrected_definition": "Пассивно тратить время, ждать скучно.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Пассивно",
+            "тратить",
+            "время",
+            ",",
+            "ждать",
+            "скучно"
+          ],
+          "removed_tokens": [
+            ","
+          ],
+          "final_tokens": [
+            "Пассивно",
+            "тратить",
+            "время",
+            "ждать",
+            "скучно"
+          ],
+          "lemmas": [
+            "пассивно",
+            "тратить",
+            "время",
+            "ждать",
+            "скучно"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "пассивно",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          },
+          {
+            "lemma": "тратить",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "время",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "ждать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "скучно",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-11-10",
+  "end_time": "2024.05.19 18-11-16"
+}

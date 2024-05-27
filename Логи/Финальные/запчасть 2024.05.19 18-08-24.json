@@ -1,0 +1,273 @@
+{
+  "word": "запчасть",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "узел",
+    "рычаг",
+    "ролик"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'запчасть'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'запчасть'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'запчасть', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "деталь, узел, рычаг, шестерня, ролик, подшипник, фланец, шайба, втулка, валик, шпонка, контргайка, звездочка, муфта, гайка, венец",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfFIdiqEIkEewTrat3eyGQz1UoWw', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='деталь, узел, рычаг, шестерня, ролик, подшипник, фланец, шайба, втулка, валик, шпонка, контргайка, звездочка, муфта, гайка, венец', role='assistant', function_call=None, tool_calls=None))], created=1716142104, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=77, prompt_tokens=205, total_tokens=282))",
+    "distractor_analysis": [
+      {
+        "distractor": "деталь",
+        "lemma": "деталь",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1438)"
+      },
+      {
+        "distractor": "узел",
+        "lemma": "узел",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (181)"
+      },
+      {
+        "distractor": "рычаг",
+        "lemma": "рычаг",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (17)"
+      },
+      {
+        "distractor": "шестерня",
+        "lemma": "шестерня",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "ролик",
+        "lemma": "ролик",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (6)"
+      },
+      {
+        "distractor": "подшипник",
+        "lemma": "подшипник",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (3.83)"
+      },
+      {
+        "distractor": "фланец",
+        "lemma": "фланец",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "шайба",
+        "lemma": "шайба",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.83)"
+      },
+      {
+        "distractor": "втулка",
+        "lemma": "втулка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "валик",
+        "lemma": "валик",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (37)"
+      },
+      {
+        "distractor": "шпонка",
+        "lemma": "шпонка",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "контргайка",
+        "lemma": "контргайка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "звездочка",
+        "lemma": "звёздочка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (114)"
+      },
+      {
+        "distractor": "муфта",
+        "lemma": "муфта",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "гайка",
+        "lemma": "гайка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (44)"
+      },
+      {
+        "distractor": "венец",
+        "lemma": "венец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (27)"
+      }
+    ],
+    "valid_distractors": [
+      "узел",
+      "рычаг",
+      "ролик",
+      "подшипник",
+      "валик",
+      "звездочка",
+      "гайка",
+      "венец"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'запчасть' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'запчасть', 'узел', 'рычаг', 'ролик' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Часть механизма, которая заменяется в случае поломки.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfFKNBdTWgJhYCqUkWvr1wwzS5vj', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Часть механизма, которая заменяется в случае поломки.', role='assistant', function_call=None, tool_calls=None))], created=1716142106, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=24, prompt_tokens=200, total_tokens=224))",
+  "initial_definition": "Часть механизма, которая заменяется в случае поломки",
+  "final_definition": "Часть механизма, выполняющая определенную функцию.",
+  "formatted_definition": "Часть механизма, выполняющая определенную функцию",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Часть механизма, выполняющая определенную функцию.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Часть",
+            "механизма",
+            ",",
+            "которая",
+            "заменяется",
+            "в",
+            "случае",
+            "поломки"
+          ],
+          "removed_tokens": [
+            "в",
+            ","
+          ],
+          "final_tokens": [
+            "Часть",
+            "механизма",
+            "которая",
+            "заменяется",
+            "случае",
+            "поломки"
+          ],
+          "lemmas": [
+            "часть",
+            "механизм",
+            "который",
+            "заменяться",
+            "случай",
+            "поломка"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "часть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "механизм",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "который",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (3361.51)"
+          },
+          {
+            "lemma": "заменяться",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (2.26)"
+          },
+          {
+            "lemma": "случай",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "поломка",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (1.84)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "заменяться",
+          "поломка"
+        ],
+        "correction_prompt": "Исправь толкование 'Часть механизма, которая заменяется в случае поломки' для слова 'запчасть' так, чтобы в нем не использовались слова 'запчасть', 'рычаг', 'узел', 'заменяться', 'поломка', 'ролик' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Часть механизма, выполняющая определенную функцию.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfFLZh8CiWrjiqbj5mdQxugdJmrP', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Часть механизма, выполняющая определенную функцию.', role='assistant', function_call=None, tool_calls=None))], created=1716142107, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=21, prompt_tokens=247, total_tokens=268))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Часть механизма, выполняющая определенную функцию.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Часть",
+            "механизма",
+            ",",
+            "выполняющая",
+            "определенную",
+            "функцию"
+          ],
+          "removed_tokens": [
+            ","
+          ],
+          "final_tokens": [
+            "Часть",
+            "механизма",
+            "выполняющая",
+            "определенную",
+            "функцию"
+          ],
+          "lemmas": [
+            "часть",
+            "механизм",
+            "выполнять",
+            "определённый",
+            "функция"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "часть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "механизм",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "выполнять",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "определённый",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "функция",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-08-24",
+  "end_time": "2024.05.19 18-08-28"
+}

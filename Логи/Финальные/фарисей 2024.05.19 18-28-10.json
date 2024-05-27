@@ -1,0 +1,187 @@
+{
+  "word": "фарисей",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "священник",
+    "иудей",
+    "старец"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'фарисей'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'фарисей'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'фарисей', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "священник, фарисей, книжник, иудей, фарисейство, законник, саддукеи, фараон, старец, сектант, верующий, фарисейство, фарисаизм, фарисеизм, иудаизм, фарисеечность",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfYQ7JYQ8mrfVIbvXOggGPqS6YGC', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='священник, фарисей, книжник, иудей, фарисейство, законник, саддукеи, фараон, старец, сектант, верующий, фарисейство, фарисаизм, фарисеизм, иудаизм, фарисеечность', role='assistant', function_call=None, tool_calls=None))], created=1716143290, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=90, prompt_tokens=202, total_tokens=292))",
+    "distractor_analysis": [
+      {
+        "distractor": "священник",
+        "lemma": "священник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (69)"
+      },
+      {
+        "distractor": "фарисей",
+        "lemma": "фарисей",
+        "is_valid": false,
+        "reason": "Является исходным словом"
+      },
+      {
+        "distractor": "книжник",
+        "lemma": "книжник",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "иудей",
+        "lemma": "иудей",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (41)"
+      },
+      {
+        "distractor": "фарисейство",
+        "lemma": "фарисейство",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "законник",
+        "lemma": "законник",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.37)"
+      },
+      {
+        "distractor": "саддукеи",
+        "lemma": "саддукей",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "фараон",
+        "lemma": "фараон",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (304)"
+      },
+      {
+        "distractor": "старец",
+        "lemma": "старец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (45)"
+      },
+      {
+        "distractor": "сектант",
+        "lemma": "сектант",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (3.18)"
+      },
+      {
+        "distractor": "верующий",
+        "lemma": "веровать",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (28)"
+      },
+      {
+        "distractor": "фарисаизм",
+        "lemma": "фарисаизм",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "фарисеизм",
+        "lemma": "фарисеизм",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "иудаизм",
+        "lemma": "иудаизм",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.68)"
+      },
+      {
+        "distractor": "фарисеечность",
+        "lemma": "фарисеечность",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      }
+    ],
+    "valid_distractors": [
+      "священник",
+      "иудей",
+      "старец",
+      "сектант",
+      "верующий"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'фарисей' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'фарисей', 'священник', 'иудей', 'старец' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Член религиозной общественной группы в древности.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfYSExkccrgtdZANHrQ1jGodiiu6', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Член религиозной общественной группы в древности.', role='assistant', function_call=None, tool_calls=None))], created=1716143292, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=22, prompt_tokens=202, total_tokens=224))",
+  "initial_definition": "Член религиозной общественной группы в древности",
+  "final_definition": "Член религиозной общественной группы в древности",
+  "formatted_definition": "Член религиозной общественной группы в древности",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Член религиозной общественной группы в древности",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Член",
+            "религиозной",
+            "общественной",
+            "группы",
+            "в",
+            "древности"
+          ],
+          "removed_tokens": [
+            "в"
+          ],
+          "final_tokens": [
+            "Член",
+            "религиозной",
+            "общественной",
+            "группы",
+            "древности"
+          ],
+          "lemmas": [
+            "член",
+            "религиозный",
+            "общественный",
+            "группа",
+            "древность"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "член",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "религиозный",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "общественный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "группа",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "древность",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-28-10",
+  "end_time": "2024.05.19 18-28-13"
+}

@@ -1,0 +1,131 @@
+{
+  "word": "антипатия",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "омерзение",
+    "аборт"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'антипатия'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'антипатия'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'антипатия', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "отталкивание, неприязнь, антипод, омерзение, неприязнь, отвращение, неприязнь, антипатетизм, антипатик, аборт, фобия, антипатик, антипатетизм, антипатик, антипод, антипатик",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfKkCPlBV9WfkR7bs13ar3iOYMvv', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='отталкивание, неприязнь, антипод, омерзение, неприязнь, отвращение, неприязнь, антипатетизм, антипатик, аборт, фобия, антипатик, антипатетизм, антипатик, антипод, антипатик', role='assistant', function_call=None, tool_calls=None))], created=1716142442, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=104, prompt_tokens=205, total_tokens=309))",
+    "distractor_analysis": [
+      {
+        "distractor": "отталкивание",
+        "lemma": "отталкивание",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "неприязнь",
+        "lemma": "неприязнь",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "антипод",
+        "lemma": "антипод",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.84)"
+      },
+      {
+        "distractor": "омерзение",
+        "lemma": "омерзение",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (3.06)"
+      },
+      {
+        "distractor": "отвращение",
+        "lemma": "отвращение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "антипатетизм",
+        "lemma": "антипатетизм",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "антипатик",
+        "lemma": "антипатик",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "аборт",
+        "lemma": "аборт",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (7.31)"
+      },
+      {
+        "distractor": "фобия",
+        "lemma": "фобия",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.61)"
+      }
+    ],
+    "valid_distractors": [
+      "омерзение",
+      "аборт"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'антипатия' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'антипатия', 'омерзение', 'аборт' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "чувство неприязни, отвращение.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfKmnTdSIbyYfO7p7OHAViGveiD6', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='чувство неприязни, отвращение.', role='assistant', function_call=None, tool_calls=None))], created=1716142444, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=16, prompt_tokens=195, total_tokens=211))",
+  "initial_definition": "чувство неприязни, отвращение",
+  "final_definition": "чувство неприязни, отвращение",
+  "formatted_definition": "чувство неприязни, отвращение",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "чувство неприязни, отвращение",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "чувство",
+            "неприязни",
+            ",",
+            "отвращение"
+          ],
+          "removed_tokens": [
+            ","
+          ],
+          "final_tokens": [
+            "чувство",
+            "неприязни",
+            "отвращение"
+          ],
+          "lemmas": [
+            "чувство",
+            "неприязнь",
+            "отвращение"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "чувство",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "неприязнь",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          },
+          {
+            "lemma": "отвращение",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-14-01",
+  "end_time": "2024.05.19 18-14-05"
+}

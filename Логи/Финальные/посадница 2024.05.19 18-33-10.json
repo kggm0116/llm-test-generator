@@ -1,0 +1,180 @@
+{
+  "word": "посадница",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "сидение",
+    "скамья",
+    "трон"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'посадница'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'посадница'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'посадница', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "сидение, кресло, скамья, диван, трон, стул, банкетка, лавка, кушетка, пуфик, скатерть, табуретка, пеленгатор, покрывало, подушка, матрас",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfdGwyGSyCC5hiEwHdSWzxTFaauz', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='сидение, кресло, скамья, диван, трон, стул, банкетка, лавка, кушетка, пуфик, скатерть, табуретка, пеленгатор, покрывало, подушка, матрас', role='assistant', function_call=None, tool_calls=None))], created=1716143590, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=78, prompt_tokens=205, total_tokens=283))",
+    "distractor_analysis": [
+      {
+        "distractor": "сидение",
+        "lemma": "сидение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (25)"
+      },
+      {
+        "distractor": "кресло",
+        "lemma": "кресло",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (133.22)"
+      },
+      {
+        "distractor": "скамья",
+        "lemma": "скамья",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (28)"
+      },
+      {
+        "distractor": "диван",
+        "lemma": "диван",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (78.21)"
+      },
+      {
+        "distractor": "трон",
+        "lemma": "трон",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (62)"
+      },
+      {
+        "distractor": "стул",
+        "lemma": "стул",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (227)"
+      },
+      {
+        "distractor": "банкетка",
+        "lemma": "банкетка",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "лавка",
+        "lemma": "лавка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (64)"
+      },
+      {
+        "distractor": "кушетка",
+        "lemma": "кушетка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "пуфик",
+        "lemma": "пуфик",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "скатерть",
+        "lemma": "скатерть",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (66)"
+      },
+      {
+        "distractor": "табуретка",
+        "lemma": "табуретка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (25)"
+      },
+      {
+        "distractor": "пеленгатор",
+        "lemma": "пеленгатор",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "покрывало",
+        "lemma": "покрывало",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (45)"
+      },
+      {
+        "distractor": "подушка",
+        "lemma": "подушка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (51)"
+      },
+      {
+        "distractor": "матрас",
+        "lemma": "матрас",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      }
+    ],
+    "valid_distractors": [
+      "сидение",
+      "скамья",
+      "трон",
+      "лавка",
+      "скатерть",
+      "табуретка",
+      "покрывало",
+      "подушка"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'посадница' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'посадница', 'сидение', 'скамья', 'трон' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Мебель для принятия пищи.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfdIBpyOR7s6JOHy0HKzCRh99oJ3', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Мебель для принятия пищи.', role='assistant', function_call=None, tool_calls=None))], created=1716143592, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=14, prompt_tokens=201, total_tokens=215))",
+  "initial_definition": "Мебель для принятия пищи",
+  "final_definition": "Мебель для принятия пищи",
+  "formatted_definition": "Мебель для принятия пищи",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Мебель для принятия пищи",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Мебель",
+            "для",
+            "принятия",
+            "пищи"
+          ],
+          "removed_tokens": [
+            "для"
+          ],
+          "final_tokens": [
+            "Мебель",
+            "принятия",
+            "пищи"
+          ],
+          "lemmas": [
+            "мебель",
+            "принятие",
+            "пища"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "мебель",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "принятие",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "пища",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-33-10",
+  "end_time": "2024.05.19 18-33-13"
+}

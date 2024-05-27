@@ -1,0 +1,207 @@
+{
+  "word": "дьявол",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "тварь",
+    "культ",
+    "демон"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'дьявол'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'дьявол'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'дьявол', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "существо, зло, образ, монстр, создание, тварь, сущность, сила, культ, демон, сатана, казнь, ад, инквизиция, искушение, потустороннии.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfGlZTHDBGnl5x5wYIgBvc8mT9OI', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='существо, зло, образ, монстр, создание, тварь, сущность, сила, культ, демон, сатана, казнь, ад, инквизиция, искушение, потустороннии.', role='assistant', function_call=None, tool_calls=None))], created=1716142195, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=70, prompt_tokens=205, total_tokens=275))",
+    "distractor_analysis": [
+      {
+        "distractor": "существо",
+        "lemma": "существо",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (474)"
+      },
+      {
+        "distractor": "зло",
+        "lemma": "зло",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (72.16)"
+      },
+      {
+        "distractor": "образ",
+        "lemma": "образ",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1233)"
+      },
+      {
+        "distractor": "монстр",
+        "lemma": "монстр",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "создание",
+        "lemma": "создание",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (383)"
+      },
+      {
+        "distractor": "тварь",
+        "lemma": "тварь",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (12)"
+      },
+      {
+        "distractor": "сущность",
+        "lemma": "сущность",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (55.82)"
+      },
+      {
+        "distractor": "сила",
+        "lemma": "сила",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (899)"
+      },
+      {
+        "distractor": "культ",
+        "lemma": "культ",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (17)"
+      },
+      {
+        "distractor": "демон",
+        "lemma": "демон",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (14)"
+      },
+      {
+        "distractor": "сатана",
+        "lemma": "сатана",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "казнь",
+        "lemma": "казнь",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (62)"
+      },
+      {
+        "distractor": "ад",
+        "lemma": "ад",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "инквизиция",
+        "lemma": "инквизиция",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "искушение",
+        "lemma": "искушение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "потустороннии",
+        "lemma": "потусторонния",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      }
+    ],
+    "valid_distractors": [
+      "тварь",
+      "культ",
+      "демон",
+      "казнь"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'дьявол' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'дьявол', 'тварь', 'культ', 'демон' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Существо из мифологии и религии, злой и связанный с подлостью.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfGnYOjy1g3nkxQbKvAGuAAc5TPO', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Существо из мифологии и религии, злой и связанный с подлостью.', role='assistant', function_call=None, tool_calls=None))], created=1716142197, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=29, prompt_tokens=200, total_tokens=229))",
+  "initial_definition": "Существо из мифологии и религии, злой и связанный с подлостью",
+  "final_definition": "Существо из мифологии и религии, злой и связанный с подлостью",
+  "formatted_definition": "Существо из мифологии и религии, злой и связанный с подлостью",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Существо из мифологии и религии, злой и связанный с подлостью",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Существо",
+            "из",
+            "мифологии",
+            "и",
+            "религии",
+            ",",
+            "злой",
+            "и",
+            "связанный",
+            "с",
+            "подлостью"
+          ],
+          "removed_tokens": [
+            "из",
+            ",",
+            "и",
+            "с"
+          ],
+          "final_tokens": [
+            "Существо",
+            "мифологии",
+            "религии",
+            "злой",
+            "связанный",
+            "подлостью"
+          ],
+          "lemmas": [
+            "существо",
+            "мифология",
+            "религия",
+            "злой",
+            "связанный",
+            "подлость"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "существо",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "мифология",
+            "is_valid": true,
+            "reason": "Низкого класса (4)"
+          },
+          {
+            "lemma": "религия",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "злой",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "связанный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "подлость",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-09-54",
+  "end_time": "2024.05.19 18-09-58"
+}

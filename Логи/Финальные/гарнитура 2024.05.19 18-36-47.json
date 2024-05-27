@@ -1,0 +1,197 @@
+{
+  "word": "гарнитура",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "гардероб",
+    "подвиг",
+    "шторм"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'гарнитура'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'гарнитура'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'гарнитура', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "ушм, контакт, гардероб, фасоль, подвиг, кроссовер, кредит, стакан, шторм, бюджет, облако, перила, регистр, рождество, рояль, ствол",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfglyRXfGkepcjNwKHSg9nKYY5AY', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='ушм, контакт, гардероб, фасоль, подвиг, кроссовер, кредит, стакан, шторм, бюджет, облако, перила, регистр, рождество, рояль, ствол', role='assistant', function_call=None, tool_calls=None))], created=1716143807, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=71, prompt_tokens=208, total_tokens=279))",
+    "distractor_analysis": [
+      {
+        "distractor": "ушм",
+        "lemma": "ушм",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "контакт",
+        "lemma": "контакт",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (50.53)"
+      },
+      {
+        "distractor": "гардероб",
+        "lemma": "гардероб",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (17)"
+      },
+      {
+        "distractor": "фасоль",
+        "lemma": "фасоль",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.53)"
+      },
+      {
+        "distractor": "подвиг",
+        "lemma": "подвиг",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (136)"
+      },
+      {
+        "distractor": "кроссовер",
+        "lemma": "кроссовер",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "кредит",
+        "lemma": "кредит",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "стакан",
+        "lemma": "стакан",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (330)"
+      },
+      {
+        "distractor": "шторм",
+        "lemma": "шторм",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (37)"
+      },
+      {
+        "distractor": "бюджет",
+        "lemma": "бюджет",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (41)"
+      },
+      {
+        "distractor": "облако",
+        "lemma": "облако",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (417)"
+      },
+      {
+        "distractor": "перила",
+        "lemma": "перила",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (11)"
+      },
+      {
+        "distractor": "регистр",
+        "lemma": "регистр",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.79)"
+      },
+      {
+        "distractor": "рождество",
+        "lemma": "рождество",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (159)"
+      },
+      {
+        "distractor": "рояль",
+        "lemma": "рояль",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (24)"
+      },
+      {
+        "distractor": "ствол",
+        "lemma": "ствол",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (427)"
+      }
+    ],
+    "valid_distractors": [
+      "гардероб",
+      "подвиг",
+      "шторм",
+      "бюджет",
+      "перила",
+      "рождество",
+      "рояль"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'гарнитура' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'гарнитура', 'гардероб', 'подвиг', 'шторм' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "набор предметов для декорирования одежды, украшений",
+  "response_details": "ChatCompletion(id='chatcmpl-9Qfgn4M80dUqNeY2rqu5KNxCmbydc', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='набор предметов для декорирования одежды, украшений', role='assistant', function_call=None, tool_calls=None))], created=1716143809, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=23, prompt_tokens=205, total_tokens=228))",
+  "initial_definition": "набор предметов для декорирования одежды, украшений",
+  "final_definition": "набор предметов для декорирования одежды, украшений",
+  "formatted_definition": "набор предметов для декорирования одежды, украшений",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "набор предметов для декорирования одежды, украшений",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "набор",
+            "предметов",
+            "для",
+            "декорирования",
+            "одежды",
+            ",",
+            "украшений"
+          ],
+          "removed_tokens": [
+            ",",
+            "для"
+          ],
+          "final_tokens": [
+            "набор",
+            "предметов",
+            "декорирования",
+            "одежды",
+            "украшений"
+          ],
+          "lemmas": [
+            "набор",
+            "предмет",
+            "декорирование",
+            "одежда",
+            "украшение"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "набор",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "предмет",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "декорирование",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "одежда",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "украшение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-36-47",
+  "end_time": "2024.05.19 18-36-49"
+}

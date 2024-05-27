@@ -1,0 +1,179 @@
+{
+  "word": "вира",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "крюк",
+    "удочка",
+    "поплавок"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'вира'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'вира'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'вира', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "крюк, сеть, удочка, невод, трал, поплавок, акваланг, планка, мачта, лебедка, якорь, трап, трапеция, бак, киль, выходка",
+    "response_details": "ChatCompletion(id='chatcmpl-9Qf30ON3WYZoVZESAc4Gqn3VqGPSU', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='крюк, сеть, удочка, невод, трал, поплавок, акваланг, планка, мачта, лебедка, якорь, трап, трапеция, бак, киль, выходка', role='assistant', function_call=None, tool_calls=None))], created=1716141342, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=70, prompt_tokens=199, total_tokens=269))",
+    "distractor_analysis": [
+      {
+        "distractor": "крюк",
+        "lemma": "крюк",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (30)"
+      },
+      {
+        "distractor": "сеть",
+        "lemma": "сеть",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (265)"
+      },
+      {
+        "distractor": "удочка",
+        "lemma": "удочка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (34)"
+      },
+      {
+        "distractor": "невод",
+        "lemma": "невод",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.18)"
+      },
+      {
+        "distractor": "трал",
+        "lemma": "трал",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "поплавок",
+        "lemma": "поплавок",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (17)"
+      },
+      {
+        "distractor": "акваланг",
+        "lemma": "акваланг",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.76)"
+      },
+      {
+        "distractor": "планка",
+        "lemma": "планк",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "мачта",
+        "lemma": "мачта",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (28)"
+      },
+      {
+        "distractor": "лебедка",
+        "lemma": "лебёдка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "якорь",
+        "lemma": "якорь",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (27)"
+      },
+      {
+        "distractor": "трап",
+        "lemma": "трап",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "трапеция",
+        "lemma": "трапеция",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (17)"
+      },
+      {
+        "distractor": "бак",
+        "lemma": "бак",
+        "is_valid": false,
+        "reason": "Содержит нежелательные NLTK-теги (Abbr)"
+      },
+      {
+        "distractor": "киль",
+        "lemma": "киль",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (5.13)"
+      },
+      {
+        "distractor": "выходка",
+        "lemma": "выходка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      }
+    ],
+    "valid_distractors": [
+      "крюк",
+      "удочка",
+      "поплавок",
+      "мачта",
+      "якорь",
+      "трапеция",
+      "киль"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'вира' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'вира', 'крюк', 'удочка', 'поплавок' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Инструмент для ловли рыбы.",
+  "response_details": "ChatCompletion(id='chatcmpl-9Qf31PfTxXx1H27F7U2PYaPLlpmaB', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Инструмент для ловли рыбы.', role='assistant', function_call=None, tool_calls=None))], created=1716141343, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=14, prompt_tokens=198, total_tokens=212))",
+  "initial_definition": "Инструмент для ловли рыбы",
+  "final_definition": "Инструмент для ловли рыбы",
+  "formatted_definition": "Инструмент для ловли рыбы",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Инструмент для ловли рыбы",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Инструмент",
+            "для",
+            "ловли",
+            "рыбы"
+          ],
+          "removed_tokens": [
+            "для"
+          ],
+          "final_tokens": [
+            "Инструмент",
+            "ловли",
+            "рыбы"
+          ],
+          "lemmas": [
+            "инструмент",
+            "ловля",
+            "рыба"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "инструмент",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "ловля",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "рыба",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 17-55-42",
+  "end_time": "2024.05.19 17-55-44"
+}

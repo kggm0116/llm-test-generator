@@ -1,0 +1,221 @@
+{
+  "word": "потник",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "майник",
+    "блузка"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'потник'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'потник'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'потник', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "майка, майка-топ, тельник, маечка, футболка, майник, майка-авоська, майка-тельник, майник-топ, майка-майка, рубашка, блузка, косоворотка, футболка-поло, майка-футболка, маечка-топ",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfckOAhoHIXPMmgxUqHo9LmEkvUX', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='майка, майка-топ, тельник, маечка, футболка, майник, майка-авоська, майка-тельник, майник-топ, майка-майка, рубашка, блузка, косоворотка, футболка-поло, майка-футболка, маечка-топ', role='assistant', function_call=None, tool_calls=None))], created=1716143558, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=105, prompt_tokens=199, total_tokens=304))",
+    "distractor_analysis": [
+      {
+        "distractor": "майка",
+        "lemma": "майк",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "майка-топ",
+        "lemma": "майк-топ",
+        "is_valid": false,
+        "reason": "Содержит дефис"
+      },
+      {
+        "distractor": "тельник",
+        "lemma": "тельник",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.07)"
+      },
+      {
+        "distractor": "маечка",
+        "lemma": "маечка",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "футболка",
+        "lemma": "футболка",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.68)"
+      },
+      {
+        "distractor": "майник",
+        "lemma": "майник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "майка-авоська",
+        "lemma": "майка-авоська",
+        "is_valid": false,
+        "reason": "Содержит дефис"
+      },
+      {
+        "distractor": "майка-тельник",
+        "lemma": "майк-тельник",
+        "is_valid": false,
+        "reason": "Содержит дефис"
+      },
+      {
+        "distractor": "майник-топ",
+        "lemma": "майник-топ",
+        "is_valid": false,
+        "reason": "Содержит дефис"
+      },
+      {
+        "distractor": "майка-майка",
+        "lemma": "майк-майк",
+        "is_valid": false,
+        "reason": "Содержит дефис"
+      },
+      {
+        "distractor": "рубашка",
+        "lemma": "рубашка",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (67.84)"
+      },
+      {
+        "distractor": "блузка",
+        "lemma": "блузка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (18)"
+      },
+      {
+        "distractor": "косоворотка",
+        "lemma": "косоворотка",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.3)"
+      },
+      {
+        "distractor": "футболка-поло",
+        "lemma": "футболка-поло",
+        "is_valid": false,
+        "reason": "Содержит дефис"
+      },
+      {
+        "distractor": "майка-футболка",
+        "lemma": "майка-футболка",
+        "is_valid": false,
+        "reason": "Содержит дефис"
+      },
+      {
+        "distractor": "маечка-топ",
+        "lemma": "маечка-топ",
+        "is_valid": false,
+        "reason": "Содержит дефис"
+      }
+    ],
+    "valid_distractors": [
+      "майник",
+      "блузка"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'потник' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'потник', 'майник', 'блузка' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Одежда для верхней части тела, обычно без рукавов и с глубоким вырезом.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfcmFFuy4szck3UTVJ4o2hX1lRK1', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Одежда для верхней части тела, обычно без рукавов и с глубоким вырезом.', role='assistant', function_call=None, tool_calls=None))], created=1716143560, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=37, prompt_tokens=193, total_tokens=230))",
+  "initial_definition": "Одежда для верхней части тела, обычно без рукавов и с глубоким вырезом",
+  "final_definition": "Одежда для верхней части тела, обычно без рукавов и с глубоким вырезом",
+  "formatted_definition": "Одежда для верхней части тела, обычно без рукавов и с глубоким вырезом",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Одежда для верхней части тела, обычно без рукавов и с глубоким вырезом",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Одежда",
+            "для",
+            "верхней",
+            "части",
+            "тела",
+            ",",
+            "обычно",
+            "без",
+            "рукавов",
+            "и",
+            "с",
+            "глубоким",
+            "вырезом"
+          ],
+          "removed_tokens": [
+            "для",
+            "и",
+            "без",
+            ",",
+            "с"
+          ],
+          "final_tokens": [
+            "Одежда",
+            "верхней",
+            "части",
+            "тела",
+            "обычно",
+            "рукавов",
+            "глубоким",
+            "вырезом"
+          ],
+          "lemmas": [
+            "одежда",
+            "верхний",
+            "часть",
+            "тело",
+            "обычно",
+            "рукав",
+            "глубокий",
+            "вырез"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "одежда",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "верхний",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "часть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "тело",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "обычно",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          },
+          {
+            "lemma": "рукав",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "глубокий",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "вырез",
+            "is_valid": true,
+            "reason": "Низкого класса (4)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-32-38",
+  "end_time": "2024.05.19 18-32-41"
+}

@@ -1,0 +1,178 @@
+{
+  "word": "зернь",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "зёрнышко",
+    "крупа",
+    "пыльца"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'зернь'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'зернь'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'зернь', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "зерно, зерёшко, зернышко, зерёнка, крупа, пыльца, зернинка, ядрышко, крупица, зёрнышко, семечко, зёрнышечко, косточка, крупичка, мелочка, опилка",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfIM0p6wXXFsLNlfNW2iKzMJJE2C', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='зерно, зерёшко, зернышко, зерёнка, крупа, пыльца, зернинка, ядрышко, крупица, зёрнышко, семечко, зёрнышечко, косточка, крупичка, мелочка, опилка', role='assistant', function_call=None, tool_calls=None))], created=1716142294, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=89, prompt_tokens=202, total_tokens=291))",
+    "distractor_analysis": [
+      {
+        "distractor": "зерно",
+        "lemma": "зерно",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (427)"
+      },
+      {
+        "distractor": "зерёшко",
+        "lemma": "зерешко",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "зёрнышко",
+        "lemma": "зёрнышко",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (30)"
+      },
+      {
+        "distractor": "зерёнка",
+        "lemma": "зерёнок",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "крупа",
+        "lemma": "крупа",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (92)"
+      },
+      {
+        "distractor": "пыльца",
+        "lemma": "пыльца",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (44)"
+      },
+      {
+        "distractor": "зернинка",
+        "lemma": "зернинка",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "ядрышко",
+        "lemma": "ядрышко",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (6)"
+      },
+      {
+        "distractor": "крупица",
+        "lemma": "крупица",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "семечко",
+        "lemma": "семечко",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (28)"
+      },
+      {
+        "distractor": "зёрнышечко",
+        "lemma": "зернышечко",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "косточка",
+        "lemma": "косточка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (33)"
+      },
+      {
+        "distractor": "крупичка",
+        "lemma": "крупичок",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "мелочка",
+        "lemma": "мёлочка",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "опилка",
+        "lemma": "опилка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (21)"
+      }
+    ],
+    "valid_distractors": [
+      "зёрнышко",
+      "крупа",
+      "пыльца",
+      "ядрышко",
+      "семечко",
+      "косточка",
+      "опилка"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'зернь' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'зернь', 'зёрнышко', 'крупа', 'пыльца' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Пищевая часть злаковых растений.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfIOWGfSXSDALgS7wDyyU2tktoJ9', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Пищевая часть злаковых растений.', role='assistant', function_call=None, tool_calls=None))], created=1716142296, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=17, prompt_tokens=203, total_tokens=220))",
+  "initial_definition": "Пищевая часть злаковых растений",
+  "final_definition": "Пищевая часть злаковых растений",
+  "formatted_definition": "Пищевая часть злаковых растений",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Пищевая часть злаковых растений",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Пищевая",
+            "часть",
+            "злаковых",
+            "растений"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Пищевая",
+            "часть",
+            "злаковых",
+            "растений"
+          ],
+          "lemmas": [
+            "пищевой",
+            "часть",
+            "злаковый",
+            "растение"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "пищевой",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "часть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "злаковый",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "растение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-11-34",
+  "end_time": "2024.05.19 18-11-36"
+}

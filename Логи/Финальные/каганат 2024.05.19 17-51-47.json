@@ -1,0 +1,206 @@
+{
+  "word": "каганат",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "ханство",
+    "королевство",
+    "владение"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'каганат'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'каганат'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'каганат', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "империя, ханство, царство, княжество, княжество, королевство, султанат, княжество, владение, княжество, княжество, княжество, государство, монархия, держава, княжество",
+    "response_details": "ChatCompletion(id='chatcmpl-9QezDDESkP7Bbr9G744TUUS2CyQ9b', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='империя, ханство, царство, княжество, княжество, королевство, султанат, княжество, владение, княжество, княжество, княжество, государство, монархия, держава, княжество', role='assistant', function_call=None, tool_calls=None))], created=1716141107, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=84, prompt_tokens=202, total_tokens=286))",
+    "distractor_analysis": [
+      {
+        "distractor": "империя",
+        "lemma": "империя",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (560)"
+      },
+      {
+        "distractor": "ханство",
+        "lemma": "ханство",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (8)"
+      },
+      {
+        "distractor": "царство",
+        "lemma": "царство",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (709)"
+      },
+      {
+        "distractor": "княжество",
+        "lemma": "княжество",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.76)"
+      },
+      {
+        "distractor": "королевство",
+        "lemma": "королевство",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (15)"
+      },
+      {
+        "distractor": "султанат",
+        "lemma": "султанат",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "владение",
+        "lemma": "владение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (108)"
+      },
+      {
+        "distractor": "государство",
+        "lemma": "государство",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1307)"
+      },
+      {
+        "distractor": "монархия",
+        "lemma": "монархия",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (13)"
+      },
+      {
+        "distractor": "держава",
+        "lemma": "держава",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (257)"
+      }
+    ],
+    "valid_distractors": [
+      "ханство",
+      "королевство",
+      "владение",
+      "монархия"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'каганат' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'каганат', 'ханство', 'королевство', 'владение' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Государство, правившееся ханом.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QezFog4wfRcUimPY5WIiSZc3OKz3', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Государство, правившееся ханом.', role='assistant', function_call=None, tool_calls=None))], created=1716141109, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=16, prompt_tokens=202, total_tokens=218))",
+  "initial_definition": "Государство, правившееся ханом",
+  "final_definition": "Государство, управляемое лидером монгольского происхождения.",
+  "formatted_definition": "Государство, управляемое лидером монгольского происхождения",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Государство, управляемое лидером монгольского происхождения.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Государство",
+            ",",
+            "правившееся",
+            "ханом"
+          ],
+          "removed_tokens": [
+            ","
+          ],
+          "final_tokens": [
+            "Государство",
+            "правившееся",
+            "ханом"
+          ],
+          "lemmas": [
+            "государство",
+            "правиться",
+            "хан"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "государство",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "правиться",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          },
+          {
+            "lemma": "хан",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "правиться"
+        ],
+        "correction_prompt": "Исправь толкование 'Государство, правившееся ханом' для слова 'каганат' так, чтобы в нем не использовались слова 'каганат', 'правиться', 'ханство', 'королевство', 'владение' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Государство, управляемое лидером монгольского происхождения.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QezGSpXZSthY7NF4IzJwf6OBr8VC', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Государство, управляемое лидером монгольского происхождения.', role='assistant', function_call=None, tool_calls=None))], created=1716141110, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=28, prompt_tokens=233, total_tokens=261))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Государство, управляемое лидером монгольского происхождения.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Государство",
+            ",",
+            "управляемое",
+            "лидером",
+            "монгольского",
+            "происхождения"
+          ],
+          "removed_tokens": [
+            ","
+          ],
+          "final_tokens": [
+            "Государство",
+            "управляемое",
+            "лидером",
+            "монгольского",
+            "происхождения"
+          ],
+          "lemmas": [
+            "государство",
+            "управляемый",
+            "лидер",
+            "монгольский",
+            "происхождение"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "государство",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "управляемый",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "лидер",
+            "is_valid": true,
+            "reason": "Низкого класса (4)"
+          },
+          {
+            "lemma": "монгольский",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "происхождение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 17-51-47",
+  "end_time": "2024.05.19 17-51-51"
+}

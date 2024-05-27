@@ -1,0 +1,234 @@
+{
+  "word": "галичанин",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "интеллигент",
+    "горожанин",
+    "труженик"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'галичанин'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'галичанин'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'галичанин', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "гражданин, интеллигент, горожанин, деревенщина, селянин, труженик, крестьянин, сосед, мужчина, согражданин, соседка, старожил, рабочий, подданный, поселенец, житель",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfLDicpjDfcwlbi385zJsIE8BLvD', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='гражданин, интеллигент, горожанин, деревенщина, селянин, труженик, крестьянин, сосед, мужчина, согражданин, соседка, старожил, рабочий, подданный, поселенец, житель', role='assistant', function_call=None, tool_calls=None))], created=1716142471, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=92, prompt_tokens=205, total_tokens=297))",
+    "distractor_analysis": [
+      {
+        "distractor": "гражданин",
+        "lemma": "гражданин",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (610)"
+      },
+      {
+        "distractor": "интеллигент",
+        "lemma": "интеллигент",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (24.69)"
+      },
+      {
+        "distractor": "горожанин",
+        "lemma": "горожанин",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (109)"
+      },
+      {
+        "distractor": "деревенщина",
+        "lemma": "деревенщина",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "селянин",
+        "lemma": "селянин",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "труженик",
+        "lemma": "труженик",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (24)"
+      },
+      {
+        "distractor": "крестьянин",
+        "lemma": "крестьянин",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (347)"
+      },
+      {
+        "distractor": "сосед",
+        "lemma": "сосед",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (273)"
+      },
+      {
+        "distractor": "мужчина",
+        "lemma": "мужчина",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (208)"
+      },
+      {
+        "distractor": "согражданин",
+        "lemma": "согражданин",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (26)"
+      },
+      {
+        "distractor": "соседка",
+        "lemma": "соседка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (17)"
+      },
+      {
+        "distractor": "старожил",
+        "lemma": "старожил",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "рабочий",
+        "lemma": "рабочий",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (836)"
+      },
+      {
+        "distractor": "подданный",
+        "lemma": "поддать",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (49)"
+      },
+      {
+        "distractor": "поселенец",
+        "lemma": "поселенец",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.45)"
+      },
+      {
+        "distractor": "житель",
+        "lemma": "житель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (747)"
+      }
+    ],
+    "valid_distractors": [
+      "интеллигент",
+      "горожанин",
+      "труженик",
+      "согражданин",
+      "соседка",
+      "старожил",
+      "подданный"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'галичанин' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'галичанин', 'интеллигент', 'горожанин', 'труженик' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Житель Галича.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfLF3y8KLrTmEUV0uvqkRjinYrnI', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Житель Галича.', role='assistant', function_call=None, tool_calls=None))], created=1716142473, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=8, prompt_tokens=207, total_tokens=215))",
+  "initial_definition": "Житель Галича",
+  "final_definition": "Житель небольшого поселения на севере России.",
+  "formatted_definition": "Житель небольшого поселения на севере России",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Житель небольшого поселения на севере России.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Житель",
+            "Галича"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Житель",
+            "Галича"
+          ],
+          "lemmas": [
+            "житель",
+            "галич"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "житель",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "галич",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "галич"
+        ],
+        "correction_prompt": "Исправь толкование 'Житель Галича' для слова 'галичанин' так, чтобы в нем не использовались слова 'галичанин', 'горожанин', 'галич', 'интеллигент', 'труженик' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Житель небольшого поселения на севере России.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfLFIWEgak1FuoLleEB0MLQmwmMD', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Житель небольшого поселения на севере России.', role='assistant', function_call=None, tool_calls=None))], created=1716142473, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=22, prompt_tokens=230, total_tokens=252))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Житель небольшого поселения на севере России.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Житель",
+            "небольшого",
+            "поселения",
+            "на",
+            "севере",
+            "России"
+          ],
+          "removed_tokens": [
+            "на"
+          ],
+          "final_tokens": [
+            "Житель",
+            "небольшого",
+            "поселения",
+            "севере",
+            "России"
+          ],
+          "lemmas": [
+            "житель",
+            "небольшой",
+            "поселение",
+            "север",
+            "россия"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "житель",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "небольшой",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "поселение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "север",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "россия",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-14-30",
+  "end_time": "2024.05.19 18-14-34"
+}

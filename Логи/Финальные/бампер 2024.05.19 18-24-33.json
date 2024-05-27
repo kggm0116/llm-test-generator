@@ -1,0 +1,189 @@
+{
+  "word": "бампер",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "кузов",
+    "решетка",
+    "панель"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'бампер'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'бампер'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'бампер', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Крыло, фара, стекло, дверь, багажник, капот, кузов, зеркало, ручка, решетка, панель, заглушка, стоп-сигнал, стойка, петля, противотуманный.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfUvcbwl6hdW5N3MUiYKFrfqyjTk', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Крыло, фара, стекло, дверь, багажник, капот, кузов, зеркало, ручка, решетка, панель, заглушка, стоп-сигнал, стойка, петля, противотуманный.\\n\\n\\n\\n', role='assistant', function_call=None, tool_calls=None))], created=1716143073, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=78, prompt_tokens=202, total_tokens=280))",
+    "distractor_analysis": [
+      {
+        "distractor": "Крыло",
+        "lemma": "крыло",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (317)"
+      },
+      {
+        "distractor": "фара",
+        "lemma": "фара",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "стекло",
+        "lemma": "стекло",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (342)"
+      },
+      {
+        "distractor": "дверь",
+        "lemma": "дверь",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (278)"
+      },
+      {
+        "distractor": "багажник",
+        "lemma": "багажник",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "капот",
+        "lemma": "капот",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "кузов",
+        "lemma": "кузов",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (28)"
+      },
+      {
+        "distractor": "зеркало",
+        "lemma": "зеркало",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (109.53)"
+      },
+      {
+        "distractor": "ручка",
+        "lemma": "ручка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (294)"
+      },
+      {
+        "distractor": "решетка",
+        "lemma": "решётка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (38)"
+      },
+      {
+        "distractor": "панель",
+        "lemma": "панель",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (51)"
+      },
+      {
+        "distractor": "заглушка",
+        "lemma": "заглушка",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "стоп-сигнал",
+        "lemma": "стоп-сигнал",
+        "is_valid": false,
+        "reason": "Содержит дефис"
+      },
+      {
+        "distractor": "стойка",
+        "lemma": "стойка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (13)"
+      },
+      {
+        "distractor": "петля",
+        "lemma": "петлить",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "противотуманный",
+        "lemma": "противотуманный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      }
+    ],
+    "valid_distractors": [
+      "кузов",
+      "решетка",
+      "панель",
+      "стойка"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'бампер' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'бампер', 'кузов', 'решетка', 'панель' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Защитный элемент передней части автомобиля.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfUxOlM1C8RiyQehLn2dBIgBu67O', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Защитный элемент передней части автомобиля.', role='assistant', function_call=None, tool_calls=None))], created=1716143075, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=18, prompt_tokens=199, total_tokens=217))",
+  "initial_definition": "Защитный элемент передней части автомобиля",
+  "final_definition": "Защитный элемент передней части автомобиля",
+  "formatted_definition": "Защитный элемент передней части автомобиля",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Защитный элемент передней части автомобиля",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Защитный",
+            "элемент",
+            "передней",
+            "части",
+            "автомобиля"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Защитный",
+            "элемент",
+            "передней",
+            "части",
+            "автомобиля"
+          ],
+          "lemmas": [
+            "защитный",
+            "элемент",
+            "передний",
+            "часть",
+            "автомобиль"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "защитный",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "элемент",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "передний",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "часть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "автомобиль",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-24-33",
+  "end_time": "2024.05.19 18-24-36"
+}

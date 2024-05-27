@@ -1,0 +1,164 @@
+{
+  "word": "поморье",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "речка",
+    "залив",
+    "мыс"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'поморье'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'поморье'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'поморье', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "речка, залив, мыс, остров, порт, ледник, маяк, песчанник, канал, водопад, полуостров, море, затока, океан, залив, континент",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfNlYjgjn4xhImy0m22sp8cIuySD', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='речка, залив, мыс, остров, порт, ледник, маяк, песчанник, канал, водопад, полуостров, море, затока, океан, залив, континент', role='assistant', function_call=None, tool_calls=None))], created=1716142629, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=65, prompt_tokens=205, total_tokens=270))",
+    "distractor_analysis": [
+      {
+        "distractor": "речка",
+        "lemma": "речка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (132)"
+      },
+      {
+        "distractor": "залив",
+        "lemma": "залив",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (60)"
+      },
+      {
+        "distractor": "мыс",
+        "lemma": "мыс",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (47)"
+      },
+      {
+        "distractor": "остров",
+        "lemma": "остров",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (579)"
+      },
+      {
+        "distractor": "порт",
+        "lemma": "порт",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (114)"
+      },
+      {
+        "distractor": "ледник",
+        "lemma": "ледник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (81)"
+      },
+      {
+        "distractor": "маяк",
+        "lemma": "маяк",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (33)"
+      },
+      {
+        "distractor": "песчанник",
+        "lemma": "песчанник",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "канал",
+        "lemma": "канал",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (57.77)"
+      },
+      {
+        "distractor": "водопад",
+        "lemma": "водопад",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (76)"
+      },
+      {
+        "distractor": "полуостров",
+        "lemma": "полуостров",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (181)"
+      },
+      {
+        "distractor": "море",
+        "lemma": "море",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1528)"
+      },
+      {
+        "distractor": "затока",
+        "lemma": "заток",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "океан",
+        "lemma": "океан",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (881)"
+      },
+      {
+        "distractor": "континент",
+        "lemma": "континент",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (51)"
+      }
+    ],
+    "valid_distractors": [
+      "речка",
+      "залив",
+      "мыс",
+      "порт",
+      "ледник",
+      "маяк",
+      "водопад",
+      "полуостров",
+      "континент"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'поморье' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'поморье', 'речка', 'залив', 'мыс' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Берег моря.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfNnOHtnxYvE3XMcnUsTPGch86qC', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Берег моря.', role='assistant', function_call=None, tool_calls=None))], created=1716142631, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=7, prompt_tokens=200, total_tokens=207))",
+  "initial_definition": "Берег моря",
+  "final_definition": "Берег моря",
+  "formatted_definition": "Берег моря",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Берег моря",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Берег",
+            "моря"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Берег",
+            "моря"
+          ],
+          "lemmas": [
+            "берег",
+            "море"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "берег",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "море",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-17-09",
+  "end_time": "2024.05.19 18-17-11"
+}

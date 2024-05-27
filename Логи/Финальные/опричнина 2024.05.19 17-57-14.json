@@ -1,0 +1,238 @@
+{
+  "word": "опричнина",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "слуги",
+    "предсказание",
+    "подданные"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'опричнина'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'опричнина'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'опричнина', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "слуги, предсказание, подданные, ведомства, курьеры, спецназ, контрабандисты, министерство, стратегия, помощники, конвоиры, инспекторы, наемники, дружинники, сторожевые, чекисты",
+    "response_details": "ChatCompletion(id='chatcmpl-9Qf4UlO6YjR1toDaI6ld8L1zQnZKU', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='слуги, предсказание, подданные, ведомства, курьеры, спецназ, контрабандисты, министерство, стратегия, помощники, конвоиры, инспекторы, наемники, дружинники, сторожевые, чекисты', role='assistant', function_call=None, tool_calls=None))], created=1716141434, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=87, prompt_tokens=205, total_tokens=292))",
+    "distractor_analysis": [
+      {
+        "distractor": "слуги",
+        "lemma": "слуга",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (99)"
+      },
+      {
+        "distractor": "предсказание",
+        "lemma": "предсказание",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (30)"
+      },
+      {
+        "distractor": "подданные",
+        "lemma": "поддать",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (49)"
+      },
+      {
+        "distractor": "ведомства",
+        "lemma": "ведомство",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (10)"
+      },
+      {
+        "distractor": "курьеры",
+        "lemma": "курьер",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "спецназ",
+        "lemma": "спецназ",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "контрабандисты",
+        "lemma": "контрабандист",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "министерство",
+        "lemma": "министерство",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (6)"
+      },
+      {
+        "distractor": "стратегия",
+        "lemma": "стратегия",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (122)"
+      },
+      {
+        "distractor": "помощники",
+        "lemma": "помощник",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (215)"
+      },
+      {
+        "distractor": "конвоиры",
+        "lemma": "конвоир",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (9.53)"
+      },
+      {
+        "distractor": "инспекторы",
+        "lemma": "инспектор",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "наемники",
+        "lemma": "наёмник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (17)"
+      },
+      {
+        "distractor": "дружинники",
+        "lemma": "дружинник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (11)"
+      },
+      {
+        "distractor": "сторожевые",
+        "lemma": "сторожевой",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "чекисты",
+        "lemma": "чекист",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (17.19)"
+      }
+    ],
+    "valid_distractors": [
+      "слуги",
+      "предсказание",
+      "подданные",
+      "ведомства",
+      "курьеры",
+      "министерство",
+      "стратегия",
+      "конвоиры",
+      "наемники",
+      "дружинники",
+      "чекисты"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'опричнина' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'опричнина', 'слуги', 'предсказание', 'подданные' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Система политического террора и репрессий.",
+  "response_details": "ChatCompletion(id='chatcmpl-9Qf4WEaGmc3CRvK6Ixo9QFbkfO02j', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Система политического террора и репрессий.', role='assistant', function_call=None, tool_calls=None))], created=1716141436, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=20, prompt_tokens=204, total_tokens=224))",
+  "initial_definition": "Система политического террора и репрессий",
+  "final_definition": "Злоупотребление полномочиями монархом.",
+  "formatted_definition": "Злоупотребление полномочиями монархом",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Злоупотребление полномочиями монархом.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Система",
+            "политического",
+            "террора",
+            "и",
+            "репрессий"
+          ],
+          "removed_tokens": [
+            "и"
+          ],
+          "final_tokens": [
+            "Система",
+            "политического",
+            "террора",
+            "репрессий"
+          ],
+          "lemmas": [
+            "система",
+            "политический",
+            "террор",
+            "репрессия"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "система",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "политический",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "террор",
+            "is_valid": true,
+            "reason": "Низкого класса (4)"
+          },
+          {
+            "lemma": "репрессия",
+            "is_valid": false,
+            "reason": "Высокого класса (6)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "репрессия"
+        ],
+        "correction_prompt": "Исправь толкование 'Система политического террора и репрессий' для слова 'опричнина' так, чтобы в нем не использовались слова 'опричнина', 'предсказание', 'слуги', 'подданные', 'репрессия' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Злоупотребление полномочиями монархом.",
+        "response_details": "ChatCompletion(id='chatcmpl-9Qf4X635zUBWiY95s5lPjg25l2ZiF', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Злоупотребление полномочиями монархом.', role='assistant', function_call=None, tool_calls=None))], created=1716141437, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=18, prompt_tokens=241, total_tokens=259))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Злоупотребление полномочиями монархом.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Злоупотребление",
+            "полномочиями",
+            "монархом"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Злоупотребление",
+            "полномочиями",
+            "монархом"
+          ],
+          "lemmas": [
+            "злоупотребление",
+            "полномочие",
+            "монарх"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "злоупотребление",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          },
+          {
+            "lemma": "полномочие",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "монарх",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 17-57-14",
+  "end_time": "2024.05.19 17-57-18"
+}

@@ -1,0 +1,362 @@
+{
+  "word": "волынянин",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "прохожий",
+    "пенсионер",
+    "путник"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'волынянин'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'волынянин'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'волынянин', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "житель, русский, человек, мужчина, сосед, дед, прохожий, пенсионер, путник, сельчанин, гражданин, земляк, инопланетянин, старожил, согражданин, сослуживец",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfRN9Ld5paXAfwUdfYL15mdTNOLx', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='житель, русский, человек, мужчина, сосед, дед, прохожий, пенсионер, путник, сельчанин, гражданин, земляк, инопланетянин, старожил, согражданин, сослуживец', role='assistant', function_call=None, tool_calls=None))], created=1716142853, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=88, prompt_tokens=208, total_tokens=296))",
+    "distractor_analysis": [
+      {
+        "distractor": "житель",
+        "lemma": "житель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (747)"
+      },
+      {
+        "distractor": "русский",
+        "lemma": "русский",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "человек",
+        "lemma": "человек",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (10201)"
+      },
+      {
+        "distractor": "мужчина",
+        "lemma": "мужчина",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (208)"
+      },
+      {
+        "distractor": "сосед",
+        "lemma": "сосед",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (273)"
+      },
+      {
+        "distractor": "дед",
+        "lemma": "дед",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (259)"
+      },
+      {
+        "distractor": "прохожий",
+        "lemma": "прохожий",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (31)"
+      },
+      {
+        "distractor": "пенсионер",
+        "lemma": "пенсионер",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (8)"
+      },
+      {
+        "distractor": "путник",
+        "lemma": "путник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (59)"
+      },
+      {
+        "distractor": "сельчанин",
+        "lemma": "сельчанин",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "гражданин",
+        "lemma": "гражданин",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (610)"
+      },
+      {
+        "distractor": "земляк",
+        "lemma": "земляк",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (17)"
+      },
+      {
+        "distractor": "инопланетянин",
+        "lemma": "инопланетянин",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (11)"
+      },
+      {
+        "distractor": "старожил",
+        "lemma": "старожил",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "согражданин",
+        "lemma": "согражданин",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (26)"
+      },
+      {
+        "distractor": "сослуживец",
+        "lemma": "сослуживец",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (11.1)"
+      }
+    ],
+    "valid_distractors": [
+      "прохожий",
+      "пенсионер",
+      "путник",
+      "земляк",
+      "инопланетянин",
+      "старожил",
+      "согражданин",
+      "сослуживец"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'волынянин' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'волынянин', 'прохожий', 'пенсионер', 'путник' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Житель города Вологды.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfRPx95kimNyzoGwddsDaXSSwDyQ', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Житель города Вологды.', role='assistant', function_call=None, tool_calls=None))], created=1716142855, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=12, prompt_tokens=208, total_tokens=220))",
+  "initial_definition": "Житель города Вологды",
+  "final_definition": "Человек, проживающий в старинном городе на северо-востоке России.",
+  "formatted_definition": "Человек, проживающий в старинном городе на северо-востоке России",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Человек, проживающий в городе Вологда.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Житель",
+            "города",
+            "Вологды"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Житель",
+            "города",
+            "Вологды"
+          ],
+          "lemmas": [
+            "житель",
+            "город",
+            "вологда"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "житель",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "город",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "вологда",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (1.88)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "вологда"
+        ],
+        "correction_prompt": "Исправь толкование 'Житель города Вологды' для слова 'волынянин' так, чтобы в нем не использовались слова 'волынянин', 'прохожий', 'вологда', 'путник', 'пенсионер' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Человек, проживающий в городе Вологда.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfRQEZjhstPUx6o5TLTjgayPc3qn', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Человек, проживающий в городе Вологда.', role='assistant', function_call=None, tool_calls=None))], created=1716142856, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=21, prompt_tokens=236, total_tokens=257))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Житель города Вологда.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек",
+            ",",
+            "проживающий",
+            "в",
+            "городе",
+            "Вологда"
+          ],
+          "removed_tokens": [
+            "в",
+            ","
+          ],
+          "final_tokens": [
+            "Человек",
+            "проживающий",
+            "городе",
+            "Вологда"
+          ],
+          "lemmas": [
+            "человек",
+            "проживать",
+            "город",
+            "вологда"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "проживать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "город",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "вологда",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (1.88)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "вологда"
+        ],
+        "correction_prompt": "Исправь толкование 'Человек, проживающий в городе Вологда.' для слова 'волынянин' так, чтобы в нем не использовались слова 'волынянин', 'прохожий', 'вологда', 'путник', 'пенсионер' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Житель города Вологда.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfRQIUnkOM5o75YvQNTYWqQZEwCs', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Житель города Вологда.', role='assistant', function_call=None, tool_calls=None))], created=1716142856, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=11, prompt_tokens=245, total_tokens=256))"
+      }
+    },
+    "3": {
+      "corrected_definition": "Человек, проживающий в старинном городе на северо-востоке России.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Житель",
+            "города",
+            "Вологда"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Житель",
+            "города",
+            "Вологда"
+          ],
+          "lemmas": [
+            "житель",
+            "город",
+            "вологда"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "житель",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "город",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "вологда",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (1.88)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "вологда"
+        ],
+        "correction_prompt": "Исправь толкование 'Житель города Вологда.' для слова 'волынянин' так, чтобы в нем не использовались слова 'волынянин', 'прохожий', 'вологда', 'путник', 'пенсионер' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Человек, проживающий в старинном городе на северо-востоке России.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfRRiUtOg5L7jk3iFXfvHvOBUVeI', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Человек, проживающий в старинном городе на северо-востоке России.', role='assistant', function_call=None, tool_calls=None))], created=1716142857, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=35, prompt_tokens=235, total_tokens=270))"
+      }
+    },
+    "4": {
+      "corrected_definition": "Человек, проживающий в старинном городе на северо-востоке России.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек",
+            ",",
+            "проживающий",
+            "в",
+            "старинном",
+            "городе",
+            "на",
+            "северо-востоке",
+            "России"
+          ],
+          "removed_tokens": [
+            "в",
+            ",",
+            "на"
+          ],
+          "final_tokens": [
+            "Человек",
+            "проживающий",
+            "старинном",
+            "городе",
+            "северо-востоке",
+            "России"
+          ],
+          "lemmas": [
+            "человек",
+            "проживать",
+            "старинный",
+            "город",
+            "северо-восток",
+            "россия"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "проживать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "старинный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "город",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "северо-восток",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          },
+          {
+            "lemma": "россия",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-20-52",
+  "end_time": "2024.05.19 18-20-58"
+}

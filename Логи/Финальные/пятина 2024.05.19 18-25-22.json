@@ -1,0 +1,174 @@
+{
+  "word": "пятина",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "четверть",
+    "треть",
+    "тысячная"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'пятина'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'пятина'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'пятина', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Четверть, доля, часть, кусочек, треть, пятая, девятая, шестая, сотая, тысячная, четверть, долейка, оклад, квартал, боронка",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfVi4uz5TxTw2O3aw4Muyzw8GBGC', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Четверть, доля, часть, кусочек, треть, пятая, девятая, шестая, сотая, тысячная, четверть, долейка, оклад, квартал, боронка', role='assistant', function_call=None, tool_calls=None))], created=1716143122, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=66, prompt_tokens=202, total_tokens=268))",
+    "distractor_analysis": [
+      {
+        "distractor": "четверть",
+        "lemma": "четверть",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (127)"
+      },
+      {
+        "distractor": "доля",
+        "lemma": "доля",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (344)"
+      },
+      {
+        "distractor": "часть",
+        "lemma": "часть",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (7295)"
+      },
+      {
+        "distractor": "кусочек",
+        "lemma": "кусочек",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (210)"
+      },
+      {
+        "distractor": "треть",
+        "lemma": "треть",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (132)"
+      },
+      {
+        "distractor": "пятая",
+        "lemma": "пятый",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "девятая",
+        "lemma": "девятый",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "шестая",
+        "lemma": "шестой",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "сотая",
+        "lemma": "сотый",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "тысячная",
+        "lemma": "тысячная",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (7)"
+      },
+      {
+        "distractor": "долейка",
+        "lemma": "долейка",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "оклад",
+        "lemma": "оклад",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "квартал",
+        "lemma": "квартал",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (63)"
+      },
+      {
+        "distractor": "боронка",
+        "lemma": "боронка",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      }
+    ],
+    "valid_distractors": [
+      "четверть",
+      "треть",
+      "тысячная",
+      "квартал"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'пятина' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'пятина', 'четверть', 'треть', 'тысячная' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Одна из пяти равных частей целого.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfVjp5vwk7c9fJ46er8Y6zIPQ4Jg', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Одна из пяти равных частей целого.', role='assistant', function_call=None, tool_calls=None))], created=1716143123, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=17, prompt_tokens=200, total_tokens=217))",
+  "initial_definition": "Одна из пяти равных частей целого",
+  "final_definition": "Одна из пяти равных частей целого",
+  "formatted_definition": "Одна из пяти равных частей целого",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Одна из пяти равных частей целого",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Одна",
+            "из",
+            "пяти",
+            "равных",
+            "частей",
+            "целого"
+          ],
+          "removed_tokens": [
+            "из",
+            "пяти"
+          ],
+          "final_tokens": [
+            "Одна",
+            "равных",
+            "частей",
+            "целого"
+          ],
+          "lemmas": [
+            "один",
+            "равный",
+            "часть",
+            "целое"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "один",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (33.34)"
+          },
+          {
+            "lemma": "равный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "часть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "целое",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-25-22",
+  "end_time": "2024.05.19 18-25-24"
+}

@@ -1,0 +1,191 @@
+{
+  "word": "страноведение",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "география",
+    "антропология",
+    "фольклор"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'страноведение'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'страноведение'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'страноведение', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "культура, география, этнография, антропология, обычаи, государство, история, язык, политика, религия, экономика, фольклор, традиции, наука, университет, глобализация",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfXnOKGAHyHtQsTOITOLTZgEwATd', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='культура, география, этнография, антропология, обычаи, государство, история, язык, политика, религия, экономика, фольклор, традиции, наука, университет, глобализация', role='assistant', function_call=None, tool_calls=None))], created=1716143251, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=93, prompt_tokens=205, total_tokens=298))",
+    "distractor_analysis": [
+      {
+        "distractor": "культура",
+        "lemma": "культура",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (729)"
+      },
+      {
+        "distractor": "география",
+        "lemma": "география",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (189)"
+      },
+      {
+        "distractor": "этнография",
+        "lemma": "этнография",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "антропология",
+        "lemma": "антропология",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "обычаи",
+        "lemma": "обычай",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (217)"
+      },
+      {
+        "distractor": "государство",
+        "lemma": "государство",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1307)"
+      },
+      {
+        "distractor": "история",
+        "lemma": "история",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1412)"
+      },
+      {
+        "distractor": "язык",
+        "lemma": "язык",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2852)"
+      },
+      {
+        "distractor": "политика",
+        "lemma": "политика",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (66.23)"
+      },
+      {
+        "distractor": "религия",
+        "lemma": "религия",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (225)"
+      },
+      {
+        "distractor": "экономика",
+        "lemma": "экономика",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (62.63)"
+      },
+      {
+        "distractor": "фольклор",
+        "lemma": "фольклор",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (97)"
+      },
+      {
+        "distractor": "традиции",
+        "lemma": "традиция",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (242)"
+      },
+      {
+        "distractor": "наука",
+        "lemma": "наука",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (911)"
+      },
+      {
+        "distractor": "университет",
+        "lemma": "университет",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (67.72)"
+      },
+      {
+        "distractor": "глобализация",
+        "lemma": "глобализация",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      }
+    ],
+    "valid_distractors": [
+      "география",
+      "антропология",
+      "фольклор"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'страноведение' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'страноведение', 'география', 'антропология', 'фольклор' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Изучение культуры и обычаев других народов.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfXpvEpNzbiw8Wuwc8Vid2KFB07b', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Изучение культуры и обычаев других народов.', role='assistant', function_call=None, tool_calls=None))], created=1716143253, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=21, prompt_tokens=209, total_tokens=230))",
+  "initial_definition": "Изучение культуры и обычаев других народов",
+  "final_definition": "Изучение культуры и обычаев других народов",
+  "formatted_definition": "Изучение культуры и обычаев других народов",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Изучение культуры и обычаев других народов",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Изучение",
+            "культуры",
+            "и",
+            "обычаев",
+            "других",
+            "народов"
+          ],
+          "removed_tokens": [
+            "и"
+          ],
+          "final_tokens": [
+            "Изучение",
+            "культуры",
+            "обычаев",
+            "других",
+            "народов"
+          ],
+          "lemmas": [
+            "изучение",
+            "культура",
+            "обычай",
+            "другой",
+            "народ"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "изучение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "культура",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "обычай",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "другой",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (1577.31)"
+          },
+          {
+            "lemma": "народ",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-27-31",
+  "end_time": "2024.05.19 18-27-34"
+}

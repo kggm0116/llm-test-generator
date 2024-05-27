@@ -1,0 +1,189 @@
+{
+  "word": "темник",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "лопата",
+    "коса",
+    "грабли"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'темник'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'темник'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'темник', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "мотыга, сеялка, лейка, лопата, коса, кирка, грабли, секатор, сучкорез, плуг, сапог, ведро, тяпка, рогатка, молоток, долото",
+    "response_details": "ChatCompletion(id='chatcmpl-9Qf4Jb3uvyjHCBsBANSsFKLKoN5KE', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='мотыга, сеялка, лейка, лопата, коса, кирка, грабли, секатор, сучкорез, плуг, сапог, ведро, тяпка, рогатка, молоток, долото', role='assistant', function_call=None, tool_calls=None))], created=1716141423, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=74, prompt_tokens=199, total_tokens=273))",
+    "distractor_analysis": [
+      {
+        "distractor": "мотыга",
+        "lemma": "мотыга",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.64)"
+      },
+      {
+        "distractor": "сеялка",
+        "lemma": "сеялка",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.07)"
+      },
+      {
+        "distractor": "лейка",
+        "lemma": "лейка",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.53)"
+      },
+      {
+        "distractor": "лопата",
+        "lemma": "лопата",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (66)"
+      },
+      {
+        "distractor": "коса",
+        "lemma": "коса",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (75)"
+      },
+      {
+        "distractor": "кирка",
+        "lemma": "кирка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "грабли",
+        "lemma": "грабли",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (15)"
+      },
+      {
+        "distractor": "секатор",
+        "lemma": "секатор",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "сучкорез",
+        "lemma": "сучкорез",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "плуг",
+        "lemma": "плуг",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (88)"
+      },
+      {
+        "distractor": "сапог",
+        "lemma": "сапог",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (134.14)"
+      },
+      {
+        "distractor": "ведро",
+        "lemma": "ведро",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (213)"
+      },
+      {
+        "distractor": "тяпка",
+        "lemma": "тяпка",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "рогатка",
+        "lemma": "рогатка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "молоток",
+        "lemma": "молоток",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (94)"
+      },
+      {
+        "distractor": "долото",
+        "lemma": "долото",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      }
+    ],
+    "valid_distractors": [
+      "лопата",
+      "коса",
+      "грабли",
+      "плуг",
+      "молоток"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'темник' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'темник', 'лопата', 'коса', 'грабли' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Инструмент для работы в саду или огороде.",
+  "response_details": "ChatCompletion(id='chatcmpl-9Qf4LmQUpLd8FP7wltis5fO1LPCof', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Инструмент для работы в саду или огороде.', role='assistant', function_call=None, tool_calls=None))], created=1716141425, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=18, prompt_tokens=197, total_tokens=215))",
+  "initial_definition": "Инструмент для работы в саду или огороде",
+  "final_definition": "Инструмент для работы в саду или огороде",
+  "formatted_definition": "Инструмент для работы в саду или огороде",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Инструмент для работы в саду или огороде",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Инструмент",
+            "для",
+            "работы",
+            "в",
+            "саду",
+            "или",
+            "огороде"
+          ],
+          "removed_tokens": [
+            "или",
+            "в",
+            "для"
+          ],
+          "final_tokens": [
+            "Инструмент",
+            "работы",
+            "саду",
+            "огороде"
+          ],
+          "lemmas": [
+            "инструмент",
+            "работа",
+            "сад",
+            "огород"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "инструмент",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "работа",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "сад",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "огород",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 17-57-03",
+  "end_time": "2024.05.19 17-57-05"
+}

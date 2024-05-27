@@ -1,0 +1,195 @@
+{
+  "word": "идеология",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "доктрина",
+    "концепция",
+    "утопия"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'идеология'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'идеология'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'идеология', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Вера, доктрина, учение, концепция, концепт, утопия, принцип, догма, кредо, верование, узус, конфессия, кредо, христианство, политика, убеждение",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfdR6pcKWcMkz0aa86fs5YzO5ScG', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Вера, доктрина, учение, концепция, концепт, утопия, принцип, догма, кредо, верование, узус, конфессия, кредо, христианство, политика, убеждение', role='assistant', function_call=None, tool_calls=None))], created=1716143601, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=74, prompt_tokens=205, total_tokens=279))",
+    "distractor_analysis": [
+      {
+        "distractor": "Вера",
+        "lemma": "вера",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (314)"
+      },
+      {
+        "distractor": "доктрина",
+        "lemma": "доктрина",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (4.67)"
+      },
+      {
+        "distractor": "учение",
+        "lemma": "учение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (260)"
+      },
+      {
+        "distractor": "концепция",
+        "lemma": "концепция",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (19.68)"
+      },
+      {
+        "distractor": "концепт",
+        "lemma": "концепт",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "утопия",
+        "lemma": "утопия",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (3.56)"
+      },
+      {
+        "distractor": "принцип",
+        "lemma": "принцип",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (90.19)"
+      },
+      {
+        "distractor": "догма",
+        "lemma": "догма",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (3.02)"
+      },
+      {
+        "distractor": "кредо",
+        "lemma": "кредо",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.95)"
+      },
+      {
+        "distractor": "верование",
+        "lemma": "верование",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (93)"
+      },
+      {
+        "distractor": "узус",
+        "lemma": "узус",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "конфессия",
+        "lemma": "конфессия",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "христианство",
+        "lemma": "христианство",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (132)"
+      },
+      {
+        "distractor": "политика",
+        "lemma": "политика",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (66.23)"
+      },
+      {
+        "distractor": "убеждение",
+        "lemma": "убеждение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (21)"
+      }
+    ],
+    "valid_distractors": [
+      "доктрина",
+      "концепция",
+      "утопия",
+      "догма",
+      "верование",
+      "христианство",
+      "убеждение"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'идеология' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'идеология', 'доктрина', 'концепция', 'утопия' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Система убеждений о том, как нужно управлять обществом.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfdS5DfIpUcIU3ffo0XPcodRgnOs', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Система убеждений о том, как нужно управлять обществом.', role='assistant', function_call=None, tool_calls=None))], created=1716143602, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=24, prompt_tokens=204, total_tokens=228))",
+  "initial_definition": "Система убеждений о том, как нужно управлять обществом",
+  "final_definition": "Система убеждений о том, как нужно управлять обществом",
+  "formatted_definition": "Система убеждений о том, как нужно управлять обществом",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Система убеждений о том, как нужно управлять обществом",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Система",
+            "убеждений",
+            "о",
+            "том",
+            ",",
+            "как",
+            "нужно",
+            "управлять",
+            "обществом"
+          ],
+          "removed_tokens": [
+            "том",
+            "как",
+            ",",
+            "о"
+          ],
+          "final_tokens": [
+            "Система",
+            "убеждений",
+            "нужно",
+            "управлять",
+            "обществом"
+          ],
+          "lemmas": [
+            "система",
+            "убеждение",
+            "нужно",
+            "управлять",
+            "общество"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "система",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "убеждение",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "нужно",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          },
+          {
+            "lemma": "управлять",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "общество",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-33-20",
+  "end_time": "2024.05.19 18-33-23"
+}

@@ -1,0 +1,448 @@
+{
+  "word": "тиверец",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "иволга",
+    "орел",
+    "сокол"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'тиверец'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'тиверец'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'тиверец', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "сорока, иволга, орел, сокол, фазан, цапля, чайка, голубь, жаворонок, попугай, фламинго, ворон, аист, альбатрос, гусь, утка",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfgctKGNGeKwMtIzCyubg87X6vcU', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='сорока, иволга, орел, сокол, фазан, цапля, чайка, голубь, жаворонок, попугай, фламинго, ворон, аист, альбатрос, гусь, утка', role='assistant', function_call=None, tool_calls=None))], created=1716143798, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=72, prompt_tokens=202, total_tokens=274))",
+    "distractor_analysis": [
+      {
+        "distractor": "сорока",
+        "lemma": "сорок",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (NUMR)"
+      },
+      {
+        "distractor": "иволга",
+        "lemma": "иволга",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (22)"
+      },
+      {
+        "distractor": "орел",
+        "lemma": "орёл",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (180)"
+      },
+      {
+        "distractor": "сокол",
+        "lemma": "сокол",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (45)"
+      },
+      {
+        "distractor": "фазан",
+        "lemma": "фазан",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.99)"
+      },
+      {
+        "distractor": "цапля",
+        "lemma": "цапля",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.34)"
+      },
+      {
+        "distractor": "чайка",
+        "lemma": "чайка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (38)"
+      },
+      {
+        "distractor": "голубь",
+        "lemma": "голубь",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (104)"
+      },
+      {
+        "distractor": "жаворонок",
+        "lemma": "жаворонок",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (75)"
+      },
+      {
+        "distractor": "попугай",
+        "lemma": "попугай",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (107)"
+      },
+      {
+        "distractor": "фламинго",
+        "lemma": "фламинго",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (12)"
+      },
+      {
+        "distractor": "ворон",
+        "lemma": "ворон",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (105)"
+      },
+      {
+        "distractor": "аист",
+        "lemma": "аист",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.56)"
+      },
+      {
+        "distractor": "альбатрос",
+        "lemma": "альбатрос",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.99)"
+      },
+      {
+        "distractor": "гусь",
+        "lemma": "гусь",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (207)"
+      },
+      {
+        "distractor": "утка",
+        "lemma": "утка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (187)"
+      }
+    ],
+    "valid_distractors": [
+      "иволга",
+      "орел",
+      "сокол",
+      "чайка",
+      "голубь",
+      "жаворонок",
+      "попугай",
+      "фламинго",
+      "ворон",
+      "утка"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'тиверец' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'тиверец', 'иволга', 'орел', 'сокол' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "птица хищная, семейства ястребиных, крупная",
+  "response_details": "ChatCompletion(id='chatcmpl-9Qfge5mp32Urw08jEzEa52AB9ihTA', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='птица хищная, семейства ястребиных, крупная', role='assistant', function_call=None, tool_calls=None))], created=1716143800, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=22, prompt_tokens=198, total_tokens=220))",
+  "initial_definition": "птица хищная, семейства ястребиных, крупная",
+  "final_definition": "Птица семейства Accipitridae большого размера, питается мелкими животными.",
+  "formatted_definition": "Птица семейства Accipitridae большого размера, питается мелкими животными",
+  "success": false,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Птица хищная, относящаяся к семейству ястребиных, крупная.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "птица",
+            "хищная",
+            ",",
+            "семейства",
+            "ястребиных",
+            ",",
+            "крупная"
+          ],
+          "removed_tokens": [
+            ","
+          ],
+          "final_tokens": [
+            "птица",
+            "хищная",
+            "семейства",
+            "ястребиных",
+            "крупная"
+          ],
+          "lemmas": [
+            "птица",
+            "хищный",
+            "семейство",
+            "ястребиный",
+            "крупный"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "птица",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "хищный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "семейство",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "ястребиный",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          },
+          {
+            "lemma": "крупный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "ястребиный"
+        ],
+        "correction_prompt": "Исправь толкование 'птица хищная, семейства ястребиных, крупная' для слова 'тиверец' так, чтобы в нем не использовались слова 'тиверец', 'иволга', 'орел', 'сокол', 'ястребиный' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Птица хищная, относящаяся к семейству ястребиных, крупная.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfgfXWacvZI3Aue7XfClQOa12d8J', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Птица хищная, относящаяся к семейству ястребиных, крупная.', role='assistant', function_call=None, tool_calls=None))], created=1716143801, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=30, prompt_tokens=238, total_tokens=268))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Птица хищная, отличающаяся крупным размером и принадлежащая к семейству Accipitridae.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Птица",
+            "хищная",
+            ",",
+            "относящаяся",
+            "к",
+            "семейству",
+            "ястребиных",
+            ",",
+            "крупная"
+          ],
+          "removed_tokens": [
+            ",",
+            "к"
+          ],
+          "final_tokens": [
+            "Птица",
+            "хищная",
+            "относящаяся",
+            "семейству",
+            "ястребиных",
+            "крупная"
+          ],
+          "lemmas": [
+            "птица",
+            "хищный",
+            "относиться",
+            "семейство",
+            "ястребиный",
+            "крупный"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "птица",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "хищный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "относиться",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "семейство",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "ястребиный",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          },
+          {
+            "lemma": "крупный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "ястребиный"
+        ],
+        "correction_prompt": "Исправь толкование 'Птица хищная, относящаяся к семейству ястребиных, крупная.' для слова 'тиверец' так, чтобы в нем не использовались слова 'тиверец', 'иволга', 'орел', 'сокол', 'ястребиный' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Птица хищная, отличающаяся крупным размером и принадлежащая к семейству Accipitridae.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfggBzYdLLIAlqktt8utyTviia9N', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Птица хищная, отличающаяся крупным размером и принадлежащая к семейству Accipitridae.', role='assistant', function_call=None, tool_calls=None))], created=1716143802, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=41, prompt_tokens=245, total_tokens=286))"
+      }
+    },
+    "3": {
+      "corrected_definition": "Птица хищная большого размера из семейства Accipitridae.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Птица",
+            "хищная",
+            ",",
+            "отличающаяся",
+            "крупным",
+            "размером",
+            "и",
+            "принадлежащая",
+            "к",
+            "семейству",
+            "Accipitridae"
+          ],
+          "removed_tokens": [
+            "и",
+            ",",
+            "к"
+          ],
+          "final_tokens": [
+            "Птица",
+            "хищная",
+            "отличающаяся",
+            "крупным",
+            "размером",
+            "принадлежащая",
+            "семейству",
+            "Accipitridae"
+          ],
+          "lemmas": [
+            "птица",
+            "хищный",
+            "отличаться",
+            "крупный",
+            "размер",
+            "принадлежащий",
+            "семейство",
+            "accipitridae"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "птица",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "хищный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "отличаться",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "крупный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "размер",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "принадлежащий",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "семейство",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "accipitridae",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "accipitridae"
+        ],
+        "correction_prompt": "Исправь толкование 'Птица хищная, отличающаяся крупным размером и принадлежащая к семейству Accipitridae.' для слова 'тиверец' так, чтобы в нем не использовались слова 'тиверец', 'орел', 'ястребиный', 'accipitridae', 'иволга', 'сокол' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Птица хищная большого размера из семейства Accipitridae.",
+        "response_details": "ChatCompletion(id='chatcmpl-9Qfghylwr8WS6JGlekdbNkrO5IIq9', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Птица хищная большого размера из семейства Accipitridae.', role='assistant', function_call=None, tool_calls=None))], created=1716143803, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=23, prompt_tokens=263, total_tokens=286))"
+      }
+    },
+    "4": {
+      "corrected_definition": "Птица семейства Accipitridae большого размера, питается мелкими животными.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Птица",
+            "хищная",
+            "большого",
+            "размера",
+            "из",
+            "семейства",
+            "Accipitridae"
+          ],
+          "removed_tokens": [
+            "из"
+          ],
+          "final_tokens": [
+            "Птица",
+            "хищная",
+            "большого",
+            "размера",
+            "семейства",
+            "Accipitridae"
+          ],
+          "lemmas": [
+            "птица",
+            "хищный",
+            "большой",
+            "размер",
+            "семейство",
+            "accipitridae"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "птица",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "хищный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "большой",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "размер",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "семейство",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "accipitridae",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "accipitridae"
+        ],
+        "correction_prompt": "Исправь толкование 'Птица хищная большого размера из семейства Accipitridae.' для слова 'тиверец' так, чтобы в нем не использовались слова 'тиверец', 'орел', 'ястребиный', 'accipitridae', 'иволга', 'сокол' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Птица семейства Accipitridae большого размера, питается мелкими животными.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfgidvkTQYWU1vJj6nU7DYfnjx9l', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Птица семейства Accipitridae большого размера, питается мелкими животными.', role='assistant', function_call=None, tool_calls=None))], created=1716143804, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=32, prompt_tokens=245, total_tokens=277))"
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-36-38",
+  "end_time": "2024.05.19 18-36-45"
+}

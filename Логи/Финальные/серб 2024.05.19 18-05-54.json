@@ -1,0 +1,184 @@
+{
+  "word": "серб",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "славяне",
+    "македонец",
+    "поляк"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'серб'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'серб'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'серб', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "славяне, болгарин, полабие, древенемец, сёрв, югослав, сербия, скандинав, восточнославянин, западнославянин, русин, македонец, сербохорват, словенец, поляк, швед",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfCsTSF6306WdWTzGRsjAfvlJw4j', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='славяне, болгарин, полабие, древенемец, сёрв, югослав, сербия, скандинав, восточнославянин, западнославянин, русин, македонец, сербохорват, словенец, поляк, швед', role='assistant', function_call=None, tool_calls=None))], created=1716141954, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=91, prompt_tokens=199, total_tokens=290))",
+    "distractor_analysis": [
+      {
+        "distractor": "славяне",
+        "lemma": "славянин",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (145)"
+      },
+      {
+        "distractor": "болгарин",
+        "lemma": "болгарин",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "полабие",
+        "lemma": "полабие",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "древенемец",
+        "lemma": "древенемец",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "сёрв",
+        "lemma": "серв",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "югослав",
+        "lemma": "югослав",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.15)"
+      },
+      {
+        "distractor": "сербия",
+        "lemma": "сербия",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.72)"
+      },
+      {
+        "distractor": "скандинав",
+        "lemma": "скандинав",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "восточнославянин",
+        "lemma": "восточнославянин",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "западнославянин",
+        "lemma": "западнославянин",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "русин",
+        "lemma": "русин",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "македонец",
+        "lemma": "македонец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (12)"
+      },
+      {
+        "distractor": "сербохорват",
+        "lemma": "сербохорват",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "словенец",
+        "lemma": "словенец",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "поляк",
+        "lemma": "поляк",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (21)"
+      },
+      {
+        "distractor": "швед",
+        "lemma": "швед",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (27)"
+      }
+    ],
+    "valid_distractors": [
+      "славяне",
+      "македонец",
+      "поляк",
+      "швед"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'серб' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'серб', 'славяне', 'македонец', 'поляк' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Представитель народа из Юго-Восточной Европы.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfCuhFOJu74xcTucM0Y7lUAQLtpp', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='\\nПредставитель народа из Юго-Восточной Европы.', role='assistant', function_call=None, tool_calls=None))], created=1716141956, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=23, prompt_tokens=200, total_tokens=223))",
+  "initial_definition": "Представитель народа из Юго-Восточной Европы",
+  "final_definition": "Представитель народа из Юго-Восточной Европы",
+  "formatted_definition": "Представитель народа из Юго-Восточной Европы",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Представитель народа из Юго-Восточной Европы",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Представитель",
+            "народа",
+            "из",
+            "Юго-Восточной",
+            "Европы"
+          ],
+          "removed_tokens": [
+            "из"
+          ],
+          "final_tokens": [
+            "Представитель",
+            "народа",
+            "Юго-Восточной",
+            "Европы"
+          ],
+          "lemmas": [
+            "представитель",
+            "народ",
+            "юго-восточный",
+            "европа"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "представитель",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "народ",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "юго-восточный",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          },
+          {
+            "lemma": "европа",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-05-54",
+  "end_time": "2024.05.19 18-05-57"
+}

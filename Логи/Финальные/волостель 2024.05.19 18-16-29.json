@@ -1,0 +1,287 @@
+{
+  "word": "волостель",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "шубка",
+    "пух",
+    "шерсть"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'волостель'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'волостель'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'волостель', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "шубка, пух, шерсть, мех, хвост, клык, перо, коготь, пастушок, тень, копыто, лапа, бивень, клюв, профилактика, дранка",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfN7vzjypvg9aX0HaWoGFXHlcitp', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='шубка, пух, шерсть, мех, хвост, клык, перо, коготь, пастушок, тень, копыто, лапа, бивень, клюв, профилактика, дранка', role='assistant', function_call=None, tool_calls=None))], created=1716142589, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=67, prompt_tokens=202, total_tokens=269))",
+    "distractor_analysis": [
+      {
+        "distractor": "шубка",
+        "lemma": "шубка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (33)"
+      },
+      {
+        "distractor": "пух",
+        "lemma": "пух",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (125)"
+      },
+      {
+        "distractor": "шерсть",
+        "lemma": "шерсть",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (195)"
+      },
+      {
+        "distractor": "мех",
+        "lemma": "мех",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (81)"
+      },
+      {
+        "distractor": "хвост",
+        "lemma": "хвост",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (347)"
+      },
+      {
+        "distractor": "клык",
+        "lemma": "клык",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (47)"
+      },
+      {
+        "distractor": "перо",
+        "lemma": "перо",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (266)"
+      },
+      {
+        "distractor": "коготь",
+        "lemma": "коготь",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (54)"
+      },
+      {
+        "distractor": "пастушок",
+        "lemma": "пастушок",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (13)"
+      },
+      {
+        "distractor": "тень",
+        "lemma": "тень",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (271)"
+      },
+      {
+        "distractor": "копыто",
+        "lemma": "копыто",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (42)"
+      },
+      {
+        "distractor": "лапа",
+        "lemma": "лапа",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (66.88)"
+      },
+      {
+        "distractor": "бивень",
+        "lemma": "бивень",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.45)"
+      },
+      {
+        "distractor": "клюв",
+        "lemma": "клюв",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (125)"
+      },
+      {
+        "distractor": "профилактика",
+        "lemma": "профилактика",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "дранка",
+        "lemma": "дранка",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      }
+    ],
+    "valid_distractors": [
+      "шубка",
+      "пух",
+      "шерсть",
+      "мех",
+      "клык",
+      "коготь",
+      "пастушок",
+      "копыто",
+      "клюв"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'волостель' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'волостель', 'шубка', 'пух', 'шерсть' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "мелкое меховое животное, небольшая лесная зверушка.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfN9KyXqOIbGMAXauW8nzYUX55dE', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='мелкое меховое животное, небольшая лесная зверушка.', role='assistant', function_call=None, tool_calls=None))], created=1716142591, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=27, prompt_tokens=198, total_tokens=225))",
+  "initial_definition": "мелкое меховое животное, небольшая лесная зверушка",
+  "final_definition": "Маленькое животное с мехом на себе, которое обитает в лесу.",
+  "formatted_definition": "Маленькое животное с мехом на себе, которое обитает в лесу",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Маленькое животное с мехом на себе, которое обитает в лесу.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "мелкое",
+            "меховое",
+            "животное",
+            ",",
+            "небольшая",
+            "лесная",
+            "зверушка"
+          ],
+          "removed_tokens": [
+            ","
+          ],
+          "final_tokens": [
+            "мелкое",
+            "меховое",
+            "животное",
+            "небольшая",
+            "лесная",
+            "зверушка"
+          ],
+          "lemmas": [
+            "мелкий",
+            "меховой",
+            "животное",
+            "небольшой",
+            "лесной",
+            "зверушка"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "мелкий",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "меховой",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "животное",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "небольшой",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "лесной",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "зверушка",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (1.8)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "зверушка"
+        ],
+        "correction_prompt": "Исправь толкование 'мелкое меховое животное, небольшая лесная зверушка' для слова 'волостель' так, чтобы в нем не использовались слова 'волостель', 'шерсть', 'зверушка', 'пух', 'шубка' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Маленькое животное с мехом на себе, которое обитает в лесу.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfNAA00JdpuBbvUkT4soTw4t6QKG', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Маленькое животное с мехом на себе, которое обитает в лесу.', role='assistant', function_call=None, tool_calls=None))], created=1716142592, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=28, prompt_tokens=242, total_tokens=270))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Маленькое животное с мехом на себе, которое обитает в лесу.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Маленькое",
+            "животное",
+            "с",
+            "мехом",
+            "на",
+            "себе",
+            ",",
+            "которое",
+            "обитает",
+            "в",
+            "лесу"
+          ],
+          "removed_tokens": [
+            "на",
+            "в",
+            ",",
+            "с",
+            "себе"
+          ],
+          "final_tokens": [
+            "Маленькое",
+            "животное",
+            "мехом",
+            "которое",
+            "обитает",
+            "лесу"
+          ],
+          "lemmas": [
+            "маленький",
+            "животное",
+            "мех",
+            "который",
+            "обитать",
+            "лес"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "маленький",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "животное",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "мех",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "который",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (3361.51)"
+          },
+          {
+            "lemma": "обитать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "лес",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-16-29",
+  "end_time": "2024.05.19 18-16-32"
+}

@@ -1,0 +1,187 @@
+{
+  "word": "вотчинник",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "дворянин",
+    "помещик",
+    "боярин"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'вотчинник'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'вотчинник'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'вотчинник', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "дворянин, крестьянин, феодал, арендатор, помещик, армеец, ратник, боярин, земледелец, паша, схоластик, мужара, купец, губернатор, дачник, фермер",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfAJirEZAekQmcz5CsTA47jXJOxy', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='дворянин, крестьянин, феодал, арендатор, помещик, армеец, ратник, боярин, земледелец, паша, схоластик, мужара, купец, губернатор, дачник, фермер', role='assistant', function_call=None, tool_calls=None))], created=1716141795, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=85, prompt_tokens=205, total_tokens=290))",
+    "distractor_analysis": [
+      {
+        "distractor": "дворянин",
+        "lemma": "дворянин",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (69)"
+      },
+      {
+        "distractor": "крестьянин",
+        "lemma": "крестьянин",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (347)"
+      },
+      {
+        "distractor": "феодал",
+        "lemma": "феодал",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "арендатор",
+        "lemma": "арендатор",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "помещик",
+        "lemma": "помещик",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (27)"
+      },
+      {
+        "distractor": "армеец",
+        "lemma": "армеец",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.76)"
+      },
+      {
+        "distractor": "ратник",
+        "lemma": "ратник",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.03)"
+      },
+      {
+        "distractor": "боярин",
+        "lemma": "боярин",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (58)"
+      },
+      {
+        "distractor": "земледелец",
+        "lemma": "земледелец",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (204)"
+      },
+      {
+        "distractor": "паша",
+        "lemma": "паша",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "схоластик",
+        "lemma": "схоластик",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "мужара",
+        "lemma": "мужара",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "купец",
+        "lemma": "купец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (147)"
+      },
+      {
+        "distractor": "губернатор",
+        "lemma": "губернатор",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "дачник",
+        "lemma": "дачник",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "фермер",
+        "lemma": "фермер",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (69)"
+      }
+    ],
+    "valid_distractors": [
+      "дворянин",
+      "помещик",
+      "боярин",
+      "купец",
+      "фермер"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'вотчинник' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'вотчинник', 'дворянин', 'помещик', 'боярин' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Человек, владеющий поместьем или землей.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfALnlHMv3T9ZeWKvVYVgcoKhvy0', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Человек, владеющий поместьем или землей.', role='assistant', function_call=None, tool_calls=None))], created=1716141797, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=20, prompt_tokens=205, total_tokens=225))",
+  "initial_definition": "Человек, владеющий поместьем или землей",
+  "final_definition": "Человек, владеющий поместьем или землей",
+  "formatted_definition": "Человек, владеющий поместьем или землей",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Человек, владеющий поместьем или землей",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек",
+            ",",
+            "владеющий",
+            "поместьем",
+            "или",
+            "землей"
+          ],
+          "removed_tokens": [
+            "или",
+            ","
+          ],
+          "final_tokens": [
+            "Человек",
+            "владеющий",
+            "поместьем",
+            "землей"
+          ],
+          "lemmas": [
+            "человек",
+            "владеть",
+            "поместье",
+            "земля"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "владеть",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "поместье",
+            "is_valid": true,
+            "reason": "Низкого класса (4)"
+          },
+          {
+            "lemma": "земля",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-03-15",
+  "end_time": "2024.05.19 18-03-18"
+}

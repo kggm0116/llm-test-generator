@@ -1,0 +1,175 @@
+{
+  "word": "пастернак",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "витамины",
+    "салат"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'пастернак'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'пастернак'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'пастернак', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "овощ, корень, плод, лист, семя, растение, клубень, цветок, сочный, ароматный, витамины, готовить, салат, огород, укроп, морковь",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfRxj5URpGb7PdPF6itpejsZqF5Z', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='овощ, корень, плод, лист, семя, растение, клубень, цветок, сочный, ароматный, витамины, готовить, салат, огород, укроп, морковь', role='assistant', function_call=None, tool_calls=None))], created=1716142889, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=67, prompt_tokens=205, total_tokens=272))",
+    "distractor_analysis": [
+      {
+        "distractor": "овощ",
+        "lemma": "овощ",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (249)"
+      },
+      {
+        "distractor": "корень",
+        "lemma": "корень",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2047)"
+      },
+      {
+        "distractor": "плод",
+        "lemma": "плод",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (443)"
+      },
+      {
+        "distractor": "лист",
+        "lemma": "лист",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1995)"
+      },
+      {
+        "distractor": "семя",
+        "lemma": "семя",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (655)"
+      },
+      {
+        "distractor": "растение",
+        "lemma": "растение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4254)"
+      },
+      {
+        "distractor": "клубень",
+        "lemma": "клубень",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.84)"
+      },
+      {
+        "distractor": "цветок",
+        "lemma": "цветок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (911)"
+      },
+      {
+        "distractor": "сочный",
+        "lemma": "сочный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "ароматный",
+        "lemma": "ароматный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "витамины",
+        "lemma": "витамин",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (52)"
+      },
+      {
+        "distractor": "готовить",
+        "lemma": "готовить",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (72.12)"
+      },
+      {
+        "distractor": "салат",
+        "lemma": "салат",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (55)"
+      },
+      {
+        "distractor": "огород",
+        "lemma": "огород",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (249)"
+      },
+      {
+        "distractor": "укроп",
+        "lemma": "укроп",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.37)"
+      },
+      {
+        "distractor": "морковь",
+        "lemma": "морковь",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (206)"
+      }
+    ],
+    "valid_distractors": [
+      "витамины",
+      "салат"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'пастернак' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'пастернак', 'витамины', 'салат' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Корнеплод, используемый в пищу.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfRzbVtLOrXBOwoLOD4VFwzqhUK5', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Корнеплод, используемый в пищу.', role='assistant', function_call=None, tool_calls=None))], created=1716142891, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=17, prompt_tokens=196, total_tokens=213))",
+  "initial_definition": "Корнеплод, используемый в пищу",
+  "final_definition": "Корнеплод, используемый в пищу",
+  "formatted_definition": "Корнеплод, используемый в пищу",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Корнеплод, используемый в пищу",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Корнеплод",
+            ",",
+            "используемый",
+            "в",
+            "пищу"
+          ],
+          "removed_tokens": [
+            "в",
+            ","
+          ],
+          "final_tokens": [
+            "Корнеплод",
+            "используемый",
+            "пищу"
+          ],
+          "lemmas": [
+            "корнеплод",
+            "использовать",
+            "пища"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "корнеплод",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "использовать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "пища",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-21-29",
+  "end_time": "2024.05.19 18-21-31"
+}

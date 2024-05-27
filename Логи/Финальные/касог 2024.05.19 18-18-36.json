@@ -1,0 +1,244 @@
+{
+  "word": "касог",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "лужайка",
+    "лепесток",
+    "травинка"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'касог'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'касог'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'касог', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "лист, клетка, стебель, цветок, плод, корень, ветка, лужайка, лепесток, бутон, травинка, ягодка, кора, шишка, росток, листик",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfPBryI6pkrd5UxmFC02QWytwDTS', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='лист, клетка, стебель, цветок, плод, корень, ветка, лужайка, лепесток, бутон, травинка, ягодка, кора, шишка, росток, листик', role='assistant', function_call=None, tool_calls=None))], created=1716142717, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=65, prompt_tokens=199, total_tokens=264))",
+    "distractor_analysis": [
+      {
+        "distractor": "лист",
+        "lemma": "лист",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1995)"
+      },
+      {
+        "distractor": "клетка",
+        "lemma": "клетка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2037)"
+      },
+      {
+        "distractor": "стебель",
+        "lemma": "стебель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (324)"
+      },
+      {
+        "distractor": "цветок",
+        "lemma": "цветок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (911)"
+      },
+      {
+        "distractor": "плод",
+        "lemma": "плод",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (443)"
+      },
+      {
+        "distractor": "корень",
+        "lemma": "корень",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2047)"
+      },
+      {
+        "distractor": "ветка",
+        "lemma": "ветка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (417)"
+      },
+      {
+        "distractor": "лужайка",
+        "lemma": "лужайка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (28)"
+      },
+      {
+        "distractor": "лепесток",
+        "lemma": "лепесток",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (105)"
+      },
+      {
+        "distractor": "бутон",
+        "lemma": "бутон",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.83)"
+      },
+      {
+        "distractor": "травинка",
+        "lemma": "травинка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (33)"
+      },
+      {
+        "distractor": "ягодка",
+        "lemma": "ягодка",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.6)"
+      },
+      {
+        "distractor": "кора",
+        "lemma": "кора",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (355)"
+      },
+      {
+        "distractor": "шишка",
+        "lemma": "шишка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (191)"
+      },
+      {
+        "distractor": "росток",
+        "lemma": "росток",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (40)"
+      },
+      {
+        "distractor": "листик",
+        "lemma": "листик",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (34)"
+      }
+    ],
+    "valid_distractors": [
+      "лужайка",
+      "лепесток",
+      "травинка",
+      "шишка",
+      "росток",
+      "листик"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'касог' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'касог', 'лужайка', 'лепесток', 'травинка' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Растение с желтыми цветами.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfPCMoG2mgym2dQ4g2DaY0AjXn0g', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Растение с желтыми цветами.', role='assistant', function_call=None, tool_calls=None))], created=1716142718, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=12, prompt_tokens=199, total_tokens=211))",
+  "initial_definition": "Растение с желтыми цветами",
+  "final_definition": "Растение с яркими желтыми внешними частями.",
+  "formatted_definition": "Растение с яркими желтыми внешними частями",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Растение с яркими желтыми внешними частями.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Растение",
+            "с",
+            "желтыми",
+            "цветами"
+          ],
+          "removed_tokens": [
+            "с"
+          ],
+          "final_tokens": [
+            "Растение",
+            "желтыми",
+            "цветами"
+          ],
+          "lemmas": [
+            "растение",
+            "жёлтый",
+            "цвета"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "растение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "жёлтый",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "цвета",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "цвета"
+        ],
+        "correction_prompt": "Исправь толкование 'Растение с желтыми цветами' для слова 'касог' так, чтобы в нем не использовались слова 'касог', 'травинка', 'лужайка', 'лепесток', 'цвета' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Растение с яркими желтыми внешними частями.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfPD0yBVgzNDw8MlkedrQsfTZH1C', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Растение с яркими желтыми внешними частями.', role='assistant', function_call=None, tool_calls=None))], created=1716142719, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=24, prompt_tokens=226, total_tokens=250))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Растение с яркими желтыми внешними частями.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Растение",
+            "с",
+            "яркими",
+            "желтыми",
+            "внешними",
+            "частями"
+          ],
+          "removed_tokens": [
+            "с"
+          ],
+          "final_tokens": [
+            "Растение",
+            "яркими",
+            "желтыми",
+            "внешними",
+            "частями"
+          ],
+          "lemmas": [
+            "растение",
+            "яркий",
+            "жёлтый",
+            "внешний",
+            "часть"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "растение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "яркий",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "жёлтый",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "внешний",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "часть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-18-36",
+  "end_time": "2024.05.19 18-18-39"
+}

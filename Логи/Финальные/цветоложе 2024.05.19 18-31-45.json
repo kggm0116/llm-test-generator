@@ -1,0 +1,191 @@
+{
+  "word": "цветоложе",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "листочек",
+    "пыльца",
+    "соцветие"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'цветоложе'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'цветоложе'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'цветоложе', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "листочек, пелюстка, бутон, стебель, корень, ягода, лист, пыльца, прицветник, чашелистик, плодоножка, листочная пластина, семянка, бутончик, соцветие, основание.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfbuoBN6slaO2W5B0U5QTWM1SGEF', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='листочек, пелюстка, бутон, стебель, корень, ягода, лист, пыльца, прицветник, чашелистик, плодоножка, листочная пластина, семянка, бутончик, соцветие, основание.', role='assistant', function_call=None, tool_calls=None))], created=1716143506, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=82, prompt_tokens=205, total_tokens=287))",
+    "distractor_analysis": [
+      {
+        "distractor": "листочек",
+        "lemma": "листочек",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (83)"
+      },
+      {
+        "distractor": "пелюстка",
+        "lemma": "пелюстка",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "бутон",
+        "lemma": "бутон",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.83)"
+      },
+      {
+        "distractor": "стебель",
+        "lemma": "стебель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (324)"
+      },
+      {
+        "distractor": "корень",
+        "lemma": "корень",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2047)"
+      },
+      {
+        "distractor": "ягода",
+        "lemma": "ягода",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (339)"
+      },
+      {
+        "distractor": "лист",
+        "lemma": "лист",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1995)"
+      },
+      {
+        "distractor": "пыльца",
+        "lemma": "пыльца",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (44)"
+      },
+      {
+        "distractor": "прицветник",
+        "lemma": "прицветник",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "чашелистик",
+        "lemma": "чашелистик",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "плодоножка",
+        "lemma": "плодоножка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "листочная пластина",
+        "lemma": "листочная пластина",
+        "is_valid": false,
+        "reason": "Содержит пробел"
+      },
+      {
+        "distractor": "семянка",
+        "lemma": "семянка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "бутончик",
+        "lemma": "бутончик",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "соцветие",
+        "lemma": "соцветие",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (29)"
+      },
+      {
+        "distractor": "основание",
+        "lemma": "основание",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (469)"
+      }
+    ],
+    "valid_distractors": [
+      "листочек",
+      "пыльца",
+      "соцветие"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'цветоложе' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'цветоложе', 'листочек', 'пыльца', 'соцветие' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Орган растения, выполняющий функцию размножения.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfbwWDSm20vw0hrmNgXjLv6xy8PQ', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Орган растения, выполняющий функцию размножения.', role='assistant', function_call=None, tool_calls=None))], created=1716143508, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=20, prompt_tokens=204, total_tokens=224))",
+  "initial_definition": "Орган растения, выполняющий функцию размножения",
+  "final_definition": "Орган растения, выполняющий функцию размножения",
+  "formatted_definition": "Орган растения, выполняющий функцию размножения",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Орган растения, выполняющий функцию размножения",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Орган",
+            "растения",
+            ",",
+            "выполняющий",
+            "функцию",
+            "размножения"
+          ],
+          "removed_tokens": [
+            ","
+          ],
+          "final_tokens": [
+            "Орган",
+            "растения",
+            "выполняющий",
+            "функцию",
+            "размножения"
+          ],
+          "lemmas": [
+            "орган",
+            "растение",
+            "выполнять",
+            "функция",
+            "размножение"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "орган",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "растение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "выполнять",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "функция",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "размножение",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-31-45",
+  "end_time": "2024.05.19 18-31-48"
+}

@@ -1,0 +1,189 @@
+{
+  "word": "многожёнство",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "брак",
+    "объединение"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'многожёнство'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'многожёнство'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'многожёнство', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "полигамия, брак, семья, союз, партнёрство, союзничество, соединение, альянс, связь, объединение, пара, дружба, отношения, партнёрство, контракт, личная жизнь",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfQtuRPSrFEy4bmfQFZtqwddrbGl', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='полигамия, брак, семья, союз, партнёрство, союзничество, соединение, альянс, связь, объединение, пара, дружба, отношения, партнёрство, контракт, личная жизнь', role='assistant', function_call=None, tool_calls=None))], created=1716142823, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=88, prompt_tokens=214, total_tokens=302))",
+    "distractor_analysis": [
+      {
+        "distractor": "полигамия",
+        "lemma": "полигамия",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "брак",
+        "lemma": "брак",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (29)"
+      },
+      {
+        "distractor": "семья",
+        "lemma": "семья",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (861)"
+      },
+      {
+        "distractor": "союз",
+        "lemma": "союз",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (467)"
+      },
+      {
+        "distractor": "партнёрство",
+        "lemma": "партнёрство",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "союзничество",
+        "lemma": "союзничество",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "соединение",
+        "lemma": "соединение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (227)"
+      },
+      {
+        "distractor": "альянс",
+        "lemma": "альянс",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.95)"
+      },
+      {
+        "distractor": "связь",
+        "lemma": "связь",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (628)"
+      },
+      {
+        "distractor": "объединение",
+        "lemma": "объединение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (143)"
+      },
+      {
+        "distractor": "пара",
+        "lemma": "пара",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1289)"
+      },
+      {
+        "distractor": "дружба",
+        "lemma": "дружба",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (242)"
+      },
+      {
+        "distractor": "отношения",
+        "lemma": "отношение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (658)"
+      },
+      {
+        "distractor": "контракт",
+        "lemma": "контракт",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "личная жизнь",
+        "lemma": "личная жизнь",
+        "is_valid": false,
+        "reason": "Содержит пробел"
+      }
+    ],
+    "valid_distractors": [
+      "брак",
+      "объединение"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'многожёнство' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'многожёнство', 'брак', 'объединение' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Состояние, когда у человека есть несколько жён одновременно.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfQuHQwrwex2N0klMfwd7ws4Uvng', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Состояние, когда у человека есть несколько жён одновременно.', role='assistant', function_call=None, tool_calls=None))], created=1716142824, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=28, prompt_tokens=203, total_tokens=231))",
+  "initial_definition": "Состояние, когда у человека есть несколько жён одновременно",
+  "final_definition": "Состояние, когда у человека есть несколько жён одновременно",
+  "formatted_definition": "Состояние, когда у человека есть несколько жён одновременно",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Состояние, когда у человека есть несколько жён одновременно",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Состояние",
+            ",",
+            "когда",
+            "у",
+            "человека",
+            "есть",
+            "несколько",
+            "жён",
+            "одновременно"
+          ],
+          "removed_tokens": [
+            "у",
+            "когда",
+            ",",
+            "есть"
+          ],
+          "final_tokens": [
+            "Состояние",
+            "человека",
+            "несколько",
+            "жён",
+            "одновременно"
+          ],
+          "lemmas": [
+            "состояние",
+            "человек",
+            "несколько",
+            "жена",
+            "одновременно"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "состояние",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "несколько",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          },
+          {
+            "lemma": "жена",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "одновременно",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-20-22",
+  "end_time": "2024.05.19 18-20-25"
+}

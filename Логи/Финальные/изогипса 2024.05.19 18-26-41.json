@@ -1,0 +1,200 @@
+{
+  "word": "изогипса",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "кривая",
+    "контур",
+    "профиль"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'изогипса'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'изогипса'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'изогипса', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "линия, ось, плоскость, точка, плоскость, поверхность, кривая, граница, контур, уровень, профиль, рельеф, геометрия, топография, полигон, проекция",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfWzk1iBdDyBFstvSwpUppHQUGTa', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='линия, ось, плоскость, точка, плоскость, поверхность, кривая, граница, контур, уровень, профиль, рельеф, геометрия, топография, полигон, проекция', role='assistant', function_call=None, tool_calls=None))], created=1716143201, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=73, prompt_tokens=205, total_tokens=278))",
+    "distractor_analysis": [
+      {
+        "distractor": "линия",
+        "lemma": "линия",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1088)"
+      },
+      {
+        "distractor": "ось",
+        "lemma": "ось",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (367)"
+      },
+      {
+        "distractor": "плоскость",
+        "lemma": "плоскость",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (211)"
+      },
+      {
+        "distractor": "точка",
+        "lemma": "точка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2934)"
+      },
+      {
+        "distractor": "поверхность",
+        "lemma": "поверхность",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1395)"
+      },
+      {
+        "distractor": "кривая",
+        "lemma": "кривая",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (70)"
+      },
+      {
+        "distractor": "граница",
+        "lemma": "граница",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (509)"
+      },
+      {
+        "distractor": "контур",
+        "lemma": "контур",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (135)"
+      },
+      {
+        "distractor": "уровень",
+        "lemma": "уровень",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (279)"
+      },
+      {
+        "distractor": "профиль",
+        "lemma": "профиль",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (6)"
+      },
+      {
+        "distractor": "рельеф",
+        "lemma": "рельеф",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (190)"
+      },
+      {
+        "distractor": "геометрия",
+        "lemma": "геометрия",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (66)"
+      },
+      {
+        "distractor": "топография",
+        "lemma": "топография",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.07)"
+      },
+      {
+        "distractor": "полигон",
+        "lemma": "полигон",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (12.52)"
+      },
+      {
+        "distractor": "проекция",
+        "lemma": "проекция",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.57)"
+      }
+    ],
+    "valid_distractors": [
+      "кривая",
+      "контур",
+      "профиль",
+      "рельеф",
+      "геометрия",
+      "полигон"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'изогипса' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'изогипса', 'кривая', 'контур', 'профиль' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Линия на карте, соединяющая точки с одинаковой высотой.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfX1P6V3O9hpE1vKSeKSQb7ukRlC', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Линия на карте, соединяющая точки с одинаковой высотой.', role='assistant', function_call=None, tool_calls=None))], created=1716143203, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=27, prompt_tokens=203, total_tokens=230))",
+  "initial_definition": "Линия на карте, соединяющая точки с одинаковой высотой",
+  "final_definition": "Линия на карте, соединяющая точки с одинаковой высотой",
+  "formatted_definition": "Линия на карте, соединяющая точки с одинаковой высотой",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Линия на карте, соединяющая точки с одинаковой высотой",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Линия",
+            "на",
+            "карте",
+            ",",
+            "соединяющая",
+            "точки",
+            "с",
+            "одинаковой",
+            "высотой"
+          ],
+          "removed_tokens": [
+            "на",
+            ",",
+            "с"
+          ],
+          "final_tokens": [
+            "Линия",
+            "карте",
+            "соединяющая",
+            "точки",
+            "одинаковой",
+            "высотой"
+          ],
+          "lemmas": [
+            "линия",
+            "карта",
+            "соединять",
+            "точка",
+            "одинаковый",
+            "высота"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "линия",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "карта",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "соединять",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "точка",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "одинаковый",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "высота",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-26-41",
+  "end_time": "2024.05.19 18-26-44"
+}

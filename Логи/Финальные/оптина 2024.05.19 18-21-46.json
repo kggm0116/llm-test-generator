@@ -1,0 +1,186 @@
+{
+  "word": "оптина",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "линза",
+    "диафрагма",
+    "объектив"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'оптина'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'оптина'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'оптина', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "лампа, линза, диафрагма, призма, объектив, микроскоп, телескоп, монокль, перископ, прямая, трент, бинокль, коллиматор, осциллятор, окуляр, диоптр",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfSFahUnqHsSdilIA9XvOcjxOyHP', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='лампа, линза, диафрагма, призма, объектив, микроскоп, телескоп, монокль, перископ, прямая, трент, бинокль, коллиматор, осциллятор, окуляр, диоптр', role='assistant', function_call=None, tool_calls=None))], created=1716142907, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=81, prompt_tokens=199, total_tokens=280))",
+    "distractor_analysis": [
+      {
+        "distractor": "лампа",
+        "lemma": "лампа",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (52.03)"
+      },
+      {
+        "distractor": "линза",
+        "lemma": "линза",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (19)"
+      },
+      {
+        "distractor": "диафрагма",
+        "lemma": "диафрагма",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (3.56)"
+      },
+      {
+        "distractor": "призма",
+        "lemma": "призма",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.95)"
+      },
+      {
+        "distractor": "объектив",
+        "lemma": "объектив",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (30)"
+      },
+      {
+        "distractor": "микроскоп",
+        "lemma": "микроскоп",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (278)"
+      },
+      {
+        "distractor": "телескоп",
+        "lemma": "телескоп",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (77)"
+      },
+      {
+        "distractor": "монокль",
+        "lemma": "монокль",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "перископ",
+        "lemma": "перископ",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.72)"
+      },
+      {
+        "distractor": "прямая",
+        "lemma": "прямой",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "трент",
+        "lemma": "трент",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "бинокль",
+        "lemma": "бинокль",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (29)"
+      },
+      {
+        "distractor": "коллиматор",
+        "lemma": "коллиматор",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "осциллятор",
+        "lemma": "осциллятор",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "окуляр",
+        "lemma": "окуляр",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (33)"
+      },
+      {
+        "distractor": "диоптр",
+        "lemma": "диоптр",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      }
+    ],
+    "valid_distractors": [
+      "линза",
+      "диафрагма",
+      "объектив",
+      "телескоп",
+      "бинокль",
+      "окуляр"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'оптина' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'оптина', 'линза', 'диафрагма', 'объектив' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Часть фотоаппарата для фокусировки изображения.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfSGD8H4BHIEJZzN9xuVRB5L6U4D', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Часть фотоаппарата для фокусировки изображения.', role='assistant', function_call=None, tool_calls=None))], created=1716142908, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=20, prompt_tokens=202, total_tokens=222))",
+  "initial_definition": "Часть фотоаппарата для фокусировки изображения",
+  "final_definition": "Часть фотоаппарата для фокусировки изображения",
+  "formatted_definition": "Часть фотоаппарата для фокусировки изображения",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Часть фотоаппарата для фокусировки изображения",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Часть",
+            "фотоаппарата",
+            "для",
+            "фокусировки",
+            "изображения"
+          ],
+          "removed_tokens": [
+            "для"
+          ],
+          "final_tokens": [
+            "Часть",
+            "фотоаппарата",
+            "фокусировки",
+            "изображения"
+          ],
+          "lemmas": [
+            "часть",
+            "фотоаппарат",
+            "фокусировка",
+            "изображение"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "часть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "фотоаппарат",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "фокусировка",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          },
+          {
+            "lemma": "изображение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-21-46",
+  "end_time": "2024.05.19 18-21-49"
+}

@@ -1,0 +1,169 @@
+{
+  "word": "виртуоз",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "Музыкант",
+    "волшебник",
+    "солист"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'виртуоз'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'виртуоз'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'виртуоз', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Музыкант, исполнитель, мастер, артист, искусник, волшебник, профессионал, солист, ведущий, гений, артистка, дирижер, руководитель, скрипач, маэстро, композитор.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfYcZqZgxrafdhCfzYlcDGtNaWGa', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Музыкант, исполнитель, мастер, артист, искусник, волшебник, профессионал, солист, ведущий, гений, артистка, дирижер, руководитель, скрипач, маэстро, композитор.', role='assistant', function_call=None, tool_calls=None))], created=1716143302, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=86, prompt_tokens=202, total_tokens=288))",
+    "distractor_analysis": [
+      {
+        "distractor": "Музыкант",
+        "lemma": "музыкант",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (103)"
+      },
+      {
+        "distractor": "исполнитель",
+        "lemma": "исполнитель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (209)"
+      },
+      {
+        "distractor": "мастер",
+        "lemma": "мастер",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (551)"
+      },
+      {
+        "distractor": "артист",
+        "lemma": "артист",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (84.83)"
+      },
+      {
+        "distractor": "искусник",
+        "lemma": "искусник",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "волшебник",
+        "lemma": "волшебник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (47)"
+      },
+      {
+        "distractor": "профессионал",
+        "lemma": "профессионал",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "солист",
+        "lemma": "солист",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (6)"
+      },
+      {
+        "distractor": "ведущий",
+        "lemma": "ведущий",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "гений",
+        "lemma": "гений",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (11)"
+      },
+      {
+        "distractor": "артистка",
+        "lemma": "артистка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "дирижер",
+        "lemma": "дирижёр",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (13)"
+      },
+      {
+        "distractor": "руководитель",
+        "lemma": "руководитель",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (89.77)"
+      },
+      {
+        "distractor": "скрипач",
+        "lemma": "скрипач",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (18)"
+      },
+      {
+        "distractor": "маэстро",
+        "lemma": "маэстро",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (6)"
+      },
+      {
+        "distractor": "композитор",
+        "lemma": "композитор",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (187)"
+      }
+    ],
+    "valid_distractors": [
+      "Музыкант",
+      "волшебник",
+      "солист",
+      "гений",
+      "дирижер",
+      "скрипач",
+      "маэстро",
+      "композитор"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'виртуоз' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'виртуоз', 'Музыкант', 'волшебник', 'солист' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Искусный исполнитель.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfYfS86kgxchRqQWLAgjw6GhkcxD', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Искусный исполнитель.', role='assistant', function_call=None, tool_calls=None))], created=1716143305, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=9, prompt_tokens=204, total_tokens=213))",
+  "initial_definition": "Искусный исполнитель",
+  "final_definition": "Искусный исполнитель",
+  "formatted_definition": "Искусный исполнитель",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Искусный исполнитель",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Искусный",
+            "исполнитель"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Искусный",
+            "исполнитель"
+          ],
+          "lemmas": [
+            "искусный",
+            "исполнитель"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "искусный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "исполнитель",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-28-22",
+  "end_time": "2024.05.19 18-28-25"
+}

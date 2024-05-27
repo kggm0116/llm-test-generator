@@ -1,0 +1,177 @@
+{
+  "word": "байт",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "кадр",
+    "флаг",
+    "клиент"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'байт'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'байт'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'байт', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "блок, кадр, символ, флаг, клиент, модуль, карта, стек, порт, буфер, пакет, регистр, кластер, запрос, трафик, привилегия",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfAlZbcM8SKjbtE6dFYopyTC65vZ', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='блок, кадр, символ, флаг, клиент, модуль, карта, стек, порт, буфер, пакет, регистр, кластер, запрос, трафик, привилегия', role='assistant', function_call=None, tool_calls=None))], created=1716141823, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=62, prompt_tokens=199, total_tokens=261))",
+    "distractor_analysis": [
+      {
+        "distractor": "блок",
+        "lemma": "блок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (226)"
+      },
+      {
+        "distractor": "кадр",
+        "lemma": "кадр",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (51)"
+      },
+      {
+        "distractor": "символ",
+        "lemma": "символ",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (405)"
+      },
+      {
+        "distractor": "флаг",
+        "lemma": "флаг",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (136)"
+      },
+      {
+        "distractor": "клиент",
+        "lemma": "клиент",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (17)"
+      },
+      {
+        "distractor": "модуль",
+        "lemma": "модуль",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (7)"
+      },
+      {
+        "distractor": "карта",
+        "lemma": "карта",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1362)"
+      },
+      {
+        "distractor": "стек",
+        "lemma": "стек",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "порт",
+        "lemma": "порт",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (114)"
+      },
+      {
+        "distractor": "буфер",
+        "lemma": "буфер",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (24)"
+      },
+      {
+        "distractor": "пакет",
+        "lemma": "пакет",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (270)"
+      },
+      {
+        "distractor": "регистр",
+        "lemma": "регистр",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.79)"
+      },
+      {
+        "distractor": "кластер",
+        "lemma": "кластер",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "запрос",
+        "lemma": "запрос",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (15)"
+      },
+      {
+        "distractor": "трафик",
+        "lemma": "трафик",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "привилегия",
+        "lemma": "привилегия",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (8)"
+      }
+    ],
+    "valid_distractors": [
+      "кадр",
+      "флаг",
+      "клиент",
+      "модуль",
+      "порт",
+      "буфер",
+      "запрос",
+      "привилегия"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'байт' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'байт', 'кадр', 'флаг', 'клиент' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Измеряемая единица информации.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfAn6ASbHmY3M38rGw1UYWdeQYQX', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Измеряемая единица информации.', role='assistant', function_call=None, tool_calls=None))], created=1716141825, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=12, prompt_tokens=196, total_tokens=208))",
+  "initial_definition": "Измеряемая единица информации",
+  "final_definition": "Измеряемая единица информации",
+  "formatted_definition": "Измеряемая единица информации",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Измеряемая единица информации",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Измеряемая",
+            "единица",
+            "информации"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Измеряемая",
+            "единица",
+            "информации"
+          ],
+          "lemmas": [
+            "измерять",
+            "единица",
+            "информация"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "измерять",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "единица",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "информация",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-03-43",
+  "end_time": "2024.05.19 18-03-45"
+}

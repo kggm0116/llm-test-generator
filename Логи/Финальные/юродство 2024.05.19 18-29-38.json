@@ -1,0 +1,305 @@
+{
+  "word": "юродство",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "нелепость",
+    "забава",
+    "шаль"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'юродство'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'юродство'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'юродство', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "безумие, шутка, абсурд, нелепость, забава, аберрация, дурачество, глупость, шалость, шутовство, анекдот, аффектация, недалёкость, наивность, шаль, дурачество.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfZrDPenVlHZ2pXrSOrmmwFqLCvM', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='безумие, шутка, абсурд, нелепость, забава, аберрация, дурачество, глупость, шалость, шутовство, анекдот, аффектация, недалёкость, наивность, шаль, дурачество.', role='assistant', function_call=None, tool_calls=None))], created=1716143379, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=84, prompt_tokens=205, total_tokens=289))",
+    "distractor_analysis": [
+      {
+        "distractor": "безумие",
+        "lemma": "безумие",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "шутка",
+        "lemma": "шутка",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (81.04)"
+      },
+      {
+        "distractor": "абсурд",
+        "lemma": "абсурд",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "нелепость",
+        "lemma": "нелепость",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "забава",
+        "lemma": "забава",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (34)"
+      },
+      {
+        "distractor": "аберрация",
+        "lemma": "аберрация",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.11)"
+      },
+      {
+        "distractor": "дурачество",
+        "lemma": "дурачество",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "глупость",
+        "lemma": "глупость",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (51.99)"
+      },
+      {
+        "distractor": "шалость",
+        "lemma": "шалость",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.87)"
+      },
+      {
+        "distractor": "шутовство",
+        "lemma": "шутовство",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "анекдот",
+        "lemma": "анекдот",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "аффектация",
+        "lemma": "аффектация",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "недалёкость",
+        "lemma": "недалёкость",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "наивность",
+        "lemma": "наивность",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "шаль",
+        "lemma": "шаль",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (20)"
+      }
+    ],
+    "valid_distractors": [
+      "нелепость",
+      "забава",
+      "шаль"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'юродство' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'юродство', 'нелепость', 'забава', 'шаль' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "глупое и невразумительное поведение",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfZs1L76YTHSkSdF9MBQzgHtN4S1', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='глупое и невразумительное поведение', role='assistant', function_call=None, tool_calls=None))], created=1716143380, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=14, prompt_tokens=201, total_tokens=215))",
+  "initial_definition": "глупое и невразумительное поведение",
+  "final_definition": "глупое и неуместное поведение, привлекающее внимание.",
+  "formatted_definition": "глупое и неуместное поведение, привлекающее внимание",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "глупое и несерьезное поведение, привлекающее вниманиеять",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "глупое",
+            "и",
+            "невразумительное",
+            "поведение"
+          ],
+          "removed_tokens": [
+            "и"
+          ],
+          "final_tokens": [
+            "глупое",
+            "невразумительное",
+            "поведение"
+          ],
+          "lemmas": [
+            "глупый",
+            "невразумительный",
+            "поведение"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "глупый",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "невразумительный",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (2.6)"
+          },
+          {
+            "lemma": "поведение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "невразумительный"
+        ],
+        "correction_prompt": "Исправь толкование 'глупое и невразумительное поведение' для слова 'юродство' так, чтобы в нем не использовались слова 'юродство', 'нелепость', 'невразумительный', 'шаль', 'забава' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "глупое и несерьезное поведение, привлекающее вниманиеять",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfZteY5MuvimGAI9zggjHcVZrOQU', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='глупое и несерьезное поведение, привлекающее вниманиеять', role='assistant', function_call=None, tool_calls=None))], created=1716143381, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=27, prompt_tokens=234, total_tokens=261))"
+      }
+    },
+    "2": {
+      "corrected_definition": "глупое и неуместное поведение, привлекающее внимание.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "глупое",
+            "и",
+            "несерьезное",
+            "поведение",
+            ",",
+            "привлекающее",
+            "вниманиеять"
+          ],
+          "removed_tokens": [
+            "и",
+            ","
+          ],
+          "final_tokens": [
+            "глупое",
+            "несерьезное",
+            "поведение",
+            "привлекающее",
+            "вниманиеять"
+          ],
+          "lemmas": [
+            "глупый",
+            "несерьёзный",
+            "поведение",
+            "привлекать",
+            "вниманиеять"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "глупый",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "несерьёзный",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          },
+          {
+            "lemma": "поведение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "привлекать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "вниманиеять",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "вниманиеять"
+        ],
+        "correction_prompt": "Исправь толкование 'глупое и несерьезное поведение, привлекающее вниманиеять' для слова 'юродство' так, чтобы в нем не использовались слова 'юродство', 'забава', 'невразумительный', 'нелепость', 'вниманиеять', 'шаль' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "глупое и неуместное поведение, привлекающее внимание.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfZuuk8tySFIdgbYeVU87pQ9IBgj', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='глупое и неуместное поведение, привлекающее внимание.', role='assistant', function_call=None, tool_calls=None))], created=1716143382, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=25, prompt_tokens=254, total_tokens=279))"
+      }
+    },
+    "3": {
+      "corrected_definition": "глупое и неуместное поведение, привлекающее внимание.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "глупое",
+            "и",
+            "неуместное",
+            "поведение",
+            ",",
+            "привлекающее",
+            "внимание"
+          ],
+          "removed_tokens": [
+            "и",
+            ","
+          ],
+          "final_tokens": [
+            "глупое",
+            "неуместное",
+            "поведение",
+            "привлекающее",
+            "внимание"
+          ],
+          "lemmas": [
+            "глупый",
+            "неуместный",
+            "поведение",
+            "привлекать",
+            "внимание"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "глупый",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "неуместный",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          },
+          {
+            "lemma": "поведение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "привлекать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "внимание",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-29-38",
+  "end_time": "2024.05.19 18-29-43"
+}

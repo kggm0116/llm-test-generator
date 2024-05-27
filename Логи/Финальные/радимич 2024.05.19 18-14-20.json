@@ -1,0 +1,244 @@
+{
+  "word": "радимич",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "обитель",
+    "рудник",
+    "владение"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'радимич'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'радимич'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'радимич', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "полк, князь, вождь, город, крепость, обитель, племя, отряд, братство, союз, рудник, ратник, земля, владение, укрепление, житель",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfL24VxryiXvAp4hA3CpAUq185Bu', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='полк, князь, вождь, город, крепость, обитель, племя, отряд, братство, союз, рудник, ратник, земля, владение, укрепление, житель', role='assistant', function_call=None, tool_calls=None))], created=1716142460, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=67, prompt_tokens=202, total_tokens=269))",
+    "distractor_analysis": [
+      {
+        "distractor": "полк",
+        "lemma": "полк",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (70.21)"
+      },
+      {
+        "distractor": "князь",
+        "lemma": "князь",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (450)"
+      },
+      {
+        "distractor": "вождь",
+        "lemma": "вождь",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (55.47)"
+      },
+      {
+        "distractor": "город",
+        "lemma": "город",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3819)"
+      },
+      {
+        "distractor": "крепость",
+        "lemma": "крепость",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (207)"
+      },
+      {
+        "distractor": "обитель",
+        "lemma": "обитель",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (12)"
+      },
+      {
+        "distractor": "племя",
+        "lemma": "племя",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (485)"
+      },
+      {
+        "distractor": "отряд",
+        "lemma": "отряд",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (212)"
+      },
+      {
+        "distractor": "братство",
+        "lemma": "братство",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "союз",
+        "lemma": "союз",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (467)"
+      },
+      {
+        "distractor": "рудник",
+        "lemma": "рудник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (29)"
+      },
+      {
+        "distractor": "ратник",
+        "lemma": "ратник",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.03)"
+      },
+      {
+        "distractor": "земля",
+        "lemma": "земля",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (5025)"
+      },
+      {
+        "distractor": "владение",
+        "lemma": "владение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (108)"
+      },
+      {
+        "distractor": "укрепление",
+        "lemma": "укрепление",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (73)"
+      },
+      {
+        "distractor": "житель",
+        "lemma": "житель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (747)"
+      }
+    ],
+    "valid_distractors": [
+      "обитель",
+      "рудник",
+      "владение",
+      "укрепление"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'радимич' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'радимич', 'обитель', 'рудник', 'владение' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "осаждение, крепость, укрепление.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfL4Xm9vWBWEBu4a3If0dj5fUqde', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='осаждение, крепость, укрепление.', role='assistant', function_call=None, tool_calls=None))], created=1716142462, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=15, prompt_tokens=197, total_tokens=212))",
+  "initial_definition": "осаждение, крепость, укрепление",
+  "final_definition": "Место обороны, возвышенность, укрепленное сооружение.",
+  "formatted_definition": "Место обороны, возвышенность, укрепленное сооружение",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Место обороны, возвышенность, укрепленное сооружение.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "осаждение",
+            ",",
+            "крепость",
+            ",",
+            "укрепление"
+          ],
+          "removed_tokens": [
+            ","
+          ],
+          "final_tokens": [
+            "осаждение",
+            "крепость",
+            "укрепление"
+          ],
+          "lemmas": [
+            "осаждение",
+            "крепость",
+            "укрепление"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "осаждение",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          },
+          {
+            "lemma": "крепость",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "укрепление",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "осаждение"
+        ],
+        "correction_prompt": "Исправь толкование 'осаждение, крепость, укрепление' для слова 'радимич' так, чтобы в нем не использовались слова 'радимич', 'осаждение', 'обитель', 'владение', 'рудник' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Место обороны, возвышенность, укрепленное сооружение.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfL5uaot8zdIxpzgfNpedBIBejF3', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Место обороны, возвышенность, укрепленное сооружение.', role='assistant', function_call=None, tool_calls=None))], created=1716142463, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=26, prompt_tokens=227, total_tokens=253))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Место обороны, возвышенность, укрепленное сооружение.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Место",
+            "обороны",
+            ",",
+            "возвышенность",
+            ",",
+            "укрепленное",
+            "сооружение"
+          ],
+          "removed_tokens": [
+            ","
+          ],
+          "final_tokens": [
+            "Место",
+            "обороны",
+            "возвышенность",
+            "укрепленное",
+            "сооружение"
+          ],
+          "lemmas": [
+            "место",
+            "оборона",
+            "возвышенность",
+            "укрепить",
+            "сооружение"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "место",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "оборона",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "возвышенность",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "укрепить",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "сооружение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-14-20",
+  "end_time": "2024.05.19 18-14-24"
+}

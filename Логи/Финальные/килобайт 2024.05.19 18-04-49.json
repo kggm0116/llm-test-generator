@@ -1,0 +1,138 @@
+{
+  "word": "килобайт",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "байтов"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'килобайт'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'килобайт'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'килобайт', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "байт, мегабайт, гигабайт, терабайт, петабайт, бит, килобит, мегабит, гигабит, терабит, байтов, мегабайтов, гигабайтов, терабайтов, петабайтов, битов",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfBqVNCanAEPwybY0aBcWCO77Sbx', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='байт, мегабайт, гигабайт, терабайт, петабайт, бит, килобит, мегабит, гигабит, терабит, байтов, мегабайтов, гигабайтов, терабайтов, петабайтов, битов', role='assistant', function_call=None, tool_calls=None))], created=1716141890, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=87, prompt_tokens=205, total_tokens=292))",
+    "distractor_analysis": [
+      {
+        "distractor": "байтов",
+        "lemma": "байт",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (5.4)"
+      },
+      {
+        "distractor": "мегабайтов",
+        "lemma": "мегабайт",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "гигабайтов",
+        "lemma": "гигабайт",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "терабайтов",
+        "lemma": "терабайт",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "петабайтов",
+        "lemma": "петабайт",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "бит",
+        "lemma": "битый",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "килобит",
+        "lemma": "килобит",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "мегабит",
+        "lemma": "мегабит",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "гигабит",
+        "lemma": "гигабит",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "терабит",
+        "lemma": "терабит",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "битов",
+        "lemma": "битов",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      }
+    ],
+    "valid_distractors": [
+      "байтов"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'килобайт' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'килобайт', 'байтов' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Единица измерения информации.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfBsbZ582sOagfQIshDygraCyz8e', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Единица измерения информации.', role='assistant', function_call=None, tool_calls=None))], created=1716141892, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=10, prompt_tokens=191, total_tokens=201))",
+  "initial_definition": "Единица измерения информации",
+  "final_definition": "Единица измерения информации",
+  "formatted_definition": "Единица измерения информации",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Единица измерения информации",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Единица",
+            "измерения",
+            "информации"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Единица",
+            "измерения",
+            "информации"
+          ],
+          "lemmas": [
+            "единица",
+            "измерение",
+            "информация"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "единица",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "измерение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "информация",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-04-49",
+  "end_time": "2024.05.19 18-04-52"
+}

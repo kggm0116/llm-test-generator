@@ -1,0 +1,201 @@
+{
+  "word": "бессмертник",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "лоза",
+    "лепесток",
+    "росток"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'бессмертник'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'бессмертник'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'бессмертник', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "растение, цветок, трава, куст, лоза, дерево, корень, лист, лепесток, стебель, плод, семя, бутон, росток, баклажан, огурец",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfVwO193TF9VIKktiHt9ob5lO5T2', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='растение, цветок, трава, куст, лоза, дерево, корень, лист, лепесток, стебель, плод, семя, бутон, росток, баклажан, огурец', role='assistant', function_call=None, tool_calls=None))], created=1716143136, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=66, prompt_tokens=205, total_tokens=271))",
+    "distractor_analysis": [
+      {
+        "distractor": "растение",
+        "lemma": "растение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4254)"
+      },
+      {
+        "distractor": "цветок",
+        "lemma": "цветок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (911)"
+      },
+      {
+        "distractor": "трава",
+        "lemma": "трава",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (831)"
+      },
+      {
+        "distractor": "куст",
+        "lemma": "куст",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (296)"
+      },
+      {
+        "distractor": "лоза",
+        "lemma": "лоза",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (15)"
+      },
+      {
+        "distractor": "дерево",
+        "lemma": "дерево",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2611)"
+      },
+      {
+        "distractor": "корень",
+        "lemma": "корень",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2047)"
+      },
+      {
+        "distractor": "лист",
+        "lemma": "лист",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1995)"
+      },
+      {
+        "distractor": "лепесток",
+        "lemma": "лепесток",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (105)"
+      },
+      {
+        "distractor": "стебель",
+        "lemma": "стебель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (324)"
+      },
+      {
+        "distractor": "плод",
+        "lemma": "плод",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (443)"
+      },
+      {
+        "distractor": "семя",
+        "lemma": "семя",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (655)"
+      },
+      {
+        "distractor": "бутон",
+        "lemma": "бутон",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.83)"
+      },
+      {
+        "distractor": "росток",
+        "lemma": "росток",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (40)"
+      },
+      {
+        "distractor": "баклажан",
+        "lemma": "баклажан",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.57)"
+      },
+      {
+        "distractor": "огурец",
+        "lemma": "огурец",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (214)"
+      }
+    ],
+    "valid_distractors": [
+      "лоза",
+      "лепесток",
+      "росток"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'бессмертник' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'бессмертник', 'лоза', 'лепесток', 'росток' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Растение с тонкими длинными побегами и яркими цветками.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfVx5pJXs8xUZAFR19lusveZcVU9', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Растение с тонкими длинными побегами и яркими цветками.', role='assistant', function_call=None, tool_calls=None))], created=1716143137, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=29, prompt_tokens=201, total_tokens=230))",
+  "initial_definition": "Растение с тонкими длинными побегами и яркими цветками",
+  "final_definition": "Растение с тонкими длинными побегами и яркими цветками",
+  "formatted_definition": "Растение с тонкими длинными побегами и яркими цветками",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Растение с тонкими длинными побегами и яркими цветками",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Растение",
+            "с",
+            "тонкими",
+            "длинными",
+            "побегами",
+            "и",
+            "яркими",
+            "цветками"
+          ],
+          "removed_tokens": [
+            "и",
+            "с"
+          ],
+          "final_tokens": [
+            "Растение",
+            "тонкими",
+            "длинными",
+            "побегами",
+            "яркими",
+            "цветками"
+          ],
+          "lemmas": [
+            "растение",
+            "тонкий",
+            "длинный",
+            "побег",
+            "яркий",
+            "цветок"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "растение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "тонкий",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "длинный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "побег",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "яркий",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "цветок",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-25-36",
+  "end_time": "2024.05.19 18-25-38"
+}

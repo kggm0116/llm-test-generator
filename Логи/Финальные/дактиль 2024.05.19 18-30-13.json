@@ -1,0 +1,193 @@
+{
+  "word": "дактиль",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "перчатка",
+    "кокон",
+    "скорлупа"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'дактиль'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'дактиль'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'дактиль', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "палец, перчатка, кокон, скорлупа, копыто, плавник, коготь, щупальце, щетка, жаба, плавник, шейка, стебель, стручок, хобот, щупальце",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfaPj6FRI9mJQ8uSfapjfNMk7r7A', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='палец, перчатка, кокон, скорлупа, копыто, плавник, коготь, щупальце, щетка, жаба, плавник, шейка, стебель, стручок, хобот, щупальце', role='assistant', function_call=None, tool_calls=None))], created=1716143413, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=77, prompt_tokens=202, total_tokens=279))",
+    "distractor_analysis": [
+      {
+        "distractor": "палец",
+        "lemma": "палец",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (284)"
+      },
+      {
+        "distractor": "перчатка",
+        "lemma": "перчатка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (48)"
+      },
+      {
+        "distractor": "кокон",
+        "lemma": "кокон",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (22)"
+      },
+      {
+        "distractor": "скорлупа",
+        "lemma": "скорлупа",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (36)"
+      },
+      {
+        "distractor": "копыто",
+        "lemma": "копыто",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (42)"
+      },
+      {
+        "distractor": "плавник",
+        "lemma": "плавник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (42)"
+      },
+      {
+        "distractor": "коготь",
+        "lemma": "коготь",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (54)"
+      },
+      {
+        "distractor": "щупальце",
+        "lemma": "щупальце",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (16)"
+      },
+      {
+        "distractor": "щетка",
+        "lemma": "щётка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (47)"
+      },
+      {
+        "distractor": "жаба",
+        "lemma": "жаба",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (57)"
+      },
+      {
+        "distractor": "шейка",
+        "lemma": "шейк",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (6)"
+      },
+      {
+        "distractor": "стебель",
+        "lemma": "стебель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (324)"
+      },
+      {
+        "distractor": "стручок",
+        "lemma": "стручок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "хобот",
+        "lemma": "хобот",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (14)"
+      }
+    ],
+    "valid_distractors": [
+      "перчатка",
+      "кокон",
+      "скорлупа",
+      "копыто",
+      "плавник",
+      "коготь",
+      "щупальце",
+      "щетка",
+      "жаба",
+      "шейка",
+      "хобот"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'дактиль' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'дактиль', 'перчатка', 'кокон', 'скорлупа' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Одна из трёх частей конечности у человека и животных.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfaRvRANNIqSnCcfmXpJdFnLpOsP', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Одна из трёх частей конечности у человека и животных.', role='assistant', function_call=None, tool_calls=None))], created=1716143415, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=25, prompt_tokens=202, total_tokens=227))",
+  "initial_definition": "Одна из трёх частей конечности у человека и животных",
+  "final_definition": "Одна из трёх частей конечности у человека и животных",
+  "formatted_definition": "Одна из трёх частей конечности у человека и животных",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Одна из трёх частей конечности у человека и животных",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Одна",
+            "из",
+            "трёх",
+            "частей",
+            "конечности",
+            "у",
+            "человека",
+            "и",
+            "животных"
+          ],
+          "removed_tokens": [
+            "у",
+            "из",
+            "трёх",
+            "и"
+          ],
+          "final_tokens": [
+            "Одна",
+            "частей",
+            "конечности",
+            "человека",
+            "животных"
+          ],
+          "lemmas": [
+            "один",
+            "часть",
+            "конечность",
+            "человек",
+            "животное"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "один",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (33.34)"
+          },
+          {
+            "lemma": "часть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "конечность",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "животное",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-30-13",
+  "end_time": "2024.05.19 18-30-15"
+}

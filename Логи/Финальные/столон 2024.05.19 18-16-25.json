@@ -1,0 +1,197 @@
+{
+  "word": "столон",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "Побег"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'столон'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'столон'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'столон', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Побег, побегучка, корневище, корневищецветник, вегетативный, ризом, подземный, лиана, стебель, побегостебель, растение, стеблевидный, подземник, пагон, плодоножка, побегонок.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfN4hUXcaoJQgc6efftoCt2VGThO', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Побег, побегучка, корневище, корневищецветник, вегетативный, ризом, подземный, лиана, стебель, побегостебель, растение, стеблевидный, подземник, пагон, плодоножка, побегонок.', role='assistant', function_call=None, tool_calls=None))], created=1716142586, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=91, prompt_tokens=199, total_tokens=290))",
+    "distractor_analysis": [
+      {
+        "distractor": "Побег",
+        "lemma": "побег",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (124)"
+      },
+      {
+        "distractor": "побегучка",
+        "lemma": "побегучка",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "корневище",
+        "lemma": "корневище",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.18)"
+      },
+      {
+        "distractor": "корневищецветник",
+        "lemma": "корневищецветник",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "вегетативный",
+        "lemma": "вегетативный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "ризом",
+        "lemma": "ризом",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "подземный",
+        "lemma": "подземный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "лиана",
+        "lemma": "лиана",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.83)"
+      },
+      {
+        "distractor": "стебель",
+        "lemma": "стебель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (324)"
+      },
+      {
+        "distractor": "побегостебель",
+        "lemma": "побегостебель",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "растение",
+        "lemma": "растение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4254)"
+      },
+      {
+        "distractor": "стеблевидный",
+        "lemma": "стеблевидный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "подземник",
+        "lemma": "подзёмник",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "пагон",
+        "lemma": "пагон",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "плодоножка",
+        "lemma": "плодоножка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "побегонок",
+        "lemma": "побегонка",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      }
+    ],
+    "valid_distractors": [
+      "Побег"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'столон' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'столон', 'Побег' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Подземный побег, из которого развиваются новые растения.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfN6gEc8LNw0Ygr1QiNgJBZyrNtw', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Подземный побег, из которого развиваются новые растения.', role='assistant', function_call=None, tool_calls=None))], created=1716142588, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=24, prompt_tokens=186, total_tokens=210))",
+  "initial_definition": "Подземный побег, из которого развиваются новые растения",
+  "final_definition": "Подземный побег, из которого развиваются новые растения",
+  "formatted_definition": "Подземный побег, из которого развиваются новые растения",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Подземный побег, из которого развиваются новые растения",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Подземный",
+            "побег",
+            ",",
+            "из",
+            "которого",
+            "развиваются",
+            "новые",
+            "растения"
+          ],
+          "removed_tokens": [
+            "из",
+            ","
+          ],
+          "final_tokens": [
+            "Подземный",
+            "побег",
+            "которого",
+            "развиваются",
+            "новые",
+            "растения"
+          ],
+          "lemmas": [
+            "подземный",
+            "побег",
+            "который",
+            "развиваться",
+            "новый",
+            "растение"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "подземный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "побег",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "который",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (3361.51)"
+          },
+          {
+            "lemma": "развиваться",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "новый",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "растение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-16-25",
+  "end_time": "2024.05.19 18-16-29"
+}

@@ -1,0 +1,255 @@
+{
+  "word": "чадить",
+  "class": 6,
+  "pos": "INFN",
+  "distractors": [
+    "дымить",
+    "парить",
+    "вспыхивать"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'чадить'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'чадить'. Слова должны быть части речи INFN. Желательно, чтобы слова соответствовали предметной области слова 'чадить', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "дыметь, тлеть, дымить, пламенеть, парить, гореть, задымить, дымчить, вспыхивать, тлениять, коптить, курить, торчать, сверкать, дымокурить, згорать",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfErOg4SOL4IZGdA7pZIuIiKGJ8n', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='дыметь, тлеть, дымить, пламенеть, парить, гореть, задымить, дымчить, вспыхивать, тлениять, коптить, курить, торчать, сверкать, дымокурить, згорать', role='assistant', function_call=None, tool_calls=None))], created=1716142077, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=82, prompt_tokens=199, total_tokens=281))",
+    "distractor_analysis": [
+      {
+        "distractor": "дыметь",
+        "lemma": "дыметить",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "тлеть",
+        "lemma": "тлеть",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "дымить",
+        "lemma": "дымить",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (7)"
+      },
+      {
+        "distractor": "пламенеть",
+        "lemma": "пламенеть",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "парить",
+        "lemma": "парить",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (29)"
+      },
+      {
+        "distractor": "гореть",
+        "lemma": "гореть",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (203)"
+      },
+      {
+        "distractor": "задымить",
+        "lemma": "задымить",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.95)"
+      },
+      {
+        "distractor": "дымчить",
+        "lemma": "дымчить",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "вспыхивать",
+        "lemma": "вспыхивать",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (31)"
+      },
+      {
+        "distractor": "тлениять",
+        "lemma": "тлениять",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "коптить",
+        "lemma": "коптить",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.91)"
+      },
+      {
+        "distractor": "курить",
+        "lemma": "курить",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (91.42)"
+      },
+      {
+        "distractor": "торчать",
+        "lemma": "торчать",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (81.5)"
+      },
+      {
+        "distractor": "сверкать",
+        "lemma": "сверкать",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (95)"
+      },
+      {
+        "distractor": "дымокурить",
+        "lemma": "дымокурить",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "згорать",
+        "lemma": "згорать",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      }
+    ],
+    "valid_distractors": [
+      "дымить",
+      "парить",
+      "вспыхивать",
+      "сверкать"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'чадить' части речи INFN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'чадить', 'дымить', 'парить', 'вспыхивать' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "заполнять воздух вредными газами, токсичными веществами.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfEtvrfVm9ZDvliJHBE30cbXQI7b', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='заполнять воздух вредными газами, токсичными веществами.', role='assistant', function_call=None, tool_calls=None))], created=1716142079, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=28, prompt_tokens=199, total_tokens=227))",
+  "initial_definition": "заполнять воздух вредными газами, токсичными веществами",
+  "final_definition": "заполнять воздух опасными веществами",
+  "formatted_definition": "заполнять воздух опасными веществами",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "заполнять воздух опасными веществами",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "заполнять",
+            "воздух",
+            "вредными",
+            "газами",
+            ",",
+            "токсичными",
+            "веществами"
+          ],
+          "removed_tokens": [
+            ","
+          ],
+          "final_tokens": [
+            "заполнять",
+            "воздух",
+            "вредными",
+            "газами",
+            "токсичными",
+            "веществами"
+          ],
+          "lemmas": [
+            "заполнять",
+            "воздух",
+            "вредный",
+            "газ",
+            "токсичный",
+            "вещество"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "заполнять",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "воздух",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "вредный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "газ",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "токсичный",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (2.07)"
+          },
+          {
+            "lemma": "вещество",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "токсичный"
+        ],
+        "correction_prompt": "Исправь толкование 'заполнять воздух вредными газами, токсичными веществами' для слова 'чадить' так, чтобы в нем не использовались слова 'чадить', 'дымить', 'вспыхивать', 'токсичный', 'парить' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "заполнять воздух опасными веществами",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfEuwMxUbB1u9x0beS5kCEXvl4RI', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='заполнять воздух опасными веществами', role='assistant', function_call=None, tool_calls=None))], created=1716142080, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=17, prompt_tokens=244, total_tokens=261))"
+      }
+    },
+    "2": {
+      "corrected_definition": "заполнять воздух опасными веществами",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "заполнять",
+            "воздух",
+            "опасными",
+            "веществами"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "заполнять",
+            "воздух",
+            "опасными",
+            "веществами"
+          ],
+          "lemmas": [
+            "заполнять",
+            "воздух",
+            "опасный",
+            "вещество"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "заполнять",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "воздух",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "опасный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "вещество",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-07-56",
+  "end_time": "2024.05.19 18-08-01"
+}

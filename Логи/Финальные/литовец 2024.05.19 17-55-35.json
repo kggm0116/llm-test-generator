@@ -1,0 +1,172 @@
+{
+  "word": "литовец",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "соотечественник",
+    "уроженец",
+    "славянин"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'литовец'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'литовец'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'литовец', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "житель, балтиец, жрец, мужчина, соотечественник, уроженец, обитатель, славянин, иноземец, иностранец, согражданин, гражданин, индивид, переселенец, европеец, скандинав.",
+    "response_details": "ChatCompletion(id='chatcmpl-9Qf2uQmJ7TMc24c6zuPD4TclgtJaG', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='житель, балтиец, жрец, мужчина, соотечественник, уроженец, обитатель, славянин, иноземец, иностранец, согражданин, гражданин, индивид, переселенец, европеец, скандинав.', role='assistant', function_call=None, tool_calls=None))], created=1716141336, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=95, prompt_tokens=205, total_tokens=300))",
+    "distractor_analysis": [
+      {
+        "distractor": "житель",
+        "lemma": "житель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (747)"
+      },
+      {
+        "distractor": "балтиец",
+        "lemma": "балтиец",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "жрец",
+        "lemma": "жрец",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (206)"
+      },
+      {
+        "distractor": "мужчина",
+        "lemma": "мужчина",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (208)"
+      },
+      {
+        "distractor": "соотечественник",
+        "lemma": "соотечественник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (25)"
+      },
+      {
+        "distractor": "уроженец",
+        "lemma": "уроженец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (11)"
+      },
+      {
+        "distractor": "обитатель",
+        "lemma": "обитатель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (311)"
+      },
+      {
+        "distractor": "славянин",
+        "lemma": "славянин",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (145)"
+      },
+      {
+        "distractor": "иноземец",
+        "lemma": "иноземец",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.61)"
+      },
+      {
+        "distractor": "иностранец",
+        "lemma": "иностранец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (24)"
+      },
+      {
+        "distractor": "согражданин",
+        "lemma": "согражданин",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (26)"
+      },
+      {
+        "distractor": "гражданин",
+        "lemma": "гражданин",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (610)"
+      },
+      {
+        "distractor": "индивид",
+        "lemma": "индивид",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (3.79)"
+      },
+      {
+        "distractor": "переселенец",
+        "lemma": "переселенец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (32)"
+      },
+      {
+        "distractor": "европеец",
+        "lemma": "европеец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (42)"
+      },
+      {
+        "distractor": "скандинав",
+        "lemma": "скандинав",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      }
+    ],
+    "valid_distractors": [
+      "соотечественник",
+      "уроженец",
+      "славянин",
+      "иностранец",
+      "согражданин",
+      "индивид",
+      "переселенец",
+      "европеец"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'литовец' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'литовец', 'соотечественник', 'уроженец', 'славянин' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Человек из Литвы.",
+  "response_details": "ChatCompletion(id='chatcmpl-9Qf2wNCtm7XvEE6ROMCmcnDzKTnuI', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Человек из Литвы.', role='assistant', function_call=None, tool_calls=None))], created=1716141338, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=11, prompt_tokens=208, total_tokens=219))",
+  "initial_definition": "Человек из Литвы",
+  "final_definition": "Человек из Литвы",
+  "formatted_definition": "Человек из Литвы",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Человек из Литвы",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек",
+            "из",
+            "Литвы"
+          ],
+          "removed_tokens": [
+            "из"
+          ],
+          "final_tokens": [
+            "Человек",
+            "Литвы"
+          ],
+          "lemmas": [
+            "человек",
+            "литва"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "литва",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (10.11)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 17-55-35",
+  "end_time": "2024.05.19 17-55-38"
+}

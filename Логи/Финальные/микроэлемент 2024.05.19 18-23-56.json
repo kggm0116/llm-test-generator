@@ -1,0 +1,195 @@
+{
+  "word": "микроэлемент",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "витамины",
+    "химия"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'микроэлемент'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'микроэлемент'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'микроэлемент', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "витамины, соли, макроэлементы, кислород, металлы, формулы, бактерии, химия, питательные, инфракрасный, кислород, минералы, молекулы, живые, процессы, реакции",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfUKYn4OecVlsftDt6eK1vVSCMT3', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='витамины, соли, макроэлементы, кислород, металлы, формулы, бактерии, химия, питательные, инфракрасный, кислород, минералы, молекулы, живые, процессы, реакции', role='assistant', function_call=None, tool_calls=None))], created=1716143036, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=87, prompt_tokens=208, total_tokens=295))",
+    "distractor_analysis": [
+      {
+        "distractor": "витамины",
+        "lemma": "витамин",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (52)"
+      },
+      {
+        "distractor": "соли",
+        "lemma": "соль",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (342)"
+      },
+      {
+        "distractor": "макроэлементы",
+        "lemma": "макроэлемент",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "кислород",
+        "lemma": "кислород",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (337)"
+      },
+      {
+        "distractor": "металлы",
+        "lemma": "металл",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (463)"
+      },
+      {
+        "distractor": "формулы",
+        "lemma": "формула",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (488)"
+      },
+      {
+        "distractor": "бактерии",
+        "lemma": "бактерия",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (836)"
+      },
+      {
+        "distractor": "химия",
+        "lemma": "химия",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (116)"
+      },
+      {
+        "distractor": "питательные",
+        "lemma": "питательный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "инфракрасный",
+        "lemma": "инфракрасный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "минералы",
+        "lemma": "минерал",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.99)"
+      },
+      {
+        "distractor": "молекулы",
+        "lemma": "молекула",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (277)"
+      },
+      {
+        "distractor": "живые",
+        "lemma": "живой",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "процессы",
+        "lemma": "процесс",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (560)"
+      },
+      {
+        "distractor": "реакции",
+        "lemma": "реакция",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (60.07)"
+      }
+    ],
+    "valid_distractors": [
+      "витамины",
+      "химия"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'микроэлемент' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'микроэлемент', 'витамины', 'химия' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Вещество, необходимое для организма в очень малых количествах.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfUMcoNHlZIHfdEwO1A4bZf9jlN9', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Вещество, необходимое для организма в очень малых количествах.', role='assistant', function_call=None, tool_calls=None))], created=1716143038, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=25, prompt_tokens=198, total_tokens=223))",
+  "initial_definition": "Вещество, необходимое для организма в очень малых количествах",
+  "final_definition": "Вещество, необходимое для организма в очень малых количествах",
+  "formatted_definition": "Вещество, необходимое для организма в очень малых количествах",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Вещество, необходимое для организма в очень малых количествах",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Вещество",
+            ",",
+            "необходимое",
+            "для",
+            "организма",
+            "в",
+            "очень",
+            "малых",
+            "количествах"
+          ],
+          "removed_tokens": [
+            "в",
+            ",",
+            "для"
+          ],
+          "final_tokens": [
+            "Вещество",
+            "необходимое",
+            "организма",
+            "очень",
+            "малых",
+            "количествах"
+          ],
+          "lemmas": [
+            "вещество",
+            "необходимый",
+            "организм",
+            "очень",
+            "малый",
+            "количество"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "вещество",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "необходимый",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "организм",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "очень",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (1188.25)"
+          },
+          {
+            "lemma": "малый",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "количество",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-23-56",
+  "end_time": "2024.05.19 18-23-59"
+}

@@ -1,0 +1,175 @@
+{
+  "word": "просрочить",
+  "class": 6,
+  "pos": "INFN",
+  "distractors": [
+    "сорвать",
+    "отложить",
+    "упустить"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'просрочить'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'просрочить'. Слова должны быть части речи INFN. Желательно, чтобы слова соответствовали предметной области слова 'просрочить', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "потерять, сорвать, отложить, забыть, пронесить, упустить, пропустить, не успеть, опоздать, недогнать, пропустить, превзойти, недопустить, превысить, запустить, уущербить",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfcEK5v4EXfQD7ESJJzUqXOwUVDt', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='потерять, сорвать, отложить, забыть, пронесить, упустить, пропустить, не успеть, опоздать, недогнать, пропустить, превзойти, недопустить, превысить, запустить, уущербить', role='assistant', function_call=None, tool_calls=None))], created=1716143526, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=81, prompt_tokens=205, total_tokens=286))",
+    "distractor_analysis": [
+      {
+        "distractor": "потерять",
+        "lemma": "потерять",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (149.11)"
+      },
+      {
+        "distractor": "сорвать",
+        "lemma": "сорвать",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (62)"
+      },
+      {
+        "distractor": "отложить",
+        "lemma": "отложить",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (114)"
+      },
+      {
+        "distractor": "забыть",
+        "lemma": "забыть",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (260)"
+      },
+      {
+        "distractor": "пронесить",
+        "lemma": "пронесить",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "упустить",
+        "lemma": "упустить",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (8)"
+      },
+      {
+        "distractor": "пропустить",
+        "lemma": "пропустить",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (625)"
+      },
+      {
+        "distractor": "не успеть",
+        "lemma": "не успеть",
+        "is_valid": false,
+        "reason": "Содержит пробел"
+      },
+      {
+        "distractor": "опоздать",
+        "lemma": "опоздать",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (39)"
+      },
+      {
+        "distractor": "недогнать",
+        "lemma": "недогнать",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "превзойти",
+        "lemma": "превзойти",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (13)"
+      },
+      {
+        "distractor": "недопустить",
+        "lemma": "недопустить",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "превысить",
+        "lemma": "превысить",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (7)"
+      },
+      {
+        "distractor": "запустить",
+        "lemma": "запустить",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (54)"
+      },
+      {
+        "distractor": "уущербить",
+        "lemma": "уущербить",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      }
+    ],
+    "valid_distractors": [
+      "сорвать",
+      "отложить",
+      "упустить",
+      "опоздать",
+      "превзойти",
+      "превысить",
+      "запустить"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'просрочить' части речи INFN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'просрочить', 'сорвать', 'отложить', 'упустить' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "произвести не в установленный срок",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfcFRtckesD1c6Ajw6dJLtcM1Xbl', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='произвести не в установленный срок', role='assistant', function_call=None, tool_calls=None))], created=1716143527, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=15, prompt_tokens=201, total_tokens=216))",
+  "initial_definition": "произвести не в установленный срок",
+  "final_definition": "произвести не в установленный срок",
+  "formatted_definition": "произвести не в установленный срок",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "произвести не в установленный срок",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "произвести",
+            "не",
+            "в",
+            "установленный",
+            "срок"
+          ],
+          "removed_tokens": [
+            "не",
+            "в"
+          ],
+          "final_tokens": [
+            "произвести",
+            "установленный",
+            "срок"
+          ],
+          "lemmas": [
+            "произвести",
+            "установленный",
+            "срок"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "произвести",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "установленный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "срок",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-32-05",
+  "end_time": "2024.05.19 18-32-08"
+}

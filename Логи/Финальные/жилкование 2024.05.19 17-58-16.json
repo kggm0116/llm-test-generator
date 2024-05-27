@@ -1,0 +1,226 @@
+{
+  "word": "жилкование",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "разбиение",
+    "текстура",
+    "покрытие"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'жилкование'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'жилкование'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'жилкование', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "рисунок, разбиение, узор, текстура, украшение, покрытие, оттиск, рельеф, рисунок, узор, украшение, орнамент, порошок, паттерн, мозаика, штамп",
+    "response_details": "ChatCompletion(id='chatcmpl-9Qf5UncAER0m8L48jbfG6QNJ3MMcn', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='рисунок, разбиение, узор, текстура, украшение, покрытие, оттиск, рельеф, рисунок, узор, украшение, орнамент, порошок, паттерн, мозаика, штамп', role='assistant', function_call=None, tool_calls=None))], created=1716141496, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=79, prompt_tokens=202, total_tokens=281))",
+    "distractor_analysis": [
+      {
+        "distractor": "рисунок",
+        "lemma": "рисунок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3254)"
+      },
+      {
+        "distractor": "разбиение",
+        "lemma": "разбиение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (13)"
+      },
+      {
+        "distractor": "узор",
+        "lemma": "узор",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (257)"
+      },
+      {
+        "distractor": "текстура",
+        "lemma": "текстура",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (21)"
+      },
+      {
+        "distractor": "украшение",
+        "lemma": "украшение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (374)"
+      },
+      {
+        "distractor": "покрытие",
+        "lemma": "покрытие",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (29)"
+      },
+      {
+        "distractor": "оттиск",
+        "lemma": "оттиск",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.3)"
+      },
+      {
+        "distractor": "рельеф",
+        "lemma": "рельеф",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (190)"
+      },
+      {
+        "distractor": "орнамент",
+        "lemma": "орнамент",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (123)"
+      },
+      {
+        "distractor": "порошок",
+        "lemma": "порошок",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (39)"
+      },
+      {
+        "distractor": "паттерн",
+        "lemma": "паттерн",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "мозаика",
+        "lemma": "мозаика",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (107)"
+      },
+      {
+        "distractor": "штамп",
+        "lemma": "штамп",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (10)"
+      }
+    ],
+    "valid_distractors": [
+      "разбиение",
+      "текстура",
+      "покрытие",
+      "рельеф",
+      "орнамент",
+      "порошок",
+      "мозаика",
+      "штамп"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'жилкование' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'жилкование', 'разбиение', 'текстура', 'покрытие' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Отобразление сетчатой структуры поверхности.",
+  "response_details": "ChatCompletion(id='chatcmpl-9Qf5WO4TS1vdGaUP8tbklrqcLxVLv', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Отобразление сетчатой структуры поверхности.', role='assistant', function_call=None, tool_calls=None))], created=1716141498, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=18, prompt_tokens=203, total_tokens=221))",
+  "initial_definition": "Отобразление сетчатой структуры поверхности",
+  "final_definition": "Регулярное расположение линий на поверхности.",
+  "formatted_definition": "Регулярное расположение линий на поверхности",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Регулярное расположение линий на поверхности.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Отобразление",
+            "сетчатой",
+            "структуры",
+            "поверхности"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Отобразление",
+            "сетчатой",
+            "структуры",
+            "поверхности"
+          ],
+          "lemmas": [
+            "отобразление",
+            "сетчатый",
+            "структура",
+            "поверхность"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "отобразление",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          },
+          {
+            "lemma": "сетчатый",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (2.18)"
+          },
+          {
+            "lemma": "структура",
+            "is_valid": true,
+            "reason": "Низкого класса (4)"
+          },
+          {
+            "lemma": "поверхность",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "отобразление",
+          "сетчатый"
+        ],
+        "correction_prompt": "Исправь толкование 'Отобразление сетчатой структуры поверхности' для слова 'жилкование' так, чтобы в нем не использовались слова 'жилкование', 'сетчатый', 'разбиение', 'отобразление', 'покрытие', 'текстура' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Регулярное расположение линий на поверхности.",
+        "response_details": "ChatCompletion(id='chatcmpl-9Qf5XRy7Olx59z3g4tRKRnKLy8vNy', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Регулярное расположение линий на поверхности.', role='assistant', function_call=None, tool_calls=None))], created=1716141499, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=20, prompt_tokens=244, total_tokens=264))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Регулярное расположение линий на поверхности.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Регулярное",
+            "расположение",
+            "линий",
+            "на",
+            "поверхности"
+          ],
+          "removed_tokens": [
+            "на"
+          ],
+          "final_tokens": [
+            "Регулярное",
+            "расположение",
+            "линий",
+            "поверхности"
+          ],
+          "lemmas": [
+            "регулярный",
+            "расположение",
+            "линия",
+            "поверхность"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "регулярный",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "расположение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "линия",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "поверхность",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 17-58-16",
+  "end_time": "2024.05.19 17-58-20"
+}

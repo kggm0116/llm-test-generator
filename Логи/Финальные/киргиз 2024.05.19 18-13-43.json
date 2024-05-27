@@ -1,0 +1,176 @@
+{
+  "word": "киргиз",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "племянник",
+    "кочевник",
+    "нация"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'киргиз'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'киргиз'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'киргиз', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "нарицатель, племянник, кочевник, потомственный, нация, потомок, житель, аутентичность, пастух, община, таджик, общество, состав, опыт, предок, история",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfKRvJLJZTTtSlQhcoidUdBExzVn', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='нарицатель, племянник, кочевник, потомственный, нация, потомок, житель, аутентичность, пастух, община, таджик, общество, состав, опыт, предок, история', role='assistant', function_call=None, tool_calls=None))], created=1716142423, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=70, prompt_tokens=199, total_tokens=269))",
+    "distractor_analysis": [
+      {
+        "distractor": "нарицатель",
+        "lemma": "нарицатель",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "племянник",
+        "lemma": "племянник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (13)"
+      },
+      {
+        "distractor": "кочевник",
+        "lemma": "кочевник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (63)"
+      },
+      {
+        "distractor": "потомственный",
+        "lemma": "потомственный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "нация",
+        "lemma": "нация",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (21)"
+      },
+      {
+        "distractor": "потомок",
+        "lemma": "потомок",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (159)"
+      },
+      {
+        "distractor": "житель",
+        "lemma": "житель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (747)"
+      },
+      {
+        "distractor": "аутентичность",
+        "lemma": "аутентичность",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "пастух",
+        "lemma": "пастух",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (73.85)"
+      },
+      {
+        "distractor": "община",
+        "lemma": "община",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (236)"
+      },
+      {
+        "distractor": "таджик",
+        "lemma": "таджик",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "общество",
+        "lemma": "общество",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (342)"
+      },
+      {
+        "distractor": "состав",
+        "lemma": "состав",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (851)"
+      },
+      {
+        "distractor": "опыт",
+        "lemma": "опыт",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (429)"
+      },
+      {
+        "distractor": "предок",
+        "lemma": "предок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (312)"
+      },
+      {
+        "distractor": "история",
+        "lemma": "история",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1412)"
+      }
+    ],
+    "valid_distractors": [
+      "племянник",
+      "кочевник",
+      "нация",
+      "потомок"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'киргиз' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'киргиз', 'племянник', 'кочевник', 'нация' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Человек из центральной Азии.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfKTTOUDS9wVYCNRl2PwJNrPicwB', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Человек из центральной Азии.', role='assistant', function_call=None, tool_calls=None))], created=1716142425, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=14, prompt_tokens=198, total_tokens=212))",
+  "initial_definition": "Человек из центральной Азии",
+  "final_definition": "Человек из центральной Азии",
+  "formatted_definition": "Человек из центральной Азии",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Человек из центральной Азии",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек",
+            "из",
+            "центральной",
+            "Азии"
+          ],
+          "removed_tokens": [
+            "из"
+          ],
+          "final_tokens": [
+            "Человек",
+            "центральной",
+            "Азии"
+          ],
+          "lemmas": [
+            "человек",
+            "центральный",
+            "азия"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "центральный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "азия",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-13-43",
+  "end_time": "2024.05.19 18-13-45"
+}

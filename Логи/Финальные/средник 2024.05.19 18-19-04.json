@@ -1,0 +1,206 @@
+{
+  "word": "средник",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "анатомия",
+    "челюсть",
+    "топливо"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'средник'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'средник'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'средник', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "анатомия, челюсть, хромосома, топливо, книга, пружина, лампа, палец, каркас, колесо, розетка, седло, чашка, микроскоп, стилет, флакон",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfPcIckncv1kp9WADCFmcK8gxVGk', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='анатомия, челюсть, хромосома, топливо, книга, пружина, лампа, палец, каркас, колесо, розетка, седло, чашка, микроскоп, стилет, флакон', role='assistant', function_call=None, tool_calls=None))], created=1716142744, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=78, prompt_tokens=199, total_tokens=277))",
+    "distractor_analysis": [
+      {
+        "distractor": "анатомия",
+        "lemma": "анатомия",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (16)"
+      },
+      {
+        "distractor": "челюсть",
+        "lemma": "челюсть",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (26)"
+      },
+      {
+        "distractor": "хромосома",
+        "lemma": "хромосома",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.07)"
+      },
+      {
+        "distractor": "топливо",
+        "lemma": "топливо",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (96)"
+      },
+      {
+        "distractor": "книга",
+        "lemma": "книга",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2652)"
+      },
+      {
+        "distractor": "пружина",
+        "lemma": "пружина",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (16)"
+      },
+      {
+        "distractor": "лампа",
+        "lemma": "лампа",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (52.03)"
+      },
+      {
+        "distractor": "палец",
+        "lemma": "палец",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (284)"
+      },
+      {
+        "distractor": "каркас",
+        "lemma": "каркас",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (23)"
+      },
+      {
+        "distractor": "колесо",
+        "lemma": "колесо",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (71.55)"
+      },
+      {
+        "distractor": "розетка",
+        "lemma": "розетка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (13)"
+      },
+      {
+        "distractor": "седло",
+        "lemma": "седло",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (13)"
+      },
+      {
+        "distractor": "чашка",
+        "lemma": "чашка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (173)"
+      },
+      {
+        "distractor": "микроскоп",
+        "lemma": "микроскоп",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (278)"
+      },
+      {
+        "distractor": "стилет",
+        "lemma": "стилет",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.57)"
+      },
+      {
+        "distractor": "флакон",
+        "lemma": "флакон",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      }
+    ],
+    "valid_distractors": [
+      "анатомия",
+      "челюсть",
+      "топливо",
+      "пружина",
+      "каркас",
+      "розетка",
+      "седло",
+      "чашка"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'средник' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'средник', 'анатомия', 'челюсть', 'топливо' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Часть тела, соединяющая голову и туловище человека.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfPesicVaWephWGBuxNpRL2TgiK6', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Часть тела, соединяющая голову и туловище человека.', role='assistant', function_call=None, tool_calls=None))], created=1716142746, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=30, prompt_tokens=200, total_tokens=230))",
+  "initial_definition": "Часть тела, соединяющая голову и туловище человека",
+  "final_definition": "Часть тела, соединяющая голову и туловище человека",
+  "formatted_definition": "Часть тела, соединяющая голову и туловище человека",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Часть тела, соединяющая голову и туловище человека",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Часть",
+            "тела",
+            ",",
+            "соединяющая",
+            "голову",
+            "и",
+            "туловище",
+            "человека"
+          ],
+          "removed_tokens": [
+            "и",
+            ","
+          ],
+          "final_tokens": [
+            "Часть",
+            "тела",
+            "соединяющая",
+            "голову",
+            "туловище",
+            "человека"
+          ],
+          "lemmas": [
+            "часть",
+            "тело",
+            "соединять",
+            "голова",
+            "туловище",
+            "человек"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "часть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "тело",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "соединять",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "голова",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "туловище",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-19-04",
+  "end_time": "2024.05.19 18-19-07"
+}

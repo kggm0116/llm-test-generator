@@ -1,0 +1,306 @@
+{
+  "word": "рубчик",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "выступ",
+    "карниз",
+    "ломтик"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'рубчик'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'рубчик'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'рубчик', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "выступ, карниз, косинус, ломтик, ревень, скос, кузов, клык, ковёр, каретка, гарнир, фасоль, деталь, решето, щепка, обрезок",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfUiSKTuyHHDVhDrIP2cDR8fggIs', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='выступ, карниз, косинус, ломтик, ревень, скос, кузов, клык, ковёр, каретка, гарнир, фасоль, деталь, решето, щепка, обрезок', role='assistant', function_call=None, tool_calls=None))], created=1716143060, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=73, prompt_tokens=202, total_tokens=275))",
+    "distractor_analysis": [
+      {
+        "distractor": "выступ",
+        "lemma": "выступ",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (13)"
+      },
+      {
+        "distractor": "карниз",
+        "lemma": "карниз",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (8)"
+      },
+      {
+        "distractor": "косинус",
+        "lemma": "косинус",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "ломтик",
+        "lemma": "ломтик",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (13)"
+      },
+      {
+        "distractor": "ревень",
+        "lemma": "ревень",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "скос",
+        "lemma": "скос",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "кузов",
+        "lemma": "кузов",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (28)"
+      },
+      {
+        "distractor": "клык",
+        "lemma": "клык",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (47)"
+      },
+      {
+        "distractor": "ковёр",
+        "lemma": "ковёр",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (138)"
+      },
+      {
+        "distractor": "каретка",
+        "lemma": "каретка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "гарнир",
+        "lemma": "гарнир",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.88)"
+      },
+      {
+        "distractor": "фасоль",
+        "lemma": "фасоль",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.53)"
+      },
+      {
+        "distractor": "деталь",
+        "lemma": "деталь",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1438)"
+      },
+      {
+        "distractor": "решето",
+        "lemma": "решето",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.68)"
+      },
+      {
+        "distractor": "щепка",
+        "lemma": "щепка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (20)"
+      },
+      {
+        "distractor": "обрезок",
+        "lemma": "обрезка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (10)"
+      }
+    ],
+    "valid_distractors": [
+      "выступ",
+      "карниз",
+      "ломтик",
+      "кузов",
+      "клык",
+      "ковёр",
+      "щепка",
+      "обрезок"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'рубчик' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'рубчик', 'выступ', 'карниз', 'ломтик' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Маленький выступ на поверхности.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfUj0YxSVRyeDMGEuDmFq0CA5Bgz', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Маленький выступ на поверхности.', role='assistant', function_call=None, tool_calls=None))], created=1716143061, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=14, prompt_tokens=201, total_tokens=215))",
+  "initial_definition": "Маленький выступ на поверхности",
+  "final_definition": "Небольшая выступающая часть на плоской поверхности.",
+  "formatted_definition": "Небольшая выступающая часть на плоской поверхности",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Маленький отросток на плоской поверхности.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Маленький",
+            "выступ",
+            "на",
+            "поверхности"
+          ],
+          "removed_tokens": [
+            "на"
+          ],
+          "final_tokens": [
+            "Маленький",
+            "выступ",
+            "поверхности"
+          ],
+          "lemmas": [
+            "маленький",
+            "выступ",
+            "поверхность"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "маленький",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "выступ",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "поверхность",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [
+          "выступ"
+        ],
+        "words_to_fix": [
+          "выступ"
+        ],
+        "correction_prompt": "Исправь толкование 'Маленький выступ на поверхности' для слова 'рубчик' так, чтобы в нем не использовались слова 'рубчик', 'карниз', 'выступ', 'ломтик' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Маленький отросток на плоской поверхности.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfUkfSaP4IOUIgFbaPRN88jUkaHA', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Маленький отросток на плоской поверхности.', role='assistant', function_call=None, tool_calls=None))], created=1716143062, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=20, prompt_tokens=225, total_tokens=245))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Небольшая выступающая часть на плоской поверхности.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Маленький",
+            "отросток",
+            "на",
+            "плоской",
+            "поверхности"
+          ],
+          "removed_tokens": [
+            "на"
+          ],
+          "final_tokens": [
+            "Маленький",
+            "отросток",
+            "плоской",
+            "поверхности"
+          ],
+          "lemmas": [
+            "маленький",
+            "отросток",
+            "плоский",
+            "поверхность"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "маленький",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "отросток",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (2.87)"
+          },
+          {
+            "lemma": "плоский",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "поверхность",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "отросток"
+        ],
+        "correction_prompt": "Исправь толкование 'Маленький отросток на плоской поверхности.' для слова 'рубчик' так, чтобы в нем не использовались слова 'рубчик', 'карниз', 'ломтик', 'отросток', 'выступ' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Небольшая выступающая часть на плоской поверхности.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfUlcB8qNqqxTYpBtvGe10qKNbYp', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Небольшая выступающая часть на плоской поверхности.', role='assistant', function_call=None, tool_calls=None))], created=1716143063, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=25, prompt_tokens=237, total_tokens=262))"
+      }
+    },
+    "3": {
+      "corrected_definition": "Небольшая выступающая часть на плоской поверхности.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Небольшая",
+            "выступающая",
+            "часть",
+            "на",
+            "плоской",
+            "поверхности"
+          ],
+          "removed_tokens": [
+            "на"
+          ],
+          "final_tokens": [
+            "Небольшая",
+            "выступающая",
+            "часть",
+            "плоской",
+            "поверхности"
+          ],
+          "lemmas": [
+            "небольшой",
+            "выступать",
+            "часть",
+            "плоский",
+            "поверхность"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "небольшой",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "выступать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "часть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "плоский",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "поверхность",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-24-19",
+  "end_time": "2024.05.19 18-24-23"
+}

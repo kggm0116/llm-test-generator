@@ -1,0 +1,194 @@
+{
+  "word": "сессия",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "экзамен",
+    "оценка",
+    "учеба"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'сессия'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'сессия'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'сессия', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "экзамен, аттестация, проверка, контроль, тестирование, оценка, работа, труд, изучение, учеба, подготовка, обучение, знание, задание, урок, занятие",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfVrhlU9d6lGOGANcxaZskjVG0P9', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='экзамен, аттестация, проверка, контроль, тестирование, оценка, работа, труд, изучение, учеба, подготовка, обучение, знание, задание, урок, занятие', role='assistant', function_call=None, tool_calls=None))], created=1716143131, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=71, prompt_tokens=199, total_tokens=270))",
+    "distractor_analysis": [
+      {
+        "distractor": "экзамен",
+        "lemma": "экзамен",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (42)"
+      },
+      {
+        "distractor": "аттестация",
+        "lemma": "аттестация",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.65)"
+      },
+      {
+        "distractor": "проверка",
+        "lemma": "проверка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (600)"
+      },
+      {
+        "distractor": "контроль",
+        "lemma": "контроль",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (57.19)"
+      },
+      {
+        "distractor": "тестирование",
+        "lemma": "тестирование",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "оценка",
+        "lemma": "оценка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (200)"
+      },
+      {
+        "distractor": "работа",
+        "lemma": "работа",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3092)"
+      },
+      {
+        "distractor": "труд",
+        "lemma": "труд",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (707)"
+      },
+      {
+        "distractor": "изучение",
+        "lemma": "изучение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (310)"
+      },
+      {
+        "distractor": "учеба",
+        "lemma": "учёба",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (59)"
+      },
+      {
+        "distractor": "подготовка",
+        "lemma": "подготовка",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (53.86)"
+      },
+      {
+        "distractor": "обучение",
+        "lemma": "обучение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (94)"
+      },
+      {
+        "distractor": "знание",
+        "lemma": "знание",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (918)"
+      },
+      {
+        "distractor": "задание",
+        "lemma": "задание",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2111)"
+      },
+      {
+        "distractor": "урок",
+        "lemma": "урок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1089)"
+      },
+      {
+        "distractor": "занятие",
+        "lemma": "занятие",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (343)"
+      }
+    ],
+    "valid_distractors": [
+      "экзамен",
+      "оценка",
+      "учеба",
+      "обучение"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'сессия' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'сессия', 'экзамен', 'оценка', 'учеба' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Период, когда проводится проверка знаний студентов.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfVsNercUVUwCgv9ntr7ul2aA6qd', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Период, когда проводится проверка знаний студентов.', role='assistant', function_call=None, tool_calls=None))], created=1716143132, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=21, prompt_tokens=199, total_tokens=220))",
+  "initial_definition": "Период, когда проводится проверка знаний студентов",
+  "final_definition": "Период, когда проводится проверка знаний студентов",
+  "formatted_definition": "Период, когда проводится проверка знаний студентов",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Период, когда проводится проверка знаний студентов",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Период",
+            ",",
+            "когда",
+            "проводится",
+            "проверка",
+            "знаний",
+            "студентов"
+          ],
+          "removed_tokens": [
+            "когда",
+            ","
+          ],
+          "final_tokens": [
+            "Период",
+            "проводится",
+            "проверка",
+            "знаний",
+            "студентов"
+          ],
+          "lemmas": [
+            "период",
+            "проводиться",
+            "проверка",
+            "знание",
+            "студент"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "период",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "проводиться",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "проверка",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "знание",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "студент",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-25-30",
+  "end_time": "2024.05.19 18-25-33"
+}

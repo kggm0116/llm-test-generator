@@ -1,0 +1,175 @@
+{
+  "word": "правдоподобие",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "реальность",
+    "предположение",
+    "догадка"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'правдоподобие'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'правдоподобие'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'правдоподобие', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "истина, реальность, фикция, иллюзия, предположение, догадка, миф, вымысел, румянцевание, абстракция, самообман, иллюминат, стрекоза, креация, химера, фантазия",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfgLrZqSy6fthGJzvgZtuiL3BHex', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='истина, реальность, фикция, иллюзия, предположение, догадка, миф, вымысел, румянцевание, абстракция, самообман, иллюминат, стрекоза, креация, химера, фантазия', role='assistant', function_call=None, tool_calls=None))], created=1716143781, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=85, prompt_tokens=208, total_tokens=293))",
+    "distractor_analysis": [
+      {
+        "distractor": "истина",
+        "lemma": "истина",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (58.96)"
+      },
+      {
+        "distractor": "реальность",
+        "lemma": "реальность",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (20)"
+      },
+      {
+        "distractor": "фикция",
+        "lemma": "фикция",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.53)"
+      },
+      {
+        "distractor": "иллюзия",
+        "lemma": "иллюзия",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "предположение",
+        "lemma": "предположение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (158)"
+      },
+      {
+        "distractor": "догадка",
+        "lemma": "догадка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (33)"
+      },
+      {
+        "distractor": "миф",
+        "lemma": "миф",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (159)"
+      },
+      {
+        "distractor": "вымысел",
+        "lemma": "вымысел",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.6)"
+      },
+      {
+        "distractor": "румянцевание",
+        "lemma": "румянцевание",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "абстракция",
+        "lemma": "абстракция",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.22)"
+      },
+      {
+        "distractor": "самообман",
+        "lemma": "самообман",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.38)"
+      },
+      {
+        "distractor": "иллюминат",
+        "lemma": "иллюминат",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "стрекоза",
+        "lemma": "стрекоза",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (94)"
+      },
+      {
+        "distractor": "креация",
+        "lemma": "креация",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "химера",
+        "lemma": "химера",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "фантазия",
+        "lemma": "фантазия",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (62)"
+      }
+    ],
+    "valid_distractors": [
+      "реальность",
+      "предположение",
+      "догадка",
+      "миф",
+      "стрекоза",
+      "фантазия"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'правдоподобие' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'правдоподобие', 'реальность', 'предположение', 'догадка' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Внешнее соответствие действительности.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfgNjf0SofxcTDHXrSkc47aZA231', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Внешнее соответствие действительности.', role='assistant', function_call=None, tool_calls=None))], created=1716143783, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=15, prompt_tokens=207, total_tokens=222))",
+  "initial_definition": "Внешнее соответствие действительности",
+  "final_definition": "Внешнее соответствие действительности",
+  "formatted_definition": "Внешнее соответствие действительности",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Внешнее соответствие действительности",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Внешнее",
+            "соответствие",
+            "действительности"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Внешнее",
+            "соответствие",
+            "действительности"
+          ],
+          "lemmas": [
+            "внешний",
+            "соответствие",
+            "действительность"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "внешний",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "соответствие",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "действительность",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-36-21",
+  "end_time": "2024.05.19 18-36-24"
+}

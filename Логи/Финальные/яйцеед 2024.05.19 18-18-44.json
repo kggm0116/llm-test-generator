@@ -1,0 +1,201 @@
+{
+  "word": "яйцеед",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "паразит",
+    "хищник",
+    "паук"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'яйцеед'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'яйцеед'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'яйцеед', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "паразит, хищник, животное, насекомое, птица, рыба, паук, млекопитающее, змея, червь, куропатка, дракон, пингвин, скорпион, голубь, крыса",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfPI1MTChbkM2eCrZ18isOb8svmc', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='паразит, хищник, животное, насекомое, птица, рыба, паук, млекопитающее, змея, червь, куропатка, дракон, пингвин, скорпион, голубь, крыса', role='assistant', function_call=None, tool_calls=None))], created=1716142724, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=84, prompt_tokens=205, total_tokens=289))",
+    "distractor_analysis": [
+      {
+        "distractor": "паразит",
+        "lemma": "паразит",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (56)"
+      },
+      {
+        "distractor": "хищник",
+        "lemma": "хищник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (186)"
+      },
+      {
+        "distractor": "животное",
+        "lemma": "животное",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3666)"
+      },
+      {
+        "distractor": "насекомое",
+        "lemma": "насекомое",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (570)"
+      },
+      {
+        "distractor": "птица",
+        "lemma": "птица",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1551)"
+      },
+      {
+        "distractor": "рыба",
+        "lemma": "рыба",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (705)"
+      },
+      {
+        "distractor": "паук",
+        "lemma": "паук",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (100)"
+      },
+      {
+        "distractor": "млекопитающее",
+        "lemma": "млекопитающее",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.11)"
+      },
+      {
+        "distractor": "змея",
+        "lemma": "змея",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (229)"
+      },
+      {
+        "distractor": "червь",
+        "lemma": "червь",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (99)"
+      },
+      {
+        "distractor": "куропатка",
+        "lemma": "куропатка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (48)"
+      },
+      {
+        "distractor": "дракон",
+        "lemma": "дракон",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (53)"
+      },
+      {
+        "distractor": "пингвин",
+        "lemma": "пингвин",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (56)"
+      },
+      {
+        "distractor": "скорпион",
+        "lemma": "скорпион",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (21)"
+      },
+      {
+        "distractor": "голубь",
+        "lemma": "голубь",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (104)"
+      },
+      {
+        "distractor": "крыса",
+        "lemma": "крыса",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (20)"
+      }
+    ],
+    "valid_distractors": [
+      "паразит",
+      "хищник",
+      "паук",
+      "червь",
+      "куропатка",
+      "дракон",
+      "пингвин",
+      "скорпион",
+      "голубь",
+      "крыса"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'яйцеед' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'яйцеед', 'паразит', 'хищник', 'паук' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "животное, которое питается яйцами других животных.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfPKPjtx4Nd9FqOUSUOdzNeTpGse', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='животное, которое питается яйцами других животных.', role='assistant', function_call=None, tool_calls=None))], created=1716142726, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=21, prompt_tokens=202, total_tokens=223))",
+  "initial_definition": "животное, которое питается яйцами других животных",
+  "final_definition": "животное, которое питается яйцами других животных",
+  "formatted_definition": "животное, которое питается яйцами других животных",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "животное, которое питается яйцами других животных",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "животное",
+            ",",
+            "которое",
+            "питается",
+            "яйцами",
+            "других",
+            "животных"
+          ],
+          "removed_tokens": [
+            ","
+          ],
+          "final_tokens": [
+            "животное",
+            "которое",
+            "питается",
+            "яйцами",
+            "других",
+            "животных"
+          ],
+          "lemmas": [
+            "животное",
+            "который",
+            "питаться",
+            "яйцо",
+            "другой",
+            "животное"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "животное",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "который",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (3361.51)"
+          },
+          {
+            "lemma": "питаться",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "яйцо",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "другой",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (1577.31)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-18-44",
+  "end_time": "2024.05.19 18-18-47"
+}

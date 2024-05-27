@@ -1,0 +1,251 @@
+{
+  "word": "псалтырь",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "библия",
+    "христианство",
+    "музыкант"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'псалтырь'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'псалтырь'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'псалтырь', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "инструмент, религия, музыка, библия, христианство, музыкант, книга, медитация, церковь, песнопение, религиозность, хвала, духовный, поклонение, молитва, песнь",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfQm4hMKvHtGTbwrFXP1WRpf0TDl', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='инструмент, религия, музыка, библия, христианство, музыкант, книга, медитация, церковь, песнопение, религиозность, хвала, духовный, поклонение, молитва, песнь', role='assistant', function_call=None, tool_calls=None))], created=1716142816, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=89, prompt_tokens=208, total_tokens=297))",
+    "distractor_analysis": [
+      {
+        "distractor": "инструмент",
+        "lemma": "инструмент",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (634)"
+      },
+      {
+        "distractor": "религия",
+        "lemma": "религия",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (225)"
+      },
+      {
+        "distractor": "музыка",
+        "lemma": "музыка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (568)"
+      },
+      {
+        "distractor": "библия",
+        "lemma": "библия",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (122)"
+      },
+      {
+        "distractor": "христианство",
+        "lemma": "христианство",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (132)"
+      },
+      {
+        "distractor": "музыкант",
+        "lemma": "музыкант",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (103)"
+      },
+      {
+        "distractor": "книга",
+        "lemma": "книга",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2652)"
+      },
+      {
+        "distractor": "медитация",
+        "lemma": "медитация",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "церковь",
+        "lemma": "церковь",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (349)"
+      },
+      {
+        "distractor": "песнопение",
+        "lemma": "песнопение",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.42)"
+      },
+      {
+        "distractor": "религиозность",
+        "lemma": "религиозность",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "хвала",
+        "lemma": "хвала",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (7)"
+      },
+      {
+        "distractor": "духовный",
+        "lemma": "духовный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "поклонение",
+        "lemma": "поклонение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (52)"
+      },
+      {
+        "distractor": "молитва",
+        "lemma": "молитва",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (166)"
+      },
+      {
+        "distractor": "песнь",
+        "lemma": "песня",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (922)"
+      }
+    ],
+    "valid_distractors": [
+      "библия",
+      "христианство",
+      "музыкант",
+      "хвала",
+      "поклонение",
+      "молитва"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'псалтырь' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'псалтырь', 'библия', 'христианство', 'музыкант' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Сборник духовных песнопений.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfQoc59cMoVsC69FiYZEVIguj6rv', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Сборник духовных песнопений.', role='assistant', function_call=None, tool_calls=None))], created=1716142818, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=14, prompt_tokens=211, total_tokens=225))",
+  "initial_definition": "Сборник духовных песнопений",
+  "final_definition": "Сборник текстов для чтения вслух на религиозные темы.",
+  "formatted_definition": "Сборник текстов для чтения вслух на религиозные темы",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Сборник текстов для чтения вслух на религиозные темы.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Сборник",
+            "духовных",
+            "песнопений"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Сборник",
+            "духовных",
+            "песнопений"
+          ],
+          "lemmas": [
+            "сборник",
+            "духовный",
+            "песнопение"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "сборник",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "духовный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "песнопение",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (1.42)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "песнопение"
+        ],
+        "correction_prompt": "Исправь толкование 'Сборник духовных песнопений' для слова 'псалтырь' так, чтобы в нем не использовались слова 'псалтырь', 'библия', 'песнопение', 'христианство', 'музыкант' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Сборник текстов для чтения вслух на религиозные темы.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfQp7mqGZUvkfOtaAh6wfpO9XBTB', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Сборник текстов для чтения вслух на религиозные темы.', role='assistant', function_call=None, tool_calls=None))], created=1716142819, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=24, prompt_tokens=241, total_tokens=265))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Сборник текстов для чтения вслух на религиозные темы.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Сборник",
+            "текстов",
+            "для",
+            "чтения",
+            "вслух",
+            "на",
+            "религиозные",
+            "темы"
+          ],
+          "removed_tokens": [
+            "на",
+            "для"
+          ],
+          "final_tokens": [
+            "Сборник",
+            "текстов",
+            "чтения",
+            "вслух",
+            "религиозные",
+            "темы"
+          ],
+          "lemmas": [
+            "сборник",
+            "текст",
+            "чтение",
+            "вслух",
+            "религиозный",
+            "тема"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "сборник",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "текст",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "чтение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "вслух",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          },
+          {
+            "lemma": "религиозный",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "тема",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-20-16",
+  "end_time": "2024.05.19 18-20-20"
+}

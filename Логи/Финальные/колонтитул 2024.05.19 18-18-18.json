@@ -1,0 +1,199 @@
+{
+  "word": "колонтитул",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "шрифт",
+    "ссылка"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'колонтитул'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'колонтитул'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'колонтитул', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Заголовок, текст, страница, шрифт, печать, нижний колонтитул, верхний колонтитул, абзац, таблица, иллюстрация, номер, ссылка, маркировка, выравнивание, вставка, межстрочный интервал",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfOtmvqK74WIaah8KOT5yqU5dyVC', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Заголовок, текст, страница, шрифт, печать, нижний колонтитул, верхний колонтитул, абзац, таблица, иллюстрация, номер, ссылка, маркировка, выравнивание, вставка, межстрочный интервал', role='assistant', function_call=None, tool_calls=None))], created=1716142699, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=85, prompt_tokens=208, total_tokens=293))",
+    "distractor_analysis": [
+      {
+        "distractor": "Заголовок",
+        "lemma": "заголовок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (376)"
+      },
+      {
+        "distractor": "текст",
+        "lemma": "текст",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (6081)"
+      },
+      {
+        "distractor": "страница",
+        "lemma": "страница",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (782)"
+      },
+      {
+        "distractor": "шрифт",
+        "lemma": "шрифт",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (72)"
+      },
+      {
+        "distractor": "печать",
+        "lemma": "печать",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (56.39)"
+      },
+      {
+        "distractor": "нижний колонтитул",
+        "lemma": "нижний колонтитул",
+        "is_valid": false,
+        "reason": "Содержит пробел"
+      },
+      {
+        "distractor": "верхний колонтитул",
+        "lemma": "верхний колонтитул",
+        "is_valid": false,
+        "reason": "Содержит пробел"
+      },
+      {
+        "distractor": "абзац",
+        "lemma": "абзац",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (304)"
+      },
+      {
+        "distractor": "таблица",
+        "lemma": "таблица",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1866)"
+      },
+      {
+        "distractor": "иллюстрация",
+        "lemma": "иллюстрация",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (325)"
+      },
+      {
+        "distractor": "номер",
+        "lemma": "номер",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (402)"
+      },
+      {
+        "distractor": "ссылка",
+        "lemma": "ссылка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (30)"
+      },
+      {
+        "distractor": "маркировка",
+        "lemma": "маркировка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "выравнивание",
+        "lemma": "выравнивание",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.38)"
+      },
+      {
+        "distractor": "вставка",
+        "lemma": "вставка",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.72)"
+      },
+      {
+        "distractor": "межстрочный интервал",
+        "lemma": "межстрочный интервал",
+        "is_valid": false,
+        "reason": "Содержит пробел"
+      }
+    ],
+    "valid_distractors": [
+      "шрифт",
+      "ссылка"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'колонтитул' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'колонтитул', 'шрифт', 'ссылка' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Надпись в верхней или нижней части страницы документа.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfOwYXH0d9VeBjuNBZPRlGoGY2n9', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Надпись в верхней или нижней части страницы документа.', role='assistant', function_call=None, tool_calls=None))], created=1716142702, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=24, prompt_tokens=198, total_tokens=222))",
+  "initial_definition": "Надпись в верхней или нижней части страницы документа",
+  "final_definition": "Надпись в верхней или нижней части страницы документа",
+  "formatted_definition": "Надпись в верхней или нижней части страницы документа",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Надпись в верхней или нижней части страницы документа",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Надпись",
+            "в",
+            "верхней",
+            "или",
+            "нижней",
+            "части",
+            "страницы",
+            "документа"
+          ],
+          "removed_tokens": [
+            "или",
+            "в"
+          ],
+          "final_tokens": [
+            "Надпись",
+            "верхней",
+            "нижней",
+            "части",
+            "страницы",
+            "документа"
+          ],
+          "lemmas": [
+            "надпись",
+            "верхний",
+            "нижний",
+            "часть",
+            "страница",
+            "документ"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "надпись",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "верхний",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "нижний",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "часть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "страница",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "документ",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-18-18",
+  "end_time": "2024.05.19 18-18-22"
+}

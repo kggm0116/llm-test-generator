@@ -1,0 +1,179 @@
+{
+  "word": "гексаэдр",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "додекаэдр",
+    "октаэдр",
+    "тетраэдр"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'гексаэдр'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'гексаэдр'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'гексаэдр', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Пирамида, параллелепипед, икосаэдр, додекаэдр, октаэдр, тетраэдр, пентагональный, грань, объём, ребро, вершина, призма, конус, цилиндр, площадь, равносторонний.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfML3J31R2JRN7HPXifeeeYxjmwT', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Пирамида, параллелепипед, икосаэдр, додекаэдр, октаэдр, тетраэдр, пентагональный, грань, объём, ребро, вершина, призма, конус, цилиндр, площадь, равносторонний.', role='assistant', function_call=None, tool_calls=None))], created=1716142541, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=91, prompt_tokens=205, total_tokens=296))",
+    "distractor_analysis": [
+      {
+        "distractor": "Пирамида",
+        "lemma": "пирамида",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (354)"
+      },
+      {
+        "distractor": "параллелепипед",
+        "lemma": "параллелепипед",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (490)"
+      },
+      {
+        "distractor": "икосаэдр",
+        "lemma": "икосаэдр",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "додекаэдр",
+        "lemma": "додекаэдр",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (6)"
+      },
+      {
+        "distractor": "октаэдр",
+        "lemma": "октаэдр",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "тетраэдр",
+        "lemma": "тетраэдр",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (18)"
+      },
+      {
+        "distractor": "пентагональный",
+        "lemma": "пентагональный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "грань",
+        "lemma": "грань",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (318)"
+      },
+      {
+        "distractor": "объём",
+        "lemma": "объём",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (750)"
+      },
+      {
+        "distractor": "ребро",
+        "lemma": "ребро",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (418)"
+      },
+      {
+        "distractor": "вершина",
+        "lemma": "вершина",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (948)"
+      },
+      {
+        "distractor": "призма",
+        "lemma": "призма",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.95)"
+      },
+      {
+        "distractor": "конус",
+        "lemma": "конус",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (52)"
+      },
+      {
+        "distractor": "цилиндр",
+        "lemma": "цилиндр",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (86)"
+      },
+      {
+        "distractor": "площадь",
+        "lemma": "площадь",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2918)"
+      },
+      {
+        "distractor": "равносторонний",
+        "lemma": "равносторонний",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      }
+    ],
+    "valid_distractors": [
+      "додекаэдр",
+      "октаэдр",
+      "тетраэдр",
+      "конус",
+      "цилиндр"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'гексаэдр' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'гексаэдр', 'додекаэдр', 'октаэдр', 'тетраэдр' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "геометрическое тело с шестью гранями",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfMNzOtp4iw7wx4eVWHZtNR3y12k', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='геометрическое тело с шестью гранями', role='assistant', function_call=None, tool_calls=None))], created=1716142543, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=21, prompt_tokens=206, total_tokens=227))",
+  "initial_definition": "геометрическое тело с шестью гранями",
+  "final_definition": "геометрическое тело с шестью гранями",
+  "formatted_definition": "геометрическое тело с шестью гранями",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "геометрическое тело с шестью гранями",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "геометрическое",
+            "тело",
+            "с",
+            "шестью",
+            "гранями"
+          ],
+          "removed_tokens": [
+            "шестью",
+            "с"
+          ],
+          "final_tokens": [
+            "геометрическое",
+            "тело",
+            "гранями"
+          ],
+          "lemmas": [
+            "геометрический",
+            "тело",
+            "грань"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "геометрический",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "тело",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "грань",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-15-41",
+  "end_time": "2024.05.19 18-15-43"
+}

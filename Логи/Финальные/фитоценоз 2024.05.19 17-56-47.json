@@ -1,0 +1,185 @@
+{
+  "word": "фитоценоз",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "растительность",
+    "ландшафт",
+    "джунгли"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'фитоценоз'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'фитоценоз'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'фитоценоз', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "растительность, биоценоз, экосистема, ландшафт, кустарник, травянистость, дерновинка, степь, тайга, джунгли, багрянка, мхообразие, водоем, болото, пустыня, долина",
+    "response_details": "ChatCompletion(id='chatcmpl-9Qf44TFJvehpodX3HW6Y3oUDM8A3T', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='растительность, биоценоз, экосистема, ландшафт, кустарник, травянистость, дерновинка, степь, тайга, джунгли, багрянка, мхообразие, водоем, болото, пустыня, долина', role='assistant', function_call=None, tool_calls=None))], created=1716141408, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=89, prompt_tokens=208, total_tokens=297))",
+    "distractor_analysis": [
+      {
+        "distractor": "растительность",
+        "lemma": "растительность",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (103)"
+      },
+      {
+        "distractor": "биоценоз",
+        "lemma": "биоценоз",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "экосистема",
+        "lemma": "экосистема",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.23)"
+      },
+      {
+        "distractor": "ландшафт",
+        "lemma": "ландшафт",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (35)"
+      },
+      {
+        "distractor": "кустарник",
+        "lemma": "кустарник",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (226)"
+      },
+      {
+        "distractor": "травянистость",
+        "lemma": "травянистость",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "дерновинка",
+        "lemma": "дерновинка",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "степь",
+        "lemma": "степь",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (408)"
+      },
+      {
+        "distractor": "тайга",
+        "lemma": "тайга",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (54.4)"
+      },
+      {
+        "distractor": "джунгли",
+        "lemma": "джунгли",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (44)"
+      },
+      {
+        "distractor": "багрянка",
+        "lemma": "багрянка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (9)"
+      },
+      {
+        "distractor": "мхообразие",
+        "lemma": "мхообразие",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "водоем",
+        "lemma": "водоём",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (376)"
+      },
+      {
+        "distractor": "болото",
+        "lemma": "болото",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (405)"
+      },
+      {
+        "distractor": "пустыня",
+        "lemma": "пустыня",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (186)"
+      },
+      {
+        "distractor": "долина",
+        "lemma": "долина",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (264)"
+      }
+    ],
+    "valid_distractors": [
+      "растительность",
+      "ландшафт",
+      "джунгли",
+      "багрянка",
+      "пустыня"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'фитоценоз' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'фитоценоз', 'растительность', 'ландшафт', 'джунгли' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Растительное сообщество в природной среде.",
+  "response_details": "ChatCompletion(id='chatcmpl-9Qf46zIglJILB17CDF7YoWqTScx0V', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Растительное сообщество в природной среде.', role='assistant', function_call=None, tool_calls=None))], created=1716141410, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=15, prompt_tokens=208, total_tokens=223))",
+  "initial_definition": "Растительное сообщество в природной среде",
+  "final_definition": "Растительное сообщество в природной среде",
+  "formatted_definition": "Растительное сообщество в природной среде",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Растительное сообщество в природной среде",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Растительное",
+            "сообщество",
+            "в",
+            "природной",
+            "среде"
+          ],
+          "removed_tokens": [
+            "в"
+          ],
+          "final_tokens": [
+            "Растительное",
+            "сообщество",
+            "природной",
+            "среде"
+          ],
+          "lemmas": [
+            "растительный",
+            "сообщество",
+            "природный",
+            "среда"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "растительный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "сообщество",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "природный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "среда",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 17-56-47",
+  "end_time": "2024.05.19 17-56-50"
+}

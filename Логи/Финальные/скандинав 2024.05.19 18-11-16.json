@@ -1,0 +1,225 @@
+{
+  "word": "скандинав",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "викинг",
+    "вестник"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'скандинав'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'скандинав'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'скандинав', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "скандинав, викинг, северянин, норд, сага, берсерк, фьорд, руна, ольха, валькирия, фьелд, норник, лапландец, северянка, викингесса, вестник",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfI5CR2O3POvN7Sots4ZLychIttK', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='скандинав, викинг, северянин, норд, сага, берсерк, фьорд, руна, ольха, валькирия, фьелд, норник, лапландец, северянка, викингесса, вестник', role='assistant', function_call=None, tool_calls=None))], created=1716142277, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=86, prompt_tokens=202, total_tokens=288))",
+    "distractor_analysis": [
+      {
+        "distractor": "скандинав",
+        "lemma": "скандинав",
+        "is_valid": false,
+        "reason": "Является исходным словом"
+      },
+      {
+        "distractor": "викинг",
+        "lemma": "викинг",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "северянин",
+        "lemma": "северянин",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "норд",
+        "lemma": "норд",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "сага",
+        "lemma": "сага",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "берсерк",
+        "lemma": "берсерк",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "фьорд",
+        "lemma": "фьорд",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "руна",
+        "lemma": "руно",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "ольха",
+        "lemma": "ольха",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.8)"
+      },
+      {
+        "distractor": "валькирия",
+        "lemma": "валькирия",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.42)"
+      },
+      {
+        "distractor": "фьелд",
+        "lemma": "фьелд",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "норник",
+        "lemma": "норникнуть",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "лапландец",
+        "lemma": "лапландец",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "северянка",
+        "lemma": "северянка",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "викингесса",
+        "lemma": "викингесс",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "вестник",
+        "lemma": "вестник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (46)"
+      }
+    ],
+    "valid_distractors": [
+      "викинг",
+      "вестник"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'скандинав' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'скандинав', 'викинг', 'вестник' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Житель Скандинавского полуострова.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfI7V7yKyATPUlKkV9WSkAD11u3b', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Житель Скандинавского полуострова.', role='assistant', function_call=None, tool_calls=None))], created=1716142279, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=16, prompt_tokens=195, total_tokens=211))",
+  "initial_definition": "Житель Скандинавского полуострова",
+  "final_definition": "Житель северного уголка Европы.",
+  "formatted_definition": "Житель северного уголка Европы",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Житель северного уголка Европы.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Житель",
+            "Скандинавского",
+            "полуострова"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Житель",
+            "Скандинавского",
+            "полуострова"
+          ],
+          "lemmas": [
+            "житель",
+            "скандинавский",
+            "полуостров"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "житель",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "скандинавский",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (2.41)"
+          },
+          {
+            "lemma": "полуостров",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "скандинавский"
+        ],
+        "correction_prompt": "Исправь толкование 'Житель Скандинавского полуострова' для слова 'скандинав' так, чтобы в нем не использовались слова 'скандинав', 'скандинавский', 'вестник', 'викинг' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Житель северного уголка Европы.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfI8H7TtxSrwbgXWuatn33E5aeV0', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Житель северного уголка Европы.', role='assistant', function_call=None, tool_calls=None))], created=1716142280, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=17, prompt_tokens=229, total_tokens=246))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Житель северного уголка Европы.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Житель",
+            "северного",
+            "уголка",
+            "Европы"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Житель",
+            "северного",
+            "уголка",
+            "Европы"
+          ],
+          "lemmas": [
+            "житель",
+            "северный",
+            "уголок",
+            "европа"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "житель",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "северный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "уголок",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "европа",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-11-16",
+  "end_time": "2024.05.19 18-11-20"
+}

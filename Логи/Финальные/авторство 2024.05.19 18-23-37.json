@@ -1,0 +1,176 @@
+{
+  "word": "авторство",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "творение",
+    "сборник",
+    "изложение"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'авторство'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'авторство'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'авторство', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Произведение, творчество, творение, текст, опус, сборник, комментарий, изложение, статья, эссе, заметка, рассказ, лекция, доклад, диссертация, научка.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfU2h3siAHcz4nfeUpHkVwt9uPkO', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Произведение, творчество, творение, текст, опус, сборник, комментарий, изложение, статья, эссе, заметка, рассказ, лекция, доклад, диссертация, научка.', role='assistant', function_call=None, tool_calls=None))], created=1716143018, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=73, prompt_tokens=202, total_tokens=275))",
+    "distractor_analysis": [
+      {
+        "distractor": "Произведение",
+        "lemma": "произведение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2150)"
+      },
+      {
+        "distractor": "творчество",
+        "lemma": "творчество",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (216)"
+      },
+      {
+        "distractor": "творение",
+        "lemma": "творение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (60)"
+      },
+      {
+        "distractor": "текст",
+        "lemma": "текст",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (6081)"
+      },
+      {
+        "distractor": "опус",
+        "lemma": "опус",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "сборник",
+        "lemma": "сборник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (73)"
+      },
+      {
+        "distractor": "комментарий",
+        "lemma": "комментарий",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "изложение",
+        "lemma": "изложение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (200)"
+      },
+      {
+        "distractor": "статья",
+        "lemma": "статья",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (121.62)"
+      },
+      {
+        "distractor": "эссе",
+        "lemma": "эссе",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "заметка",
+        "lemma": "заметка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (36)"
+      },
+      {
+        "distractor": "рассказ",
+        "lemma": "рассказ",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1316)"
+      },
+      {
+        "distractor": "лекция",
+        "lemma": "лекция",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (16)"
+      },
+      {
+        "distractor": "доклад",
+        "lemma": "доклад",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (53)"
+      },
+      {
+        "distractor": "диссертация",
+        "lemma": "диссертация",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (14.59)"
+      },
+      {
+        "distractor": "научка",
+        "lemma": "научок",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      }
+    ],
+    "valid_distractors": [
+      "творение",
+      "сборник",
+      "изложение",
+      "заметка",
+      "лекция",
+      "доклад",
+      "диссертация"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'авторство' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'авторство', 'творение', 'сборник', 'изложение' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "происхождение литературного произведения.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfU4vIFR9IfSx21QjJdEWVarykMM', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='происхождение литературного произведения.', role='assistant', function_call=None, tool_calls=None))], created=1716143020, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=19, prompt_tokens=200, total_tokens=219))",
+  "initial_definition": "происхождение литературного произведения",
+  "final_definition": "происхождение литературного произведения",
+  "formatted_definition": "происхождение литературного произведения",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "происхождение литературного произведения",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "происхождение",
+            "литературного",
+            "произведения"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "происхождение",
+            "литературного",
+            "произведения"
+          ],
+          "lemmas": [
+            "происхождение",
+            "литературный",
+            "произведение"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "происхождение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "литературный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "произведение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-23-37",
+  "end_time": "2024.05.19 18-23-40"
+}

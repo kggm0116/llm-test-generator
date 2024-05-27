@@ -1,0 +1,205 @@
+{
+  "word": "пыльник",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "лепесток",
+    "рулон",
+    "луковица"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'пыльник'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'пыльник'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'пыльник', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Зерно, лепесток, рулон, плод, луковица, колосок, корень, орех, плодородие, кладенец, плодарадие, мотылёк, листочек, цветок, бумажник, шишка.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfM3aSXRzY5GVqfWbdjVDkL0FDTn', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Зерно, лепесток, рулон, плод, луковица, колосок, корень, орех, плодородие, кладенец, плодарадие, мотылёк, листочек, цветок, бумажник, шишка.', role='assistant', function_call=None, tool_calls=None))], created=1716142523, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=81, prompt_tokens=202, total_tokens=283))",
+    "distractor_analysis": [
+      {
+        "distractor": "Зерно",
+        "lemma": "зерно",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (427)"
+      },
+      {
+        "distractor": "лепесток",
+        "lemma": "лепесток",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (105)"
+      },
+      {
+        "distractor": "рулон",
+        "lemma": "рулон",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (108)"
+      },
+      {
+        "distractor": "плод",
+        "lemma": "плод",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (443)"
+      },
+      {
+        "distractor": "луковица",
+        "lemma": "луковица",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (83)"
+      },
+      {
+        "distractor": "колосок",
+        "lemma": "колосок",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (25)"
+      },
+      {
+        "distractor": "корень",
+        "lemma": "корень",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2047)"
+      },
+      {
+        "distractor": "орех",
+        "lemma": "орех",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (300)"
+      },
+      {
+        "distractor": "плодородие",
+        "lemma": "плодородие",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.03)"
+      },
+      {
+        "distractor": "кладенец",
+        "lemma": "кладенец",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "плодарадие",
+        "lemma": "плодарадие",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "мотылёк",
+        "lemma": "мотылёк",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (24)"
+      },
+      {
+        "distractor": "листочек",
+        "lemma": "листочек",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (83)"
+      },
+      {
+        "distractor": "цветок",
+        "lemma": "цветок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (911)"
+      },
+      {
+        "distractor": "бумажник",
+        "lemma": "бумажник",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "шишка",
+        "lemma": "шишка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (191)"
+      }
+    ],
+    "valid_distractors": [
+      "лепесток",
+      "рулон",
+      "луковица",
+      "колосок",
+      "мотылёк",
+      "листочек",
+      "шишка"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'пыльник' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'пыльник', 'лепесток', 'рулон', 'луковица' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Часть растения, которая служит для сбора пыли.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfM5jAqtmOBqxYLzQZxMVLsRcBNx', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Часть растения, которая служит для сбора пыли.\\n', role='assistant', function_call=None, tool_calls=None))], created=1716142525, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=21, prompt_tokens=201, total_tokens=222))",
+  "initial_definition": "Часть растения, которая служит для сбора пыли",
+  "final_definition": "Часть растения, которая служит для сбора пыли",
+  "formatted_definition": "Часть растения, которая служит для сбора пыли",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Часть растения, которая служит для сбора пыли",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Часть",
+            "растения",
+            ",",
+            "которая",
+            "служит",
+            "для",
+            "сбора",
+            "пыли"
+          ],
+          "removed_tokens": [
+            ",",
+            "для"
+          ],
+          "final_tokens": [
+            "Часть",
+            "растения",
+            "которая",
+            "служит",
+            "сбора",
+            "пыли"
+          ],
+          "lemmas": [
+            "часть",
+            "растение",
+            "который",
+            "служить",
+            "сбор",
+            "пыль"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "часть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "растение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "который",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (3361.51)"
+          },
+          {
+            "lemma": "служить",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "сбор",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "пыль",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-15-23",
+  "end_time": "2024.05.19 18-15-25"
+}

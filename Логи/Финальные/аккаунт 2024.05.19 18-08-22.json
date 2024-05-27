@@ -1,0 +1,177 @@
+{
+  "word": "аккаунт",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "отчёт",
+    "баланс",
+    "картотека"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'аккаунт'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'аккаунт'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'аккаунт', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "счёт, отчёт, банк, баланс, документ, платёж, картотека, портфель, хроника, реестр, чек, учёт, ведомость, запись, досье, финансы",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfFGhomrGzFRamRblqhRGD2D8g5L', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='счёт, отчёт, банк, баланс, документ, платёж, картотека, портфель, хроника, реестр, чек, учёт, ведомость, запись, досье, финансы', role='assistant', function_call=None, tool_calls=None))], created=1716142102, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=71, prompt_tokens=202, total_tokens=273))",
+    "distractor_analysis": [
+      {
+        "distractor": "счёт",
+        "lemma": "счёт",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (339)"
+      },
+      {
+        "distractor": "отчёт",
+        "lemma": "отчёт",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (19)"
+      },
+      {
+        "distractor": "банк",
+        "lemma": "банк",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (306)"
+      },
+      {
+        "distractor": "баланс",
+        "lemma": "баланс",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (9.34)"
+      },
+      {
+        "distractor": "документ",
+        "lemma": "документ",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (408)"
+      },
+      {
+        "distractor": "платёж",
+        "lemma": "платёж",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "картотека",
+        "lemma": "картотека",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (6)"
+      },
+      {
+        "distractor": "портфель",
+        "lemma": "портфель",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (71)"
+      },
+      {
+        "distractor": "хроника",
+        "lemma": "хроника",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "реестр",
+        "lemma": "реестр",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "чек",
+        "lemma": "чек",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (11)"
+      },
+      {
+        "distractor": "учёт",
+        "lemma": "учёт",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (43)"
+      },
+      {
+        "distractor": "ведомость",
+        "lemma": "ведомость",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "запись",
+        "lemma": "запись",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1762)"
+      },
+      {
+        "distractor": "досье",
+        "lemma": "досье",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "финансы",
+        "lemma": "финансы",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      }
+    ],
+    "valid_distractors": [
+      "отчёт",
+      "баланс",
+      "картотека",
+      "портфель",
+      "хроника",
+      "чек",
+      "учёт",
+      "ведомость"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'аккаунт' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'аккаунт', 'отчёт', 'баланс', 'картотека' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Запись финансовых операций.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfFIe4ZxGzduvwDN7DlleMoHuJSX', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Запись финансовых операций.', role='assistant', function_call=None, tool_calls=None))], created=1716142104, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=14, prompt_tokens=203, total_tokens=217))",
+  "initial_definition": "Запись финансовых операций",
+  "final_definition": "Запись финансовых операций",
+  "formatted_definition": "Запись финансовых операций",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Запись финансовых операций",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Запись",
+            "финансовых",
+            "операций"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Запись",
+            "финансовых",
+            "операций"
+          ],
+          "lemmas": [
+            "запись",
+            "финансовый",
+            "операция"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "запись",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "финансовый",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "операция",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-08-22",
+  "end_time": "2024.05.19 18-08-24"
+}

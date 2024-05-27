@@ -1,0 +1,295 @@
+{
+  "word": "двоеверие",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "магия",
+    "заклинание",
+    "молитва"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'двоеверие'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'двоеверие'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'двоеверие', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "религия, культизм, магия, заклинание, богослужение, молитва, тотем, амулет, канон, аскетизм, культ, идол, магия, мистика, табу, пакт",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfMiv99StPwt5KowyAhzoK0coUHK', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='религия, культизм, магия, заклинание, богослужение, молитва, тотем, амулет, канон, аскетизм, культ, идол, магия, мистика, табу, пакт', role='assistant', function_call=None, tool_calls=None))], created=1716142564, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=74, prompt_tokens=208, total_tokens=282))",
+    "distractor_analysis": [
+      {
+        "distractor": "религия",
+        "lemma": "религия",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (225)"
+      },
+      {
+        "distractor": "культизм",
+        "lemma": "культизм",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "магия",
+        "lemma": "магия",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (16)"
+      },
+      {
+        "distractor": "заклинание",
+        "lemma": "заклинание",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (24)"
+      },
+      {
+        "distractor": "богослужение",
+        "lemma": "богослужение",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.76)"
+      },
+      {
+        "distractor": "молитва",
+        "lemma": "молитва",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (166)"
+      },
+      {
+        "distractor": "тотем",
+        "lemma": "тотем",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "амулет",
+        "lemma": "амулет",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.49)"
+      },
+      {
+        "distractor": "канон",
+        "lemma": "канон",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "аскетизм",
+        "lemma": "аскетизм",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.07)"
+      },
+      {
+        "distractor": "культ",
+        "lemma": "культ",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (17)"
+      },
+      {
+        "distractor": "идол",
+        "lemma": "идол",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (25)"
+      },
+      {
+        "distractor": "мистика",
+        "lemma": "мистика",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "табу",
+        "lemma": "табу",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.45)"
+      },
+      {
+        "distractor": "пакт",
+        "lemma": "пакт",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (10.64)"
+      }
+    ],
+    "valid_distractors": [
+      "магия",
+      "заклинание",
+      "молитва",
+      "тотем",
+      "канон",
+      "культ",
+      "идол",
+      "пакт"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'двоеверие' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'двоеверие', 'магия', 'заклинание', 'молитва' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Разнородие верований.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfMkv0temlRWKuAf8fuRe2OUQeuk', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Разнородие верований.', role='assistant', function_call=None, tool_calls=None))], created=1716142566, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=11, prompt_tokens=205, total_tokens=216))",
+  "initial_definition": "Разнородие верований",
+  "final_definition": "Отрицание согласия с разнообразием религиозных убеждений.",
+  "formatted_definition": "Отрицание согласия с разнообразием религиозных убеждений",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Верующий в несовместимость различных религиозных учений.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Разнородие",
+            "верований"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Разнородие",
+            "верований"
+          ],
+          "lemmas": [
+            "разнородие",
+            "верование"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "разнородие",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          },
+          {
+            "lemma": "верование",
+            "is_valid": true,
+            "reason": "Низкого класса (4)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "разнородие"
+        ],
+        "correction_prompt": "Исправь толкование 'Разнородие верований' для слова 'двоеверие' так, чтобы в нем не использовались слова 'двоеверие', 'магия', 'разнородие', 'молитва', 'заклинание' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Верующий в несовместимость различных религиозных учений.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfMlHXMKP23A7VdhmqLZarNxZY9d', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Верующий в несовместимость различных религиозных учений.', role='assistant', function_call=None, tool_calls=None))], created=1716142567, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=25, prompt_tokens=233, total_tokens=258))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Отрицание согласия с разнообразием религиозных убеждений.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Верующий",
+            "в",
+            "несовместимость",
+            "различных",
+            "религиозных",
+            "учений"
+          ],
+          "removed_tokens": [
+            "в"
+          ],
+          "final_tokens": [
+            "Верующий",
+            "несовместимость",
+            "различных",
+            "религиозных",
+            "учений"
+          ],
+          "lemmas": [
+            "веровать",
+            "несовместимость",
+            "различный",
+            "религиозный",
+            "учение"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "веровать",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          },
+          {
+            "lemma": "несовместимость",
+            "is_valid": false,
+            "reason": "Высокого класса (6)"
+          },
+          {
+            "lemma": "различный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "религиозный",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "учение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "несовместимость"
+        ],
+        "correction_prompt": "Исправь толкование 'Верующий в несовместимость различных религиозных учений.' для слова 'двоеверие' так, чтобы в нем не использовались слова 'двоеверие', 'несовместимость', 'магия', 'заклинание', 'разнородие', 'молитва' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Отрицание согласия с разнообразием религиозных убеждений.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfMmIJMBPFSyo8gGCFRSCMnapbna', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Отрицание согласия с разнообразием религиозных убеждений.', role='assistant', function_call=None, tool_calls=None))], created=1716142568, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=28, prompt_tokens=256, total_tokens=284))"
+      }
+    },
+    "3": {
+      "corrected_definition": "Отрицание согласия с разнообразием религиозных убеждений.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Отрицание",
+            "согласия",
+            "с",
+            "разнообразием",
+            "религиозных",
+            "убеждений"
+          ],
+          "removed_tokens": [
+            "с"
+          ],
+          "final_tokens": [
+            "Отрицание",
+            "согласия",
+            "разнообразием",
+            "религиозных",
+            "убеждений"
+          ],
+          "lemmas": [
+            "отрицание",
+            "согласие",
+            "разнообразие",
+            "религиозный",
+            "убеждение"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "отрицание",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "согласие",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "разнообразие",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "религиозный",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "убеждение",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-16-04",
+  "end_time": "2024.05.19 18-16-08"
+}

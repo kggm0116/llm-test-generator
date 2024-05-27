@@ -1,0 +1,151 @@
+{
+  "word": "латинянин",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "иностранец",
+    "уроженец",
+    "земляк"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'латинянин'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'латинянин'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'латинянин', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "иностранец, уроженец, экспатриант, приезжий, земляк, согражданин, иностранец, приезжий, гастарбайтер, новоприбывший, приезжий, мигрант, переселенец, новоприбывший, приезжий",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfagN3BzXodrSF0FpMOBht1IXfI1', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='иностранец, уроженец, экспатриант, приезжий, земляк, согражданин, иностранец, приезжий, гастарбайтер, новоприбывший, приезжий, мигрант, переселенец, новоприбывший, приезжий', role='assistant', function_call=None, tool_calls=None))], created=1716143430, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=95, prompt_tokens=205, total_tokens=300))",
+    "distractor_analysis": [
+      {
+        "distractor": "иностранец",
+        "lemma": "иностранец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (24)"
+      },
+      {
+        "distractor": "уроженец",
+        "lemma": "уроженец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (11)"
+      },
+      {
+        "distractor": "экспатриант",
+        "lemma": "экспатриант",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "приезжий",
+        "lemma": "приезжий",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "земляк",
+        "lemma": "земляк",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (17)"
+      },
+      {
+        "distractor": "согражданин",
+        "lemma": "согражданин",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (26)"
+      },
+      {
+        "distractor": "гастарбайтер",
+        "lemma": "гастарбайтер",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "новоприбывший",
+        "lemma": "новоприбывший",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "мигрант",
+        "lemma": "мигрант",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "переселенец",
+        "lemma": "переселенец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (32)"
+      }
+    ],
+    "valid_distractors": [
+      "иностранец",
+      "уроженец",
+      "земляк",
+      "согражданин",
+      "переселенец"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'латинянин' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'латинянин', 'иностранец', 'уроженец', 'земляк' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Человек, родившийся в Латинской Америке.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfaiDd75uL99YWoSMlOvaVsiT3dj', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Человек, родившийся в Латинской Америке.', role='assistant', function_call=None, tool_calls=None))], created=1716143432, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=23, prompt_tokens=206, total_tokens=229))",
+  "initial_definition": "Человек, родившийся в Латинской Америке",
+  "final_definition": "Человек, родившийся в Латинской Америке",
+  "formatted_definition": "Человек, родившийся в Латинской Америке",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Человек, родившийся в Латинской Америке",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек",
+            ",",
+            "родившийся",
+            "в",
+            "Латинской",
+            "Америке"
+          ],
+          "removed_tokens": [
+            "в",
+            ","
+          ],
+          "final_tokens": [
+            "Человек",
+            "родившийся",
+            "Латинской",
+            "Америке"
+          ],
+          "lemmas": [
+            "человек",
+            "родиться",
+            "латинский",
+            "америка"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "родиться",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "латинский",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "америка",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-30-30",
+  "end_time": "2024.05.19 18-30-33"
+}

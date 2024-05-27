@@ -1,0 +1,288 @@
+{
+  "word": "жилкование",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "Вены",
+    "артерии",
+    "цилиндр"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'жилкование'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'жилкование'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'жилкование', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Вены, капилляры, артерии, ствол, конурка, перевязь, цилиндр, шар, диск, крыло, рожь, кисть, створка, язычок, трубка, узел",
+    "response_details": "ChatCompletion(id='chatcmpl-9Qf5R5yUU59Do5bAirqhnUtet7Das', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Вены, капилляры, артерии, ствол, конурка, перевязь, цилиндр, шар, диск, крыло, рожь, кисть, створка, язычок, трубка, узел', role='assistant', function_call=None, tool_calls=None))], created=1716141493, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=70, prompt_tokens=202, total_tokens=272))",
+    "distractor_analysis": [
+      {
+        "distractor": "Вены",
+        "lemma": "вена",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (10)"
+      },
+      {
+        "distractor": "капилляры",
+        "lemma": "капилляр",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.65)"
+      },
+      {
+        "distractor": "артерии",
+        "lemma": "артерия",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "ствол",
+        "lemma": "ствол",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (427)"
+      },
+      {
+        "distractor": "конурка",
+        "lemma": "конурка",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "перевязь",
+        "lemma": "перевязь",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.14)"
+      },
+      {
+        "distractor": "цилиндр",
+        "lemma": "цилиндр",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (86)"
+      },
+      {
+        "distractor": "шар",
+        "lemma": "шар",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (455)"
+      },
+      {
+        "distractor": "диск",
+        "lemma": "диск",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (265)"
+      },
+      {
+        "distractor": "крыло",
+        "lemma": "крыло",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (317)"
+      },
+      {
+        "distractor": "рожь",
+        "lemma": "рожь",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.45)"
+      },
+      {
+        "distractor": "кисть",
+        "lemma": "кисть",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (175)"
+      },
+      {
+        "distractor": "створка",
+        "lemma": "створка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (9)"
+      },
+      {
+        "distractor": "язычок",
+        "lemma": "язычок",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (10)"
+      },
+      {
+        "distractor": "трубка",
+        "lemma": "трубка",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (149.91)"
+      },
+      {
+        "distractor": "узел",
+        "lemma": "узел",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (181)"
+      }
+    ],
+    "valid_distractors": [
+      "Вены",
+      "артерии",
+      "цилиндр",
+      "кисть",
+      "створка",
+      "язычок",
+      "узел"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'жилкование' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'жилкование', 'Вены', 'артерии', 'цилиндр' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "разветвление в ткани, похожее на сеть.",
+  "response_details": "ChatCompletion(id='chatcmpl-9Qf5SQPVeTGT7quCc5FRzsmZvBeiK', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='разветвление в ткани, похожее на сеть.', role='assistant', function_call=None, tool_calls=None))], created=1716141494, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=18, prompt_tokens=198, total_tokens=216))",
+  "initial_definition": "разветвление в ткани, похожее на сеть",
+  "final_definition": "структура в ткани, похожая на сеть, через которую происходит передача жидкости.",
+  "formatted_definition": "структура в ткани, похожая на сеть, через которую происходит передача жидкости",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "структура в ткани, похожая на сеть, через которую происходит передача жидкости.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "разветвление",
+            "в",
+            "ткани",
+            ",",
+            "похожее",
+            "на",
+            "сеть"
+          ],
+          "removed_tokens": [
+            ",",
+            "на",
+            "в"
+          ],
+          "final_tokens": [
+            "разветвление",
+            "ткани",
+            "похожее",
+            "сеть"
+          ],
+          "lemmas": [
+            "разветвление",
+            "ткань",
+            "похожий",
+            "сеть"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "разветвление",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          },
+          {
+            "lemma": "ткань",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "похожий",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "сеть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "разветвление"
+        ],
+        "correction_prompt": "Исправь толкование 'разветвление в ткани, похожее на сеть' для слова 'жилкование' так, чтобы в нем не использовались слова 'жилкование', 'артерии', 'разветвление', 'Вены', 'цилиндр' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "структура в ткани, похожая на сеть, через которую происходит передача жидкости.",
+        "response_details": "ChatCompletion(id='chatcmpl-9Qf5ToQLqTueYR4g1huMVnm5iBPRD', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='структура в ткани, похожая на сеть, через которую происходит передача жидкости.', role='assistant', function_call=None, tool_calls=None))], created=1716141495, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=33, prompt_tokens=232, total_tokens=265))"
+      }
+    },
+    "2": {
+      "corrected_definition": "структура в ткани, похожая на сеть, через которую происходит передача жидкости.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "структура",
+            "в",
+            "ткани",
+            ",",
+            "похожая",
+            "на",
+            "сеть",
+            ",",
+            "через",
+            "которую",
+            "происходит",
+            "передача",
+            "жидкости"
+          ],
+          "removed_tokens": [
+            ",",
+            "на",
+            "в",
+            "через"
+          ],
+          "final_tokens": [
+            "структура",
+            "ткани",
+            "похожая",
+            "сеть",
+            "которую",
+            "происходит",
+            "передача",
+            "жидкости"
+          ],
+          "lemmas": [
+            "структура",
+            "ткань",
+            "похожий",
+            "сеть",
+            "который",
+            "происходить",
+            "передача",
+            "жидкость"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "структура",
+            "is_valid": true,
+            "reason": "Низкого класса (4)"
+          },
+          {
+            "lemma": "ткань",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "похожий",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "сеть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "который",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (3361.51)"
+          },
+          {
+            "lemma": "происходить",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "передача",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "жидкость",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 17-58-12",
+  "end_time": "2024.05.19 17-58-16"
+}

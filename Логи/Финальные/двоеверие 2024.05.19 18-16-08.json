@@ -1,0 +1,181 @@
+{
+  "word": "двоеверие",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "иерархия",
+    "доктрина"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'двоеверие'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'двоеверие'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'двоеверие', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "религия, фанатизм, догмат, сектантство, идолопоклонство, апостасия, умиление, суеверие, мистицизм, диалектика, эзотерика, иерархия, доктрина, магизм, теология, фетишизм",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfMnPuMz6eBSHCC59PCF2Bd9Iacx', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='религия, фанатизм, догмат, сектантство, идолопоклонство, апостасия, умиление, суеверие, мистицизм, диалектика, эзотерика, иерархия, доктрина, магизм, теология, фетишизм', role='assistant', function_call=None, tool_calls=None))], created=1716142569, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=98, prompt_tokens=208, total_tokens=306))",
+    "distractor_analysis": [
+      {
+        "distractor": "религия",
+        "lemma": "религия",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (225)"
+      },
+      {
+        "distractor": "фанатизм",
+        "lemma": "фанатизм",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.3)"
+      },
+      {
+        "distractor": "догмат",
+        "lemma": "догмат",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "сектантство",
+        "lemma": "сектантство",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "идолопоклонство",
+        "lemma": "идолопоклонство",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "апостасия",
+        "lemma": "апостасий",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "умиление",
+        "lemma": "умиление",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "суеверие",
+        "lemma": "суеверие",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "мистицизм",
+        "lemma": "мистицизм",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "диалектика",
+        "lemma": "диалектика",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "эзотерика",
+        "lemma": "эзотерика",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "иерархия",
+        "lemma": "иерархия",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (7.16)"
+      },
+      {
+        "distractor": "доктрина",
+        "lemma": "доктрина",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (4.67)"
+      },
+      {
+        "distractor": "магизм",
+        "lemma": "магизм",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "теология",
+        "lemma": "теология",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.38)"
+      },
+      {
+        "distractor": "фетишизм",
+        "lemma": "фетишизм",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      }
+    ],
+    "valid_distractors": [
+      "иерархия",
+      "доктрина"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'двоеверие' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'двоеверие', 'иерархия', 'доктрина' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Отклонение от официально принятой веры.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfMpgzg9p1jKv3yZazrVmCdlPiGr', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Отклонение от официально принятой веры.', role='assistant', function_call=None, tool_calls=None))], created=1716142571, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=19, prompt_tokens=201, total_tokens=220))",
+  "initial_definition": "Отклонение от официально принятой веры",
+  "final_definition": "Отклонение от официально принятой веры",
+  "formatted_definition": "Отклонение от официально принятой веры",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Отклонение от официально принятой веры",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Отклонение",
+            "от",
+            "официально",
+            "принятой",
+            "веры"
+          ],
+          "removed_tokens": [
+            "от"
+          ],
+          "final_tokens": [
+            "Отклонение",
+            "официально",
+            "принятой",
+            "веры"
+          ],
+          "lemmas": [
+            "отклонение",
+            "официально",
+            "принять",
+            "вера"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "отклонение",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "официально",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          },
+          {
+            "lemma": "принять",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "вера",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-16-08",
+  "end_time": "2024.05.19 18-16-11"
+}

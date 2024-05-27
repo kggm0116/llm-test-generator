@@ -1,0 +1,251 @@
+{
+  "word": "нектарий",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "пыльца",
+    "тычинка",
+    "лепесток"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'нектарий'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'нектарий'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'нектарий', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "цветок, стебель, лист, пыльца, тычинка, пестик, бутон, корень, лепесток, чашелистик, околоплодник, эпигиний, наружный околоплодник, внутренний околоплодник, плодощипник, семянышко",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfLuXtD3y8q83lN5DVC0VTfLOyT8', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='цветок, стебель, лист, пыльца, тычинка, пестик, бутон, корень, лепесток, чашелистик, околоплодник, эпигиний, наружный околоплодник, внутренний околоплодник, плодощипник, семянышко', role='assistant', function_call=None, tool_calls=None))], created=1716142514, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=95, prompt_tokens=202, total_tokens=297))",
+    "distractor_analysis": [
+      {
+        "distractor": "цветок",
+        "lemma": "цветок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (911)"
+      },
+      {
+        "distractor": "стебель",
+        "lemma": "стебель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (324)"
+      },
+      {
+        "distractor": "лист",
+        "lemma": "лист",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1995)"
+      },
+      {
+        "distractor": "пыльца",
+        "lemma": "пыльца",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (44)"
+      },
+      {
+        "distractor": "тычинка",
+        "lemma": "тычинка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "пестик",
+        "lemma": "пестик",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "бутон",
+        "lemma": "бутон",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.83)"
+      },
+      {
+        "distractor": "корень",
+        "lemma": "корень",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2047)"
+      },
+      {
+        "distractor": "лепесток",
+        "lemma": "лепесток",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (105)"
+      },
+      {
+        "distractor": "чашелистик",
+        "lemma": "чашелистик",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "околоплодник",
+        "lemma": "околоплодник",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "эпигиний",
+        "lemma": "эпигиния",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "наружный околоплодник",
+        "lemma": "наружный околоплодник",
+        "is_valid": false,
+        "reason": "Содержит пробел"
+      },
+      {
+        "distractor": "внутренний околоплодник",
+        "lemma": "внутренний околоплодник",
+        "is_valid": false,
+        "reason": "Содержит пробел"
+      },
+      {
+        "distractor": "плодощипник",
+        "lemma": "плодощипник",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "семянышко",
+        "lemma": "семянышко",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      }
+    ],
+    "valid_distractors": [
+      "пыльца",
+      "тычинка",
+      "лепесток"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'нектарий' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'нектарий', 'пыльца', 'тычинка', 'лепесток' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Место на цветке, производящее нектар.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfLwkac3hgX2nuxO5xkNVwneZ6MN', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Место на цветке, производящее нектар.', role='assistant', function_call=None, tool_calls=None))], created=1716142516, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=18, prompt_tokens=201, total_tokens=219))",
+  "initial_definition": "Место на цветке, производящее нектар",
+  "final_definition": "Часть цветка, выделяющая сладкую жидкость.",
+  "formatted_definition": "Часть цветка, выделяющая сладкую жидкость",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Часть цветка, выделяющая сладкую жидкость.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Место",
+            "на",
+            "цветке",
+            ",",
+            "производящее",
+            "нектар"
+          ],
+          "removed_tokens": [
+            "на",
+            ","
+          ],
+          "final_tokens": [
+            "Место",
+            "цветке",
+            "производящее",
+            "нектар"
+          ],
+          "lemmas": [
+            "место",
+            "цветок",
+            "производить",
+            "нектар"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "место",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "цветок",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "производить",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "нектар",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (1.95)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "нектар"
+        ],
+        "correction_prompt": "Исправь толкование 'Место на цветке, производящее нектар' для слова 'нектарий' так, чтобы в нем не использовались слова 'нектарий', 'нектар', 'лепесток', 'тычинка', 'пыльца' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Часть цветка, выделяющая сладкую жидкость.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfLxdVywNN8z2FVjoC0xRleNRscy', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Часть цветка, выделяющая сладкую жидкость.', role='assistant', function_call=None, tool_calls=None))], created=1716142517, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=21, prompt_tokens=234, total_tokens=255))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Часть цветка, выделяющая сладкую жидкость.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Часть",
+            "цветка",
+            ",",
+            "выделяющая",
+            "сладкую",
+            "жидкость"
+          ],
+          "removed_tokens": [
+            ","
+          ],
+          "final_tokens": [
+            "Часть",
+            "цветка",
+            "выделяющая",
+            "сладкую",
+            "жидкость"
+          ],
+          "lemmas": [
+            "часть",
+            "цветок",
+            "выделять",
+            "сладкий",
+            "жидкость"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "часть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "цветок",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "выделять",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "сладкий",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "жидкость",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-15-14",
+  "end_time": "2024.05.19 18-15-17"
+}

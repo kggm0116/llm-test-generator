@@ -1,0 +1,187 @@
+{
+  "word": "семядоля",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "крупа",
+    "пашня",
+    "уборка"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'семядоля'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'семядоля'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'семядоля', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "зерно, урожай, крупа, зернопродукт, засуха, пашня, уборка, посев, урожайность, амбар, покупка, продажа, хлеб, картофель, виноград, подсолнечник",
+    "response_details": "ChatCompletion(id='chatcmpl-9Qf2BkEDSpm9hFLu7ClK6vIYGRf5f', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='зерно, урожай, крупа, зернопродукт, засуха, пашня, уборка, посев, урожайность, амбар, покупка, продажа, хлеб, картофель, виноград, подсолнечник', role='assistant', function_call=None, tool_calls=None))], created=1716141291, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=82, prompt_tokens=202, total_tokens=284))",
+    "distractor_analysis": [
+      {
+        "distractor": "зерно",
+        "lemma": "зерно",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (427)"
+      },
+      {
+        "distractor": "урожай",
+        "lemma": "урожай",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (337)"
+      },
+      {
+        "distractor": "крупа",
+        "lemma": "крупа",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (92)"
+      },
+      {
+        "distractor": "зернопродукт",
+        "lemma": "зернопродукт",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "засуха",
+        "lemma": "засуха",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.72)"
+      },
+      {
+        "distractor": "пашня",
+        "lemma": "пашня",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (37)"
+      },
+      {
+        "distractor": "уборка",
+        "lemma": "уборка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (72)"
+      },
+      {
+        "distractor": "посев",
+        "lemma": "посев",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (85)"
+      },
+      {
+        "distractor": "урожайность",
+        "lemma": "урожайность",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (25)"
+      },
+      {
+        "distractor": "амбар",
+        "lemma": "амбар",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (26)"
+      },
+      {
+        "distractor": "покупка",
+        "lemma": "покупка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (199)"
+      },
+      {
+        "distractor": "продажа",
+        "lemma": "продажа",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (62)"
+      },
+      {
+        "distractor": "хлеб",
+        "lemma": "хлеб",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (528)"
+      },
+      {
+        "distractor": "картофель",
+        "lemma": "картофель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (390)"
+      },
+      {
+        "distractor": "виноград",
+        "lemma": "виноград",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (117)"
+      },
+      {
+        "distractor": "подсолнечник",
+        "lemma": "подсолнечник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (37)"
+      }
+    ],
+    "valid_distractors": [
+      "крупа",
+      "пашня",
+      "уборка",
+      "посев",
+      "урожайность",
+      "амбар",
+      "покупка",
+      "продажа",
+      "виноград",
+      "подсолнечник"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'семядоля' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'семядоля', 'крупа', 'пашня', 'уборка' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Зерно различных сельскохозяйственных культур.",
+  "response_details": "ChatCompletion(id='chatcmpl-9Qf2Cd2nyaw8X1CmRSg3GGNlgOgzH', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Зерно различных сельскохозяйственных культур.', role='assistant', function_call=None, tool_calls=None))], created=1716141292, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=21, prompt_tokens=199, total_tokens=220))",
+  "initial_definition": "Зерно различных сельскохозяйственных культур",
+  "final_definition": "Зерно различных сельскохозяйственных культур",
+  "formatted_definition": "Зерно различных сельскохозяйственных культур",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Зерно различных сельскохозяйственных культур",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Зерно",
+            "различных",
+            "сельскохозяйственных",
+            "культур"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Зерно",
+            "различных",
+            "сельскохозяйственных",
+            "культур"
+          ],
+          "lemmas": [
+            "зерно",
+            "различный",
+            "сельскохозяйственный",
+            "культура"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "зерно",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "различный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "сельскохозяйственный",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "культура",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 17-54-50",
+  "end_time": "2024.05.19 17-54-53"
+}

@@ -1,0 +1,194 @@
+{
+  "word": "колонтитул",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "подпись",
+    "индекс",
+    "рубрика"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'колонтитул'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'колонтитул'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'колонтитул', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Заголовок, надпись, легенда, маркировка, подпись, выноска, содержание, индекс, рубрика, ссылка, шапка, обложка, маркер, аннотация, реквизит, подзаголовок",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfOxhkWNciYdudsAs8BvfRsNrbEp', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Заголовок, надпись, легенда, маркировка, подпись, выноска, содержание, индекс, рубрика, ссылка, шапка, обложка, маркер, аннотация, реквизит, подзаголовок', role='assistant', function_call=None, tool_calls=None))], created=1716142703, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=75, prompt_tokens=208, total_tokens=283))",
+    "distractor_analysis": [
+      {
+        "distractor": "Заголовок",
+        "lemma": "заголовок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (376)"
+      },
+      {
+        "distractor": "надпись",
+        "lemma": "надпись",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (56.81)"
+      },
+      {
+        "distractor": "легенда",
+        "lemma": "легенда",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (201)"
+      },
+      {
+        "distractor": "маркировка",
+        "lemma": "маркировка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "подпись",
+        "lemma": "подпись",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (66)"
+      },
+      {
+        "distractor": "выноска",
+        "lemma": "выноска",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "содержание",
+        "lemma": "содержание",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (310)"
+      },
+      {
+        "distractor": "индекс",
+        "lemma": "индекс",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (10)"
+      },
+      {
+        "distractor": "рубрика",
+        "lemma": "рубрика",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (83)"
+      },
+      {
+        "distractor": "ссылка",
+        "lemma": "ссылка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (30)"
+      },
+      {
+        "distractor": "шапка",
+        "lemma": "шапка",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (68.79)"
+      },
+      {
+        "distractor": "обложка",
+        "lemma": "обложка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (89)"
+      },
+      {
+        "distractor": "маркер",
+        "lemma": "маркёр",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "аннотация",
+        "lemma": "аннотация",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.57)"
+      },
+      {
+        "distractor": "реквизит",
+        "lemma": "реквизит",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (3.1)"
+      },
+      {
+        "distractor": "подзаголовок",
+        "lemma": "подзаголовок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      }
+    ],
+    "valid_distractors": [
+      "подпись",
+      "индекс",
+      "рубрика",
+      "ссылка",
+      "обложка",
+      "реквизит"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'колонтитул' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'колонтитул', 'подпись', 'индекс', 'рубрика' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Дополнительная надпись на странице печатного издания.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfOygELhFlPpsa0V9KABrZiWxZJ4', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Дополнительная надпись на странице печатного издания.', role='assistant', function_call=None, tool_calls=None))], created=1716142704, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=20, prompt_tokens=204, total_tokens=224))",
+  "initial_definition": "Дополнительная надпись на странице печатного издания",
+  "final_definition": "Дополнительная надпись на странице печатного издания",
+  "formatted_definition": "Дополнительная надпись на странице печатного издания",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Дополнительная надпись на странице печатного издания",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Дополнительная",
+            "надпись",
+            "на",
+            "странице",
+            "печатного",
+            "издания"
+          ],
+          "removed_tokens": [
+            "на"
+          ],
+          "final_tokens": [
+            "Дополнительная",
+            "надпись",
+            "странице",
+            "печатного",
+            "издания"
+          ],
+          "lemmas": [
+            "дополнительный",
+            "надпись",
+            "страница",
+            "печатный",
+            "издание"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "дополнительный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "надпись",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "страница",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "печатный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "издание",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-18-22",
+  "end_time": "2024.05.19 18-18-25"
+}

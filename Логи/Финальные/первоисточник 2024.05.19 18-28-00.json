@@ -1,0 +1,175 @@
+{
+  "word": "первоисточник",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "хроника",
+    "миф",
+    "свиток"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'первоисточник'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'первоисточник'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'первоисточник', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "история, артефакт, хроника, легенда, миф, хрестоматия, документ, свиток, анналы, летопись, монография, рукопись, памятник, сводка, досье, регистр",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfYH6qatH5vkmtLwu739GcZ4MMun', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='история, артефакт, хроника, легенда, миф, хрестоматия, документ, свиток, анналы, летопись, монография, рукопись, памятник, сводка, досье, регистр', role='assistant', function_call=None, tool_calls=None))], created=1716143281, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=79, prompt_tokens=211, total_tokens=290))",
+    "distractor_analysis": [
+      {
+        "distractor": "история",
+        "lemma": "история",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1412)"
+      },
+      {
+        "distractor": "артефакт",
+        "lemma": "артефакт",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "хроника",
+        "lemma": "хроника",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "легенда",
+        "lemma": "легенда",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (201)"
+      },
+      {
+        "distractor": "миф",
+        "lemma": "миф",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (159)"
+      },
+      {
+        "distractor": "хрестоматия",
+        "lemma": "хрестоматия",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "документ",
+        "lemma": "документ",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (408)"
+      },
+      {
+        "distractor": "свиток",
+        "lemma": "свиток",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (46)"
+      },
+      {
+        "distractor": "анналы",
+        "lemma": "анналы",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "летопись",
+        "lemma": "летопись",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (91)"
+      },
+      {
+        "distractor": "монография",
+        "lemma": "монография",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (4.56)"
+      },
+      {
+        "distractor": "рукопись",
+        "lemma": "рукопись",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (74)"
+      },
+      {
+        "distractor": "памятник",
+        "lemma": "памятник",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (389)"
+      },
+      {
+        "distractor": "сводка",
+        "lemma": "сводка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "досье",
+        "lemma": "досье",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "регистр",
+        "lemma": "регистр",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.79)"
+      }
+    ],
+    "valid_distractors": [
+      "хроника",
+      "миф",
+      "свиток",
+      "летопись",
+      "монография",
+      "рукопись"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'первоисточник' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'первоисточник', 'хроника', 'миф', 'свиток' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Источник первоначальной информации.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfYJhWL3XFWvWiCa4EX7kmyM9ebl', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Источник первоначальной информации.', role='assistant', function_call=None, tool_calls=None))], created=1716143283, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=12, prompt_tokens=205, total_tokens=217))",
+  "initial_definition": "Источник первоначальной информации",
+  "final_definition": "Источник первоначальной информации",
+  "formatted_definition": "Источник первоначальной информации",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Источник первоначальной информации",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Источник",
+            "первоначальной",
+            "информации"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Источник",
+            "первоначальной",
+            "информации"
+          ],
+          "lemmas": [
+            "источник",
+            "первоначальный",
+            "информация"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "источник",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "первоначальный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "информация",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-28-00",
+  "end_time": "2024.05.19 18-28-04"
+}

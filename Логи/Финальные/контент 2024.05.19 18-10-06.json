@@ -1,0 +1,166 @@
+{
+  "word": "контент",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "видео",
+    "реклама",
+    "публикация"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'контент'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'контент'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'контент', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "материал, информация, текст, изображение, видео, аудио, статья, пост, реклама, бренд, продукт, публикация, отчет, презентация, фотография, анкета",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfGwjSpOEacvFk1uOZ2GTVGOtP1L', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='материал, информация, текст, изображение, видео, аудио, статья, пост, реклама, бренд, продукт, публикация, отчет, презентация, фотография, анкета', role='assistant', function_call=None, tool_calls=None))], created=1716142206, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=72, prompt_tokens=199, total_tokens=271))",
+    "distractor_analysis": [
+      {
+        "distractor": "материал",
+        "lemma": "материал",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1092)"
+      },
+      {
+        "distractor": "информация",
+        "lemma": "информация",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2289)"
+      },
+      {
+        "distractor": "текст",
+        "lemma": "текст",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (6081)"
+      },
+      {
+        "distractor": "изображение",
+        "lemma": "изображение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (847)"
+      },
+      {
+        "distractor": "видео",
+        "lemma": "видео",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (13)"
+      },
+      {
+        "distractor": "аудио",
+        "lemma": "аудио",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "статья",
+        "lemma": "статья",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (121.62)"
+      },
+      {
+        "distractor": "пост",
+        "lemma": "пост",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (74.61)"
+      },
+      {
+        "distractor": "реклама",
+        "lemma": "реклама",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (25)"
+      },
+      {
+        "distractor": "бренд",
+        "lemma": "бренд",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "продукт",
+        "lemma": "продукт",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (349)"
+      },
+      {
+        "distractor": "публикация",
+        "lemma": "публикация",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (14)"
+      },
+      {
+        "distractor": "отчет",
+        "lemma": "отчёт",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (19)"
+      },
+      {
+        "distractor": "презентация",
+        "lemma": "презентация",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (159)"
+      },
+      {
+        "distractor": "фотография",
+        "lemma": "фотография",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (471)"
+      },
+      {
+        "distractor": "анкета",
+        "lemma": "анкета",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      }
+    ],
+    "valid_distractors": [
+      "видео",
+      "реклама",
+      "публикация",
+      "отчет",
+      "презентация"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'контент' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'контент', 'видео', 'реклама', 'публикация' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Содержание информации.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfGy8hoGP4GzeG1IDelZ8NoEoelY', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Содержание информации.', role='assistant', function_call=None, tool_calls=None))], created=1716142208, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=6, prompt_tokens=201, total_tokens=207))",
+  "initial_definition": "Содержание информации",
+  "final_definition": "Содержание информации",
+  "formatted_definition": "Содержание информации",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Содержание информации",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Содержание",
+            "информации"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Содержание",
+            "информации"
+          ],
+          "lemmas": [
+            "содержание",
+            "информация"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "содержание",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "информация",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-10-06",
+  "end_time": "2024.05.19 18-10-08"
+}

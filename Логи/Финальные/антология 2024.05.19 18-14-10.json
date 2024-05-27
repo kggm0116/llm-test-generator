@@ -1,0 +1,262 @@
+{
+  "word": "антология",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "сборник",
+    "отбор",
+    "издание"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'антология'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'антология'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'антология', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "сборник, компиляция, подборка, сборник, подбор, отбор, компиляция, альманах, специальный, издание, книга, подбор, сбор, отбор, специализированный, тематический",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfKsk6jUMWYenjG0e5174yGLpyLE', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='сборник, компиляция, подборка, сборник, подбор, отбор, компиляция, альманах, специальный, издание, книга, подбор, сбор, отбор, специализированный, тематический', role='assistant', function_call=None, tool_calls=None))], created=1716142450, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=81, prompt_tokens=205, total_tokens=286))",
+    "distractor_analysis": [
+      {
+        "distractor": "сборник",
+        "lemma": "сборник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (73)"
+      },
+      {
+        "distractor": "компиляция",
+        "lemma": "компиляция",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.15)"
+      },
+      {
+        "distractor": "подборка",
+        "lemma": "подборка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "подбор",
+        "lemma": "подбор",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.76)"
+      },
+      {
+        "distractor": "отбор",
+        "lemma": "отбор",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (8)"
+      },
+      {
+        "distractor": "альманах",
+        "lemma": "альманах",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.72)"
+      },
+      {
+        "distractor": "специальный",
+        "lemma": "специальный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "издание",
+        "lemma": "издание",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (91)"
+      },
+      {
+        "distractor": "книга",
+        "lemma": "книга",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2652)"
+      },
+      {
+        "distractor": "сбор",
+        "lemma": "сбор",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (135)"
+      },
+      {
+        "distractor": "специализированный",
+        "lemma": "специализировать",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "тематический",
+        "lemma": "тематический",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      }
+    ],
+    "valid_distractors": [
+      "сборник",
+      "отбор",
+      "издание",
+      "сбор"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'антология' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'антология', 'сборник', 'отбор', 'издание' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Коллекция лучших произведений в какой-либо области искусства или литературы.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfKuWMQX12tdmIDS9SvrEpyCTZmN', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Коллекция лучших произведений в какой-либо области искусства или литературы.', role='assistant', function_call=None, tool_calls=None))], created=1716142452, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=36, prompt_tokens=201, total_tokens=237))",
+  "initial_definition": "Коллекция лучших произведений в какой-либо области искусства или литературы",
+  "final_definition": "Коллекция лучших работ в области искусства или литературы.",
+  "formatted_definition": "Коллекция лучших работ в области искусства или литературы",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Коллекция лучших работ в области искусства или литературы.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Коллекция",
+            "лучших",
+            "произведений",
+            "в",
+            "какой-либо",
+            "области",
+            "искусства",
+            "или",
+            "литературы"
+          ],
+          "removed_tokens": [
+            "или",
+            "в"
+          ],
+          "final_tokens": [
+            "Коллекция",
+            "лучших",
+            "произведений",
+            "какой-либо",
+            "области",
+            "искусства",
+            "литературы"
+          ],
+          "lemmas": [
+            "коллекция",
+            "хороший",
+            "произведение",
+            "какой-либо",
+            "область",
+            "искусство",
+            "литература"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "коллекция",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "хороший",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "произведение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "какой-либо",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          },
+          {
+            "lemma": "область",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "искусство",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "литература",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "какой-либо"
+        ],
+        "correction_prompt": "Исправь толкование 'Коллекция лучших произведений в какой-либо области искусства или литературы' для слова 'антология' так, чтобы в нем не использовались слова 'антология', 'какой-либо', 'сборник', 'отбор', 'издание' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Коллекция лучших работ в области искусства или литературы.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfKwekDm4aLvYnysoKcjXUGZX6sQ', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Коллекция лучших работ в области искусства или литературы.', role='assistant', function_call=None, tool_calls=None))], created=1716142454, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=27, prompt_tokens=256, total_tokens=283))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Коллекция лучших работ в области искусства или литературы.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Коллекция",
+            "лучших",
+            "работ",
+            "в",
+            "области",
+            "искусства",
+            "или",
+            "литературы"
+          ],
+          "removed_tokens": [
+            "или",
+            "в"
+          ],
+          "final_tokens": [
+            "Коллекция",
+            "лучших",
+            "работ",
+            "области",
+            "искусства",
+            "литературы"
+          ],
+          "lemmas": [
+            "коллекция",
+            "хороший",
+            "работа",
+            "область",
+            "искусство",
+            "литература"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "коллекция",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "хороший",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "работа",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "область",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "искусство",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "литература",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-14-10",
+  "end_time": "2024.05.19 18-14-14"
+}

@@ -1,0 +1,167 @@
+{
+  "word": "эстонец",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "латыш",
+    "швед",
+    "португалец"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'эстонец'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'эстонец'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'эстонец', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "белорус, литовец, латыш, финн, немец, русский, швед, датчанин, португалец, испанец, грек, британец, болгарин, китаец, индиец, бразилец",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfXco5DevXEhLf2YLawvtepNCfqZ', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='белорус, литовец, латыш, финн, немец, русский, швед, датчанин, португалец, испанец, грек, британец, болгарин, китаец, индиец, бразилец', role='assistant', function_call=None, tool_calls=None))], created=1716143240, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=84, prompt_tokens=205, total_tokens=289))",
+    "distractor_analysis": [
+      {
+        "distractor": "белорус",
+        "lemma": "белорус",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.68)"
+      },
+      {
+        "distractor": "литовец",
+        "lemma": "литовец",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.79)"
+      },
+      {
+        "distractor": "латыш",
+        "lemma": "латыш",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (4.21)"
+      },
+      {
+        "distractor": "финн",
+        "lemma": "финн",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.83)"
+      },
+      {
+        "distractor": "немец",
+        "lemma": "немец",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (214.23)"
+      },
+      {
+        "distractor": "русский",
+        "lemma": "русский",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "швед",
+        "lemma": "швед",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (27)"
+      },
+      {
+        "distractor": "датчанин",
+        "lemma": "датчанин",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "португалец",
+        "lemma": "португалец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (20)"
+      },
+      {
+        "distractor": "испанец",
+        "lemma": "испанец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (11)"
+      },
+      {
+        "distractor": "грек",
+        "lemma": "грек",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (672)"
+      },
+      {
+        "distractor": "британец",
+        "lemma": "британец",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (3.06)"
+      },
+      {
+        "distractor": "болгарин",
+        "lemma": "болгарин",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "китаец",
+        "lemma": "китаец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (107)"
+      },
+      {
+        "distractor": "индиец",
+        "lemma": "индиец",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.38)"
+      },
+      {
+        "distractor": "бразилец",
+        "lemma": "бразилец",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      }
+    ],
+    "valid_distractors": [
+      "латыш",
+      "швед",
+      "португалец",
+      "испанец",
+      "британец",
+      "китаец"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'эстонец' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'эстонец', 'латыш', 'швед', 'португалец' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "житель Эстонии.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfXeeulPTWbnfbIH2mmFaqP1PxFQ', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='житель Эстонии.', role='assistant', function_call=None, tool_calls=None))], created=1716143242, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=7, prompt_tokens=203, total_tokens=210))",
+  "initial_definition": "житель Эстонии",
+  "final_definition": "житель Эстонии",
+  "formatted_definition": "житель Эстонии",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "житель Эстонии",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "житель",
+            "Эстонии"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "житель",
+            "Эстонии"
+          ],
+          "lemmas": [
+            "житель",
+            "эстония"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "житель",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "эстония",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-27-20",
+  "end_time": "2024.05.19 18-27-22"
+}

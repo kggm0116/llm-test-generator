@@ -1,0 +1,177 @@
+{
+  "word": "приазовье",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "ракушка",
+    "протока",
+    "раствор"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'приазовье'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'приазовье'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'приазовье', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "западина, ракушка, моллюск, эстуарий, пеленг, канал, протока, водоем, раствор, поймень, глинистая, пустыня, оазис, солянка, иловатая, водохранилище",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfQWpR6yA4M5I5swLfEopIVNSmac', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='западина, ракушка, моллюск, эстуарий, пеленг, канал, протока, водоем, раствор, поймень, глинистая, пустыня, оазис, солянка, иловатая, водохранилище', role='assistant', function_call=None, tool_calls=None))], created=1716142800, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=85, prompt_tokens=208, total_tokens=293))",
+    "distractor_analysis": [
+      {
+        "distractor": "западина",
+        "lemma": "западина",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "ракушка",
+        "lemma": "ракушка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (37)"
+      },
+      {
+        "distractor": "моллюск",
+        "lemma": "моллюск",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.18)"
+      },
+      {
+        "distractor": "эстуарий",
+        "lemma": "эстуарий",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "пеленг",
+        "lemma": "пеленг",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.61)"
+      },
+      {
+        "distractor": "канал",
+        "lemma": "канал",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (57.77)"
+      },
+      {
+        "distractor": "протока",
+        "lemma": "проток",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (6)"
+      },
+      {
+        "distractor": "водоем",
+        "lemma": "водоём",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (376)"
+      },
+      {
+        "distractor": "раствор",
+        "lemma": "раствор",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (149)"
+      },
+      {
+        "distractor": "поймень",
+        "lemma": "поймень",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "глинистая",
+        "lemma": "глинистый",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "пустыня",
+        "lemma": "пустыня",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (186)"
+      },
+      {
+        "distractor": "оазис",
+        "lemma": "оазис",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (32)"
+      },
+      {
+        "distractor": "солянка",
+        "lemma": "солянка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "иловатая",
+        "lemma": "иловатый",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "водохранилище",
+        "lemma": "водохранилище",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.14)"
+      }
+    ],
+    "valid_distractors": [
+      "ракушка",
+      "протока",
+      "раствор",
+      "пустыня",
+      "оазис"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'приазовье' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'приазовье', 'ракушка', 'протока', 'раствор' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "прибрежная территория возле моря",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfQXFz4Vvn5bgGa3xGlHR9ouQBg7', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='прибрежная территория возле моря', role='assistant', function_call=None, tool_calls=None))], created=1716142801, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=18, prompt_tokens=205, total_tokens=223))",
+  "initial_definition": "прибрежная территория возле моря",
+  "final_definition": "прибрежная территория возле моря",
+  "formatted_definition": "прибрежная территория возле моря",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "прибрежная территория возле моря",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "прибрежная",
+            "территория",
+            "возле",
+            "моря"
+          ],
+          "removed_tokens": [
+            "возле"
+          ],
+          "final_tokens": [
+            "прибрежная",
+            "территория",
+            "моря"
+          ],
+          "lemmas": [
+            "прибрежный",
+            "территория",
+            "море"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "прибрежный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "территория",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "море",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-19-59",
+  "end_time": "2024.05.19 18-20-02"
+}

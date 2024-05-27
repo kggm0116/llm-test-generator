@@ -1,0 +1,174 @@
+{
+  "word": "итиль",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "кремль",
+    "династия",
+    "туризм"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'итиль'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'итиль'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'итиль', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "город, столица, население, кремль, культура, история, река, памятник, династия, экономика, туризм, архитектура, казна, территория, акведук, праздник",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfNw2SGm1dh4zogJy0ADS4vC7YNM', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='город, столица, население, кремль, культура, история, река, памятник, династия, экономика, туризм, архитектура, казна, территория, акведук, праздник', role='assistant', function_call=None, tool_calls=None))], created=1716142640, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=80, prompt_tokens=196, total_tokens=276))",
+    "distractor_analysis": [
+      {
+        "distractor": "город",
+        "lemma": "город",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3819)"
+      },
+      {
+        "distractor": "столица",
+        "lemma": "столица",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (421)"
+      },
+      {
+        "distractor": "население",
+        "lemma": "население",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (392)"
+      },
+      {
+        "distractor": "кремль",
+        "lemma": "кремль",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (183)"
+      },
+      {
+        "distractor": "культура",
+        "lemma": "культура",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (729)"
+      },
+      {
+        "distractor": "история",
+        "lemma": "история",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1412)"
+      },
+      {
+        "distractor": "река",
+        "lemma": "река",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2274)"
+      },
+      {
+        "distractor": "памятник",
+        "lemma": "памятник",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (389)"
+      },
+      {
+        "distractor": "династия",
+        "lemma": "династия",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (64)"
+      },
+      {
+        "distractor": "экономика",
+        "lemma": "экономика",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (62.63)"
+      },
+      {
+        "distractor": "туризм",
+        "lemma": "туризм",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (7)"
+      },
+      {
+        "distractor": "архитектура",
+        "lemma": "архитектура",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (101)"
+      },
+      {
+        "distractor": "казна",
+        "lemma": "казна",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (80)"
+      },
+      {
+        "distractor": "территория",
+        "lemma": "территория",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (619)"
+      },
+      {
+        "distractor": "акведук",
+        "lemma": "акведук",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.76)"
+      },
+      {
+        "distractor": "праздник",
+        "lemma": "праздник",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (836)"
+      }
+    ],
+    "valid_distractors": [
+      "кремль",
+      "династия",
+      "туризм",
+      "архитектура",
+      "казна"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'итиль' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'итиль', 'кремль', 'династия', 'туризм' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Главный город государства.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfNyn0JcmNXGANnTlRAQu1j2N952', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Главный город государства.', role='assistant', function_call=None, tool_calls=None))], created=1716142642, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=12, prompt_tokens=196, total_tokens=208))",
+  "initial_definition": "Главный город государства",
+  "final_definition": "Главный город государства",
+  "formatted_definition": "Главный город государства",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Главный город государства",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Главный",
+            "город",
+            "государства"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Главный",
+            "город",
+            "государства"
+          ],
+          "lemmas": [
+            "главный",
+            "город",
+            "государство"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "главный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "город",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "государство",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-17-20",
+  "end_time": "2024.05.19 18-17-23"
+}

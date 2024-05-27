@@ -1,0 +1,166 @@
+{
+  "word": "ремарка",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "указание",
+    "формулировка",
+    "объявление"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'ремарка'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'ремарка'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'ремарка', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "комментарий, указание, сноска, приписка, комментарий, фраза, надпись, формулировка, объявление, отметка, пометка, записка, рукопись, запись, надпись, пояснение",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfX2HYY81s7WI2BNaMM7ecXctC3U', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='комментарий, указание, сноска, приписка, комментарий, фраза, надпись, формулировка, объявление, отметка, пометка, записка, рукопись, запись, надпись, пояснение', role='assistant', function_call=None, tool_calls=None))], created=1716143204, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=74, prompt_tokens=199, total_tokens=273))",
+    "distractor_analysis": [
+      {
+        "distractor": "комментарий",
+        "lemma": "комментарий",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "указание",
+        "lemma": "указание",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (105)"
+      },
+      {
+        "distractor": "сноска",
+        "lemma": "сноска",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "приписка",
+        "lemma": "приписка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "фраза",
+        "lemma": "фраза",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (88.47)"
+      },
+      {
+        "distractor": "надпись",
+        "lemma": "надпись",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (56.81)"
+      },
+      {
+        "distractor": "формулировка",
+        "lemma": "формулировка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (32)"
+      },
+      {
+        "distractor": "объявление",
+        "lemma": "объявление",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (84)"
+      },
+      {
+        "distractor": "отметка",
+        "lemma": "отметка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (76)"
+      },
+      {
+        "distractor": "пометка",
+        "lemma": "пометка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "записка",
+        "lemma": "записка",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (65.16)"
+      },
+      {
+        "distractor": "рукопись",
+        "lemma": "рукопись",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (74)"
+      },
+      {
+        "distractor": "запись",
+        "lemma": "запись",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1762)"
+      },
+      {
+        "distractor": "пояснение",
+        "lemma": "пояснение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (22)"
+      }
+    ],
+    "valid_distractors": [
+      "указание",
+      "формулировка",
+      "объявление",
+      "отметка",
+      "рукопись",
+      "пояснение"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'ремарка' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'ремарка', 'указание', 'формулировка', 'объявление' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Краткое и однозначное пояснение.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfX4ChEju2S2tTmpMZhJAGOeU7bN', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Краткое и однозначное пояснение.', role='assistant', function_call=None, tool_calls=None))], created=1716143206, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=16, prompt_tokens=200, total_tokens=216))",
+  "initial_definition": "Краткое и однозначное пояснение",
+  "final_definition": "Краткое и однозначное пояснение",
+  "formatted_definition": "Краткое и однозначное пояснение",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Краткое и однозначное пояснение",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Краткое",
+            "и",
+            "однозначное",
+            "пояснение"
+          ],
+          "removed_tokens": [
+            "и"
+          ],
+          "final_tokens": [
+            "Краткое",
+            "однозначное",
+            "пояснение"
+          ],
+          "lemmas": [
+            "краткий",
+            "однозначный",
+            "пояснение"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "краткий",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "однозначный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "пояснение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-26-44",
+  "end_time": "2024.05.19 18-26-46"
+}

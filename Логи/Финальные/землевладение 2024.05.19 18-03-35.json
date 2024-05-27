@@ -1,0 +1,175 @@
+{
+  "word": "землевладение",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "владение",
+    "поместье",
+    "ферма"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'землевладение'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'землевладение'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'землевладение', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "владение, поместье, хозяйство, паство, луг, угодье, ферма, участок, учение, имение, усадьба, угодья, огород, уголь, чернозем, имения",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfAdLS5Yso0zk9nlonVKS9XDT8Y6', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='владение, поместье, хозяйство, паство, луг, угодье, ферма, участок, учение, имение, усадьба, угодья, огород, уголь, чернозем, имения', role='assistant', function_call=None, tool_calls=None))], created=1716141815, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=75, prompt_tokens=208, total_tokens=283))",
+    "distractor_analysis": [
+      {
+        "distractor": "владение",
+        "lemma": "владение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (108)"
+      },
+      {
+        "distractor": "поместье",
+        "lemma": "поместье",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (34)"
+      },
+      {
+        "distractor": "хозяйство",
+        "lemma": "хозяйство",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (424)"
+      },
+      {
+        "distractor": "паство",
+        "lemma": "паство",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "луг",
+        "lemma": "луг",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (586)"
+      },
+      {
+        "distractor": "угодья",
+        "lemma": "угодье",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.49)"
+      },
+      {
+        "distractor": "ферма",
+        "lemma": "ферма",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (48)"
+      },
+      {
+        "distractor": "участок",
+        "lemma": "участок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (917)"
+      },
+      {
+        "distractor": "учение",
+        "lemma": "учение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (260)"
+      },
+      {
+        "distractor": "имения",
+        "lemma": "имение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (50)"
+      },
+      {
+        "distractor": "усадьба",
+        "lemma": "усадьба",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (67)"
+      },
+      {
+        "distractor": "огород",
+        "lemma": "огород",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (249)"
+      },
+      {
+        "distractor": "уголь",
+        "lemma": "уголь",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (188)"
+      },
+      {
+        "distractor": "чернозем",
+        "lemma": "чернозём",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (22)"
+      }
+    ],
+    "valid_distractors": [
+      "владение",
+      "поместье",
+      "ферма",
+      "имения",
+      "усадьба",
+      "уголь",
+      "чернозем"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'землевладение' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'землевладение', 'владение', 'поместье', 'ферма' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Право на использование участка земли.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfAfemxwQDNQpVW7ItHBVMvOilnW', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Право на использование участка земли.', role='assistant', function_call=None, tool_calls=None))], created=1716141817, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=14, prompt_tokens=204, total_tokens=218))",
+  "initial_definition": "Право на использование участка земли",
+  "final_definition": "Право на использование участка земли",
+  "formatted_definition": "Право на использование участка земли",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Право на использование участка земли",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Право",
+            "на",
+            "использование",
+            "участка",
+            "земли"
+          ],
+          "removed_tokens": [
+            "на"
+          ],
+          "final_tokens": [
+            "Право",
+            "использование",
+            "участка",
+            "земли"
+          ],
+          "lemmas": [
+            "право",
+            "использование",
+            "участок",
+            "земля"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "право",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "использование",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "участок",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "земля",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-03-35",
+  "end_time": "2024.05.19 18-03-37"
+}

@@ -1,0 +1,263 @@
+{
+  "word": "прилистник",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "лепесток",
+    "пыльца",
+    "луковица"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'прилистник'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'прилистник'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'прилистник', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "листь, лепесток, стебель, корень, пыльца, бутон, луковица, плод, семя, ветка, стебельок, цветок, листок, бутоны, буточек, стебельки.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfXfckkl5oOtJjQLGwKz6Y6mKe5f', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='листь, лепесток, стебель, корень, пыльца, бутон, луковица, плод, семя, ветка, стебельок, цветок, листок, бутоны, буточек, стебельки.', role='assistant', function_call=None, tool_calls=None))], created=1716143243, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=71, prompt_tokens=205, total_tokens=276))",
+    "distractor_analysis": [
+      {
+        "distractor": "листь",
+        "lemma": "листить",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "лепесток",
+        "lemma": "лепесток",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (105)"
+      },
+      {
+        "distractor": "стебель",
+        "lemma": "стебель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (324)"
+      },
+      {
+        "distractor": "корень",
+        "lemma": "корень",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2047)"
+      },
+      {
+        "distractor": "пыльца",
+        "lemma": "пыльца",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (44)"
+      },
+      {
+        "distractor": "бутоны",
+        "lemma": "бутон",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.83)"
+      },
+      {
+        "distractor": "луковица",
+        "lemma": "луковица",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (83)"
+      },
+      {
+        "distractor": "плод",
+        "lemma": "плод",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (443)"
+      },
+      {
+        "distractor": "семя",
+        "lemma": "семя",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (655)"
+      },
+      {
+        "distractor": "ветка",
+        "lemma": "ветка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (417)"
+      },
+      {
+        "distractor": "стебельок",
+        "lemma": "стебелька",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "цветок",
+        "lemma": "цветок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (911)"
+      },
+      {
+        "distractor": "листок",
+        "lemma": "листок",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (74)"
+      },
+      {
+        "distractor": "буточек",
+        "lemma": "буточка",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "стебельки",
+        "lemma": "стебелёк",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (29)"
+      }
+    ],
+    "valid_distractors": [
+      "лепесток",
+      "пыльца",
+      "луковица",
+      "листок",
+      "стебельки"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'прилистник' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'прилистник', 'лепесток', 'пыльца', 'луковица' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "часть растения, выполняющая функцию обманной награды для насекомых",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfXgtAcKDBWjYR6b7WGsj13UgvJ5', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='часть растения, выполняющая функцию обманной награды для насекомых', role='assistant', function_call=None, tool_calls=None))], created=1716143244, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=29, prompt_tokens=204, total_tokens=233))",
+  "initial_definition": "часть растения, выполняющая функцию обманной награды для насекомых",
+  "final_definition": "Часть цветка, привлекающая насекомых.",
+  "formatted_definition": "Часть цветка, привлекающая насекомых",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Часть цветка, привлекающая насекомых.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "часть",
+            "растения",
+            ",",
+            "выполняющая",
+            "функцию",
+            "обманной",
+            "награды",
+            "для",
+            "насекомых"
+          ],
+          "removed_tokens": [
+            ",",
+            "для"
+          ],
+          "final_tokens": [
+            "часть",
+            "растения",
+            "выполняющая",
+            "функцию",
+            "обманной",
+            "награды",
+            "насекомых"
+          ],
+          "lemmas": [
+            "часть",
+            "растение",
+            "выполнять",
+            "функция",
+            "обманный",
+            "награда",
+            "насекомое"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "часть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "растение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "выполнять",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "функция",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "обманный",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (2.53)"
+          },
+          {
+            "lemma": "награда",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "насекомое",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "обманный"
+        ],
+        "correction_prompt": "Исправь толкование 'часть растения, выполняющая функцию обманной награды для насекомых' для слова 'прилистник' так, чтобы в нем не использовались слова 'прилистник', 'обманный', 'луковица', 'лепесток', 'пыльца' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Часть цветка, привлекающая насекомых.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfXh9TLtIq1JHAnza9oshaGwbDtx', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Часть цветка, привлекающая насекомых.', role='assistant', function_call=None, tool_calls=None))], created=1716143245, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=20, prompt_tokens=250, total_tokens=270))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Часть цветка, привлекающая насекомых.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Часть",
+            "цветка",
+            ",",
+            "привлекающая",
+            "насекомых"
+          ],
+          "removed_tokens": [
+            ","
+          ],
+          "final_tokens": [
+            "Часть",
+            "цветка",
+            "привлекающая",
+            "насекомых"
+          ],
+          "lemmas": [
+            "часть",
+            "цветок",
+            "привлекать",
+            "насекомое"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "часть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "цветок",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "привлекать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "насекомое",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-27-22",
+  "end_time": "2024.05.19 18-27-26"
+}

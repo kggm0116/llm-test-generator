@@ -1,0 +1,206 @@
+{
+  "word": "бессмертник",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "роза",
+    "ландыш",
+    "тюльпан"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'бессмертник'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'бессмертник'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'бессмертник', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Цветок, куст, роза, ландыш, герань, тюльпан, ирис, орхидея, ромашка, пион, астра, гвоздика, гиацинт, нарцисс, петуния, жасмин.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfVyNOwYYQX9x8CVVcoqRdwLjKbp', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Цветок, куст, роза, ландыш, герань, тюльпан, ирис, орхидея, ромашка, пион, астра, гвоздика, гиацинт, нарцисс, петуния, жасмин.', role='assistant', function_call=None, tool_calls=None))], created=1716143138, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=79, prompt_tokens=205, total_tokens=284))",
+    "distractor_analysis": [
+      {
+        "distractor": "Цветок",
+        "lemma": "цветок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (911)"
+      },
+      {
+        "distractor": "куст",
+        "lemma": "куст",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (296)"
+      },
+      {
+        "distractor": "роза",
+        "lemma": "роза",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (61)"
+      },
+      {
+        "distractor": "ландыш",
+        "lemma": "ландыш",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (82)"
+      },
+      {
+        "distractor": "герань",
+        "lemma": "герань",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.61)"
+      },
+      {
+        "distractor": "тюльпан",
+        "lemma": "тюльпан",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (93)"
+      },
+      {
+        "distractor": "ирис",
+        "lemma": "ирис",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (16)"
+      },
+      {
+        "distractor": "орхидея",
+        "lemma": "орхидея",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.61)"
+      },
+      {
+        "distractor": "ромашка",
+        "lemma": "ромашка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (102)"
+      },
+      {
+        "distractor": "пион",
+        "lemma": "пион",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.26)"
+      },
+      {
+        "distractor": "астра",
+        "lemma": "астр",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "гвоздика",
+        "lemma": "гвоздик",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.53)"
+      },
+      {
+        "distractor": "гиацинт",
+        "lemma": "гиацинт",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (24)"
+      },
+      {
+        "distractor": "нарцисс",
+        "lemma": "нарцисс",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.88)"
+      },
+      {
+        "distractor": "петуния",
+        "lemma": "петуния",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "жасмин",
+        "lemma": "жасмина",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      }
+    ],
+    "valid_distractors": [
+      "роза",
+      "ландыш",
+      "тюльпан",
+      "ирис",
+      "ромашка",
+      "гиацинт"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'бессмертник' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'бессмертник', 'роза', 'ландыш', 'тюльпан' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Растение, которое долго сохраняет свою свежесть после обрыва.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfW0xVnqAbyeoLtejI1jvr0Vp2a6', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Растение, которое долго сохраняет свою свежесть после обрыва.', role='assistant', function_call=None, tool_calls=None))], created=1716143140, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=26, prompt_tokens=203, total_tokens=229))",
+  "initial_definition": "Растение, которое долго сохраняет свою свежесть после обрыва",
+  "final_definition": "Растение, которое долго сохраняет свою свежесть после обрыва",
+  "formatted_definition": "Растение, которое долго сохраняет свою свежесть после обрыва",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Растение, которое долго сохраняет свою свежесть после обрыва",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Растение",
+            ",",
+            "которое",
+            "долго",
+            "сохраняет",
+            "свою",
+            "свежесть",
+            "после",
+            "обрыва"
+          ],
+          "removed_tokens": [
+            ",",
+            "после",
+            "свою"
+          ],
+          "final_tokens": [
+            "Растение",
+            "которое",
+            "долго",
+            "сохраняет",
+            "свежесть",
+            "обрыва"
+          ],
+          "lemmas": [
+            "растение",
+            "который",
+            "долго",
+            "сохранять",
+            "свежесть",
+            "обрыв"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "растение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "который",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (3361.51)"
+          },
+          {
+            "lemma": "долго",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          },
+          {
+            "lemma": "сохранять",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "свежесть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "обрыв",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-25-38",
+  "end_time": "2024.05.19 18-25-41"
+}

@@ -1,0 +1,179 @@
+{
+  "word": "хронограф",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "аппаратура",
+    "ритуал",
+    "утварь"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'хронограф'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'хронограф'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'хронограф', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "инструмент, измеритель, прибор, устройство, аппарат, механизм, девайс, приблуда, агрегат, атрибут, аппаратура, артефакт, аппаратура, ритуал, утварь, гаджет",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfJIuSkphzlExWKPzM7tn1DUNXjj', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='инструмент, измеритель, прибор, устройство, аппарат, механизм, девайс, приблуда, агрегат, атрибут, аппаратура, артефакт, аппаратура, ритуал, утварь, гаджет', role='assistant', function_call=None, tool_calls=None))], created=1716142352, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=89, prompt_tokens=208, total_tokens=297))",
+    "distractor_analysis": [
+      {
+        "distractor": "инструмент",
+        "lemma": "инструмент",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (634)"
+      },
+      {
+        "distractor": "измеритель",
+        "lemma": "измеритель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "прибор",
+        "lemma": "прибор",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (392)"
+      },
+      {
+        "distractor": "устройство",
+        "lemma": "устройство",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (585)"
+      },
+      {
+        "distractor": "аппарат",
+        "lemma": "аппарат",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (75.0)"
+      },
+      {
+        "distractor": "механизм",
+        "lemma": "механизм",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (52.87)"
+      },
+      {
+        "distractor": "девайс",
+        "lemma": "девайс",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "приблуда",
+        "lemma": "приблуд",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "агрегат",
+        "lemma": "агрегат",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "атрибут",
+        "lemma": "атрибут",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "аппаратура",
+        "lemma": "аппаратура",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (7)"
+      },
+      {
+        "distractor": "артефакт",
+        "lemma": "артефакт",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "ритуал",
+        "lemma": "ритуал",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (11)"
+      },
+      {
+        "distractor": "утварь",
+        "lemma": "утварь",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (18)"
+      },
+      {
+        "distractor": "гаджет",
+        "lemma": "гаджет",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      }
+    ],
+    "valid_distractors": [
+      "аппаратура",
+      "ритуал",
+      "утварь"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'хронограф' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'хронограф', 'аппаратура', 'ритуал', 'утварь' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Устройство для измерения и записи времени.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfJKHC1aCm8gHH3kVRkhJ6IrlP6e', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Устройство для измерения и записи времени.', role='assistant', function_call=None, tool_calls=None))], created=1716142354, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=14, prompt_tokens=207, total_tokens=221))",
+  "initial_definition": "Устройство для измерения и записи времени",
+  "final_definition": "Устройство для измерения и записи времени",
+  "formatted_definition": "Устройство для измерения и записи времени",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Устройство для измерения и записи времени",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Устройство",
+            "для",
+            "измерения",
+            "и",
+            "записи",
+            "времени"
+          ],
+          "removed_tokens": [
+            "и",
+            "для"
+          ],
+          "final_tokens": [
+            "Устройство",
+            "измерения",
+            "записи",
+            "времени"
+          ],
+          "lemmas": [
+            "устройство",
+            "измерение",
+            "запись",
+            "время"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "устройство",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "измерение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "запись",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "время",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-12-31",
+  "end_time": "2024.05.19 18-12-34"
+}

@@ -1,0 +1,208 @@
+{
+  "word": "трёхполье",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "пастбище",
+    "клумба",
+    "роща"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'трёхполье'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'трёхполье'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'трёхполье', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "поле, участок, город, сад, огород, пастбище, луг, клумба, саженец, роща, парк, пустошь, болото, предместье, пруд, рудник",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfMOnoW0zhCd7TZJZl3IBlUdjuny', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='поле, участок, город, сад, огород, пастбище, луг, клумба, саженец, роща, парк, пустошь, болото, предместье, пруд, рудник', role='assistant', function_call=None, tool_calls=None))], created=1716142544, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=72, prompt_tokens=211, total_tokens=283))",
+    "distractor_analysis": [
+      {
+        "distractor": "поле",
+        "lemma": "поле",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1462)"
+      },
+      {
+        "distractor": "участок",
+        "lemma": "участок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (917)"
+      },
+      {
+        "distractor": "город",
+        "lemma": "город",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3819)"
+      },
+      {
+        "distractor": "сад",
+        "lemma": "сад",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (709)"
+      },
+      {
+        "distractor": "огород",
+        "lemma": "огород",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (249)"
+      },
+      {
+        "distractor": "пастбище",
+        "lemma": "пастбище",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (81)"
+      },
+      {
+        "distractor": "луг",
+        "lemma": "луг",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (586)"
+      },
+      {
+        "distractor": "клумба",
+        "lemma": "клумба",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (66)"
+      },
+      {
+        "distractor": "саженец",
+        "lemma": "саженец",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.91)"
+      },
+      {
+        "distractor": "роща",
+        "lemma": "роща",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (191)"
+      },
+      {
+        "distractor": "парк",
+        "lemma": "парк",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (239)"
+      },
+      {
+        "distractor": "пустошь",
+        "lemma": "пустошь",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "болото",
+        "lemma": "болото",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (405)"
+      },
+      {
+        "distractor": "предместье",
+        "lemma": "предместье",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (3.1)"
+      },
+      {
+        "distractor": "пруд",
+        "lemma": "пруд",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (175)"
+      },
+      {
+        "distractor": "рудник",
+        "lemma": "рудник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (29)"
+      }
+    ],
+    "valid_distractors": [
+      "пастбище",
+      "клумба",
+      "роща",
+      "предместье",
+      "пруд",
+      "рудник"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'трёхполье' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'трёхполье', 'пастбище', 'клумба', 'роща' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Участок земли с разделением на три части для разных целей.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfMQhgzZzjuEjjZF8ZsjbpBFQvrU', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Участок земли с разделением на три части для разных целей.', role='assistant', function_call=None, tool_calls=None))], created=1716142546, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=25, prompt_tokens=209, total_tokens=234))",
+  "initial_definition": "Участок земли с разделением на три части для разных целей",
+  "final_definition": "Участок земли с разделением на три части для разных целей",
+  "formatted_definition": "Участок земли с разделением на три части для разных целей",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Участок земли с разделением на три части для разных целей",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Участок",
+            "земли",
+            "с",
+            "разделением",
+            "на",
+            "три",
+            "части",
+            "для",
+            "разных",
+            "целей"
+          ],
+          "removed_tokens": [
+            "на",
+            "для",
+            "три",
+            "с"
+          ],
+          "final_tokens": [
+            "Участок",
+            "земли",
+            "разделением",
+            "части",
+            "разных",
+            "целей"
+          ],
+          "lemmas": [
+            "участок",
+            "земля",
+            "разделение",
+            "часть",
+            "разный",
+            "цель"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "участок",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "земля",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "разделение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "часть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "разный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "цель",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-15-43",
+  "end_time": "2024.05.19 18-15-46"
+}

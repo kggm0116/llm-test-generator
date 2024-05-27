@@ -1,0 +1,181 @@
+{
+  "word": "тысяцкий",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "босс",
+    "администратор",
+    "куратор"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'тысяцкий'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'тысяцкий'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'тысяцкий', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "директор, руководитель, начальник, управляющий, босс, менеджер, администратор, куратор, арбитр, регент, лидер, куратор, судья, заведующий, капитан, проводник",
+    "response_details": "ChatCompletion(id='chatcmpl-9Qf4OqK14GexDe9Rvn1uPFkqK0A7t', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='директор, руководитель, начальник, управляющий, босс, менеджер, администратор, куратор, арбитр, регент, лидер, куратор, судья, заведующий, капитан, проводник', role='assistant', function_call=None, tool_calls=None))], created=1716141428, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=79, prompt_tokens=205, total_tokens=284))",
+    "distractor_analysis": [
+      {
+        "distractor": "директор",
+        "lemma": "директор",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (173.23)"
+      },
+      {
+        "distractor": "руководитель",
+        "lemma": "руководитель",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (89.77)"
+      },
+      {
+        "distractor": "начальник",
+        "lemma": "начальник",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (279.39)"
+      },
+      {
+        "distractor": "управляющий",
+        "lemma": "управлять",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (260)"
+      },
+      {
+        "distractor": "босс",
+        "lemma": "босс",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (10.99)"
+      },
+      {
+        "distractor": "менеджер",
+        "lemma": "менеджер",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "администратор",
+        "lemma": "администратор",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (13.82)"
+      },
+      {
+        "distractor": "куратор",
+        "lemma": "куратор",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (4.63)"
+      },
+      {
+        "distractor": "арбитр",
+        "lemma": "арбитр",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (3.06)"
+      },
+      {
+        "distractor": "регент",
+        "lemma": "регент",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "лидер",
+        "lemma": "лидер",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (51.57)"
+      },
+      {
+        "distractor": "судья",
+        "lemma": "судья",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (75)"
+      },
+      {
+        "distractor": "заведующий",
+        "lemma": "заведовать",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (7)"
+      },
+      {
+        "distractor": "капитан",
+        "lemma": "капитан",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (248.34)"
+      },
+      {
+        "distractor": "проводник",
+        "lemma": "проводник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (20)"
+      }
+    ],
+    "valid_distractors": [
+      "босс",
+      "администратор",
+      "куратор",
+      "арбитр",
+      "судья",
+      "заведующий",
+      "проводник"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'тысяцкий' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'тысяцкий', 'босс', 'администратор', 'куратор' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Руководитель района в Древней Руси.",
+  "response_details": "ChatCompletion(id='chatcmpl-9Qf4Q4hvjM88axsUx9TZqzVlnMT7A', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Руководитель района в Древней Руси.', role='assistant', function_call=None, tool_calls=None))], created=1716141430, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=18, prompt_tokens=203, total_tokens=221))",
+  "initial_definition": "Руководитель района в Древней Руси",
+  "final_definition": "Руководитель района в Древней Руси",
+  "formatted_definition": "Руководитель района в Древней Руси",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Руководитель района в Древней Руси",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Руководитель",
+            "района",
+            "в",
+            "Древней",
+            "Руси"
+          ],
+          "removed_tokens": [
+            "в"
+          ],
+          "final_tokens": [
+            "Руководитель",
+            "района",
+            "Древней",
+            "Руси"
+          ],
+          "lemmas": [
+            "руководитель",
+            "район",
+            "древний",
+            "русь"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "руководитель",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "район",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "древний",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "русь",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 17-57-08",
+  "end_time": "2024.05.19 17-57-11"
+}

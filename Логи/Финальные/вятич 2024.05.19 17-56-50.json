@@ -1,0 +1,211 @@
+{
+  "word": "вятич",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "клинок",
+    "колдун",
+    "бор"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'вятич'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'вятич'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'вятич', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "плечо, клинок, князь, дед, колдун, бор, щит, меч, конь, свита, река, берег, лес, враг, ратник, гость",
+    "response_details": "ChatCompletion(id='chatcmpl-9Qf47g3ENHGvFwYV95hOMwHMW48sr', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='плечо, клинок, князь, дед, колдун, бор, щит, меч, конь, свита, река, берег, лес, враг, ратник, гость', role='assistant', function_call=None, tool_calls=None))], created=1716141411, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=59, prompt_tokens=202, total_tokens=261))",
+    "distractor_analysis": [
+      {
+        "distractor": "плечо",
+        "lemma": "плечо",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (385.08)"
+      },
+      {
+        "distractor": "клинок",
+        "lemma": "клинок",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (8)"
+      },
+      {
+        "distractor": "князь",
+        "lemma": "князь",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (450)"
+      },
+      {
+        "distractor": "дед",
+        "lemma": "дед",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (259)"
+      },
+      {
+        "distractor": "колдун",
+        "lemma": "колдун",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (33)"
+      },
+      {
+        "distractor": "бор",
+        "lemma": "бора",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (14)"
+      },
+      {
+        "distractor": "щит",
+        "lemma": "щит",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (112)"
+      },
+      {
+        "distractor": "меч",
+        "lemma": "меч",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (89.5)"
+      },
+      {
+        "distractor": "конь",
+        "lemma": "конь",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (334)"
+      },
+      {
+        "distractor": "свита",
+        "lemma": "свита",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (15)"
+      },
+      {
+        "distractor": "река",
+        "lemma": "река",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2274)"
+      },
+      {
+        "distractor": "берег",
+        "lemma": "берег",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1026)"
+      },
+      {
+        "distractor": "лес",
+        "lemma": "лес",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2901)"
+      },
+      {
+        "distractor": "враг",
+        "lemma": "враг",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (450)"
+      },
+      {
+        "distractor": "ратник",
+        "lemma": "ратник",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.03)"
+      },
+      {
+        "distractor": "гость",
+        "lemma": "гость",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (337)"
+      }
+    ],
+    "valid_distractors": [
+      "клинок",
+      "колдун",
+      "бор",
+      "щит",
+      "свита"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'вятич' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'вятич', 'клинок', 'колдун', 'бор' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "древний народ, живший на территории современной Центральной России",
+  "response_details": "ChatCompletion(id='chatcmpl-9Qf48qPwkDuQaOEfYZeq3MarBbty0', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='древний народ, живший на территории современной Центральной России', role='assistant', function_call=None, tool_calls=None))], created=1716141412, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=35, prompt_tokens=199, total_tokens=234))",
+  "initial_definition": "древний народ, живший на территории современной Центральной России",
+  "final_definition": "древний народ, живший на территории современной Центральной России",
+  "formatted_definition": "древний народ, живший на территории современной Центральной России",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "древний народ, живший на территории современной Центральной России",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "древний",
+            "народ",
+            ",",
+            "живший",
+            "на",
+            "территории",
+            "современной",
+            "Центральной",
+            "России"
+          ],
+          "removed_tokens": [
+            "на",
+            ","
+          ],
+          "final_tokens": [
+            "древний",
+            "народ",
+            "живший",
+            "территории",
+            "современной",
+            "Центральной",
+            "России"
+          ],
+          "lemmas": [
+            "древний",
+            "народ",
+            "жить",
+            "территория",
+            "современный",
+            "центральный",
+            "россия"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "древний",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "народ",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "жить",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "территория",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "современный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "центральный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "россия",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 17-56-50",
+  "end_time": "2024.05.19 17-56-53"
+}

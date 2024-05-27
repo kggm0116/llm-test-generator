@@ -1,0 +1,239 @@
+{
+  "word": "рефлекс",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "ритм",
+    "активность",
+    "комплекс"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'рефлекс'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'рефлекс'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'рефлекс', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Движение, реакция, ритм, инстинкт, сенсорика, поведение, активность, решение, комплекс, ощущение, мимика, ритуал, стимул, жест, образ, ритмус.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfBidKze5gsbwgFgXBdmOQonYKNV', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Движение, реакция, ритм, инстинкт, сенсорика, поведение, активность, решение, комплекс, ощущение, мимика, ритуал, стимул, жест, образ, ритмус.', role='assistant', function_call=None, tool_calls=None))], created=1716141882, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=73, prompt_tokens=205, total_tokens=278))",
+    "distractor_analysis": [
+      {
+        "distractor": "Движение",
+        "lemma": "движение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1133)"
+      },
+      {
+        "distractor": "реакция",
+        "lemma": "реакция",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (60.07)"
+      },
+      {
+        "distractor": "ритм",
+        "lemma": "ритм",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (130)"
+      },
+      {
+        "distractor": "инстинкт",
+        "lemma": "инстинкт",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "сенсорика",
+        "lemma": "сенсорика",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "поведение",
+        "lemma": "поведение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (286)"
+      },
+      {
+        "distractor": "активность",
+        "lemma": "активность",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (15)"
+      },
+      {
+        "distractor": "решение",
+        "lemma": "решение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1784)"
+      },
+      {
+        "distractor": "комплекс",
+        "lemma": "комплекс",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (139)"
+      },
+      {
+        "distractor": "ощущение",
+        "lemma": "ощущение",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (104.66)"
+      },
+      {
+        "distractor": "мимика",
+        "lemma": "мимика",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (23)"
+      },
+      {
+        "distractor": "ритуал",
+        "lemma": "ритуал",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (11)"
+      },
+      {
+        "distractor": "стимул",
+        "lemma": "стимул",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (4.29)"
+      },
+      {
+        "distractor": "жест",
+        "lemma": "жест",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (70)"
+      },
+      {
+        "distractor": "образ",
+        "lemma": "образ",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1233)"
+      },
+      {
+        "distractor": "ритмус",
+        "lemma": "ритмуса",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      }
+    ],
+    "valid_distractors": [
+      "ритм",
+      "активность",
+      "комплекс",
+      "мимика",
+      "ритуал",
+      "стимул",
+      "жест"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'рефлекс' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'рефлекс', 'ритм', 'активность', 'комплекс' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Непроизвольное движение в ответ на раздражение.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfBk9et4IAebN3aP0CwCoUpUfxFg', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Непроизвольное движение в ответ на раздражение.', role='assistant', function_call=None, tool_calls=None))], created=1716141884, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=21, prompt_tokens=202, total_tokens=223))",
+  "initial_definition": "Непроизвольное движение в ответ на раздражение",
+  "final_definition": "Автоматическое движение из-за раздражения.",
+  "formatted_definition": "Автоматическое движение из-за раздражения",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Автоматическое движение из-за раздражения.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Непроизвольное",
+            "движение",
+            "в",
+            "ответ",
+            "на",
+            "раздражение"
+          ],
+          "removed_tokens": [
+            "на",
+            "в"
+          ],
+          "final_tokens": [
+            "Непроизвольное",
+            "движение",
+            "ответ",
+            "раздражение"
+          ],
+          "lemmas": [
+            "непроизвольный",
+            "движение",
+            "ответ",
+            "раздражение"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "непроизвольный",
+            "is_valid": false,
+            "reason": "Высокого класса (6)"
+          },
+          {
+            "lemma": "движение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "ответ",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "раздражение",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "непроизвольный"
+        ],
+        "correction_prompt": "Исправь толкование 'Непроизвольное движение в ответ на раздражение' для слова 'рефлекс' так, чтобы в нем не использовались слова 'рефлекс', 'активность', 'ритм', 'непроизвольный', 'комплекс' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Автоматическое движение из-за раздражения.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfBlSix6oUlwJZu31kltBz0Uo9Ef', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Автоматическое движение из-за раздражения.', role='assistant', function_call=None, tool_calls=None))], created=1716141885, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=21, prompt_tokens=243, total_tokens=264))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Автоматическое движение из-за раздражения.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Автоматическое",
+            "движение",
+            "из-за",
+            "раздражения"
+          ],
+          "removed_tokens": [
+            "из-за"
+          ],
+          "final_tokens": [
+            "Автоматическое",
+            "движение",
+            "раздражения"
+          ],
+          "lemmas": [
+            "автоматический",
+            "движение",
+            "раздражение"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "автоматический",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "движение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "раздражение",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-04-42",
+  "end_time": "2024.05.19 18-04-45"
+}

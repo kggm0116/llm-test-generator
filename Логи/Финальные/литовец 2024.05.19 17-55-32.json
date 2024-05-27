@@ -1,0 +1,169 @@
+{
+  "word": "литовец",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "испанец",
+    "хорват",
+    "поляк"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'литовец'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'литовец'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'литовец', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "житель, ирландец, испанец, скандинав, хорват, австриец, тайцы, поляк, норвежец, китаец, швед, португалец, бразилец, грек, японец, индус",
+    "response_details": "ChatCompletion(id='chatcmpl-9Qf2rNbBPMI9qr3Z0HQ0PTR6veSkT', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='житель, ирландец, испанец, скандинав, хорват, австриец, тайцы, поляк, норвежец, китаец, швед, португалец, бразилец, грек, японец, индус', role='assistant', function_call=None, tool_calls=None))], created=1716141333, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=81, prompt_tokens=205, total_tokens=286))",
+    "distractor_analysis": [
+      {
+        "distractor": "житель",
+        "lemma": "житель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (747)"
+      },
+      {
+        "distractor": "ирландец",
+        "lemma": "ирландец",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "испанец",
+        "lemma": "испанец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (11)"
+      },
+      {
+        "distractor": "скандинав",
+        "lemma": "скандинав",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "хорват",
+        "lemma": "хорват",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (4.98)"
+      },
+      {
+        "distractor": "австриец",
+        "lemma": "австриец",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "тайцы",
+        "lemma": "таец",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.11)"
+      },
+      {
+        "distractor": "поляк",
+        "lemma": "поляк",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (21)"
+      },
+      {
+        "distractor": "норвежец",
+        "lemma": "норвежец",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.57)"
+      },
+      {
+        "distractor": "китаец",
+        "lemma": "китаец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (107)"
+      },
+      {
+        "distractor": "швед",
+        "lemma": "швед",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (27)"
+      },
+      {
+        "distractor": "португалец",
+        "lemma": "португалец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (20)"
+      },
+      {
+        "distractor": "бразилец",
+        "lemma": "бразилец",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "грек",
+        "lemma": "грек",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (672)"
+      },
+      {
+        "distractor": "японец",
+        "lemma": "японец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (20)"
+      },
+      {
+        "distractor": "индус",
+        "lemma": "индус",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      }
+    ],
+    "valid_distractors": [
+      "испанец",
+      "хорват",
+      "поляк",
+      "китаец",
+      "швед",
+      "португалец",
+      "японец",
+      "индус"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'литовец' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'литовец', 'испанец', 'хорват', 'поляк' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Житель Литвы.",
+  "response_details": "ChatCompletion(id='chatcmpl-9Qf2tnQEQkHr4UCi9n007KZO1e1Ak', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Житель Литвы.', role='assistant', function_call=None, tool_calls=None))], created=1716141335, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=9, prompt_tokens=203, total_tokens=212))",
+  "initial_definition": "Житель Литвы",
+  "final_definition": "Житель Литвы",
+  "formatted_definition": "Житель Литвы",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Житель Литвы",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Житель",
+            "Литвы"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Житель",
+            "Литвы"
+          ],
+          "lemmas": [
+            "житель",
+            "литва"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "житель",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "литва",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (10.11)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 17-55-32",
+  "end_time": "2024.05.19 17-55-35"
+}

@@ -1,0 +1,190 @@
+{
+  "word": "судебник",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "прокурор",
+    "арбитр",
+    "избиратель"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'судебник'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'судебник'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'судебник', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Кодекс, решение, прокурор, адвокат, арбитр, избиратель, контракт, акт, приговор, контракт, соглашение, ключ, пакт, договор, норма, правило.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QezRg3SsUJdGlpPnKkTy72BkbRJV', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Кодекс, решение, прокурор, адвокат, арбитр, избиратель, контракт, акт, приговор, контракт, соглашение, ключ, пакт, договор, норма, правило.', role='assistant', function_call=None, tool_calls=None))], created=1716141121, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=73, prompt_tokens=202, total_tokens=275))",
+    "distractor_analysis": [
+      {
+        "distractor": "Кодекс",
+        "lemma": "кодекс",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "решение",
+        "lemma": "решение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1784)"
+      },
+      {
+        "distractor": "прокурор",
+        "lemma": "прокурор",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (38.74)"
+      },
+      {
+        "distractor": "адвокат",
+        "lemma": "адвокат",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "арбитр",
+        "lemma": "арбитр",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (3.06)"
+      },
+      {
+        "distractor": "избиратель",
+        "lemma": "избиратель",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (7)"
+      },
+      {
+        "distractor": "контракт",
+        "lemma": "контракт",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "акт",
+        "lemma": "акт",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "приговор",
+        "lemma": "приговор",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (21)"
+      },
+      {
+        "distractor": "соглашение",
+        "lemma": "соглашение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (12)"
+      },
+      {
+        "distractor": "ключ",
+        "lemma": "ключ",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (105.01)"
+      },
+      {
+        "distractor": "пакт",
+        "lemma": "пакт",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (10.64)"
+      },
+      {
+        "distractor": "договор",
+        "lemma": "договор",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (52.14)"
+      },
+      {
+        "distractor": "норма",
+        "lemma": "норма",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (51.03)"
+      },
+      {
+        "distractor": "правило",
+        "lemma": "правило",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2196)"
+      }
+    ],
+    "valid_distractors": [
+      "прокурор",
+      "арбитр",
+      "избиратель",
+      "приговор",
+      "соглашение",
+      "пакт"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'судебник' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'судебник', 'прокурор', 'арбитр', 'избиратель' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Документ, устанавливающий правила поведения и наказания.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QezSLRLWuorh55ByAgrfbBz7XulD', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Документ, устанавливающий правила поведения и наказания.', role='assistant', function_call=None, tool_calls=None))], created=1716141122, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=22, prompt_tokens=202, total_tokens=224))",
+  "initial_definition": "Документ, устанавливающий правила поведения и наказания",
+  "final_definition": "Документ, устанавливающий правила поведения и наказания",
+  "formatted_definition": "Документ, устанавливающий правила поведения и наказания",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Документ, устанавливающий правила поведения и наказания",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Документ",
+            ",",
+            "устанавливающий",
+            "правила",
+            "поведения",
+            "и",
+            "наказания"
+          ],
+          "removed_tokens": [
+            "и",
+            ","
+          ],
+          "final_tokens": [
+            "Документ",
+            "устанавливающий",
+            "правила",
+            "поведения",
+            "наказания"
+          ],
+          "lemmas": [
+            "документ",
+            "устанавливать",
+            "правило",
+            "поведение",
+            "наказание"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "документ",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "устанавливать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "правило",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "поведение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "наказание",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 17-52-00",
+  "end_time": "2024.05.19 17-52-03"
+}

@@ -1,0 +1,196 @@
+{
+  "word": "курултай",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "пленум",
+    "форум",
+    "парламент"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'курултай'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'курултай'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'курултай', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "пленум, форум, парламент, собрание, сессия, заседание, конклав, ассамблея, собр, конгресс, кокус, учредительное, агитсобрание, митинг, пленарное, съезд",
+    "response_details": "ChatCompletion(id='chatcmpl-9Qf5LD1OdVRKAzIyOYBR4vlO3h3Qb', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='пленум, форум, парламент, собрание, сессия, заседание, конклав, ассамблея, собр, конгресс, кокус, учредительное, агитсобрание, митинг, пленарное, съезд', role='assistant', function_call=None, tool_calls=None))], created=1716141487, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=81, prompt_tokens=205, total_tokens=286))",
+    "distractor_analysis": [
+      {
+        "distractor": "пленум",
+        "lemma": "пленум",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (11.79)"
+      },
+      {
+        "distractor": "форум",
+        "lemma": "форум",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (55)"
+      },
+      {
+        "distractor": "парламент",
+        "lemma": "парламент",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (8)"
+      },
+      {
+        "distractor": "собрание",
+        "lemma": "собрание",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (325)"
+      },
+      {
+        "distractor": "сессия",
+        "lemma": "сессия",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (11.14)"
+      },
+      {
+        "distractor": "заседание",
+        "lemma": "заседание",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (51.3)"
+      },
+      {
+        "distractor": "конклав",
+        "lemma": "конклав",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "ассамблея",
+        "lemma": "ассамблея",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.56)"
+      },
+      {
+        "distractor": "собр",
+        "lemma": "собразец",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "конгресс",
+        "lemma": "конгресс",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "кокус",
+        "lemma": "кокус",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "учредительное",
+        "lemma": "учредительный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "агитсобрание",
+        "lemma": "агитсобрание",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "митинг",
+        "lemma": "митинг",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "пленарное",
+        "lemma": "пленарный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "съезд",
+        "lemma": "съезд",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (15)"
+      }
+    ],
+    "valid_distractors": [
+      "пленум",
+      "форум",
+      "парламент",
+      "сессия",
+      "митинг",
+      "съезд"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'курултай' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'курултай', 'пленум', 'форум', 'парламент' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Собрание для обсуждения и принятия важных решений.",
+  "response_details": "ChatCompletion(id='chatcmpl-9Qf5NBXm4FP2HQ8qD4KciFDfcyA6R', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Собрание для обсуждения и принятия важных решений.', role='assistant', function_call=None, tool_calls=None))], created=1716141489, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=23, prompt_tokens=202, total_tokens=225))",
+  "initial_definition": "Собрание для обсуждения и принятия важных решений",
+  "final_definition": "Собрание для обсуждения и принятия важных решений",
+  "formatted_definition": "Собрание для обсуждения и принятия важных решений",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Собрание для обсуждения и принятия важных решений",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Собрание",
+            "для",
+            "обсуждения",
+            "и",
+            "принятия",
+            "важных",
+            "решений"
+          ],
+          "removed_tokens": [
+            "и",
+            "для"
+          ],
+          "final_tokens": [
+            "Собрание",
+            "обсуждения",
+            "принятия",
+            "важных",
+            "решений"
+          ],
+          "lemmas": [
+            "собрание",
+            "обсуждение",
+            "принятие",
+            "важный",
+            "решение"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "собрание",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "обсуждение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "принятие",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "важный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "решение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 17-58-06",
+  "end_time": "2024.05.19 17-58-09"
+}

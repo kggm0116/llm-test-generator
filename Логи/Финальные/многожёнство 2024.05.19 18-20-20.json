@@ -1,0 +1,181 @@
+{
+  "word": "многожёнство",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "соседка",
+    "родня",
+    "супруга"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'многожёнство'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'многожёнство'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'многожёнство', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "подруга, семья, пара, соседка, родня, наследница, дочь, супруга, подруга, кузина, свояченица, родственница, невестка, тёща, мачеха, супруга",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfQqyxU50bzCGMF7JuWGq9BHVZ08', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='подруга, семья, пара, соседка, родня, наследница, дочь, супруга, подруга, кузина, свояченица, родственница, невестка, тёща, мачеха, супруга', role='assistant', function_call=None, tool_calls=None))], created=1716142820, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=78, prompt_tokens=214, total_tokens=292))",
+    "distractor_analysis": [
+      {
+        "distractor": "подруга",
+        "lemma": "подруга",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (59.22)"
+      },
+      {
+        "distractor": "семья",
+        "lemma": "семья",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (861)"
+      },
+      {
+        "distractor": "пара",
+        "lemma": "пара",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1289)"
+      },
+      {
+        "distractor": "соседка",
+        "lemma": "соседка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (17)"
+      },
+      {
+        "distractor": "родня",
+        "lemma": "родня",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (13)"
+      },
+      {
+        "distractor": "наследница",
+        "lemma": "наследница",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.03)"
+      },
+      {
+        "distractor": "дочь",
+        "lemma": "дочь",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (250)"
+      },
+      {
+        "distractor": "супруга",
+        "lemma": "супруг",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (27)"
+      },
+      {
+        "distractor": "кузина",
+        "lemma": "кузина",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (6.39)"
+      },
+      {
+        "distractor": "свояченица",
+        "lemma": "свояченица",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "родственница",
+        "lemma": "родственница",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "невестка",
+        "lemma": "невестка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "тёща",
+        "lemma": "тёща",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "мачеха",
+        "lemma": "мачеха",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (53)"
+      }
+    ],
+    "valid_distractors": [
+      "соседка",
+      "родня",
+      "супруга",
+      "кузина",
+      "родственница",
+      "невестка",
+      "тёща",
+      "мачеха"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'многожёнство' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'многожёнство', 'соседка', 'родня', 'супруга' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "состояние иметь несколько законных женщин",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfQsmrXCghecmpqxhNPjBI3392lL', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='состояние иметь несколько законных женщин', role='assistant', function_call=None, tool_calls=None))], created=1716142822, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=18, prompt_tokens=208, total_tokens=226))",
+  "initial_definition": "состояние иметь несколько законных женщин",
+  "final_definition": "состояние иметь несколько законных женщин",
+  "formatted_definition": "состояние иметь несколько законных женщин",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "состояние иметь несколько законных женщин",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "состояние",
+            "иметь",
+            "несколько",
+            "законных",
+            "женщин"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "состояние",
+            "иметь",
+            "несколько",
+            "законных",
+            "женщин"
+          ],
+          "lemmas": [
+            "состояние",
+            "иметь",
+            "несколько",
+            "законный",
+            "женщина"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "состояние",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "иметь",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "несколько",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          },
+          {
+            "lemma": "законный",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "женщина",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-20-20",
+  "end_time": "2024.05.19 18-20-22"
+}

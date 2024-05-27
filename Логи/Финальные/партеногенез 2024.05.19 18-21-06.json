@@ -1,0 +1,157 @@
+{
+  "word": "партеногенез",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "Эволюция",
+    "Разделение",
+    "Адаптация"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'партеногенез'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'партеногенез'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'партеногенез', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Размножение, Организм, Клетка, Эволюция, Разделение, Развитие, Адаптация, Сперма, Яйцеклетка, Гамета, Бесполое, Воспроизводство, Размножение, Спора, Органелла, Размножение.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfRa0pHtZdBR4GQTn6XstBX0cJfP', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Размножение, Организм, Клетка, Эволюция, Разделение, Развитие, Адаптация, Сперма, Яйцеклетка, Гамета, Бесполое, Воспроизводство, Размножение, Спора, Органелла, Размножение.', role='assistant', function_call=None, tool_calls=None))], created=1716142866, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=100, prompt_tokens=208, total_tokens=308))",
+    "distractor_analysis": [
+      {
+        "distractor": "Размножение",
+        "lemma": "размножение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (216)"
+      },
+      {
+        "distractor": "Организм",
+        "lemma": "организм",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1966)"
+      },
+      {
+        "distractor": "Клетка",
+        "lemma": "клетка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2037)"
+      },
+      {
+        "distractor": "Эволюция",
+        "lemma": "эволюция",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (9)"
+      },
+      {
+        "distractor": "Разделение",
+        "lemma": "разделение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (42)"
+      },
+      {
+        "distractor": "Развитие",
+        "lemma": "развитие",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (633)"
+      },
+      {
+        "distractor": "Адаптация",
+        "lemma": "адаптация",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (5.13)"
+      },
+      {
+        "distractor": "Сперма",
+        "lemma": "сперма",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "Яйцеклетка",
+        "lemma": "яйцеклетка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (43)"
+      },
+      {
+        "distractor": "Гамета",
+        "lemma": "гамета",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (53)"
+      },
+      {
+        "distractor": "Бесполое",
+        "lemma": "бесполый",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "Воспроизводство",
+        "lemma": "воспроизводство",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "Спора",
+        "lemma": "спор",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (287)"
+      },
+      {
+        "distractor": "Органелла",
+        "lemma": "органелла",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      }
+    ],
+    "valid_distractors": [
+      "Эволюция",
+      "Разделение",
+      "Адаптация",
+      "Яйцеклетка",
+      "Гамета"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'партеногенез' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'партеногенез', 'Эволюция', 'Разделение', 'Адаптация' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Размножение без оплодотворения.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfRcII4rwRQdoDuK6W5UUcTwIegH', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Размножение без оплодотворения.', role='assistant', function_call=None, tool_calls=None))], created=1716142868, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=15, prompt_tokens=207, total_tokens=222))",
+  "initial_definition": "Размножение без оплодотворения",
+  "final_definition": "Размножение без оплодотворения",
+  "formatted_definition": "Размножение без оплодотворения",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Размножение без оплодотворения",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Размножение",
+            "без",
+            "оплодотворения"
+          ],
+          "removed_tokens": [
+            "без"
+          ],
+          "final_tokens": [
+            "Размножение",
+            "оплодотворения"
+          ],
+          "lemmas": [
+            "размножение",
+            "оплодотворение"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "размножение",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "оплодотворение",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-21-06",
+  "end_time": "2024.05.19 18-21-08"
+}

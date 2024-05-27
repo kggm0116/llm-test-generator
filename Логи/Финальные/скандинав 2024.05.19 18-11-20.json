@@ -1,0 +1,181 @@
+{
+  "word": "скандинав",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "викинг",
+    "швед",
+    "дат"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'скандинав'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'скандинав'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'скандинав', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "викинг, норвежец, швед, датчанин, исландец, финн, готландец, саам, лапландец, дат, норманн, датский, варяг, испанец, литовец, шотландец",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfI8EWm8tTv0XS6dNMEiAvRIXu9C', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='викинг, норвежец, швед, датчанин, исландец, финн, готландец, саам, лапландец, дат, норманн, датский, варяг, испанец, литовец, шотландец', role='assistant', function_call=None, tool_calls=None))], created=1716142280, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=85, prompt_tokens=202, total_tokens=287))",
+    "distractor_analysis": [
+      {
+        "distractor": "викинг",
+        "lemma": "викинг",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "норвежец",
+        "lemma": "норвежец",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.57)"
+      },
+      {
+        "distractor": "швед",
+        "lemma": "швед",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (27)"
+      },
+      {
+        "distractor": "датчанин",
+        "lemma": "датчанин",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "исландец",
+        "lemma": "исландец",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "финн",
+        "lemma": "финн",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.83)"
+      },
+      {
+        "distractor": "готландец",
+        "lemma": "готландец",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "саам",
+        "lemma": "саам",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "лапландец",
+        "lemma": "лапландец",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "дат",
+        "lemma": "дата",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (185)"
+      },
+      {
+        "distractor": "норманн",
+        "lemma": "норманн",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "датский",
+        "lemma": "датский",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "варяг",
+        "lemma": "варяг",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.11)"
+      },
+      {
+        "distractor": "испанец",
+        "lemma": "испанец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (11)"
+      },
+      {
+        "distractor": "литовец",
+        "lemma": "литовец",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.79)"
+      },
+      {
+        "distractor": "шотландец",
+        "lemma": "шотландец",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      }
+    ],
+    "valid_distractors": [
+      "викинг",
+      "швед",
+      "дат",
+      "испанец"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'скандинав' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'скандинав', 'викинг', 'швед', 'дат' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Житель северных государств Европы.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfIAWtjxmn6woaB98SkGbkieuqIz', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Житель северных государств Европы.', role='assistant', function_call=None, tool_calls=None))], created=1716142282, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=18, prompt_tokens=198, total_tokens=216))",
+  "initial_definition": "Житель северных государств Европы",
+  "final_definition": "Житель северных государств Европы",
+  "formatted_definition": "Житель северных государств Европы",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Житель северных государств Европы",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Житель",
+            "северных",
+            "государств",
+            "Европы"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Житель",
+            "северных",
+            "государств",
+            "Европы"
+          ],
+          "lemmas": [
+            "житель",
+            "северный",
+            "государство",
+            "европа"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "житель",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "северный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "государство",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "европа",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-11-20",
+  "end_time": "2024.05.19 18-11-23"
+}

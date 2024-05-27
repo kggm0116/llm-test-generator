@@ -1,0 +1,202 @@
+{
+  "word": "рубчик",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "веревочка",
+    "бахрома",
+    "челнок"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'рубчик'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'рубчик'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'рубчик', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "лисичка, щеточка, бусинка, пуговичка, струнка, буса, замочек, петелька, палочка, веревочка, бахрома, штучка, оклад, челнок, бляха, шпора",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfUmUbQBSucL3RsP1mFaGgn5h8I0', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='лисичка, щеточка, бусинка, пуговичка, струнка, буса, замочек, петелька, палочка, веревочка, бахрома, штучка, оклад, челнок, бляха, шпора', role='assistant', function_call=None, tool_calls=None))], created=1716143064, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=80, prompt_tokens=202, total_tokens=282))",
+    "distractor_analysis": [
+      {
+        "distractor": "лисичка",
+        "lemma": "лисичка",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.68)"
+      },
+      {
+        "distractor": "щеточка",
+        "lemma": "щёточка",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "бусинка",
+        "lemma": "бусинка",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.53)"
+      },
+      {
+        "distractor": "пуговичка",
+        "lemma": "пуговичка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "струнка",
+        "lemma": "струнка",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.68)"
+      },
+      {
+        "distractor": "буса",
+        "lemma": "буса",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "замочек",
+        "lemma": "замочка",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.61)"
+      },
+      {
+        "distractor": "петелька",
+        "lemma": "петелька",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.99)"
+      },
+      {
+        "distractor": "палочка",
+        "lemma": "палочка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (273)"
+      },
+      {
+        "distractor": "веревочка",
+        "lemma": "верёвочка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (19)"
+      },
+      {
+        "distractor": "бахрома",
+        "lemma": "бахрома",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (24)"
+      },
+      {
+        "distractor": "штучка",
+        "lemma": "штучка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "оклад",
+        "lemma": "оклад",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "челнок",
+        "lemma": "челнок",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "бляха",
+        "lemma": "бляха",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "шпора",
+        "lemma": "шпор",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (6)"
+      }
+    ],
+    "valid_distractors": [
+      "веревочка",
+      "бахрома",
+      "челнок",
+      "шпора"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'рубчик' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'рубчик', 'веревочка', 'бахрома', 'челнок' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Маленький пучок волос, соломинок или иных материалов.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfUocD1a1DLrnLzUN0jExlKNPKiL', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Маленький пучок волос, соломинок или иных материалов.', role='assistant', function_call=None, tool_calls=None))], created=1716143066, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=26, prompt_tokens=203, total_tokens=229))",
+  "initial_definition": "Маленький пучок волос, соломинок или иных материалов",
+  "final_definition": "Маленький пучок волос, соломинок или иных материалов",
+  "formatted_definition": "Маленький пучок волос, соломинок или иных материалов",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Маленький пучок волос, соломинок или иных материалов",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Маленький",
+            "пучок",
+            "волос",
+            ",",
+            "соломинок",
+            "или",
+            "иных",
+            "материалов"
+          ],
+          "removed_tokens": [
+            "или",
+            ","
+          ],
+          "final_tokens": [
+            "Маленький",
+            "пучок",
+            "волос",
+            "соломинок",
+            "иных",
+            "материалов"
+          ],
+          "lemmas": [
+            "маленький",
+            "пучок",
+            "волос",
+            "соломинка",
+            "иной",
+            "материал"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "маленький",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "пучок",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "волос",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "соломинка",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "иной",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          },
+          {
+            "lemma": "материал",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-24-23",
+  "end_time": "2024.05.19 18-24-26"
+}

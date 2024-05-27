@@ -1,0 +1,162 @@
+{
+  "word": "антология",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "сборник",
+    "каталог",
+    "справочник"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'антология'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'антология'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'антология', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "сборник, выборка, каталог, справочник, подборка, реестр, регистр, издание, сборник, альманах, буклет, брошюра, букварь, сборник, подборка, альманах",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfKxnnsGUDUKHOTrXRsskqqMgWlp', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='сборник, выборка, каталог, справочник, подборка, реестр, регистр, издание, сборник, альманах, буклет, брошюра, букварь, сборник, подборка, альманах', role='assistant', function_call=None, tool_calls=None))], created=1716142455, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=83, prompt_tokens=205, total_tokens=288))",
+    "distractor_analysis": [
+      {
+        "distractor": "сборник",
+        "lemma": "сборник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (73)"
+      },
+      {
+        "distractor": "выборка",
+        "lemma": "выборка",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.26)"
+      },
+      {
+        "distractor": "каталог",
+        "lemma": "каталог",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (48)"
+      },
+      {
+        "distractor": "справочник",
+        "lemma": "справочник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (118)"
+      },
+      {
+        "distractor": "подборка",
+        "lemma": "подборка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "реестр",
+        "lemma": "реестр",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "регистр",
+        "lemma": "регистр",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.79)"
+      },
+      {
+        "distractor": "издание",
+        "lemma": "издание",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (91)"
+      },
+      {
+        "distractor": "альманах",
+        "lemma": "альманах",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.72)"
+      },
+      {
+        "distractor": "буклет",
+        "lemma": "буклет",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "брошюра",
+        "lemma": "брошюра",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (22)"
+      },
+      {
+        "distractor": "букварь",
+        "lemma": "букварь",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (32)"
+      }
+    ],
+    "valid_distractors": [
+      "сборник",
+      "каталог",
+      "справочник",
+      "издание",
+      "брошюра",
+      "букварь"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'антология' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'антология', 'сборник', 'каталог', 'справочник' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "сбор избранных произведений или текстов",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfKyxn4RvUWmuzTFhyVj0pNk25Jz', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='сбор избранных произведений или текстов', role='assistant', function_call=None, tool_calls=None))], created=1716142456, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=15, prompt_tokens=203, total_tokens=218))",
+  "initial_definition": "сбор избранных произведений или текстов",
+  "final_definition": "сбор избранных произведений или текстов",
+  "formatted_definition": "сбор избранных произведений или текстов",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "сбор избранных произведений или текстов",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "сбор",
+            "избранных",
+            "произведений",
+            "или",
+            "текстов"
+          ],
+          "removed_tokens": [
+            "или"
+          ],
+          "final_tokens": [
+            "сбор",
+            "избранных",
+            "произведений",
+            "текстов"
+          ],
+          "lemmas": [
+            "сбор",
+            "избранный",
+            "произведение",
+            "текст"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "сбор",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "избранный",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "произведение",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "текст",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-14-14",
+  "end_time": "2024.05.19 18-14-17"
+}

@@ -1,0 +1,149 @@
+{
+  "word": "задор",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "веселье",
+    "радуга",
+    "потеха"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'задор'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'задор'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'задор', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "радость, улыбка, шутка, веселье, радость, радуга, удовольствие, смех, игра, радость, потеха, развлечение, радость, радость, веселье, радость",
+    "response_details": "ChatCompletion(id='chatcmpl-9Qff17ig3tHZ1wfVYR6FergJBlJ4o', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='радость, улыбка, шутка, веселье, радость, радуга, удовольствие, смех, игра, радость, потеха, развлечение, радость, радость, веселье, радость', role='assistant', function_call=None, tool_calls=None))], created=1716143699, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=72, prompt_tokens=199, total_tokens=271))",
+    "distractor_analysis": [
+      {
+        "distractor": "радость",
+        "lemma": "радость",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (283)"
+      },
+      {
+        "distractor": "улыбка",
+        "lemma": "улыбка",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (131.35)"
+      },
+      {
+        "distractor": "шутка",
+        "lemma": "шутка",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (81.04)"
+      },
+      {
+        "distractor": "веселье",
+        "lemma": "веселие",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (46)"
+      },
+      {
+        "distractor": "радуга",
+        "lemma": "радуга",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (82)"
+      },
+      {
+        "distractor": "удовольствие",
+        "lemma": "удовольствие",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (119.21)"
+      },
+      {
+        "distractor": "смех",
+        "lemma": "смех",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (87.82)"
+      },
+      {
+        "distractor": "игра",
+        "lemma": "игра",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (896)"
+      },
+      {
+        "distractor": "потеха",
+        "lemma": "потеха",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (29)"
+      },
+      {
+        "distractor": "развлечение",
+        "lemma": "развлечение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (54)"
+      }
+    ],
+    "valid_distractors": [
+      "веселье",
+      "радуга",
+      "потеха",
+      "развлечение"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'задор' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'задор', 'веселье', 'радуга', 'потеха' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Живое, свежее, беззаботное чувство.",
+  "response_details": "ChatCompletion(id='chatcmpl-9Qff3jdy4dgM4GneNCJ0QxOMHc0Et', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Живое, свежее, беззаботное чувство.', role='assistant', function_call=None, tool_calls=None))], created=1716143701, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=20, prompt_tokens=199, total_tokens=219))",
+  "initial_definition": "Живое, свежее, беззаботное чувство",
+  "final_definition": "Живое, свежее, беззаботное чувство",
+  "formatted_definition": "Живое, свежее, беззаботное чувство",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Живое, свежее, беззаботное чувство",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Живое",
+            ",",
+            "свежее",
+            ",",
+            "беззаботное",
+            "чувство"
+          ],
+          "removed_tokens": [
+            ","
+          ],
+          "final_tokens": [
+            "Живое",
+            "свежее",
+            "беззаботное",
+            "чувство"
+          ],
+          "lemmas": [
+            "живой",
+            "свежий",
+            "беззаботный",
+            "чувство"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "живой",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "свежий",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "беззаботный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "чувство",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-34-59",
+  "end_time": "2024.05.19 18-35-01"
+}

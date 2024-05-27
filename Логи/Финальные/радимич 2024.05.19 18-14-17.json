@@ -1,0 +1,199 @@
+{
+  "word": "радимич",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "предводитель",
+    "мудрец",
+    "защитник"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'радимич'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'радимич'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'радимич', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "князь, легенда, правитель, воин, вождь, предводитель, мудрец, учитель, защитник, дозорный, страж, заступник, покровитель, господин, владыка, повелитель",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfL0Qfl9rCqYm7ypsCAZ2JxSoOoZ', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='князь, легенда, правитель, воин, вождь, предводитель, мудрец, учитель, защитник, дозорный, страж, заступник, покровитель, господин, владыка, повелитель', role='assistant', function_call=None, tool_calls=None))], created=1716142458, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=74, prompt_tokens=202, total_tokens=276))",
+    "distractor_analysis": [
+      {
+        "distractor": "князь",
+        "lemma": "князь",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (450)"
+      },
+      {
+        "distractor": "легенда",
+        "lemma": "легенда",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (201)"
+      },
+      {
+        "distractor": "правитель",
+        "lemma": "правитель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (267)"
+      },
+      {
+        "distractor": "воин",
+        "lemma": "воин",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (509)"
+      },
+      {
+        "distractor": "вождь",
+        "lemma": "вождь",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (55.47)"
+      },
+      {
+        "distractor": "предводитель",
+        "lemma": "предводитель",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (30)"
+      },
+      {
+        "distractor": "мудрец",
+        "lemma": "мудрец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (73)"
+      },
+      {
+        "distractor": "учитель",
+        "lemma": "учитель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (536)"
+      },
+      {
+        "distractor": "защитник",
+        "lemma": "защитник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (145)"
+      },
+      {
+        "distractor": "дозорный",
+        "lemma": "дозорный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "страж",
+        "lemma": "страж",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (18)"
+      },
+      {
+        "distractor": "заступник",
+        "lemma": "заступник",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.34)"
+      },
+      {
+        "distractor": "покровитель",
+        "lemma": "покровитель",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (85)"
+      },
+      {
+        "distractor": "господин",
+        "lemma": "господин",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (187.32)"
+      },
+      {
+        "distractor": "владыка",
+        "lemma": "владыка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (65)"
+      },
+      {
+        "distractor": "повелитель",
+        "lemma": "повелитель",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (32)"
+      }
+    ],
+    "valid_distractors": [
+      "предводитель",
+      "мудрец",
+      "защитник",
+      "страж",
+      "покровитель",
+      "владыка",
+      "повелитель"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'радимич' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'радимич', 'предводитель', 'мудрец', 'защитник' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Лидер и главный человек в обществе или группе.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfL1R64KEo3KFeOLEV8nq5cd8IBg', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Лидер и главный человек в обществе или группе.', role='assistant', function_call=None, tool_calls=None))], created=1716142459, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=21, prompt_tokens=203, total_tokens=224))",
+  "initial_definition": "Лидер и главный человек в обществе или группе",
+  "final_definition": "Лидер и главный человек в обществе или группе",
+  "formatted_definition": "Лидер и главный человек в обществе или группе",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Лидер и главный человек в обществе или группе",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Лидер",
+            "и",
+            "главный",
+            "человек",
+            "в",
+            "обществе",
+            "или",
+            "группе"
+          ],
+          "removed_tokens": [
+            "или",
+            "и",
+            "в"
+          ],
+          "final_tokens": [
+            "Лидер",
+            "главный",
+            "человек",
+            "обществе",
+            "группе"
+          ],
+          "lemmas": [
+            "лидер",
+            "главный",
+            "человек",
+            "общество",
+            "группа"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "лидер",
+            "is_valid": true,
+            "reason": "Низкого класса (4)"
+          },
+          {
+            "lemma": "главный",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "общество",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "группа",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-14-17",
+  "end_time": "2024.05.19 18-14-20"
+}

@@ -1,0 +1,175 @@
+{
+  "word": "мейоз",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "Гамета",
+    "Яйцеклетка",
+    "Ген"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'мейоз'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'мейоз'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'мейоз', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Клетка, ДНК, Диплоид, Хромосома, Гамета, Яйцеклетка, Сперматозоид, Ген, Аллель, Гомологичная, Тромбоцит, Цитоплазма, Генетика, Гаплоид, Рибосома, Митоз.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfKIIrtxxqqMWlzfNKR97MyXsNtg', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Клетка, ДНК, Диплоид, Хромосома, Гамета, Яйцеклетка, Сперматозоид, Ген, Аллель, Гомологичная, Тромбоцит, Цитоплазма, Генетика, Гаплоид, Рибосома, Митоз.', role='assistant', function_call=None, tool_calls=None))], created=1716142414, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=97, prompt_tokens=199, total_tokens=296))",
+    "distractor_analysis": [
+      {
+        "distractor": "Клетка",
+        "lemma": "клетка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2037)"
+      },
+      {
+        "distractor": "ДНК",
+        "lemma": "днк",
+        "is_valid": false,
+        "reason": "Содержит нежелательные NLTK-теги (Abbr)"
+      },
+      {
+        "distractor": "Диплоид",
+        "lemma": "диплоида",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "Хромосома",
+        "lemma": "хромосома",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.07)"
+      },
+      {
+        "distractor": "Гамета",
+        "lemma": "гамета",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (53)"
+      },
+      {
+        "distractor": "Яйцеклетка",
+        "lemma": "яйцеклетка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (43)"
+      },
+      {
+        "distractor": "Сперматозоид",
+        "lemma": "сперматозоид",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.3)"
+      },
+      {
+        "distractor": "Ген",
+        "lemma": "ген",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (49)"
+      },
+      {
+        "distractor": "Аллель",
+        "lemma": "аллель",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "Гомологичная",
+        "lemma": "гомологичный",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "Тромбоцит",
+        "lemma": "тромбоцит",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "Цитоплазма",
+        "lemma": "цитоплазма",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (136)"
+      },
+      {
+        "distractor": "Генетика",
+        "lemma": "генетика",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (18)"
+      },
+      {
+        "distractor": "Гаплоид",
+        "lemma": "гаплоид",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "Рибосома",
+        "lemma": "рибосома",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (7)"
+      },
+      {
+        "distractor": "Митоз",
+        "lemma": "митоз",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      }
+    ],
+    "valid_distractors": [
+      "Гамета",
+      "Яйцеклетка",
+      "Ген",
+      "Цитоплазма",
+      "Генетика",
+      "Рибосома"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'мейоз' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'мейоз', 'Гамета', 'Яйцеклетка', 'Ген' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Процесс деления клетки.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfKKNEpD3QCyiwUy9ENAofHDM0sD', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Процесс деления клетки.', role='assistant', function_call=None, tool_calls=None))], created=1716142416, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=10, prompt_tokens=200, total_tokens=210))",
+  "initial_definition": "Процесс деления клетки",
+  "final_definition": "Процесс деления клетки",
+  "formatted_definition": "Процесс деления клетки",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Процесс деления клетки",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Процесс",
+            "деления",
+            "клетки"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Процесс",
+            "деления",
+            "клетки"
+          ],
+          "lemmas": [
+            "процесс",
+            "деление",
+            "клетка"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "процесс",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "деление",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "клетка",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-13-33",
+  "end_time": "2024.05.19 18-13-37"
+}

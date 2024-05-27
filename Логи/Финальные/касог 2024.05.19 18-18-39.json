@@ -1,0 +1,201 @@
+{
+  "word": "касог",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "желудь",
+    "улитка",
+    "рак"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'касог'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'касог'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'касог', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "желудь, улитка, рак, медуза, оса, осьминог, дельфин, кит, омар, моллюск, скат, пеликан, акула, треска, тунец, делфин",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfPESKZq8QDM6DZ1ZqaFnbsnCPVT', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='желудь, улитка, рак, медуза, оса, осьминог, дельфин, кит, омар, моллюск, скат, пеликан, акула, треска, тунец, делфин', role='assistant', function_call=None, tool_calls=None))], created=1716142720, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=69, prompt_tokens=199, total_tokens=268))",
+    "distractor_analysis": [
+      {
+        "distractor": "желудь",
+        "lemma": "жёлудь",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (108)"
+      },
+      {
+        "distractor": "улитка",
+        "lemma": "улитка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (71)"
+      },
+      {
+        "distractor": "рак",
+        "lemma": "рак",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (108)"
+      },
+      {
+        "distractor": "медуза",
+        "lemma": "медуза",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (54)"
+      },
+      {
+        "distractor": "оса",
+        "lemma": "оса",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (38)"
+      },
+      {
+        "distractor": "осьминог",
+        "lemma": "осьминог",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (28)"
+      },
+      {
+        "distractor": "дельфин",
+        "lemma": "дельфин",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (83)"
+      },
+      {
+        "distractor": "кит",
+        "lemma": "кит",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (37)"
+      },
+      {
+        "distractor": "омар",
+        "lemma": "омар",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (4.59)"
+      },
+      {
+        "distractor": "моллюск",
+        "lemma": "моллюск",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.18)"
+      },
+      {
+        "distractor": "скат",
+        "lemma": "скат",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (20)"
+      },
+      {
+        "distractor": "пеликан",
+        "lemma": "пеликан",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.84)"
+      },
+      {
+        "distractor": "акула",
+        "lemma": "акула",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (48)"
+      },
+      {
+        "distractor": "треска",
+        "lemma": "треск",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (19)"
+      },
+      {
+        "distractor": "тунец",
+        "lemma": "тунец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (7)"
+      },
+      {
+        "distractor": "делфин",
+        "lemma": "делфин",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      }
+    ],
+    "valid_distractors": [
+      "желудь",
+      "улитка",
+      "рак",
+      "медуза",
+      "оса",
+      "осьминог",
+      "дельфин",
+      "кит",
+      "омар",
+      "скат",
+      "акула",
+      "треска",
+      "тунец"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'касог' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'касог', 'желудь', 'улитка', 'рак' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Маленькое морское животное с твердым панцирем.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfPFI7nZ6GyBE3UVtlSxCdipz8H4', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Маленькое морское животное с твердым панцирем.', role='assistant', function_call=None, tool_calls=None))], created=1716142721, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=24, prompt_tokens=197, total_tokens=221))",
+  "initial_definition": "Маленькое морское животное с твердым панцирем",
+  "final_definition": "Маленькое морское животное с твердым панцирем",
+  "formatted_definition": "Маленькое морское животное с твердым панцирем",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Маленькое морское животное с твердым панцирем",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Маленькое",
+            "морское",
+            "животное",
+            "с",
+            "твердым",
+            "панцирем"
+          ],
+          "removed_tokens": [
+            "с"
+          ],
+          "final_tokens": [
+            "Маленькое",
+            "морское",
+            "животное",
+            "твердым",
+            "панцирем"
+          ],
+          "lemmas": [
+            "маленький",
+            "морской",
+            "животное",
+            "твёрдый",
+            "панцирь"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "маленький",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "морской",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "животное",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "твёрдый",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "панцирь",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-18-39",
+  "end_time": "2024.05.19 18-18-42"
+}

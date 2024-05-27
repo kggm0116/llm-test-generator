@@ -1,0 +1,184 @@
+{
+  "word": "словак",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "нация",
+    "славяне",
+    "регион"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'словак'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'словак'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'словак', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "язык, нация, гражданин, славяне, культура, регион, европеец, народ, этнос, общество, диалект, европа, брат, дочь, балканы, этнография",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfdTQgIN18fXnsxnF5DCfQybCzSx', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='язык, нация, гражданин, славяне, культура, регион, европеец, народ, этнос, общество, диалект, европа, брат, дочь, балканы, этнография', role='assistant', function_call=None, tool_calls=None))], created=1716143603, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=78, prompt_tokens=199, total_tokens=277))",
+    "distractor_analysis": [
+      {
+        "distractor": "язык",
+        "lemma": "язык",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2852)"
+      },
+      {
+        "distractor": "нация",
+        "lemma": "нация",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (21)"
+      },
+      {
+        "distractor": "гражданин",
+        "lemma": "гражданин",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (610)"
+      },
+      {
+        "distractor": "славяне",
+        "lemma": "славянин",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (145)"
+      },
+      {
+        "distractor": "культура",
+        "lemma": "культура",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (729)"
+      },
+      {
+        "distractor": "регион",
+        "lemma": "регион",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (53)"
+      },
+      {
+        "distractor": "европеец",
+        "lemma": "европеец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (42)"
+      },
+      {
+        "distractor": "народ",
+        "lemma": "народ",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1630)"
+      },
+      {
+        "distractor": "этнос",
+        "lemma": "этнос",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "общество",
+        "lemma": "общество",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (342)"
+      },
+      {
+        "distractor": "диалект",
+        "lemma": "диалект",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.3)"
+      },
+      {
+        "distractor": "европа",
+        "lemma": "европа",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (204)"
+      },
+      {
+        "distractor": "брат",
+        "lemma": "брат",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (730)"
+      },
+      {
+        "distractor": "дочь",
+        "lemma": "дочь",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (250)"
+      },
+      {
+        "distractor": "балканы",
+        "lemma": "балканы",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.99)"
+      },
+      {
+        "distractor": "этнография",
+        "lemma": "этнография",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      }
+    ],
+    "valid_distractors": [
+      "нация",
+      "славяне",
+      "регион",
+      "европеец"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'словак' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'словак', 'нация', 'славяне', 'регион' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Житель одной из стран Европы.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfdVf6lGPZyrxCDWdPxi7R1O8ZV1', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Житель одной из стран Европы.', role='assistant', function_call=None, tool_calls=None))], created=1716143605, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=14, prompt_tokens=197, total_tokens=211))",
+  "initial_definition": "Житель одной из стран Европы",
+  "final_definition": "Житель одной из стран Европы",
+  "formatted_definition": "Житель одной из стран Европы",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Житель одной из стран Европы",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Житель",
+            "одной",
+            "из",
+            "стран",
+            "Европы"
+          ],
+          "removed_tokens": [
+            "из"
+          ],
+          "final_tokens": [
+            "Житель",
+            "одной",
+            "стран",
+            "Европы"
+          ],
+          "lemmas": [
+            "житель",
+            "один",
+            "страна",
+            "европа"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "житель",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "один",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (33.34)"
+          },
+          {
+            "lemma": "страна",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "европа",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-33-23",
+  "end_time": "2024.05.19 18-33-25"
+}

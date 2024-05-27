@@ -1,0 +1,259 @@
+{
+  "word": "крымец",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "намерение",
+    "сарафан",
+    "маска"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'крымец'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'крымец'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'крымец', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "шляпа, кимоно, сапоги, кардиган, пальто, намерение, платье, туника, толстовка, костюм, сарафан, плащ, пиджак, жилетка, брюки, маска.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfPWECtYgmFvUUCVRDcb4TkLQH6u', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='шляпа, кимоно, сапоги, кардиган, пальто, намерение, платье, туника, толстовка, костюм, сарафан, плащ, пиджак, жилетка, брюки, маска.', role='assistant', function_call=None, tool_calls=None))], created=1716142738, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=79, prompt_tokens=202, total_tokens=281))",
+    "distractor_analysis": [
+      {
+        "distractor": "шляпа",
+        "lemma": "шляпа",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (53.98)"
+      },
+      {
+        "distractor": "кимоно",
+        "lemma": "кимоно",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (4)"
+      },
+      {
+        "distractor": "сапоги",
+        "lemma": "сапог",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (134.14)"
+      },
+      {
+        "distractor": "кардиган",
+        "lemma": "кардиган",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "пальто",
+        "lemma": "пальто",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (56.39)"
+      },
+      {
+        "distractor": "намерение",
+        "lemma": "намерение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (13)"
+      },
+      {
+        "distractor": "платье",
+        "lemma": "платье",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (250)"
+      },
+      {
+        "distractor": "туника",
+        "lemma": "туника",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (1.38)"
+      },
+      {
+        "distractor": "толстовка",
+        "lemma": "толстовка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "костюм",
+        "lemma": "костюм",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (303)"
+      },
+      {
+        "distractor": "сарафан",
+        "lemma": "сарафан",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (35)"
+      },
+      {
+        "distractor": "плащ",
+        "lemma": "плащ",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (66.0)"
+      },
+      {
+        "distractor": "пиджак",
+        "lemma": "пиджак",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (58.53)"
+      },
+      {
+        "distractor": "жилетка",
+        "lemma": "жилетка",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "брюки",
+        "lemma": "брюки",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (58.27)"
+      },
+      {
+        "distractor": "маска",
+        "lemma": "маска",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (82)"
+      }
+    ],
+    "valid_distractors": [
+      "намерение",
+      "сарафан",
+      "маска"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'крымец' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'крымец', 'намерение', 'сарафан', 'маска' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Человек, который занимается подлянками, коварством.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfPYtsLe78UtHicsZUv571DbRsSR', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Человек, который занимается подлянками, коварством.', role='assistant', function_call=None, tool_calls=None))], created=1716142740, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=21, prompt_tokens=201, total_tokens=222))",
+  "initial_definition": "Человек, который занимается подлянками, коварством",
+  "final_definition": "Человек, который использует хитрость, коварство.",
+  "formatted_definition": "Человек, который использует хитрость, коварство",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Человек, который использует хитрость, коварство.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек",
+            ",",
+            "который",
+            "занимается",
+            "подлянками",
+            ",",
+            "коварством"
+          ],
+          "removed_tokens": [
+            ","
+          ],
+          "final_tokens": [
+            "Человек",
+            "который",
+            "занимается",
+            "подлянками",
+            "коварством"
+          ],
+          "lemmas": [
+            "человек",
+            "который",
+            "заниматься",
+            "подлянка",
+            "коварство"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "который",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (3361.51)"
+          },
+          {
+            "lemma": "заниматься",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "подлянка",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (1.61)"
+          },
+          {
+            "lemma": "коварство",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "подлянка"
+        ],
+        "correction_prompt": "Исправь толкование 'Человек, который занимается подлянками, коварством' для слова 'крымец' так, чтобы в нем не использовались слова 'крымец', 'маска', 'подлянка', 'намерение', 'сарафан' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Человек, который использует хитрость, коварство.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfPYfUy3gR32f2R6gPxvyqsIlfNX', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Человек, который использует хитрость, коварство.', role='assistant', function_call=None, tool_calls=None))], created=1716142740, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=19, prompt_tokens=239, total_tokens=258))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Человек, который использует хитрость, коварство.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек",
+            ",",
+            "который",
+            "использует",
+            "хитрость",
+            ",",
+            "коварство"
+          ],
+          "removed_tokens": [
+            ","
+          ],
+          "final_tokens": [
+            "Человек",
+            "который",
+            "использует",
+            "хитрость",
+            "коварство"
+          ],
+          "lemmas": [
+            "человек",
+            "который",
+            "использовать",
+            "хитрость",
+            "коварство"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "который",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (3361.51)"
+          },
+          {
+            "lemma": "использовать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "хитрость",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "коварство",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-18-58",
+  "end_time": "2024.05.19 18-19-01"
+}

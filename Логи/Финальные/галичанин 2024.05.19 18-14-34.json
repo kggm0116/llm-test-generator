@@ -1,0 +1,235 @@
+{
+  "word": "галичанин",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "согражданин",
+    "горожанин",
+    "купец"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'галичанин'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'галичанин'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'галичанин', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "житель, согражданин, обыватель, горожанин, деревенщина, крестьянин, мужчина, женщина, селянин, купец, мещанин, офицер, чиновник, рабочий, служащий, труженик",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfLGD6EVJ47VSKBsOpqDhgtnkSCW', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='житель, согражданин, обыватель, горожанин, деревенщина, крестьянин, мужчина, женщина, селянин, купец, мещанин, офицер, чиновник, рабочий, служащий, труженик', role='assistant', function_call=None, tool_calls=None))], created=1716142474, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=88, prompt_tokens=205, total_tokens=293))",
+    "distractor_analysis": [
+      {
+        "distractor": "житель",
+        "lemma": "житель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (747)"
+      },
+      {
+        "distractor": "согражданин",
+        "lemma": "согражданин",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (26)"
+      },
+      {
+        "distractor": "обыватель",
+        "lemma": "обыватель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "горожанин",
+        "lemma": "горожанин",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (109)"
+      },
+      {
+        "distractor": "деревенщина",
+        "lemma": "деревенщина",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "крестьянин",
+        "lemma": "крестьянин",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (347)"
+      },
+      {
+        "distractor": "мужчина",
+        "lemma": "мужчина",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (208)"
+      },
+      {
+        "distractor": "женщина",
+        "lemma": "женщина",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (343)"
+      },
+      {
+        "distractor": "селянин",
+        "lemma": "селянин",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "купец",
+        "lemma": "купец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (147)"
+      },
+      {
+        "distractor": "мещанин",
+        "lemma": "мещанин",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "офицер",
+        "lemma": "офицер",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (144.13)"
+      },
+      {
+        "distractor": "чиновник",
+        "lemma": "чиновник",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (79.17)"
+      },
+      {
+        "distractor": "рабочий",
+        "lemma": "рабочий",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (836)"
+      },
+      {
+        "distractor": "служащий",
+        "lemma": "служащий",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      },
+      {
+        "distractor": "труженик",
+        "lemma": "труженик",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (24)"
+      }
+    ],
+    "valid_distractors": [
+      "согражданин",
+      "горожанин",
+      "купец",
+      "труженик"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'галичанин' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'галичанин', 'согражданин', 'горожанин', 'купец' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Житель города Галича.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfLIoOiTeKXP1BYUIBzQE6q95hsb', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Житель города Галича.', role='assistant', function_call=None, tool_calls=None))], created=1716142476, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=11, prompt_tokens=207, total_tokens=218))",
+  "initial_definition": "Житель города Галича",
+  "final_definition": "Человек, проживающий в одном из городов.",
+  "formatted_definition": "Человек, проживающий в одном из городов",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Человек, проживающий в одном из городов.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Житель",
+            "города",
+            "Галича"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Житель",
+            "города",
+            "Галича"
+          ],
+          "lemmas": [
+            "житель",
+            "город",
+            "галич"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "житель",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "город",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "галич",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "галич"
+        ],
+        "correction_prompt": "Исправь толкование 'Житель города Галича' для слова 'галичанин' так, чтобы в нем не использовались слова 'галичанин', 'купец', 'галич', 'согражданин', 'горожанин' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Человек, проживающий в одном из городов.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfLJ0r3TXlF37jdPjezWA16cYa9L', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Человек, проживающий в одном из городов.', role='assistant', function_call=None, tool_calls=None))], created=1716142477, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=20, prompt_tokens=233, total_tokens=253))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Человек, проживающий в одном из городов.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Человек",
+            ",",
+            "проживающий",
+            "в",
+            "одном",
+            "из",
+            "городов"
+          ],
+          "removed_tokens": [
+            "из",
+            "в",
+            ","
+          ],
+          "final_tokens": [
+            "Человек",
+            "проживающий",
+            "одном",
+            "городов"
+          ],
+          "lemmas": [
+            "человек",
+            "проживать",
+            "один",
+            "город"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "человек",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "проживать",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "один",
+            "is_valid": true,
+            "reason": "Допустимая частотность в словаре Шарова (33.34)"
+          },
+          {
+            "lemma": "город",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-14-34",
+  "end_time": "2024.05.19 18-14-38"
+}

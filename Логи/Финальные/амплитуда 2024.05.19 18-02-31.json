@@ -1,0 +1,168 @@
+{
+  "word": "амплитуда",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "интенсивность",
+    "длительность",
+    "частота"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'амплитуда'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'амплитуда'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'амплитуда', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "величина, интенсивность, масштаб, диапазон, скорость, длительность, частота, мощность, ампераж, уровень, размах, тональность, окраска, насыщенность, углубление, увеличение",
+    "response_details": "ChatCompletion(id='chatcmpl-9Qf9caddeQupNdEbHucTWXAmpZjCK', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='величина, интенсивность, масштаб, диапазон, скорость, длительность, частота, мощность, ампераж, уровень, размах, тональность, окраска, насыщенность, углубление, увеличение', role='assistant', function_call=None, tool_calls=None))], created=1716141752, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=83, prompt_tokens=208, total_tokens=291))",
+    "distractor_analysis": [
+      {
+        "distractor": "величина",
+        "lemma": "величина",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (922)"
+      },
+      {
+        "distractor": "интенсивность",
+        "lemma": "интенсивность",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "масштаб",
+        "lemma": "масштаб",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (203)"
+      },
+      {
+        "distractor": "диапазон",
+        "lemma": "диапазон",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "скорость",
+        "lemma": "скорость",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3141)"
+      },
+      {
+        "distractor": "длительность",
+        "lemma": "длительность",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (22)"
+      },
+      {
+        "distractor": "частота",
+        "lemma": "частота",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (6)"
+      },
+      {
+        "distractor": "мощность",
+        "lemma": "мощность",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (28)"
+      },
+      {
+        "distractor": "ампераж",
+        "lemma": "ампераж",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "уровень",
+        "lemma": "уровень",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (279)"
+      },
+      {
+        "distractor": "размах",
+        "lemma": "размах",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (21)"
+      },
+      {
+        "distractor": "тональность",
+        "lemma": "тональность",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "окраска",
+        "lemma": "окраска",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (249)"
+      },
+      {
+        "distractor": "насыщенность",
+        "lemma": "насыщенность",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "углубление",
+        "lemma": "углубление",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (62)"
+      },
+      {
+        "distractor": "увеличение",
+        "lemma": "увеличение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (171)"
+      }
+    ],
+    "valid_distractors": [
+      "интенсивность",
+      "длительность",
+      "частота",
+      "мощность",
+      "размах",
+      "углубление",
+      "увеличение"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'амплитуда' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'амплитуда', 'интенсивность', 'длительность', 'частота' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "величина колебаний",
+  "response_details": "ChatCompletion(id='chatcmpl-9Qf9e4ZCxbccl9YaYZasKNK2PwcsV', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='величина колебаний', role='assistant', function_call=None, tool_calls=None))], created=1716141754, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=8, prompt_tokens=207, total_tokens=215))",
+  "initial_definition": "величина колебаний",
+  "final_definition": "величина колебаний",
+  "formatted_definition": "величина колебаний",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "величина колебаний",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "величина",
+            "колебаний"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "величина",
+            "колебаний"
+          ],
+          "lemmas": [
+            "величина",
+            "колебание"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "величина",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "колебание",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-02-31",
+  "end_time": "2024.05.19 18-02-34"
+}

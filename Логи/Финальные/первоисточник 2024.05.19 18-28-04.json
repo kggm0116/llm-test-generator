@@ -1,0 +1,173 @@
+{
+  "word": "первоисточник",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "конструкция"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'первоисточник'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'первоисточник'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'первоисточник', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "документ, атом, символ, материал, аппарат, деталь, процесс, феномен, образец, прибор, изделие, явление, конструкция, устройство, элемент, структура",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfYKafeh1aBjRT7SnVVacCwJQwWf', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='документ, атом, символ, материал, аппарат, деталь, процесс, феномен, образец, прибор, изделие, явление, конструкция, устройство, элемент, структура', role='assistant', function_call=None, tool_calls=None))], created=1716143284, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=65, prompt_tokens=211, total_tokens=276))",
+    "distractor_analysis": [
+      {
+        "distractor": "документ",
+        "lemma": "документ",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (408)"
+      },
+      {
+        "distractor": "атом",
+        "lemma": "атом",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (207)"
+      },
+      {
+        "distractor": "символ",
+        "lemma": "символ",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (405)"
+      },
+      {
+        "distractor": "материал",
+        "lemma": "материал",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1092)"
+      },
+      {
+        "distractor": "аппарат",
+        "lemma": "аппарат",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (75.0)"
+      },
+      {
+        "distractor": "деталь",
+        "lemma": "деталь",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1438)"
+      },
+      {
+        "distractor": "процесс",
+        "lemma": "процесс",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (560)"
+      },
+      {
+        "distractor": "феномен",
+        "lemma": "феномен",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "образец",
+        "lemma": "образец",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1304)"
+      },
+      {
+        "distractor": "прибор",
+        "lemma": "прибор",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (392)"
+      },
+      {
+        "distractor": "изделие",
+        "lemma": "изделие",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1023)"
+      },
+      {
+        "distractor": "явление",
+        "lemma": "явление",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (708)"
+      },
+      {
+        "distractor": "конструкция",
+        "lemma": "конструкция",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (181)"
+      },
+      {
+        "distractor": "устройство",
+        "lemma": "устройство",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (585)"
+      },
+      {
+        "distractor": "элемент",
+        "lemma": "элемент",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (646)"
+      },
+      {
+        "distractor": "структура",
+        "lemma": "структура",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (61.94)"
+      }
+    ],
+    "valid_distractors": [
+      "конструкция"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'первоисточник' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'первоисточник', 'конструкция' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Источник, откуда берется что-либо.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfYMeRowTk2Q1VSPFiZsbY3wB17R', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Источник, откуда берется что-либо.', role='assistant', function_call=None, tool_calls=None))], created=1716143286, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=17, prompt_tokens=195, total_tokens=212))",
+  "initial_definition": "Источник, откуда берется что-либо",
+  "final_definition": "Источник, откуда берется что-либо",
+  "formatted_definition": "Источник, откуда берется что-либо",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Источник, откуда берется что-либо",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Источник",
+            ",",
+            "откуда",
+            "берется",
+            "что-либо"
+          ],
+          "removed_tokens": [
+            "что-либо",
+            ","
+          ],
+          "final_tokens": [
+            "Источник",
+            "откуда",
+            "берется"
+          ],
+          "lemmas": [
+            "источник",
+            "откуда",
+            "браться"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "источник",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "откуда",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          },
+          {
+            "lemma": "браться",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-28-04",
+  "end_time": "2024.05.19 18-28-06"
+}

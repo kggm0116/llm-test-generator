@@ -1,0 +1,253 @@
+{
+  "word": "пятина",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "кустик",
+    "пластина",
+    "пенек"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'пятина'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'пятина'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'пятина', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Зерно, булыжник, стебель, кустик, гора, лиана, звено, доска, пластина, пенек, камень, корень, лента, капля, лепесток, свинец.",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfVfmF8UUEzlVYdMwXcCGJD5xEgT', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Зерно, булыжник, стебель, кустик, гора, лиана, звено, доска, пластина, пенек, камень, корень, лента, капля, лепесток, свинец.', role='assistant', function_call=None, tool_calls=None))], created=1716143119, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=68, prompt_tokens=202, total_tokens=270))",
+    "distractor_analysis": [
+      {
+        "distractor": "Зерно",
+        "lemma": "зерно",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (427)"
+      },
+      {
+        "distractor": "булыжник",
+        "lemma": "булыжник",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "стебель",
+        "lemma": "стебель",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (324)"
+      },
+      {
+        "distractor": "кустик",
+        "lemma": "кустик",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (33)"
+      },
+      {
+        "distractor": "гора",
+        "lemma": "гора",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1135)"
+      },
+      {
+        "distractor": "лиана",
+        "lemma": "лиана",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.83)"
+      },
+      {
+        "distractor": "звено",
+        "lemma": "звено",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (249)"
+      },
+      {
+        "distractor": "доска",
+        "lemma": "доска",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (396)"
+      },
+      {
+        "distractor": "пластина",
+        "lemma": "пластина",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (53)"
+      },
+      {
+        "distractor": "пенек",
+        "lemma": "пенёк",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (11)"
+      },
+      {
+        "distractor": "камень",
+        "lemma": "камень",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (760)"
+      },
+      {
+        "distractor": "корень",
+        "lemma": "корень",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2047)"
+      },
+      {
+        "distractor": "лента",
+        "lemma": "лента",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (269)"
+      },
+      {
+        "distractor": "капля",
+        "lemma": "капля",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (240)"
+      },
+      {
+        "distractor": "лепесток",
+        "lemma": "лепесток",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (105)"
+      },
+      {
+        "distractor": "свинец",
+        "lemma": "свинец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (39)"
+      }
+    ],
+    "valid_distractors": [
+      "кустик",
+      "пластина",
+      "пенек",
+      "лепесток",
+      "свинец"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'пятина' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'пятина', 'кустик', 'пластина', 'пенек' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Часть делимой целого.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfVgm3YGvfUYfMV9edFbuY2srUr6', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Часть делимой целого.', role='assistant', function_call=None, tool_calls=None))], created=1716143120, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=11, prompt_tokens=199, total_tokens=210))",
+  "initial_definition": "Часть делимой целого",
+  "final_definition": "Часть целого, составляющая пятую часть от общей суммы.",
+  "formatted_definition": "Часть целого, составляющая пятую часть от общей суммы",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Часть целого, составляющая пятую часть от общей суммы.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Часть",
+            "делимой",
+            "целого"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Часть",
+            "делимой",
+            "целого"
+          ],
+          "lemmas": [
+            "часть",
+            "делимый",
+            "целое"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "часть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "делимый",
+            "is_valid": false,
+            "reason": "Недопустимая частотность в словаре Шарова (1.3)"
+          },
+          {
+            "lemma": "целое",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "делимый"
+        ],
+        "correction_prompt": "Исправь толкование 'Часть делимой целого' для слова 'пятина' так, чтобы в нем не использовались слова 'пятина', 'кустик', 'делимый', 'пенек', 'пластина' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Часть целого, составляющая пятую часть от общей суммы.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QfVhIkm8TDKq18Kdoyv65Mjh3T22', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Часть целого, составляющая пятую часть от общей суммы.', role='assistant', function_call=None, tool_calls=None))], created=1716143121, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=27, prompt_tokens=226, total_tokens=253))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Часть целого, составляющая пятую часть от общей суммы.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Часть",
+            "целого",
+            ",",
+            "составляющая",
+            "пятую",
+            "часть",
+            "от",
+            "общей",
+            "суммы"
+          ],
+          "removed_tokens": [
+            "от",
+            ","
+          ],
+          "final_tokens": [
+            "Часть",
+            "целого",
+            "составляющая",
+            "пятую",
+            "часть",
+            "общей",
+            "суммы"
+          ],
+          "lemmas": [
+            "часть",
+            "целое",
+            "составлять",
+            "пятый",
+            "часть",
+            "общий",
+            "сумма"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "часть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "целое",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "составлять",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "пятый",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          },
+          {
+            "lemma": "общий",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "сумма",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-25-18",
+  "end_time": "2024.05.19 18-25-22"
+}

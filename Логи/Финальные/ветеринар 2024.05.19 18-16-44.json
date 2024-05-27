@@ -1,0 +1,173 @@
+{
+  "word": "ветеринар",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "тренер"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'ветеринар'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'ветеринар'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'ветеринар', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "зоотехник, питомник, кормитель, хлевщик, пушистик, клеточник, водолаз, опытник, племзавод, тренер, доильщик, медбрат, шерстяник, пастух, страусник, безрогий",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfNNR9XJWpujSBAyg0y9vu2RzRxx', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='зоотехник, питомник, кормитель, хлевщик, пушистик, клеточник, водолаз, опытник, племзавод, тренер, доильщик, медбрат, шерстяник, пастух, страусник, безрогий', role='assistant', function_call=None, tool_calls=None))], created=1716142605, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=83, prompt_tokens=202, total_tokens=285))",
+    "distractor_analysis": [
+      {
+        "distractor": "зоотехник",
+        "lemma": "зоотехник",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "питомник",
+        "lemma": "питомник",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.64)"
+      },
+      {
+        "distractor": "кормитель",
+        "lemma": "кормитель",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "хлевщик",
+        "lemma": "хлевщик",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "пушистик",
+        "lemma": "пушистик",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "клеточник",
+        "lemma": "клеточник",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "водолаз",
+        "lemma": "водолаз",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.41)"
+      },
+      {
+        "distractor": "опытник",
+        "lemma": "опытник",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "племзавод",
+        "lemma": "племзавод",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "тренер",
+        "lemma": "тренер",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (12)"
+      },
+      {
+        "distractor": "доильщик",
+        "lemma": "доильщик",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "медбрат",
+        "lemma": "медбрат",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "шерстяник",
+        "lemma": "шерстяник",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "пастух",
+        "lemma": "пастух",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (73.85)"
+      },
+      {
+        "distractor": "страусник",
+        "lemma": "страусникнуть",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "безрогий",
+        "lemma": "безрогий",
+        "is_valid": false,
+        "reason": "Не подходит по части речи (ADJF)"
+      }
+    ],
+    "valid_distractors": [
+      "тренер"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'ветеринар' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'ветеринар', 'тренер' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Специалист по заботе о животных.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfNOacArPu4on1PFR53I17edUR6r', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Специалист по заботе о животных.', role='assistant', function_call=None, tool_calls=None))], created=1716142606, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=17, prompt_tokens=189, total_tokens=206))",
+  "initial_definition": "Специалист по заботе о животных",
+  "final_definition": "Специалист по заботе о животных",
+  "formatted_definition": "Специалист по заботе о животных",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Специалист по заботе о животных",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Специалист",
+            "по",
+            "заботе",
+            "о",
+            "животных"
+          ],
+          "removed_tokens": [
+            "по",
+            "о"
+          ],
+          "final_tokens": [
+            "Специалист",
+            "заботе",
+            "животных"
+          ],
+          "lemmas": [
+            "специалист",
+            "забота",
+            "животное"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "специалист",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "забота",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "животное",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-16-44",
+  "end_time": "2024.05.19 18-16-47"
+}

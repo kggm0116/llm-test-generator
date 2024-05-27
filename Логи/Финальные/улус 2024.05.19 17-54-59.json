@@ -1,0 +1,182 @@
+{
+  "word": "улус",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "поселение",
+    "рай",
+    "округ"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'улус'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'улус'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'улус', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "район, поселение, рай, округ, сельсовет, край, аул, село, деревня, область, город, посёлок, посёлок городского типа, населённый пункт, населённый район, территория",
+    "response_details": "ChatCompletion(id='chatcmpl-9Qf2JLfHpPEV1A4hs33Nm9YUGPPwZ', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='район, поселение, рай, округ, сельсовет, край, аул, село, деревня, область, город, посёлок, посёлок городского типа, населённый пункт, населённый район, территория', role='assistant', function_call=None, tool_calls=None))], created=1716141299, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=91, prompt_tokens=199, total_tokens=290))",
+    "distractor_analysis": [
+      {
+        "distractor": "район",
+        "lemma": "район",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (282)"
+      },
+      {
+        "distractor": "поселение",
+        "lemma": "поселение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (158)"
+      },
+      {
+        "distractor": "рай",
+        "lemma": "рай",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (24)"
+      },
+      {
+        "distractor": "округ",
+        "lemma": "округ",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (39)"
+      },
+      {
+        "distractor": "сельсовет",
+        "lemma": "сельсовет",
+        "is_valid": true,
+        "reason": "Допустимая частотность в словаре Шарова (12.06)"
+      },
+      {
+        "distractor": "край",
+        "lemma": "край",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1007)"
+      },
+      {
+        "distractor": "аул",
+        "lemma": "аул",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (5)"
+      },
+      {
+        "distractor": "село",
+        "lemma": "село",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (457)"
+      },
+      {
+        "distractor": "деревня",
+        "lemma": "деревня",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (580)"
+      },
+      {
+        "distractor": "область",
+        "lemma": "область",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (558)"
+      },
+      {
+        "distractor": "город",
+        "lemma": "город",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3819)"
+      },
+      {
+        "distractor": "посёлок",
+        "lemma": "посёлок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (251)"
+      },
+      {
+        "distractor": "посёлок городского типа",
+        "lemma": "поселок городского тип",
+        "is_valid": false,
+        "reason": "Содержит пробел"
+      },
+      {
+        "distractor": "населённый пункт",
+        "lemma": "населенный пункт",
+        "is_valid": false,
+        "reason": "Содержит пробел"
+      },
+      {
+        "distractor": "населённый район",
+        "lemma": "населенный район",
+        "is_valid": false,
+        "reason": "Содержит пробел"
+      },
+      {
+        "distractor": "территория",
+        "lemma": "территория",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (619)"
+      }
+    ],
+    "valid_distractors": [
+      "поселение",
+      "рай",
+      "округ",
+      "сельсовет",
+      "аул"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'улус' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'улус', 'поселение', 'рай', 'округ' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Территориальная часть собственности народа.",
+  "response_details": "ChatCompletion(id='chatcmpl-9Qf2Lqt2e5AdxtVqCwSHdgvFvrZ85', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Территориальная часть собственности народа.', role='assistant', function_call=None, tool_calls=None))], created=1716141301, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=20, prompt_tokens=195, total_tokens=215))",
+  "initial_definition": "Территориальная часть собственности народа",
+  "final_definition": "Территориальная часть собственности народа",
+  "formatted_definition": "Территориальная часть собственности народа",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Территориальная часть собственности народа",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Территориальная",
+            "часть",
+            "собственности",
+            "народа"
+          ],
+          "removed_tokens": [],
+          "final_tokens": [
+            "Территориальная",
+            "часть",
+            "собственности",
+            "народа"
+          ],
+          "lemmas": [
+            "территориальный",
+            "часть",
+            "собственность",
+            "народ"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "территориальный",
+            "is_valid": true,
+            "reason": "Низкого класса (5)"
+          },
+          {
+            "lemma": "часть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "собственность",
+            "is_valid": true,
+            "reason": "Низкого класса (4)"
+          },
+          {
+            "lemma": "народ",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 17-54-59",
+  "end_time": "2024.05.19 17-55-02"
+}

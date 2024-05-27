@@ -1,0 +1,187 @@
+{
+  "word": "землевладение",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "владение",
+    "имущество",
+    "владелец"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'землевладение'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'землевладение'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'землевладение', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "владение, участок, имущество, домен, аренда, угодье, участник, владелец, пай, участница, имение, арендатор, дом, часть, собственник, территория",
+    "response_details": "ChatCompletion(id='chatcmpl-9QfAgY8lyd4CUWAj8ZHQ0KL1dIPDd', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='владение, участок, имущество, домен, аренда, угодье, участник, владелец, пай, участница, имение, арендатор, дом, часть, собственник, территория', role='assistant', function_call=None, tool_calls=None))], created=1716141818, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=75, prompt_tokens=208, total_tokens=283))",
+    "distractor_analysis": [
+      {
+        "distractor": "владение",
+        "lemma": "владение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (108)"
+      },
+      {
+        "distractor": "участок",
+        "lemma": "участок",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (917)"
+      },
+      {
+        "distractor": "имущество",
+        "lemma": "имущество",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (71)"
+      },
+      {
+        "distractor": "домен",
+        "lemma": "домен",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "аренда",
+        "lemma": "аренда",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3)"
+      },
+      {
+        "distractor": "угодье",
+        "lemma": "угодье",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.49)"
+      },
+      {
+        "distractor": "участник",
+        "lemma": "участник",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (259)"
+      },
+      {
+        "distractor": "владелец",
+        "lemma": "владелец",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (58)"
+      },
+      {
+        "distractor": "пай",
+        "lemma": "пай",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "участница",
+        "lemma": "участница",
+        "is_valid": false,
+        "reason": "Недопустимая частотность в словаре Шарова (2.41)"
+      },
+      {
+        "distractor": "имение",
+        "lemma": "имение",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (50)"
+      },
+      {
+        "distractor": "арендатор",
+        "lemma": "арендатор",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "дом",
+        "lemma": "дом",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2502)"
+      },
+      {
+        "distractor": "часть",
+        "lemma": "часть",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (7295)"
+      },
+      {
+        "distractor": "собственник",
+        "lemma": "собственник",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (8)"
+      },
+      {
+        "distractor": "территория",
+        "lemma": "территория",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (619)"
+      }
+    ],
+    "valid_distractors": [
+      "владение",
+      "имущество",
+      "владелец",
+      "имение",
+      "собственник"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'землевладение' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'землевладение', 'владение', 'имущество', 'владелец' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Право на пользование и распоряжение землей.",
+  "response_details": "ChatCompletion(id='chatcmpl-9QfAiaREpEmu5rVhclTH7SU4d8Egg', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Право на пользование и распоряжение землей.', role='assistant', function_call=None, tool_calls=None))], created=1716141820, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=19, prompt_tokens=203, total_tokens=222))",
+  "initial_definition": "Право на пользование и распоряжение землей",
+  "final_definition": "Право на пользование и распоряжение землей",
+  "formatted_definition": "Право на пользование и распоряжение землей",
+  "success": true,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Право на пользование и распоряжение землей",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Право",
+            "на",
+            "пользование",
+            "и",
+            "распоряжение",
+            "землей"
+          ],
+          "removed_tokens": [
+            "и",
+            "на"
+          ],
+          "final_tokens": [
+            "Право",
+            "пользование",
+            "распоряжение",
+            "землей"
+          ],
+          "lemmas": [
+            "право",
+            "пользование",
+            "распоряжение",
+            "земля"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "право",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "пользование",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "распоряжение",
+            "is_valid": true,
+            "reason": "Низкого класса (3)"
+          },
+          {
+            "lemma": "земля",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [],
+        "correction_prompt": null
+      }
+    }
+  },
+  "start_time": "2024.05.19 18-03-37",
+  "end_time": "2024.05.19 18-03-41"
+}

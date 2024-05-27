@@ -1,0 +1,420 @@
+{
+  "word": "раздробленность",
+  "class": 6,
+  "pos": "NOUN",
+  "distractors": [
+    "порошок",
+    "крошка",
+    "рассыпь"
+  ],
+  "distractors_selection": {
+    "prompt": "Найди 16 гиперонимов или гипонимов слова 'раздробленность'. Они должны состоять из одного слова. Слова не должны быть однокоренными со словом 'раздробленность'. Слова должны быть части речи NOUN. Желательно, чтобы слова соответствовали предметной области слова 'раздробленность', и были схожего уровня сложности. Выпиши их в одну строчку через запятую, без нумерации и дополнительных пояснений.",
+    "response": "Фрагментация, порошок, рассыпчатость, мелкозернистость, крошечность, измельченность, дробность, дисперсность, дробленость, дробью, крошка, мелюзга, рассыпь, пыльца, измельчение, крошение",
+    "response_details": "ChatCompletion(id='chatcmpl-9QeslTDnc3ZejGscvDTYwDcsRCfl5', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Фрагментация, порошок, рассыпчатость, мелкозернистость, крошечность, измельченность, дробность, дисперсность, дробленость, дробью, крошка, мелюзга, рассыпь, пыльца, измельчение, крошение', role='assistant', function_call=None, tool_calls=None))], created=1716140707, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=100, prompt_tokens=205, total_tokens=305))",
+    "distractor_analysis": [
+      {
+        "distractor": "Фрагментация",
+        "lemma": "фрагментация",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "порошок",
+        "lemma": "порошок",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (39)"
+      },
+      {
+        "distractor": "рассыпчатость",
+        "lemma": "рассыпчатость",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "мелкозернистость",
+        "lemma": "мелкозернистость",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "крошечность",
+        "lemma": "крошечность",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "измельченность",
+        "lemma": "измельченность",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "дробность",
+        "lemma": "дробность",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "дисперсность",
+        "lemma": "дисперсность",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "дробленость",
+        "lemma": "дробленость",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      },
+      {
+        "distractor": "дробью",
+        "lemma": "дробь",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (3107)"
+      },
+      {
+        "distractor": "крошка",
+        "lemma": "крошка",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (45)"
+      },
+      {
+        "distractor": "мелюзга",
+        "lemma": "мелюзга",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (1)"
+      },
+      {
+        "distractor": "рассыпь",
+        "lemma": "рассыпать",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (30)"
+      },
+      {
+        "distractor": "пыльца",
+        "lemma": "пыльца",
+        "is_valid": true,
+        "reason": "Допустимая встречаемость в словарях по классам (44)"
+      },
+      {
+        "distractor": "измельчение",
+        "lemma": "измельчение",
+        "is_valid": false,
+        "reason": "Недопустимая встречаемость в словарях по классам (2)"
+      },
+      {
+        "distractor": "крошение",
+        "lemma": "крошение",
+        "is_valid": false,
+        "reason": "Не встречается в списках по классам и словаре Шарова"
+      }
+    ],
+    "valid_distractors": [
+      "порошок",
+      "крошка",
+      "рассыпь",
+      "пыльца"
+    ]
+  },
+  "prompt": "Напиши толкование для слова 'раздробленность' части речи NOUN. Толкование должно быть кратким и однозначным. В толковании не должны использоваться слова 'раздробленность', 'порошок', 'крошка', 'рассыпь' и слова однокоренные им. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без целевого слова.",
+  "response": "Состояние, когда что-то разбито или разделено на мелкие части.",
+  "response_details": "ChatCompletion(id='chatcmpl-9Qesn3opVexQh8I0o9SzY4OeBvPi0', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Состояние, когда что-то разбито или разделено на мелкие части.', role='assistant', function_call=None, tool_calls=None))], created=1716140709, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=29, prompt_tokens=206, total_tokens=235))",
+  "initial_definition": "Состояние, когда что-то разбито или разделено на мелкие части",
+  "final_definition": "Состояние, когда объект разделен на множество мелких частей.",
+  "formatted_definition": "Состояние, когда объект разделен на множество мелких частей",
+  "success": false,
+  "iterations": {
+    "1": {
+      "corrected_definition": "Состояние, когда что-то разделено на маленькие части.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Состояние",
+            ",",
+            "когда",
+            "что-то",
+            "разбито",
+            "или",
+            "разделено",
+            "на",
+            "мелкие",
+            "части"
+          ],
+          "removed_tokens": [
+            "или",
+            "когда",
+            ",",
+            "на"
+          ],
+          "final_tokens": [
+            "Состояние",
+            "что-то",
+            "разбито",
+            "разделено",
+            "мелкие",
+            "части"
+          ],
+          "lemmas": [
+            "состояние",
+            "что-то",
+            "разбитый",
+            "разделить",
+            "мелкий",
+            "часть"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "состояние",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "что-то",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          },
+          {
+            "lemma": "разбитый",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "разделить",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "мелкий",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "часть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "что-то"
+        ],
+        "correction_prompt": "Исправь толкование 'Состояние, когда что-то разбито или разделено на мелкие части' для слова 'раздробленность' так, чтобы в нем не использовались слова 'раздробленность', 'крошка', 'что-то', 'порошок', 'рассыпь' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Состояние, когда что-то разделено на маленькие части.",
+        "response_details": "ChatCompletion(id='chatcmpl-9Qesoc2sHmmYxVs0tAU1QF1YMMUlK', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Состояние, когда что-то разделено на маленькие части.', role='assistant', function_call=None, tool_calls=None))], created=1716140710, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=25, prompt_tokens=251, total_tokens=276))"
+      }
+    },
+    "2": {
+      "corrected_definition": "Состояние, когда что-то разделено на мелкие части.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Состояние",
+            ",",
+            "когда",
+            "что-то",
+            "разделено",
+            "на",
+            "маленькие",
+            "части"
+          ],
+          "removed_tokens": [
+            "когда",
+            ",",
+            "на"
+          ],
+          "final_tokens": [
+            "Состояние",
+            "что-то",
+            "разделено",
+            "маленькие",
+            "части"
+          ],
+          "lemmas": [
+            "состояние",
+            "что-то",
+            "разделить",
+            "маленький",
+            "часть"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "состояние",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "что-то",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          },
+          {
+            "lemma": "разделить",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "маленький",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "часть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "что-то"
+        ],
+        "correction_prompt": "Исправь толкование 'Состояние, когда что-то разделено на маленькие части.' для слова 'раздробленность' так, чтобы в нем не использовались слова 'раздробленность', 'крошка', 'что-то', 'порошок', 'рассыпь' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Состояние, когда что-то разделено на мелкие части.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QespuTiSpKk3sZgOnsVU8c7NcLhw', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Состояние, когда что-то разделено на мелкие части.', role='assistant', function_call=None, tool_calls=None))], created=1716140711, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=24, prompt_tokens=247, total_tokens=271))"
+      }
+    },
+    "3": {
+      "corrected_definition": "Состояние, когда что-то расколото на мелкие части.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Состояние",
+            ",",
+            "когда",
+            "что-то",
+            "разделено",
+            "на",
+            "мелкие",
+            "части"
+          ],
+          "removed_tokens": [
+            "когда",
+            ",",
+            "на"
+          ],
+          "final_tokens": [
+            "Состояние",
+            "что-то",
+            "разделено",
+            "мелкие",
+            "части"
+          ],
+          "lemmas": [
+            "состояние",
+            "что-то",
+            "разделить",
+            "мелкий",
+            "часть"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "состояние",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "что-то",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          },
+          {
+            "lemma": "разделить",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "мелкий",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "часть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "что-то"
+        ],
+        "correction_prompt": "Исправь толкование 'Состояние, когда что-то разделено на мелкие части.' для слова 'раздробленность' так, чтобы в нем не использовались слова 'раздробленность', 'крошка', 'что-то', 'порошок', 'рассыпь' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Состояние, когда что-то расколото на мелкие части.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QesqBZCTslyfmMEUqFs7FYLJNA6k', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Состояние, когда что-то расколото на мелкие части.', role='assistant', function_call=None, tool_calls=None))], created=1716140712, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=26, prompt_tokens=246, total_tokens=272))"
+      }
+    },
+    "4": {
+      "corrected_definition": "Состояние, когда объект разделен на множество мелких частей.",
+      "correction": {
+        "lemmas": {
+          "initial_tokens": [
+            "Состояние",
+            ",",
+            "когда",
+            "что-то",
+            "расколото",
+            "на",
+            "мелкие",
+            "части"
+          ],
+          "removed_tokens": [
+            "когда",
+            ",",
+            "на"
+          ],
+          "final_tokens": [
+            "Состояние",
+            "что-то",
+            "расколото",
+            "мелкие",
+            "части"
+          ],
+          "lemmas": [
+            "состояние",
+            "что-то",
+            "расколоть",
+            "мелкий",
+            "часть"
+          ]
+        },
+        "lemmas_analysis": [
+          {
+            "lemma": "состояние",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "что-то",
+            "is_valid": false,
+            "reason": "Не встречается в списках по классам и словаре Шарова"
+          },
+          {
+            "lemma": "расколоть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "мелкий",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          },
+          {
+            "lemma": "часть",
+            "is_valid": true,
+            "reason": "Низкого класса (2)"
+          }
+        ],
+        "distractors_in_definition": [],
+        "words_to_fix": [
+          "что-то"
+        ],
+        "correction_prompt": "Исправь толкование 'Состояние, когда что-то расколото на мелкие части.' для слова 'раздробленность' так, чтобы в нем не использовались слова 'раздробленность', 'крошка', 'что-то', 'порошок', 'рассыпь' и слова однокоренные им. Толкование должно сохранить исходный смысл. Толкование должно быть кратким и однозначным. Соблюдай в ответе правила русского языка. Не добавляй в ответ дополнительных пояснений и стилизацию. Напиши только само толкование, без определяемого слова.",
+        "response": "Состояние, когда объект разделен на множество мелких частей.",
+        "response_details": "ChatCompletion(id='chatcmpl-9QesrDipo8SThRxSYd2IJY7ZyG76X', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Состояние, когда объект разделен на множество мелких частей.', role='assistant', function_call=None, tool_calls=None))], created=1716140713, model='gpt-3.5-turbo-0125', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=26, prompt_tokens=248, total_tokens=274))"
+      }
+    }
+  },
+  "start_time": "2024.05.19 17-45-07",
+  "end_time": "2024.05.19 17-45-14"
+}
